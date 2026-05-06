@@ -1,0 +1,44 @@
+---
+source_url: https://www.scribd.com/document/560832648/CV-Formatted
+crawl_depth: 0
+crawled_at: 2026-05-05T08:32:19Z
+word_count: 172
+---
+
+Opens in a new window Opens an external website Opens an external website in a new window
+Close this dialog
+This website utilizes technologies such as cookies to enable essential site functionality, as well as for performance cookies, personalization, and targeted advertising. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies.  [Privacy Policy](https://support.scribd.com/hc/articles/210129366-Privacy-policy)
+  * Targeted Advertising
+  * Personalization
+  * Performance Cookies
+
+
+Save Preferences  Accept All  Reject Non-Essential 
+Close Cookie Preferences
+0 ratings
+92 views2 pages
+Senior Software Engineering Manager Profile
+The document is a resume for a software engineering manager. It summarizes their exceptional qualifications including sophisticated programming skills, passion for problem solving through in…
+Full description
+## Uploaded by
+AI-enhanced title and description
+Go to previous items
+  * Download
+  * Save
+  * Share
+  * 0%
+  * 0%
+  * Print
+  * Embed
+  * Ask AI
+  * Report
+
+Go to next items
+ad[Download to read ad-free](https://www.scribd.com/oauth/signup?behavior_tag=download&doc_id=560832648)
+## Share this document
+  * 
+[![](https://s-f.scribdassets.com/webpack/assets/images/fallbacks/scribd_inhouse_728x90_en@1x.ec04e4d8.png)](https://www.scribd.com/oauth/signup?doc_id=560832648)
+576648e32a3d8b82ca71961b7a986505
+![](https://t.co/i/adsct?bci=3&dv=Asia%2FBangkok%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%2616%2624%261080%26600%260%26na&eci=2&event_id=6fa6fbf5-0d8c-409b-bb13-f893d470337a&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=7ab0469b-351b-429e-979d-dc913b34e557&pt=Senior%20Software%20Engineering%20Manager%20Profile%20%7C%20PDF%20%7C%20Software%20%7C%20Software%20Development&tw_document_href=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F560832648%2FCV-Formatted&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1777969408328.11161701575837573&txn_id=nzbvs&type=javascript&version=2.3.53)
+![](https://bat.bing.com/action/0?ti=15260218&tm=gtm002&Ver=2&mid=9e30693d-be56-406f-b970-169d198c196e&bo=1&sid=b1a91ad0485b11f1beab81bd45f76eee&vid=b1a9a930485b11f19e4cc7d9165512ef&vids=1&msclkid=N&pi=2083220816&lg=en-US&sw=1080&sh=600&sc=24&tl=Senior%20Software%20Engineering%20Manager%20Profile%20%7C%20PDF%20%7C%20Software%20%7C%20Software%20Development&p=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F560832648%2FCV-Formatted&r=&lt=4315&evt=pageLoad&sv=2&cdb=AQAW&rn=310611)
+![dot image pixel](https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2005%20May%202026%2008%3A23%3A28%20GMT&n=-7&b=Senior%20Software%20Engineering%20Manager%20Profile%20%7C%20PDF%20%7C%20Software%20%7C%20Software%20Development&.yp=10143699&f=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F560832648%2FCV-Formatted&enc=UTF-8&gdpr=0&us_privacy=1---&gpp=DBACOe~CQju_4AQju_4AEXxjBENCVFgAP_gAEPgACpoKmQKAAFAANAAqABwAEAAJAAWgA0AB0AD0AIoATAAoABfADCAGgANgAgwBHACUAE6AK0Ac4A_QCDgEdAN4AhMBGIC3QFwgLzAYyA1IB4oEEwIzASNApWBUwEjYCQAFQAOAAgABIADQAJgAaABHACtAHOAP0Ag4BHQFugLzAeKBBMCRoAA.IKmQKAAFAANAAqABwAEAAJAAWgA0AB0AD0AIoATAAoABfADCAGgANgAgwBHACUAE6AK0Ac4A_QCDgEdAN4AhMBGIC3QFwgLzAYyA1IB4oEEwIzASNApWBUwA~BQju_4AQju_4AEXxjBENCVFAAf_AAIfAAAqZAoAAUAA0ACoAHAAQAAkABaADQAHQAPQAigBMACgAF8AMIAaAA2ACDAEcAJQAToArQBzgD9AIOAR0A3gCEwEYgLdAXCAvMBjIDUgHigQTAjMBI0ClYFTASNgJAAVAA4ACAAEgANAAmABoAEcAK0Ac4A_QCDgEdAW6AvMB4oEEwJGgAA.IKmQKAAFAANAAqABwAEAAJAAWgA0AB0AD0AIoATAAoABfADCAGgANgAgwBHACUAE6AK0Ac4A_QCDgEdAN4AhMBGIC3QFwgLzAYyA1IB4oEEwIzASNApWBUw~1---&yv=1.16.6&tagmgr=gtm)

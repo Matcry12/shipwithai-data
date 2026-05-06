@@ -1,0 +1,518 @@
+{
+  "topic": "claude-code-workflow",
+  "generated_at": "2026-05-05T14:14:46.345746+00:00",
+  "urls": [
+    {
+      "url": "https://shipwithai.io",
+      "domain": "shipwithai.io",
+      "suggested_type": "deep",
+      "approved": true,
+      "source": "seed",
+      "notes": "hardcoded seed \u2014 bypasses review"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg",
+      "domain": "youtube.com",
+      "suggested_type": "skip",
+      "approved": false,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://codewithmukesh.com/blog/claude-code-for-beginners/",
+      "domain": "codewithmukesh.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://code.claude.com/docs/en/quickstart",
+      "domain": "code.claude.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.nxcode.io/resources/news/claude-code-tutorial-beginners-guide-2026",
+      "domain": "nxcode.io",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://medium.com/@dan.avila7/claude-code-learning-path-a-practical-guide-to-getting-started-fcc601550476",
+      "domain": "medium.com",
+      "suggested_type": "medium",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.builder.io/blog/how-to-use-claude-code",
+      "domain": "builder.io",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ps8y9z/tips_to_use_claudecodecli_efficiently/",
+      "domain": "reddit.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://paulgp.substack.com/p/getting-started-with-claude-code",
+      "domain": "paulgp.substack.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "domain": "github.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://blog.sshh.io/p/how-i-use-every-claude-code-feature",
+      "domain": "blog.sshh.io",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.cosmicjs.com/blog/claude-code-vs-github-copilot-vs-cursor-which-ai-coding-agent-should-you-use-2026",
+      "domain": "cosmicjs.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.morphllm.com/comparisons/claude-code-vs-copilot",
+      "domain": "morphllm.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.datacamp.com/blog/claude-code-vs-git-hub-copilot",
+      "domain": "datacamp.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/claude-code-vs-github-copilot",
+      "domain": "mindstudio.ai",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://javascript.plainenglish.io/github-copilot-vs-cursor-vs-claude-i-tested-all-ai-coding-tools-for-30-days-the-results-will-c66a9f56db05",
+      "domain": "javascript.plainenglish.io",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.turbogeek.co.uk/github-copilot-vs-claude-code-honest-comparison/",
+      "domain": "turbogeek.co.uk",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://skywork.ai/blog/claude-code-vs-github-copilot-2025-comparison/",
+      "domain": "skywork.ai",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://milvus.io/ai-quick-reference/how-does-claude-code-compare-to-github-copilot",
+      "domain": "milvus.io",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://statistician-in-stilettos.medium.com/best-practices-i-learned-for-ai-assisted-coding-70ff7359d403",
+      "domain": "statistician-in-stilettos.medium.com",
+      "suggested_type": "medium",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://frontendmasters.com/blog/ai-assisted-coding-a-practical-guide-for-software-engineers/",
+      "domain": "frontendmasters.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/seven-best-practices-ai-assisted-coding-andrew-wheeler-dgbje",
+      "domain": "linkedin.com",
+      "suggested_type": "skip",
+      "approved": false,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants",
+      "domain": "cloud.google.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://dev.to/bekahhw/a-developers-guide-to-choosing-an-ai-coding-assistant-that-boosts-productivity-without-4fdc",
+      "domain": "dev.to",
+      "suggested_type": "deep",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
+      "domain": "stackoverflow.blog",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "domain": "anthropic.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.monterail.com/blog/ai-powered-coding-assistants-best-practices",
+      "domain": "monterail.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://blog.jetbrains.com/research/2026/04/ai-impact-developer-workflows/",
+      "domain": "blog.jetbrains.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.createq.com/en/software-engineering-hub/ai-pair-programming",
+      "domain": "createq.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://itnext.io/maximizing-productivity-how-chatgpt-can-improve-pair-programming-17c5780c64b7",
+      "domain": "itnext.io",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://refine.dev/blog/pair-programming-vs-ai-pair-programming/",
+      "domain": "refine.dev",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.codemag.com/Article/2509021/AI-and-Developer-Productivity",
+      "domain": "codemag.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://arxiv.org/html/2602.03593v1",
+      "domain": "arxiv.org",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://mstone.ai/blog/increase-developer-productivity-agentic-ai/",
+      "domain": "mstone.ai",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.infosys.com/iki/techcompass/ai-pair-programming-proactive-approach.html",
+      "domain": "infosys.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://beugenio.medium.com/tips-for-using-ai-as-a-junior-software-developer-dc78fa7ab5ca",
+      "domain": "beugenio.medium.com",
+      "suggested_type": "medium",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.quora.com/For-a-junior-developer-what-is-the-most-productive-way-to-use-AI-coding-tools-without-hindering-their-fundamental-learning",
+      "domain": "quora.com",
+      "suggested_type": "skip",
+      "approved": false,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.port.io/blog/best-ai-tools-developers",
+      "domain": "port.io",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://codeconductor.ai/blog/future-of-junior-developers-ai/",
+      "domain": "codeconductor.ai",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.dice.com/career-advice/tips-for-junior-engineers-who-want-to-use-ai-to-boost-their-careers",
+      "domain": "dice.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://usercentrics.com/magazine/articles/junior-engineer-ai-job-market-survival-guide/",
+      "domain": "usercentrics.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases",
+      "domain": "support.claude.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://community.sap.com/t5/artificial-intelligence-blogs-posts/how-i-teach-claude-code-to-work-my-way/ba-p/14349299",
+      "domain": "community.sap.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://substack.com/home/post/p-168365356",
+      "domain": "substack.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://anthropic.skilljar.com/claude-code-101",
+      "domain": "anthropic.skilljar.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/intro",
+      "domain": "platform.claude.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://hamy.xyz/blog/2025-12_claude-code-review",
+      "domain": "hamy.xyz",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://teamvoy.com/blog/how-to-build-ai-development-workflow-tips-and-use-cases/",
+      "domain": "teamvoy.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://thebootstrappedfounder.com/from-code-writer-to-code-editor-my-ai-assisted-development-workflow/",
+      "domain": "thebootstrappedfounder.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.intalio.com/blogs/ai-human-collaboration-how-automated-workflows-make-teams-more-productive",
+      "domain": "intalio.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.docker.com/blog/ai-developer-productivity-workflow/",
+      "domain": "docker.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.inspyrsolutions.com/best-practices-for-integrating-ai/",
+      "domain": "inspyrsolutions.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.producttalk.org/how-to-use-claude-code-features/",
+      "domain": "producttalk.org",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://agenticcoding.substack.com/p/32-claude-code-tips-from-basics-to",
+      "domain": "agenticcoding.substack.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://institute.sfeir.com/en/claude-code/claude-code-essential-slash-commands/cheatsheet/",
+      "domain": "institute.sfeir.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://levelup.gitconnected.com/claude-code-mastery-the-21-tips-that-actually-matter-in-2026-5436f50ddbed",
+      "domain": "levelup.gitconnected.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://uxplanet.org/7-advanced-claude-code-slash-commands-db4c9be3e38c",
+      "domain": "uxplanet.org",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.devas.life/note-driven-agentic-coding-workflow-using-claude-code-and-inkdrop/",
+      "domain": "devas.life",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://thoughtminds.ai/blog/claude-code-best-practices-for-agentic-coding-in-modern-software-development",
+      "domain": "thoughtminds.ai",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://ed-wentworth.medium.com/how-im-using-agentic-coding-with-claude-and-cursor-in-real-world-projects-b4b6694c132d",
+      "domain": "ed-wentworth.medium.com",
+      "suggested_type": "medium",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/",
+      "domain": "deeplearning.ai",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://john-byrne-jb.medium.com/claude-skills-my-introduction-c2f93ccfaad0",
+      "domain": "john-byrne-jb.medium.com",
+      "suggested_type": "medium",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.coursera.org/learn/claude-ai-and-prompting-for-everyone",
+      "domain": "coursera.org",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/anthropic-prompt-engineering-developers",
+      "domain": "pluralsight.com",
+      "suggested_type": "shallow",
+      "approved": true,
+      "source": "searxng",
+      "notes": ""
+    }
+  ]
+}

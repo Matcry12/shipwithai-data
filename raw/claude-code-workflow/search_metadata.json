@@ -1,0 +1,700 @@
+{
+  "topic": "claude-code-workflow",
+  "searched_at": "2026-05-05T14:14:46Z",
+  "queries_used": [
+    "Claude Code tutorial beginners",
+    "how to use Claude Code CLI effectively",
+    "Claude Code vs GitHub Copilot comparison",
+    "AI coding assistant best practices software engineer",
+    "AI pair programming developer workflow productivity",
+    "AI tools for junior developers first job",
+    "using Claude Code to understand unfamiliar codebase",
+    "Claude Code for beginner developers tutorial",
+    "Claude Code for code review senior engineer",
+    "AI assisted development workflow team productivity",
+    "Claude Code slash commands tips advanced",
+    "agentic coding workflow Claude Code",
+    "prompt engineering for developers Claude"
+  ],
+  "total_urls_found": 113,
+  "urls": [
+    {
+      "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg",
+      "title": "Claude Code - Full Tutorial for Beginners - YouTube",
+      "snippet": "27 thg 2, 2026 · Comments · The Ultimate Claude Code Guide | MCP, Skills & More · \"Software Fundamentals Matter More Than Ever\" — Matt Pocock · Master 80% of ...",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY",
+      "title": "Claude Code Tutorial for Beginners - YouTube",
+      "snippet": "22 thg 12, 2025 · This Claude Code Tutorial teaches you what I wish I knew as a software developer about Claude Code before I started AI coding.",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://codewithmukesh.com/blog/claude-code-for-beginners/",
+      "title": "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+      "snippet": "20 thg 1, 2026 · Learn Claude Code from scratch in 15 minutes. Step-by-step installation, CLAUDE.md setup, Plan Mode mastery, and honest comparison with ...Claude Code vs GitHub... · CLAUDE.md File - How to...",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/quickstart",
+      "title": "Quickstart - Claude Code Docs",
+      "snippet": "This quickstart guide will have you using AI-powered coding assistance in a few minutes. ... Pro tips for beginners. For more, see best practices and common ...Step 1: Install Claude Code · Step 3: Start your first session",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qYqIhX9hTQk",
+      "title": "FULL Claude Code Tutorial for Beginners in 2026! (Step-By-Step)",
+      "snippet": "29 thg 3, 2026 · FULL Claude Code Tutorial for Beginners in 2026! (Step-By-Step) · Comments.",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://www.nxcode.io/resources/news/claude-code-tutorial-beginners-guide-2026",
+      "title": "Claude Code Tutorial for Beginners: Complete Getting Started Guide ...",
+      "snippet": "11 thg 3, 2026 · Learn how to use Claude Code from scratch. Step-by-step beginner tutorial covering installation, essential commands, Plan Mode, CLAUDE.md ...",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://medium.com/@dan.avila7/claude-code-learning-path-a-practical-guide-to-getting-started-fcc601550476",
+      "title": "Claude Code Learning Path: a practical guide to getting started",
+      "snippet": "30 thg 10, 2025 · I started by installing Claude Code and learning the fundamental commands. The key here was understanding when to use the simple command-line ...",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY",
+      "title": "Claude Code Tutorial - YouTube",
+      "snippet": "Learn how to use Claude Code in your development workflow. Learn about prompting, CLAUDE.md files, context, MCP servers, subagents and more. ...more",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xg55nTrbYYY",
+      "title": "FULL Claude Tutorial For Beginners in 2026! (FULL COURSE) - YouTube",
+      "snippet": "13 thg 4, 2026 · ... claude-code-mastery Sign up for Claude - https://claude.ai Chapters: 0:00 - Claude Tutorial Intro 0:25 - How to Use This Guide 0:40 - Claude ...",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://www.builder.io/blog/how-to-use-claude-code",
+      "title": "How to Use Claude Code (Beginner Guide) - Builder.io",
+      "snippet": "4 thg 3, 2026 · This Claude Code tutorial walks through everything from installation to making your first real code change. You'll learn how to use Claude Code ...",
+      "found_by_query": "Claude Code tutorial beginners"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ps8y9z/tips_to_use_claudecodecli_efficiently/",
+      "title": "Tips to use claude-code-cli efficiently? : r/ClaudeAI - Reddit",
+      "snippet": "21 thg 12, 2025 · Instead of constantly pasting database schemas or Jira tickets into prompts, I set up MCP servers for MySQL and Jira. Claude can query what it ...",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/best-practices",
+      "title": "Best practices for Claude Code - Claude Code Docs",
+      "snippet": "Claude is also effective at learning CLI tools it doesn't already know. Try prompts like Use 'foo-cli-tool --help' to learn about foo tool, then use it to solve ...Write an effective CLAUDE.md · Use CLI tools",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://www.builder.io/blog/claude-code",
+      "title": "How I use Claude Code (+ my best tips) - Builder.io",
+      "snippet": "11 thg 7, 2025 · Pro tip: use /clear often. Every time you start something new, clear the chat. You don't need all that history eating your tokens, and you ...",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WwdIYp5fuxY",
+      "title": "My top 6 tips & ways of using Claude Code efficiently - YouTube",
+      "snippet": "28 thg 1, 2026 · ... efficiently use Claude Code & its key features via our complete \"Claude Code - The Practical Guide\" course: https://acad.link/claude-code ...",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://paulgp.substack.com/p/getting-started-with-claude-code",
+      "title": "Getting Started with Claude Code: A Researcher's Setup Guide",
+      "snippet": "29 thg 3, 2026 · Write state to files. Don't keep critical information only in the conversation. If Claude made an important design decision, have it write that ...",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "title": "45 Claude Code Tips: From Basics to Advanced - GitHub",
+      "snippet": "1 thg 12, 2025 · Table of Contents · Tip 0: Customize your status line · Tip 1: Learn a few essential slash commands · Tip 2: Talk to Claude Code with your voice.",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3CSi8QAoN-s",
+      "title": "How to actually force Claude Code to use the right CLI (don't ... - YouTube",
+      "snippet": "25 thg 2, 2026 · Learn how to force Claude Code to use the right CLI commands and adopt your workflow using deterministic hooks instead of bloated ...Bị thiếu: effectively | Phải có:effectively",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1qgccgs/25_claude_code_tips_from_11_months_of_intense_use/",
+      "title": "25 Claude Code Tips from 11 Months of Intense Use : r/ClaudeAI - Reddit",
+      "snippet": "18 thg 1, 2026 · The key is completing the write-test cycle: write code, run it, check the output, and repeat. For example, let's say you're working on Claude ...",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/how-claude-code-works",
+      "title": "How Claude Code works - Claude Code Docs",
+      "snippet": "When you give Claude a task, it works through three phases: gather context, take action, and verify results. These phases blend together. Claude uses tools ...",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://blog.sshh.io/p/how-i-use-every-claude-code-feature",
+      "title": "How I Use Every Claude Code Feature - by Shrivu Shankar",
+      "snippet": "1 thg 11, 2025 · Use CLAUDE.md as a Forcing Function. If your CLI commands are complex and verbose, don't write paragraphs of documentation to explain them.",
+      "found_by_query": "how to use Claude Code CLI effectively"
+    },
+    {
+      "url": "https://www.cosmicjs.com/blog/claude-code-vs-github-copilot-vs-cursor-which-ai-coding-agent-should-you-use-2026",
+      "title": "Claude Code vs GitHub Copilot vs Cursor (2026): Honest Comparison",
+      "snippet": "GitHub Copilot wins on price for individuals, and it is the only one with a genuinely useful free tier. Cursor and Claude Code both offer limited free access, ...",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1qgx73t/difference_between_claude_code_vs_copilot_with/",
+      "title": "Difference between Claude Code vs Copilot with Claude - Reddit",
+      "snippet": "19 thg 1, 2026 · However, Claude Code is definitely stronger in reasoning, since it can process and understand significantly more data than GitHub Copilot with ...",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://www.morphllm.com/comparisons/claude-code-vs-copilot",
+      "title": "Claude Code vs GitHub Copilot in 2026: Terminal Agent vs ... - Morph",
+      "snippet": "27 thg 2, 2026 · Claude Code scores 80.8% SWE-bench with agent teams. GitHub Copilot CLI (GA Feb 2026) adds specialized agents and background delegation.",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://www.datacamp.com/blog/claude-code-vs-git-hub-copilot",
+      "title": "Claude Code vs. GitHub Copilot: Which Should You Use? | DataCamp",
+      "snippet": "21 thg 4, 2026 · The biggest difference is execution model. Claude Code is agent-first: every interaction goes through a plan-execute-verify loop. Copilot is ...",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/claude-code-vs-github-copilot",
+      "title": "Claude Code vs GitHub Copilot: Which AI Coding Tool Wins?",
+      "snippet": "14 thg 4, 2026 · Compare Claude Code and GitHub Copilot on code quality, context handling, multi-file edits, and real-world developer experience.",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://javascript.plainenglish.io/github-copilot-vs-cursor-vs-claude-i-tested-all-ai-coding-tools-for-30-days-the-results-will-c66a9f56db05",
+      "title": "GitHub Copilot vs Cursor vs Claude: I Tested All AI Coding Tools for 30 ...",
+      "snippet": "23 thg 7, 2025 · With Copilot: More commits, but mostly minor changes and bug fixes. With Cursor: Fewer, but more substantial feature commits. With Claude: ...",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://www.turbogeek.co.uk/github-copilot-vs-claude-code-honest-comparison/",
+      "title": "Github Copilot vs Claude Code Honest Comparison - TurboGeek",
+      "snippet": "30 thg 3, 2026 · Different abstraction layers — Copilot is an autocomplete engine; Claude Code is an autonomous agent. Comparing them directly misses the point.",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dMSZ0WcK1oI",
+      "title": "A very subjective comparison of Claude Code, OpenCode, Cursor ...",
+      "snippet": "29 thg 1, 2026 · Claude Code, OpenCode, Cursor and GitHub Copilot are all great tools for agentic engineering. And new features are added all the time.",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://skywork.ai/blog/claude-code-vs-github-copilot-2025-comparison/",
+      "title": "Claude Code vs GitHub Copilot (2025): Complete Comparison Guide",
+      "snippet": "Claude Code vs GitHub Copilot (2025): In-depth review of AI coding assistants. Compare workflows, IDE support, refactoring, privacy, security, pricing, ...How they think and work · Pricing and value (as of...",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://milvus.io/ai-quick-reference/how-does-claude-code-compare-to-github-copilot",
+      "title": "How does Claude Code compare to GitHub Copilot? - Milvus",
+      "snippet": "While Copilot helps you write code faster, Claude Code can take on entire tasks from planning through implementation and testing. Claude Code's ability to read ...",
+      "found_by_query": "Claude Code vs GitHub Copilot comparison"
+    },
+    {
+      "url": "https://statistician-in-stilettos.medium.com/best-practices-i-learned-for-ai-assisted-coding-70ff7359d403",
+      "title": "Best Practices I Learned for AI Assisted Coding | by Claire Longo",
+      "snippet": "26 thg 6, 2025 · All you need to be an effective AI-assisted coder is a basic knowledge of software engineering best practices and core AI concepts.",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://frontendmasters.com/blog/ai-assisted-coding-a-practical-guide-for-software-engineers/",
+      "title": "AI-Assisted Coding: A Practical Guide for Software Engineers",
+      "snippet": "7 ngày trước · Treat AI interactions like database transactions. Each session should have a defined scope, a clear input, and an expected output. When the ...",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/seven-best-practices-ai-assisted-coding-andrew-wheeler-dgbje",
+      "title": "Seven Best Practices for AI assisted Coding - LinkedIn",
+      "snippet": "9 thg 3, 2026 · The sixth piece of advice is use version control. Always commit working code before asking the AI to make significant changes. If the changes ...",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XavrebMKH2A",
+      "title": "How to Make the Best of AI Programming Assistants - YouTube",
+      "snippet": "18 thg 2, 2026 · They increase the pace of innovation by using modern software engineering practices that embrace Continuous Delivery, Security, and ...",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants",
+      "title": "Five Best Practices for Using AI Coding Assistants - Google Cloud",
+      "snippet": "7 thg 10, 2025 · Consider your use case when choosing a tool · Train the tool with foundational work · Make a plan · Prioritize prompt engineering · Connect the dots ...",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://dev.to/bekahhw/a-developers-guide-to-choosing-an-ai-coding-assistant-that-boosts-productivity-without-4fdc",
+      "title": "A Developer's Guide to Choosing an AI Coding Assistant That Boosts ...",
+      "snippet": "9 thg 7, 2025 · This guide is designed to help you find an AI assistant that enhances your workflow without hijacking it.Bị thiếu: practices | Phải có:practices",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
+      "title": "Building shared coding guidelines for AI (and people too) - Stack Overflow",
+      "snippet": "26 thg 3, 2026 · Provide explicit examples of both correct and incorrect implementations of the code guidelines. AIs can use these as patterns to determine what ...Bị thiếu: assistant | Phải có:assistant",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "title": "How AI assistance impacts the formation of coding skills - Anthropic",
+      "snippet": "29 thg 1, 2026 · Here, AI creates a potential tension: as coding grows more automated and speeds up work, humans will still need the skills to catch errors, ...",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://www.monterail.com/blog/ai-powered-coding-assistants-best-practices",
+      "title": "AI-Powered Coding Assistants: Best Practices to Boost Software ...",
+      "snippet": "7 thg 8, 2025 · Understand tool strengths and limitations. · Provide clear and comprehensive context. · Adopt a structured workflow and best practices. · Treat AI ...Best Practices for AI-Assisted... · Common Pitfalls of AI...",
+      "found_by_query": "AI coding assistant best practices software engineer"
+    },
+    {
+      "url": "https://blog.jetbrains.com/research/2026/04/ai-impact-developer-workflows/",
+      "title": "Understanding AI's Impact on Developer Workflows",
+      "snippet": "15 thg 4, 2026 · For one, this study has shown that interacting with AI assistants can add cognitive overhead and fragment tasks, as developers alternate between ...",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://www.createq.com/en/software-engineering-hub/ai-pair-programming",
+      "title": "AI Pair Programming - CREATEQ",
+      "snippet": "AI pair programming guide: collaborative coding, real-time assistance, code review partner, development mentoring, and intelligent programming.",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://www.reddit.com/r/BlackboxAI_/comments/1pmab3n/ai_pair_programmers_boosting_productivity_or/",
+      "title": "AI Pair Programmers: Boosting Productivity or Killing Deep Thinking",
+      "snippet": "14 thg 12, 2025 · AI coding assistants can speed things up like crazy but I have noticed I think less deeply about why something works.",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/ai-pair-programming-ultimate-productivity-multiplier-preksha-shah-ysu6f",
+      "title": "AI Pair Programming: Boost Productivity 60% & Redefine Teams",
+      "snippet": "17 thg 7, 2025 · Discover how AI pair programming increases velocity, improves code quality, and reshapes collaboration. Learn key strategies.",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://itnext.io/maximizing-productivity-how-chatgpt-can-improve-pair-programming-17c5780c64b7",
+      "title": "How ChatGPT Can Improve Pair Programming | by Juntao Qiu",
+      "snippet": "10 thg 3, 2023 · Explore the unique experience of pairing with an AI and the lessons learned, how can we leverage the advantage of AI.",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://refine.dev/blog/pair-programming-vs-ai-pair-programming/",
+      "title": "Pair Programming vs AI Pair Programming: Is This the New ...",
+      "snippet": "20 thg 2, 2026 · According to Stack Overflow's 2025 Developer Survey, 78% of developers say AI makes them more productive. Yet a 2025 randomized controlled ...",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://www.codemag.com/Article/2509021/AI-and-Developer-Productivity",
+      "title": "AI and Developer Productivity - CODE Magazine",
+      "snippet": "There's a lot you can do with “AI as your pair programmer” so let me just go from explaining code, to jumping 10 steps ahead and creating full projects with AI.",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://arxiv.org/html/2602.03593v1",
+      "title": "Developer Perspectives on Productivity with AI Coding Assistants",
+      "snippet": "3 thg 2, 2026 · This study analyzes the validity of different approaches to evaluating the productivity impacts of AI coding assistants by leveraging mixed- ...",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://mstone.ai/blog/increase-developer-productivity-agentic-ai/",
+      "title": "Boosting Developer Productivity with Agentic AI - Milestone",
+      "snippet": "25 thg 6, 2025 · 3. AI Pair Programming. The concept of pair programming, where two developers work together on the same code, has proven productivity benefits.",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://www.infosys.com/iki/techcompass/ai-pair-programming-proactive-approach.html",
+      "title": "AI Pair-Programming: Proactive Approach - Infosys",
+      "snippet": "Increased Productivity: Teams adopting AI Pair Programming report higher productivity levels, as the AI handles mundane tasks, enabling developers to focus on ...",
+      "found_by_query": "AI pair programming developer workflow productivity"
+    },
+    {
+      "url": "https://www.reddit.com/r/EngineeringManagers/comments/1r94ugz/do_ai_tools_work_for_junior_developers/",
+      "title": "Do AI tools work for junior developers? : r/EngineeringManagers",
+      "snippet": "19 thg 2, 2026 · I don't think that means that you should unleash an AI-assisted junior on a complex, high-risk task. The AI can't teach domain knowledge, ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://stackoverflow.blog/2025/12/26/ai-vs-gen-z/",
+      "title": "AI vs Gen Z: How AI has changed the career pathway for junior developers",
+      "snippet": "26 thg 12, 2025 · We only started tracking AI usage via our Developer Survey in 2023, and AI tool usage during the development process has increased 14% as of our ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://beugenio.medium.com/tips-for-using-ai-as-a-junior-software-developer-dc78fa7ab5ca",
+      "title": "Tips for using AI as a Junior Software Developer - Medium",
+      "snippet": "18 thg 12, 2024 · AI could be helpful when studying system design, giving you more examples of use, diagrams, explanations, real-life scenarios, challenges, etc…",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://www.quora.com/For-a-junior-developer-what-is-the-most-productive-way-to-use-AI-coding-tools-without-hindering-their-fundamental-learning",
+      "title": "For a junior developer, what is the most productive way to use AI ...",
+      "snippet": "28 thg 9, 2025 · Start with Conversational Assistants: Platforms like ChatGPT, Anthropic's Claude, and Google's Gemini are the perfect launchpads. Users can ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://www.port.io/blog/best-ai-tools-developers",
+      "title": "The best AI artificial intelligence tools for developers - Port.io",
+      "snippet": "24 thg 11, 2025 · Explore the best AI tools available for developers across categories: from agent orchestration and chat assistants to IDE copilots, ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/impact-ai-junior-software-engineers-rich-kroll-8qvse",
+      "title": "The Impact of AI on Junior Software Engineers - LinkedIn",
+      "snippet": "24 thg 3, 2025 · A junior developer can prompt an AI to generate boilerplate code, suggest solutions to common problems, or even explain complex systems.",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://codeconductor.ai/blog/future-of-junior-developers-ai/",
+      "title": "The Future of Junior Developers in the Age of AI (2026 Guide)",
+      "snippet": "26 thg 8, 2025 · Today's AI-native juniors often arrive already fluent in tools like Copilot or ChatGPT. Instead of spending weeks learning syntax, they can ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://www.dice.com/career-advice/tips-for-junior-engineers-who-want-to-use-ai-to-boost-their-careers",
+      "title": "Tips for Junior Engineers Who Want to Use AI to Boost Their Careers - Dice",
+      "snippet": "24 thg 10, 2024 · AI-powered code editors and IDEs can suggest code snippets, complete functions, and even identify potential errors. This not only saves time but ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PGqUh6Etw6A",
+      "title": "AI Just Killed These 5 Junior Developer Skills (Learn ... - YouTube",
+      "snippet": "15 thg 4, 2026 · Learn how to work with me to get your first coding job: ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://usercentrics.com/magazine/articles/junior-engineer-ai-job-market-survival-guide/",
+      "title": "AI Job Market: Junior Engineer Survival Guide 2025 - Usercentrics",
+      "snippet": "6 thg 10, 2025 · Discover how AI is reshaping software engineering careers and learn practical strategies for new graduates to thrive in today's competitive ...",
+      "found_by_query": "AI tools for junior developers first job"
+    },
+    {
+      "url": "https://www.reddit.com/r/softwaredevelopment/comments/1otekyk/whats_your_goto_way_to_understand_a_big_unknown/",
+      "title": "What's your go-to way to understand a big unknown codebase? - Reddit",
+      "snippet": "10 thg 11, 2025 · More recently, if there are poor docs, etc., just sending Claude code on a research mission works pretty well for a better picture without ...",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/mkherlakian_claude-code-cant-handle-complex-codebases-activity-7361751147646197760-ChFr",
+      "title": "How to use Claude for coding: A guide to effective prompts - LinkedIn",
+      "snippet": "14 thg 8, 2025 · But here's what I've learned after a month of daily Claude Code use: Claude doesn't need to understand your entire codebase. That's your job. I ...",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://www.anthropic.com/product/claude-code",
+      "title": "Claude Code | Anthropic's agentic coding system",
+      "snippet": "Claude Code is Anthropic's agentic coding system that operates across an entire project to understand codebases, execute multi-file changes, and complete ...",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://medium.com/@datascientist.lakshmi/claude-code-explained-what-it-is-where-it-fits-and-how-to-use-it-well-7af121b7d98b",
+      "title": "Claude Code Explained: What It Is, Where It Fits, and How to Use It Well",
+      "snippet": "28 thg 3, 2026 · Claude Code is more than a coding assistant. It is an agentic development system that can understand a codebase, plan tasks, take actions, ...",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-claude-code-reading-code-you-didnt-write-1ljb",
+      "title": "The Secret Life of Claude Code: Reading Code You Didn't Write",
+      "snippet": "15 thg 3, 2026 · How to orient yourself in an unfamiliar codebase — and how Claude Code can help you find your footing without losing your judgment ...",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases",
+      "title": "Claude Code: Common developer use cases",
+      "snippet": "15 thg 4, 2026 · Understand unfamiliar code. When to use this: You need to understand how a module, function, or subsystem works before making changes—for ...",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://community.sap.com/t5/artificial-intelligence-blogs-posts/how-i-teach-claude-code-to-work-my-way/ba-p/14349299",
+      "title": "How I teach Claude Code to work my way - SAP Community",
+      "snippet": "15 thg 3, 2026 · Claude Code has a built-in concept of subagents — you can spawn child agents that work independently in the background while the main agent ...",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://substack.com/home/post/p-168365356",
+      "title": "How I Got Claude Code to Add Features to a Codebase I'd Never ...",
+      "snippet": "15 thg 7, 2025 · Pairing with Claude Code's parallel subagents to map a 500‑commit repo and seamlessly add AI‑driven Markdown chunking. So here's what happened.",
+      "found_by_query": "using Claude Code to understand unfamiliar codebase"
+    },
+    {
+      "url": "https://anthropic.skilljar.com/claude-code-101",
+      "title": "Claude Code 101 - Anthropic Skilljar",
+      "snippet": "This course teaches developers how to use Claude Code effectively, whether you're new to software engineering or an experienced engineer who hasn't yet ...",
+      "found_by_query": "Claude Code for beginner developers tutorial"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/intro",
+      "title": "Intro to Claude - Claude API Docs",
+      "snippet": "Recommended path for new developers · 1. Make your first API call. Set up your environment, install an SDK, and send your first message to Claude. · 2. Understand ...",
+      "found_by_query": "Claude Code for beginner developers tutorial"
+    },
+    {
+      "url": "https://www.reddit.com/r/claude/comments/1rotoaf/claude_code_now_treats_you_like_a_senior_engineer/",
+      "title": "Claude Code now treats you like a senior engineer reviewing a junior's ...",
+      "snippet": "9 thg 3, 2026 · Claude Code now treats you like a senior engineer reviewing a junior's PR — and it's great ; CHANGES MADE — exactly what it did, down to the ...",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/code-review",
+      "title": "Code Review - Claude Code Docs",
+      "snippet": "Set up automated PR reviews that catch logic errors, security vulnerabilities, and regressions using multi-agent analysis of your full codebase.",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://medium.com/@create.vmir/teaching-claude-to-review-code-like-a-senior-engineer-6e867c2172b8",
+      "title": "Teaching Claude to Review Code Like a Senior Engineer - Medium",
+      "snippet": "7 thg 10, 2025 · Coderabbit changed my review process, giving me peace of mind that I didn't miss any major issues even after reviewing the code 3 times.",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sdne02/senior_engineer_best_practice_for_scaling/",
+      "title": "Senior engineer best practice for scaling yourself with Claude Code",
+      "snippet": "6 thg 4, 2026 · If claude code made you 10x faster than before, worktrees can multiply that again depending on how many agents you can manage in parallel - ...",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QOoGM9_al6w",
+      "title": "How To Use Claude Code Like a Senior Engineer - YouTube",
+      "snippet": "10 thg 4, 2026 · Level up your developer workflow with this in‑depth guide to using Claude Code like a senior software engineer.",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://dev.to/juandj/how-i-use-claude-code-to-accelerate-my-software-engineering-job-and-improve-my-life-8o7",
+      "title": "How I use Claude Code to accelerate my software engineering job and ...",
+      "snippet": "26 thg 1, 2026 · Claude can create PRs, review code, check workflow runs, all without leaving the terminal. AWS CLI: For debugging Lambda logs, checking SQS ...",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://hamy.xyz/blog/2025-12_claude-code-review",
+      "title": "How To Run In-Terminal Code Reviews with Claude Code - HAMY",
+      "snippet": "3 thg 12, 2025 · How I Actually Code with AI as a Senior Software Engineer · Review your AI's Code - A Simple Process for Building More Robust Systems Faster ...",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/adrianfcole_codex-claude-activity-7419294977937301505-6sge",
+      "title": "Comparing Codex and Claude: A Senior Engineer's Honest Review",
+      "snippet": "20 thg 1, 2026 · Ask Claude Code to show and explain the process. That's it. For me, this is what becoming more “AI-native” has looked like in practice: * ...",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1sciznh/senior_engineer_best_practice_for_scaling/",
+      "title": "Senior engineer best practice for scaling yourself with Claude Code",
+      "snippet": "4 thg 4, 2026 · IMO when you have multiple Claude Code sessions in parallel you as a reviewer become the funnel. The mental load is also real, having to review ...",
+      "found_by_query": "Claude Code for code review senior engineer"
+    },
+    {
+      "url": "https://dev.to/sunny7899/ai-assisted-development-workflows-3723",
+      "title": "AI-Assisted Development Workflows - DEV Community",
+      "snippet": "13 thg 12, 2025 · By integrating AI into the development process, teams can: Deliver higher-quality software; Increase speed and efficiency; Reduce burnout ...",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://teamvoy.com/blog/how-to-build-ai-development-workflow-tips-and-use-cases/",
+      "title": "How to Build AI Development Workflow: Tips and Use Cases",
+      "snippet": "13 thg 3, 2026 · Learn how AI workflow automation improves developer productivity, speeds up releases, and reduces technical debt.",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/ai-assisted-software-development-productivity-liability-pardoe-kwdze",
+      "title": "AI-Assisted Software Development: Productivity Multiplier or ... - LinkedIn",
+      "snippet": "10 thg 2, 2026 · AI tools can help junior developers navigate unfamiliar modules, suggest patterns consistent with surrounding code, and act as a kind of on- ...",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://thebootstrappedfounder.com/from-code-writer-to-code-editor-my-ai-assisted-development-workflow/",
+      "title": "From Code Writer to Code Editor: My AI-Assisted Development Workflow",
+      "snippet": "13 thg 6, 2025 · Discover how AI-assisted coding transforms productivity and developer roles, enhancing coding efficiency while redefining the creative process.Bị thiếu: team | Phải có:team",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://medium.com/@gdsources.io/a-practical-guide-to-ai-assisted-development-a23c7cae3f0b",
+      "title": "A Practical Guide to AI-Assisted Development | by Guillaume | Medium",
+      "snippet": "8 thg 9, 2025 · You don't need elaborate setups or “AI agent armies” to gain significant developer productivity improvements without compromising code quality.",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://www.intalio.com/blogs/ai-human-collaboration-how-automated-workflows-make-teams-more-productive",
+      "title": "How Automated Workflows Make Teams More Productive | Intalio",
+      "snippet": "16 thg 2, 2026 · When AI complements these capabilities with intelligent assistance and decision support, teams gain powerful tools that amplify rather than ...",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://www.docker.com/blog/ai-developer-productivity-workflow/",
+      "title": "Use AI to Boost Developer Productivity | Docker",
+      "snippet": "21 thg 11, 2025 · Adopt a practical AI coding loop—prompt, plan, produce, refine—to ship better code faster. Agentic tools and context management turn AI into ...",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://www.reddit.com/r/ProductManagement/comments/1ldvquu/the_dev_team_become_more_productive_with_ai_any/",
+      "title": "The dev team become more productive with AI. Any AI tools that ...",
+      "snippet": "17 thg 6, 2025 · The dev team become more productive with AI. Any AI tools that makes you better / more efficient PM? · Cursor (AI-assisted coding) · Codegen (ai ...",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://www.inspyrsolutions.com/best-practices-for-integrating-ai/",
+      "title": "Best Practices for Integrating AI into Your Dev Team's Workflow",
+      "snippet": "AI can boost productivity, but it shouldn't replace foundational knowledge. It's important to guide your developer team to continue strengthening core skills in ...",
+      "found_by_query": "AI assisted development workflow team productivity"
+    },
+    {
+      "url": "https://www.producttalk.org/how-to-use-claude-code-features/",
+      "title": "How to Use Claude Code: A Guide to Slash Commands, Agents, Skills ...",
+      "snippet": "7 thg 1, 2026 · Slash commands can be used for almost anything—from a simple stored prompt to an advanced procedure. For example, my /headlines command ...",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://agenticcoding.substack.com/p/32-claude-code-tips-from-basics-to",
+      "title": "32 Claude Code Tips: From Basics to Advanced - by YK",
+      "snippet": "27 thg 1, 2026 · Here are my tips for getting the most out of Claude Code, including a custom status line script, cutting the system prompt in half, ...",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://institute.sfeir.com/en/claude-code/claude-code-essential-slash-commands/cheatsheet/",
+      "title": "Essential Slash Commands - Cheatsheet | SFEIR Institute",
+      "snippet": "Claude Code offers over a dozen slash commands to drive your sessions from the terminal - context management, configuration, memory, diagnostics.",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1shz99l/here_are_50_slash_commands_in_claude_code_that/",
+      "title": "Here are 50+ slash commands in Claude Code that most of you might ...",
+      "snippet": "10 thg 4, 2026 · There are over 50 built-in slash commands, 5 bundled skills, and a custom command system. Here's the complete breakdown organized by what ...",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hB9FTJx8VfY",
+      "title": "10 Claude Commands I Wish I Knew Earlier - YouTube",
+      "snippet": "2 thg 4, 2026 · ... advanced AI and coding tutorials. Timestamps: 0:00 — Intro 0 ... In this video, I walk through 10 essential Claude Code slash commands ...",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://levelup.gitconnected.com/claude-code-mastery-the-21-tips-that-actually-matter-in-2026-5436f50ddbed",
+      "title": "Claude Code Mastery: The 21 Tips That Actually Matter in 2026",
+      "snippet": "22 thg 4, 2026 · 1. Terminal Is Your Primary Interface, Not a Sidekick · 2. Install the VS Code Extension (Even If You Use Cursor) · 3. Use `/clear` More Than You ...",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://medium.com/@the.gigi/claude-code-deep-dive-slash-commands-9cd6ff4c33cb",
+      "title": "Claude Code Deep Dive - Slash Commands | by Gigi Sayfan - Medium",
+      "snippet": "11 thg 1, 2026 · It's pretty straight forward to create a new custom command. Simply create a .md file with your prompt. The filename becomes the command name.",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://uxplanet.org/7-advanced-claude-code-slash-commands-db4c9be3e38c",
+      "title": "7 Essential Claude Code Slash Commands - UX Planet",
+      "snippet": "23 thg 3, 2026 · /copy — copies the output generated by Claude Code. /effort — customizes how deeply the Claude AI model thinks when performing a task.",
+      "found_by_query": "Claude Code slash commands tips advanced"
+    },
+    {
+      "url": "https://www.devas.life/note-driven-agentic-coding-workflow-using-claude-code-and-inkdrop/",
+      "title": "Note-driven agentic coding workflow using Claude Code and Inkdrop",
+      "snippet": "29 thg 1, 2026 · It lets you focus on writing concepts, ideas, specifications, designs, and so on. In other words, it means AI agents take notes for themselves ...",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=goOZSXmrYQ4",
+      "title": "My COMPLETE Agentic Coding Workflow to Build Anything (No Fluff ...",
+      "snippet": "23 thg 2, 2026 · Building software from scratch with coding agents like Claude Code is one of the highest-leverage skills you can develop right now, ...",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/overview",
+      "title": "Claude Code overview - Claude Code Docs",
+      "snippet": "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools.",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rhxped/has_anyone_automated_a_full_agentic_code_solution/",
+      "title": "Has anyone automated a full agentic code solution with Claude? - Reddit",
+      "snippet": "1 thg 3, 2026 · Understanding Claude's agentic workflow. Innovative uses of Claude Code in projects. Challenges faced when using Claude Code. Open App.",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://thoughtminds.ai/blog/claude-code-best-practices-for-agentic-coding-in-modern-software-development",
+      "title": "Claude Code Best Practices for Agentic Coding - ThoughtMinds",
+      "snippet": "11 thg 2, 2026 · Learn best practices for using Claude Code in agentic coding workflows to improve software quality, speed, and developer productivity.",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://ed-wentworth.medium.com/how-im-using-agentic-coding-with-claude-and-cursor-in-real-world-projects-b4b6694c132d",
+      "title": "How I'm Using Agentic Coding with Claude and Cursor in Real-World ...",
+      "snippet": "27 thg 6, 2025 · My Setup. I'm using Cursor with large language models like Claude 4 Sonnet, and experimenting with a workflow that minimizes traditional coding.",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/",
+      "title": "Claude Code: A Highly Agentic Coding Assistant - DeepLearning.AI",
+      "snippet": "In this course, you'll learn best practices for using Claude Code to improve your coding workflow. You'll learn key tips on how to provide Claude Code with ...",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/agentic-coding-workflow-claude-code-jira-walkthrough",
+      "title": "How to Build an Agentic Coding Workflow with Claude Code and Jira",
+      "snippet": "4 ngày trước · This guide walks through a complete agentic coding workflow using Claude Code and Jira: starting from raw ideation, moving through PRD creation, ...",
+      "found_by_query": "agentic coding workflow Claude Code"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+      "title": "Prompt engineering overview - Claude API Docs",
+      "snippet": "The Claude Console also offers prompting tools—prompt generator, templates and variables, and prompt improver—to help you build and refine prompts quickly.",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://john-byrne-jb.medium.com/claude-skills-my-introduction-c2f93ccfaad0",
+      "title": "Claude Skills, my introduction. From Prompt Engineer to ... - John Byrne",
+      "snippet": "20 thg 3, 2026 · In my mind if prompt engineering is the craft of writing effective instructions then Skills are prompt architecture; ie creating a repeatable ...",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://dev.to/_vjk/i-made-claude-code-think-before-it-codes-heres-the-prompt-bf",
+      "title": "I Made Claude Code Think Before It Codes. Here's the Prompt.",
+      "snippet": "10 thg 3, 2026 · It's a process prompt: a way to encode senior engineering habits into Claude's workflow so those habits happen consistently, on every task ...",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://www.coursera.org/learn/claude-ai-and-prompting-for-everyone",
+      "title": "Claude AI and Prompting for Everyone - Coursera",
+      "snippet": "Prompt engineering is the practice of writing clear, structured instructions to get better outputs from Claude.",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1exy6re/the_people_who_are_having_amazing_results_with/",
+      "title": "The People Who Are Having Amazing Results With Claude, Prompt ...",
+      "snippet": "21 thg 8, 2024 · The one to give Claude time to think and have it dump that information in a dedicated XML tag as well thinking it won't be visible to the user.",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dG2iFVKdyhs",
+      "title": "Claude AI Tutorial: The ULTIMATE Guide to Prompt Engineering ...",
+      "snippet": "10 thg 11, 2025 · ... prompt engineering techniques. This is the must-watch guide for developers, writers, students, and anyone looking to get the best out of Claude ...",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "title": "Prompting best practices - Claude API Docs",
+      "snippet": "Comprehensive guide to prompt engineering techniques for Claude's latest models, covering clarity, examples, XML structuring, thinking, and agentic systems.",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/anthropic-prompt-engineering-developers",
+      "title": "Anthropic: Prompt Engineering for Developers - Pluralsight",
+      "snippet": "This course covers the use of Claude 3 for software development. It shows how to create effective prompts for making test cases, generating sample data, ...",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md",
+      "title": "prompt-engineer.md - awesome-claude-code-subagents",
+      "snippet": "You are a senior prompt engineer with expertise in crafting and optimizing prompts for maximum effectiveness. Your focus spans prompt design patterns, ...",
+      "found_by_query": "prompt engineering for developers Claude"
+    },
+    {
+      "url": "https://codewithmukesh.com/blog/prompt-engineering-claude-code-dotnet/",
+      "title": "Prompt Engineering for Claude Code - The .NET Developer's Guide",
+      "snippet": "14 giờ trước · Prompt engineering for Claude Code is the practice of writing precise, context-rich instructions that leverage Claude Code's ability to read ...",
+      "found_by_query": "prompt engineering for developers Claude"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+---
+title: "Career Guidance For Software Testers After Parental Leave"
+topic: "career-gap"
+career_level:
+  - executive
+source_url: "https://www.ministryoftesting.com/articles/career-guidance-for-software-testers-after-parental-leave"
+source_domain: "www.ministryoftesting.com"
+word_count: 2835
+text_to_link_ratio: 0.8675
+signal_score: 0.9675
+is_curated: false
+tags:
+  - remote
+  - open-source
+  - linkedin
+  - gap
+ingested_at: "2026-05-05"
+---
+
+Reading:
+Career Guidance For Software Testers After Parental Leave 
+![Unlock Confident Coverage and Traceability  image](https://d8iqbmvu05s9c.cloudfront.net/q1xuvr4augipd78vlb5ljxejerqe)
+##  [Unlock Confident Coverage and Traceability ](https://www.testrail.com/jira-issue-connect/)
+Jira Issue Connect brings live, real-time Jira data directly into TestRail, eliminating tab-switching and stale fields. 
+#  Career Guidance For Software Testers After Parental Leave 
+Coming back to testing after becoming a parent can be tricky. Pricilla shares her experiences and advice on coming back to work after parental leave. 
+![Career Guidance For Software Testers After Parental Leave image](https://d8iqbmvu05s9c.cloudfront.net/2djl4lmnrld9o6blug013osk18pa)
+[](https://www.ministryoftesting.com/signin?return_to_referer=yes) Report 
+  * Copy link 
+
+
+![A mother and father laughing with a child. The child is sitting on the fathers shoulders.](https://d8iqbmvu05s9c.cloudfront.net/sghg18gs70sxgeeixwshnbg5rre4)
+> "To understand your parents’ love you must raise children yourself." –Chinese Proverb
+Hello Everyone!
+I hope this title is something you can relate to. I have been there too, struggling to re-enter the industry after my maternity break. But I’m happy with where I am now. And then the idea of writing down my experience came into my mind. 
+Yes, parenting changes everything. Starting from the time we wake up, what we eat, how our day looks, almost everything. It sometimes helps to discover or reinvent ourselves. It is a beautiful journey, but it also needs a lot of time and patience to get used to it. At the same time, we need our jobs to be financially stable and take care of our families. 
+The onset of parental leave can be a difficult transition for any professional, especially software testers, who need to stay ahead in their field even through an extended absence. Every year new tools and technologies appear on the scene, and it is a tough job to keep up with the industry. 
+Being a parent, now our priority changes. We need to focus more on the family, which gives us less time to focus on career development. We can overcome this. The secret sauce here is: we just need to be prepared a little bit and do some planning which will help us to take on the challenge.
+Please join me as I share my experience of how I was able to successfully transition back to work after parental leave. 
+## Looking For A Job After Maternity Leave: My Experience
+After my son was born a few years ago, I began looking for testing jobs in Malaysia. Handling a toddler, moving to a new country, and the stress of regaining financial security for my family was a lot.
+Recruiters and some employers frequently have an attitude that anybody can test. They think: Why should I pay a professional software tester when any college graduate can do the job? This is a misconception on their part: they are unaware that the position of a software tester is not simple. It requires a wide range of technical capabilities, soft skills, critical thinking, reasoning, and so on. 
+I went on one interview after another. I felt embarrassed, and sometimes I couldn’t answer even a simple question, not because I didn't know the answer, but because I wasn’t confident enough to speak my mind. I was rejected from many jobs without so much as a response, probably because I had taken maternity leave. I reached out to many companies, but at first it wasn’t of much use. 
+But I knew that motherhood hadn’t made me brainless. On the contrary, it has made me more creative, curious, and mentally strong. So I didn’t give up. It helped that my partner is incredibly supportive, and he had faith that I would find a job. 
+And sure enough: after a few months of struggle, I landed a job. That’s where I realized that we need to go through the tough days to enjoy the good days. These days, I hear from at least one recruiter a week! But, happily, I tell them that I’m very satisfied with my current job. 
+## Key Challenges In Returning To Work After Parental Leave
+![A crying baby being held by a dad whilst a young child climbs over a chair making a mess](https://d8iqbmvu05s9c.cloudfront.net/3fiecqfkfvtz5cu9zxtz070koqzi)
+> "My biggest parenting conundrum: why is it so hard to put someone who is already sleepy to sleep." — Chrissy Teigen 
+Let’s review in detail the challenges we face when planning to resume working after parental leave.
+### Emotional Struggles 
+**GUILT**. Planning to go to a job and leaving kids at home might make us feel guilty. That’s unavoidable, because it’s natural to have those feelings after spending a lot of time with the little ones. I felt lots of guilt. If that describes you too: You are not alone in this!
+**Lack of confidence**. After a break, some might feel insecure about their skills and capabilities. This can lead to low self-confidence, which can further hinder their job search.
+**Time management**. Juggling work, children, and other responsibilities may be difficult for parents. Finding the ideal balance between their duties and responsibilities might be challenging for them.
+**Looking for, adapting to, and affording childcare**. Parents who have toddlers with no family available to watch them will need to make arrangements for high-quality daycare. This can be difficult in and of itself, especially if they have full-time jobs that call for visiting the office in person.
+**Sleep deprivation**. When raising children, we usually sleep less than we would otherwise. It's a phase in the process. We can get through this, but sleep deprivation may have an impact on our everyday work.
+**Justifying parental leave**. It can be difficult to explain career gaps during the interview and job search process. Employers could have prejudices, preconceptions, or concerns regarding parents re-entering the workforce.
+### Technological Struggles
+**Finding a suitable job or role**. Depending on the length of your parental leave, the job market might have changed significantly. Due to this, it could be challenging for you to locate employment that fits their qualifications.
+**Keeping up with technology**. Rapid technological advancements might make it challenging to stay current for someone who has been out of the industry for some time.
+**Gaining new experience**. These days, a lot of businesses prefer those who have more recent, relevant experience than those who have taken long breaks.
+**Resume writing**. Due to a lack of knowledge of current trends and technology, creating a stylish and appealing CV may be more difficult. 
+**Finding the right platform to search for and apply for jobs**. Different countries have different job search platforms: for example, Naukri and Indeed are popular in Malaysia. Therefore, you must select the appropriate one based on the location and job.
+## Strategies For Re-entering The Workforce
+![A family sitting together playing a board game](https://d8iqbmvu05s9c.cloudfront.net/os3s6kc92dsj2069wmfexuns2oqc)
+> "While we try to teach our children all about life, our children teach us what life is all about." —Angela Schwindt
+The challenges may sound scary, but we have some strategies to overcome them. 
+**Keep up-to-date with trends in software testing**. Keep an eye on industry news, look for new or updated tools, and attend conferences, workshops, and webinars. This will help you to be aware of any new technologies.
+**Create a clean and precise resume**. Create a resume that’s as brief and informative as possible. Be mindful to capture the appropriate keywords or phrases for search depending on your preferred jobs, since recruiters use keywords extensively on Indeed, LinkedIn, and other job search platforms. Apply through many job websites and keep your profile updated there. 
+**Use professional networking platforms**. One of the best places for professionals to interact and learn is LinkedIn, which has helped many people get their ideal jobs. Ensure that your LinkedIn profile has been updated to match your current skill set. You may also set your profile to "Open to Work" mode, making it available to countless recruiters. Most companies these days use LinkedIn for recruiting. If you have a strong profile, it will help you to get a job easily. 
+**Use all available resources**. Parents who are returning to their jobs have a variety of online resources available to assist them. Most blogs, podcasts, and YouTube videos are free of charge to view and comment on. Also, some learning platforms offer free and low-cost courses. Based on your preferences, you can choose the right course.
+Some key resources to keep handy:
+  * [The Ministry of Testing](https://www.ministryoftesting.com/) offers a wide variety of content for software testers, including blogs, courses, workshops, podcasts, and so on. 
+  * [TestGuild](https://testguild.com/) by Joe Colantonio is another favorite of mine.
+
+
+**Network with colleagues**. To exchange experiences and maintain an association with the industry, it is also critical to network with other testers. You can connect with many experts through communities like the Ministry of Testing, The Test Tribe, and so on. These communities also foster a sense of belonging. Many software testing experts share their experiences and knowledge through blogs, newsletters, and other media. You can follow them and study what they share.
+**Acquire certifications in software testing**. I am aware that this is a hot-button topic. Certifications, in my opinion, can be useful in situations like initial screening. It takes a lot of effort to prepare for the certification, but you can pick up some helpful skills in the process. Keeping these certificates up to date can help job testers get hired and demonstrate competence in the workplace.
+**Ask for help**. Software testers should look for mentors who will assist and guide them as they return to work. This can help ensure a smooth transition back into the workplace, while also helping to stay motivated and engaged during your leave. Mentors can also provide advice and feedback on job applications and career decisions. I am currently a mentor in [The Mentoring Club](https://www.mentoring-club.com/) to support and help young mothers and women in tech during my available time. There are a lot of mentors who help others free of charge.
+**Try freelancing**. Before starting (or returning to) a full-time job, take part in some crowd-testing organizations and do some freelance work. This can help you to understand the current tools and tech stack used in software testing. And it could be that a freelance work schedule will suit you better as a new parent.
+**Groom your GitHub profile**. If you learn or work on some freelance projects, you can showcase your projects on your GitHub page.
+**Build your online portfolio**. If you are not going to talk about yourself, no one else will do it. If possible, buy a domain and start organizing all your projects, experiences, previous work, and achievements together in one place. 
+**Look for flexible job options**. Flexible hours at work are becoming increasingly common and give parents another way to balance the demands of family life and their employment. Parents with less free time may be able to work remotely or independently. I have a friend with two children who was planning to resume a job after a seven-year parental leave. She started by working four hours a day and now she has a full-time job.
+**Be "YOU."** You need not be embarrassed to talk about your break. As parents, we need to be available for our kids. Single parents need to spend even more time on parenting responsibilities. Breaks to care for our families don’t make us weak. 
+**Keep your chin up**. Don't be scared to learn and experiment with various testing flavors. As industries become increasingly automated, there may be new job roles. Being open to learning new skills and ways of working can open up new opportunities.
+## Balancing Work And Parenting Responsibilities 
+![A family sitting in bed together sharing time together. There's also a cat.](https://d8iqbmvu05s9c.cloudfront.net/yjn5wq5lslzfxlrmaf6x4dq87st8)
+> "No one is perfect; that’s why pencils have erasers." ― Wolfgang Riebe
+A few more tips I took that could help you too!
+**Make a schedule.** Make a weekly timetable that both parents and children can stick to. Give each family member a specific time window for work, parenting, leisure, and sleep. Even if you work from home, don’t work on and on for countless hours. Stick to your scheduled work hours and plan your day accordingly. 
+**Build a parent network.** Parenting might appear to be a difficult responsibility at times, but you don't have to do it alone. Reach out to other parents at work, in the community, or online to build a support network that can provide moral support and guidance. 
+**Prioritize.** Make a list of things that must be accomplished each day. For example, prioritize chores from most essential to least important. And build in time for rest and play. This will help you keep on track and avoid wasting time on unneeded things.
+**Communication is key.** Develop regular communication time with your family at the start and end of each day. Spend quality time with your family and talk about everything that is on your mind. This might help you remain in touch with your family and gain opinions from them.
+**Delegate responsibilities.** Delegate some of the tasks to your partner or older children. This might involve asking them to assist with domestic tasks or grocery shopping. This will assist to ease the burden and give everyone more time.
+**Set boundaries.** Establish boundaries with the team and organization that will allow you to combine your job and family lives. Make it clear when you're accessible for work, how frequently you need to check in, and what times are off-limits so you can be present for your family. I suggest setting work hours in your calendar so that you don’t need to be available 24/7. 
+**Remember that self-care is not selfish.** Remember to set aside some time for yourself. Doing things you enjoy can help you manage your stress and recharge so that you can be the best parent you can be. Take enough breaks. This might involve reading, exercising, or meditating. This is important so that you can practice self-care and remain balanced and energized.
+## Embrace The Journey — Flourishing As A Parent And A Tester
+![Parents celebrating with their child that they are holding hands with.](https://d8iqbmvu05s9c.cloudfront.net/77zw6bl8ehznvbrlnu4b71minggt)
+> "Seek to be whole, not perfect." ― Oprah Winfrey 
+For any profession, a break is frequently considered a hindrance. **But you don’t need to be sorry for being a parent or for being human.** On the contrary: you grow as a person when you are a parent, and you can take that growth into your professional life too.
+I always say: once a tester, always a tester. There will always be a tester inside you, and parenthood will help you to be a better tester. 
+"Once we become parents, we prefer to visit kid-friendly places, right? Same way with companies: after you become a parent, choose organizations that are parent friendly or family friendly." - Pricilla Bilavendran. 
+Look for a company that offers a parent-friendly environment with specific types of support. "[Great Place to Work](https://www.greatplacetowork.com/best-workplaces/parents/2022)" has a list of them. 
+Overall, the key to a successful return after parental leave is to stay active and engaged with the field of testing, maintain technical skills, network effectively, and stay focused. And yes of course… "Believing in YOU." With these strategies, software testers can come back from parental leave better than ever, ready to take advantage of new opportunities.
+The images used in this article can be found on [Freepik](https://www.freepik.com/).
+## For Further Information
+  * Gamifying Your Software Testing Career & Workplace: [Part 1](https://www.ministryoftesting.com/articles/bab5fd4c?s_id=15877107) and [Part 2](https://www.ministryoftesting.com/articles/a3cd1f58?s_id=15877107), by Melissa Eaden and Heather Reid
+  * [Leadership and Parenting](https://www.ministryoftesting.com/talks/f5cc0364?s_id=15877138) by Shey Compton
+
+
+[](https://www.ministryoftesting.com/signin?return_to_referer=yes) Report 
+  * Copy link 
+
+
+![Pricilla Bilavendran profile image](https://d8iqbmvu05s9c.cloudfront.net/k5ytd4d8mdky8upqpfd5b7xfnbmr)
+Pricilla Bilavendran 
+Team Leader 
+[](https://testing-journey-of-pricilla.blogspot.com/) [](https://club.ministryoftesting.com/u/pricilla09)
+Hello - I am Pricilla, currently based out of Malaysia. I do have many roles, which I am juggling every day and making sure to do justice to every role I play. I have been associated with APIs for around three years, and the relationship grows stronger every day. I had a quest to know more about APIs so that I could play the role of API Tester efficiently and never stopped exploring and playing around with APIs. So, I am constantly learning, upgrading myself, and sharing my knowledge through my blogs, talks, and mentoring sessions. Since the Pandemic, I am more into different communities, and love to catch up with people (virtual coffee in MoT is one of my favorite spots) It all started with small internal knowledge sharing sessions, and right now I could make it into a few virtual conferences. I should admit that I am constantly working on my speaking skills. I love to convey things in a simple, funny, and witty manner. Right from my childhood, I cannot learn something new until I build my own story for that concept. So, I am good at telling stories that can help the audience to relate and learn easily. 
+#####  Comments 
+[Sign in](https://www.ministryoftesting.com/signin?return_to_referer=yes) to comment 
+![Unlock Confident Coverage and Traceability  image](https://d8iqbmvu05s9c.cloudfront.net/q1xuvr4augipd78vlb5ljxejerqe)
+##  [Unlock Confident Coverage and Traceability ](https://www.testrail.com/jira-issue-connect/)
+Jira Issue Connect brings live, real-time Jira data directly into TestRail, eliminating tab-switching and stale fields. 
+Explore MoT
+![AI Builders Workshop: A smart way to run AI-driven QA image](https://d8iqbmvu05s9c.cloudfront.net/v53hb1ip8clcu987a5kqkj9crx2u)
+##  [AI Builders Workshop: A smart way to run AI-driven QA](https://www.ministryoftesting.com/partner-events/beyond-ai-why-serious-teams-choose-reflect-mobile)
+Wed, 6 May
+AI in QA shouldn’t mean more work to manage. Join us for this hands-on workshop where we show how to maximize the AI capabilities in QMetry and Reflect. 
+![MoT Advanced Certificate in Test Automation image](https://d8iqbmvu05s9c.cloudfront.net/t8lapzox075w3xl97h2h0kxw2lsl)
+Ascend to leadership roles by mastering strategic skills in automation strategy creation, planning and execution 
+31 Jan 24 
+![This Week in Quality image](https://d8iqbmvu05s9c.cloudfront.net/r8berutrmydkk47kwfms312z40mc)
+Debrief the week in Quality via a community radio show hosted by Simon Tomes and members of the community 
+![Company Logo](https://cdn.getgist.com/projects/16766/Favicon.png?1724856397)
+# Hello from the MoTaverse
+## Send a message to Team MoT and we'll get back to you.
+New conversation
+Find an answer quickly
