@@ -3,7 +3,7 @@
 ## #1 — Cover Letter for Mid-Level Engineers
 
 * Search demand signal: high
-* Data coverage: 24 cleaned articles in cleaned/cover-letter/ (only 5 tagged mid-level — thinnest cell in the entire dataset)
+* Data coverage: 24 cleaned articles in [cleaned/cover-letter/](https://github.com/Matcry12/shipwithai-data/tree/main/cleaned/cover-letter) (only 5 tagged mid-level — thinnest cell in the entire dataset)
 * Target audience: mid-level engineers (3–7 years) preparing for lateral moves or promotions
 * Suggested angle: "The one-paragraph technical pitch — skip the template, write the decision you owned"
 * Top 5 keywords: letter, cover, company, job, software
@@ -14,7 +14,7 @@
 ## #2 — Executive Resume Framing for Mid-Level Engineers
 
 * Search demand signal: medium
-* Data coverage: 79 cleaned articles in cleaned/executive-resume/ (only 8 tagged mid-level)
+* Data coverage: 79 cleaned articles in [cleaned/executive-resume/](https://github.com/Matcry12/shipwithai-data/tree/main/cleaned/executive-resume) (only 8 tagged mid-level)
 * Target audience: mid-level engineers approaching senior or staff roles
 * Suggested angle: "Impact framing vs strategy framing — write toward the next level without misrepresenting current scope"
 * Top 5 keywords: resume, engineering, experience, skills, management
@@ -25,7 +25,7 @@
 ## #3 — LinkedIn Profile for Mid-Level Engineers
 
 * Search demand signal: high
-* Data coverage: 33 cleaned articles in cleaned/linkedin-profile/ (only 8 tagged mid-level)
+* Data coverage: 33 cleaned articles in [cleaned/linkedin-profile/](https://github.com/Matcry12/shipwithai-data/tree/main/cleaned/linkedin-profile) (only 8 tagged mid-level)
 * Target audience: mid-level engineers who rely on referrals but are missing inbound recruiter interest
 * Suggested angle: "Treat your LinkedIn summary like a README — stack, scale, what you shipped"
 * Top 5 keywords: linkedin, skills, profile, headline, engineer
@@ -36,7 +36,7 @@
 ## #4 — Claude Code Workflow on Your CV
 
 * Search demand signal: medium
-* Data coverage: 46 cleaned articles in cleaned/claude-code-workflow/ (only 9 tagged mid-level)
+* Data coverage: 46 cleaned articles in [cleaned/claude-code-workflow/](https://github.com/Matcry12/shipwithai-data/tree/main/cleaned/claude-code-workflow) (only 9 tagged mid-level)
 * Target audience: student devs and mid-level engineers entering first jobs or switching to AI-augmented teams
 * Suggested angle: "Git × Claude Code for first PR — how to quantify AI-assisted output honestly"
 * Top 5 keywords: code, claude, coding, developers, context
@@ -47,7 +47,7 @@
 ## #5 — Senior Cover Letters: From Applying to Being Recruited
 
 * Search demand signal: high
-* Data coverage: 24 cleaned articles in cleaned/cover-letter/ (only 12 tagged senior)
+* Data coverage: 24 cleaned articles in [cleaned/cover-letter/](https://github.com/Matcry12/shipwithai-data/tree/main/cleaned/cover-letter) (only 12 tagged senior)
 * Target audience: senior engineers (7+ years) pivoting companies or re-entering the market
 * Suggested angle: "Frame the letter as narrowing optionality for the reader, not selling yourself"
 * Top 5 keywords: letter, cover, company, job, software
@@ -58,7 +58,7 @@
 ## #6 — Git for First Job
 
 * Search demand signal: high
-* Data coverage: 63 cleaned articles in cleaned/git-first-job/ (only 14 tagged mid-level)
+* Data coverage: 63 cleaned articles in [cleaned/git-first-job/](https://github.com/Matcry12/shipwithai-data/tree/main/cleaned/git-first-job) (only 14 tagged mid-level)
 * Target audience: student devs preparing for their first dev job; bootcamp grads
 * Suggested angle: "Your first PR — commit hygiene, branch naming, and how open source contributions read to a hiring team"
 * Top 5 keywords: code, branch, commit, changes, review
@@ -69,7 +69,7 @@
 ## #7 — Career Change Into Dev: Lead With Domain, Not Credentials
 
 * Search demand signal: medium
-* Data coverage: 63 cleaned articles in cleaned/career-change/ (only 16 tagged mid-level)
+* Data coverage: 63 cleaned articles in [cleaned/career-change/](https://github.com/Matcry12/shipwithai-data/tree/main/cleaned/career-change) (only 16 tagged mid-level)
 * Target audience: mid-level career changers — bootcamp grads, domain experts moving into engineering roles
 * Suggested angle: "A former nurse writing healthcare software has a differentiator — most CVs bury it"
 * Top 5 keywords: resume, skills, career, job, experience
