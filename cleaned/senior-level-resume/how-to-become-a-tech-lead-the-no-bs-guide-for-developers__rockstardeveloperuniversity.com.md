@@ -1,0 +1,226 @@
+---
+title: "How to Become a Tech Lead: The No-BS Guide for Developers"
+topic: "senior-level-resume"
+career_level:
+  - senior
+source_url: "https://rockstardeveloperuniversity.com/how-to-become-tech-lead/"
+source_domain: "rockstardeveloperuniversity.com"
+word_count: 6047
+text_to_link_ratio: 1.0
+signal_score: 1.0
+is_curated: false
+tags:
+  - tech lead role
+  - technical decision-making
+  - team enablement
+  - leadership skills
+  - career progression
+ingested_at: "2026-05-25"
+doc_type: "how-to-guide"
+core_question: "How do you become a tech lead and what does the role involve?"
+tldr: "Comprehensive guide defining tech lead role covering technical decision-making, team enablement, cross-functional communication, and concrete career advancement steps."
+---
+
+# How to Become a Tech Lead: The No-BS Guide for Developers
+
+I remember the first time someone called me a tech lead. I was on a call with a product manager, and she turned to the new hire and said, "Talk to him, he's the tech lead." I looked around the room. She was talking about me. Nobody had given me the title. Nobody had promoted me. It just happened because I'd been making the decisions, running the standups, and unblocking people for months. The title caught up to the work.
+
+That's how it works for most tech leads. You don't apply for the role the way you'd apply for a job at another company. You grow into it. You start doing the work before anyone gives you permission, and eventually someone makes it official. Or they don't, and you do it anyway because the team needs it.
+
+But here's the problem. Most developers who want to become tech leads have no idea what the role actually involves. They think it's about being the best coder on the team. It's not. They think it's a promotion that comes automatically after enough years of experience. It doesn't. And they think the transition is easy because they're already good at their job. That's where things get messy.
+
+The tech lead role sits at one of the most awkward intersections in software engineering. You're still expected to write code, but you're also expected to lead people, make architectural decisions, communicate with product and business stakeholders, and somehow keep the team moving forward without the formal authority of a manager. It's a role that can accelerate your career or burn you out, depending on how you approach it.
+
+According to Glassdoor, tech leads in the United States earn an average base salary of $195,858 per year. Salary.com puts the average for technical leads at $155,893. ZipRecruiter shows a range from $116,000 at the 25th percentile to $205,000 at the 75th percentile, with top earners hitting $206,000 or more. That's a significant jump from the average senior developer salary, which typically lands between $120,000 and $160,000 depending on location and company size.
+
+The money is real. But the path to getting there is less obvious than most career guides make it sound. This guide is going to walk you through exactly what a tech lead does, why the role is different from what you think, the specific skills you need to develop, and a practical roadmap for getting there. No vague advice about "developing leadership skills." Concrete steps you can start taking this week.
+
+## 1. What a Tech Lead Actually Does (It's Not What You Think)
+
+Ask five companies what a tech lead does and you'll get seven different answers. The role is notoriously poorly defined, which is part of what makes it so confusing for developers trying to break into it. But after talking to dozens of tech leads at companies ranging from three-person startups to FAANG, a pattern emerges.
+
+A tech lead is the person who owns the technical direction of a team. Not the company's technical direction. That's the CTO or VP of Engineering. The team's. You're responsible for making sure the team builds the right thing in the right way. That means you're involved in three fundamental areas: technical decision-making, team enablement, and cross-functional communication.
+
+**Technical decision-making** is the most obvious part. You choose the frameworks. You design the system architecture. You decide whether to refactor now or add to the technical debt pile. You review the most critical pull requests. When the team hits a hard technical problem, they come to you first. Not because you always have the answer, but because you're supposed to know enough about the system to point them in the right direction or know who to ask.
+
+Pat Kua, who literally wrote the book on tech leadership (it's called "Talking with Tech Leads"), describes this as being a "technical anchor." You don't have to be the best coder on the team. But you need to understand the system deeply enough to make informed decisions about where it's going and to catch problems before they become expensive. That's a different skill than writing fast, elegant code. It's pattern recognition at the system level.
+
+**Team enablement** is the part most developers underestimate. A significant chunk of your time as a tech lead goes toward making other people more productive. That means unblocking developers when they're stuck. Running code reviews that actually teach something instead of just catching bugs. Making sure the team follows good engineering practices without micromanaging every pull request. Setting up processes that reduce friction instead of adding bureaucracy.
+
+John Sonmez puts it well in his "Complete Software Developer's Career Guide" when he talks about leadership: the best leaders don't push from behind, they walk the path first. As a tech lead, that means you write the first test when you're pushing TDD adoption. You write clear commit messages before expecting others to. You document your architectural decisions before complaining that nobody documents anything. You can't demand standards you're not willing to demonstrate.
+
+**Cross-functional communication** is the part that surprises most new tech leads. You become the translator between the engineering team and everyone else. Product managers want to know when features will ship. Designers want to know what's technically feasible. The VP of Engineering wants status updates for the quarterly roadmap review. Other teams need to understand your API contracts. Your manager needs to understand the technical risks you're carrying.
+
+A 2024 Stack Overflow Developer Survey showed that developers spend roughly 30-40% of their time on non-coding activities. For tech leads, that number jumps to 50-60%. If the idea of spending half your day in meetings, Slack threads, and documents makes you nauseous, the tech lead role might not be for you. And that's completely fine. There's nothing wrong with staying on the individual contributor track. But if you're going to make the jump, you need to go in with your eyes open.
+
+## 2. Tech Lead vs. Engineering Manager: The Difference That Matters
+
+One of the most common mistakes developers make is conflating the tech lead role with the engineering manager role. They're different. Very different. And understanding the distinction will save you from accidentally optimizing for the wrong career path.
+
+An engineering manager owns people. A tech lead owns technical outcomes. That's the simplest way to draw the line. The engineering manager handles hiring, firing, performance reviews, career development conversations, compensation discussions, and team health. The tech lead handles architecture, technical standards, code quality, system design, and making sure the team can actually build what they need to build.
+
+In practice, these roles overlap. A lot. Especially at smaller companies where one person might wear both hats. But at most mid-size to large companies, the roles are distinct. At Google, tech leads (called "TL" in Google's hierarchy) are explicitly on the individual contributor track. They don't do performance reviews or make hiring decisions. At Spotify, the "Chapter Lead" fills the management role while "Tech Leads" are embedded in squads to drive technical direction. At startups, whoever is loudest and most competent ends up doing both.
+
+Here's what this means for your career planning. If you love writing code and want to keep writing code, the tech lead path keeps you closer to the keyboard. You'll write less code than you did as a senior developer, but you'll still write some. The engineering management path pulls you further and further away from code over time. Many engineering managers barely touch code at all after a year or two in the role.
+
+There's also an interesting compensation dynamic. According to a 2025 analysis from IT Support Group, tech leads in the United States often out-earn engineering managers at comparable levels. This is unusual globally. In most countries, management commands higher pay. But in the US tech market, deep technical expertise paired with leadership skills is valued enough that the IC-adjacent tech lead track can be extremely lucrative.
+
+Will Larson, author of "Staff Engineer: Leadership Beyond the Management Track," describes the tech lead as someone who "partners with a single manager to lead their team" rather than becoming the manager themselves. The tech lead provides the technical vision. The manager provides the people support. When it works well, it's a powerful partnership. When it doesn't work well, usually because the boundaries are unclear, both people end up frustrated and the team suffers.
+
+## 3. The Skills That Actually Matter (Hint: It's Not More Coding)
+
+Every developer who aspires to be a tech lead makes the same mistake. They think the path involves getting even better at the skills that made them a good senior developer. Writing cleaner code. Learning more frameworks. Solving harder algorithm problems. Going deeper technically.
+
+Wrong direction. The skills that get you promoted to senior developer are table stakes for the tech lead role. You need them, yes. But they won't differentiate you. The skills that separate tech leads from senior developers are almost entirely non-technical, and that's what catches people off guard.
+
+**System-level thinking.** As a senior developer, you think about the code you're writing. As a tech lead, you think about the system the code lives in. How does this service interact with the five other services it depends on? What happens to the user experience when this database gets slow? Where are the single points of failure? What does the system look like in two years when traffic doubles? This isn't about memorizing design patterns. It's about developing the mental model to hold an entire system in your head and reason about it as a whole.
+
+The best way to develop this skill is to study existing systems. Read architecture decision records (ADRs) at your company. Ask senior engineers why the system is designed the way it is. When there's an incident, don't just read the post-mortem. Trace through the entire failure chain and understand why the system behaved that way. Martin Fowler's architecture resources on martinfowler.com are worth bookmarking. So is the System Design Primer on GitHub, which has over 275,000 stars for good reason.
+
+**Decision-making under uncertainty.** Senior developers make decisions with relatively clear parameters. "Should I use a hash map or an array?" has a knowable answer. Tech lead decisions are fuzzy. "Should we rewrite this service in Go or keep patching the Node.js version?" has no objectively correct answer. It depends on the team's skills, the timeline, the business priorities, the hiring plan, and a dozen other factors you can't fully quantify. You'll never have complete information. You have to make a call anyway.
+
+The worst thing a tech lead can do is freeze when faced with ambiguity. Teams need direction. If you wait for perfect information before making a decision, the team sits idle, deadlines slip, and morale drops. Better to make a good-enough decision quickly and course-correct than to make a perfect decision too late. Jeff Bezos calls these "Type 2 decisions," ones that are reversible. Most technical decisions are Type 2. You can switch databases. You can rewrite a service. You can change the API contract. The cost of reversing is real, but the cost of paralysis is worse.
+
+**Communication across audiences.** This is the skill that most developers actively avoid developing, and it's the one that matters most. You need to explain a complex technical problem to a product manager who doesn't know what an API is. You need to convince your CTO to invest in a refactoring project that has zero visible impact on users. You need to give constructive feedback on a pull request without demotivating a junior developer. You need to write a design document that three different teams can align on.
+
+Each of these requires a different communication style. The PM needs outcomes and timelines. The CTO needs business impact and risk analysis. The junior developer needs encouragement wrapped around specific, actionable suggestions. The design document needs precision and completeness. You're not just communicating. You're translating. And the ability to translate between technical and non-technical worlds is what makes a tech lead valuable beyond their code contributions.
+
+**Influence without authority.** A manager can tell someone what to do. A tech lead can't. You don't control anyone's performance review. You can't fire anyone. You can't assign tasks through formal authority. Everything you accomplish happens through influence, which means people need to trust your judgment, respect your expertise, and believe that following your technical direction leads to better outcomes.
+
+This is why the "lead by example" approach Sonmez describes is so critical. If you want the team to write tests, your code better have tests. If you want the team to document their architectural decisions, you better be writing ADRs. If you want the team to do thorough code reviews, yours better be thorough. Credibility is earned through consistency, not through titles.
+
+Technical skills got you here. Visibility and authority take you to tech lead and beyond.
+
+Apply Now## 4. The Practical Roadmap: From Senior Developer to Tech Lead
+
+Enough theory. Here's the step-by-step playbook for making the transition. I'm going to break this into phases because the move from senior developer to tech lead doesn't happen in a single leap. It happens through a series of deliberate steps over roughly 6 to 18 months.
+
+**Phase 1: Own a subsystem (Months 1-3).** You can't lead a whole team's technical direction if you've never owned a meaningful piece of the system. Pick the most critical or most complex subsystem on your team and make it yours. Not in an ego-driven, territorial way. In a "I understand this deeply enough to be the go-to person" way.
+
+At Amazon, they call this being a "single-threaded owner." You're the person who knows why that subsystem was built the way it was, what the edge cases are, where the bodies are buried, and what should be improved. When anyone has a question about it, they come to you. When something breaks at 2 AM, you're the one who can diagnose it fastest.
+
+This step serves two purposes. First, it builds the deep system knowledge you need to make architectural decisions. Second, it makes you visibly valuable to the team. People start routing decisions through you naturally. Your manager notices. Other teams notice. You're building a reputation as someone who owns things, and ownership is the foundation of technical leadership.
+
+**Phase 2: Start making decisions for others (Months 3-6).** Here's where the shift begins. Instead of just making decisions about your own code, start making decisions that affect how others work. Lead a tech design review for a new feature. Write the first architecture decision record for a cross-cutting technical choice. Propose a new testing strategy and get the team to adopt it. Run a spike to evaluate a new technology and present your findings.
+
+The key here is that you're not waiting for permission. You're seeing gaps and filling them. Nobody asked you to write an ADR for the database migration strategy. You did it because the team needed clarity and nobody else was providing it. Nobody asked you to run a tech design review. You did it because the feature was complex enough to warrant upfront discussion and you organized it.
+
+This is what Sonmez means when he talks about taking extreme ownership. You don't wait for the title. You don't wait for the authority. You see what the team needs and you provide it. The people who get promoted to tech lead are the ones who were already doing the job.
+
+**Phase 3: Multiply through mentoring (Months 4-9).** Individual contribution, no matter how exceptional, has a ceiling. One developer can only write so much code, review so many pull requests, solve so many problems. Tech leads create leverage by making other developers more effective. This is the multiplier effect, and it's what separates a really good senior developer from a tech lead.
+
+Start with code reviews. Don't just approve or request changes. Teach. When you spot a problematic pattern, explain why it's problematic and what alternative you'd suggest. Link to relevant documentation or blog posts. Share the reasoning behind your suggestion, not just the suggestion itself. Over time, the developers you're reviewing will internalize these patterns and make fewer of the same mistakes. That's leverage.
+
+Then expand to pairing sessions. When a junior or mid-level developer is struggling with a task, instead of taking it over, sit with them and work through it together. This takes more time in the short term but saves enormous time in the long term because you're building the team's capability instead of creating a dependency on yourself.
+
+Camille Fournier, author of "The Manager's Path," describes this transition as moving from "I did a thing" to "my team did a thing." The credit shifts from individual output to team output. Your commits go down. The team's velocity goes up. That's the trade, and it's one you need to embrace wholeheartedly. If you can't let go of being the person who writes the most code, you'll struggle as a tech lead.
+
+**Phase 4: Build cross-functional bridges (Months 6-12).** Now start expanding beyond the engineering team. Attend product planning meetings, not because your manager asked you to, but because you want to understand the roadmap well enough to make better technical decisions. Ask product managers about the business metrics they're trying to move. Learn enough about the company's revenue model to understand why certain features get prioritized.
+
+Start communicating proactively with stakeholders outside engineering. When you identify a technical risk that could affect a deadline, raise it early. Don't wait for someone to ask. Don't hide behind "well, the PM should have checked with us." Own the communication. Write a brief Slack message or a short document explaining the risk, the impact, and your recommended approach. Product managers and project managers will love you for this because most developers don't do it.
+
+This step is about demonstrating that you can operate at a level above individual contribution. You're thinking about the business. You're thinking about cross-team dependencies. You're thinking about timelines and risks. These are tech lead responsibilities, and by doing them before you have the title, you're making the case for the promotion irresistible.
+
+**Phase 5: Make it official (Months 9-18).** By this point, you should be functioning as a de facto tech lead already. The team comes to you for technical decisions. You're running design reviews. You're mentoring developers. You're communicating with stakeholders. The title is just a formality.
+
+But formalities matter, especially for compensation. Schedule a one-on-one with your manager and make the case explicitly. Don't say "I'd like to be a tech lead someday." Say "I've been functioning as the tech lead for the past six months. Here's what I've done." Then list the specific examples: the design reviews you led, the architectural decisions you drove, the developers you mentored, the cross-functional communication you handled.
+
+If your manager agrees but says the company doesn't have a formal tech lead role, that's fine. Ask for the title and the compensation adjustment regardless. Titles matter because they affect your next job search, your negotiating position, and how people perceive your authority in cross-team discussions. The title "Senior Developer" and "Tech Lead" signal very different things to recruiters and hiring managers.
+
+If your current company won't give you the title despite you doing the work, consider moving. This is exactly what Sonmez recommends. Sometimes the fastest way to get promoted is to go somewhere that will recognize the level you're already operating at. You've built the skills. You have the experience. Another company will see that immediately.
+
+## 5. The Biggest Mistakes New Tech Leads Make
+
+I've watched a lot of developers become tech leads. Some thrive. Some crash. The ones who crash almost always make one of these mistakes.
+
+**Trying to write all the critical code yourself.** This is the most common failure mode. You were the best coder on the team. Now you're the tech lead. And you keep taking on the most complex, most critical coding tasks because you trust yourself to get them right. The result? You become a bottleneck. The team waits for you to finish before they can move forward. You're buried in code and can't attend the meetings you need to attend. You fall behind on reviews. Architecture discussions get postponed. The team's velocity actually drops because you're hoarding the challenging work.
+
+The fix is painful but necessary. Delegate the hard stuff. Not all of it. But enough that you have bandwidth for the leadership work. Will the code be as good as what you would have written? Maybe not at first. But the developer who writes it will learn from the experience, get better, and eventually produce work that's just as good or better. That's investment, not loss.
+
+**Being a "technical gatekeeper" instead of a technical enabler.** Some new tech leads interpret the role as "quality police." Every pull request must meet their personal standards. Every architectural choice must go through them. Every technology decision requires their approval. This kills team morale and creates a single point of failure. If you get hit by a bus (or more realistically, take a vacation), the team grinds to a halt because they've been trained to wait for your blessing on everything.
+
+The alternative is to set clear standards and then trust the team to meet them. Write down your engineering principles. Document the architectural patterns you expect. Create templates for design documents. Then let people work within those guardrails without your constant oversight. You should still review the most critical decisions and the most impactful pull requests. But if you're reviewing every single PR personally, you're not leading. You're gatekeeping.
+
+**Ignoring the people side.** "I became a tech lead so I wouldn't have to deal with people stuff." I've heard this from actual human beings. It never works out. Even though you're not a manager, you're working with people all day. Developers who are frustrated. Product managers with unrealistic expectations. Stakeholders who don't understand technical constraints. Junior developers who need guidance. Senior developers who disagree with your technical direction.
+
+You don't need to become a therapist. But you need basic emotional intelligence. Can you sense when a team member is struggling before they tell you? Can you give critical feedback on a pull request without making someone feel attacked? Can you navigate a disagreement with a strong-willed senior developer without it becoming a power struggle? These aren't "nice to have" skills. They're the difference between a tech lead whose team loves working with them and a tech lead whose team actively resists their direction.
+
+The path to tech lead isn't just better code. It's becoming the developer everyone looks to.
+
+Apply Now## 6. How to Handle the Code vs. Leadership Time Split
+
+This is the question every tech lead wrestles with. How much time should I spend coding vs. leading? There's no universal answer, but there are useful frameworks.
+
+At most companies, tech leads spend between 30% and 60% of their time writing code. The rest goes to reviews, design discussions, mentoring, meetings, documentation, and communication. The exact split depends on team size, company stage, and how much organizational work exists.
+
+On a team of three to four developers at a startup, you might be coding 60% of the time because there aren't many meetings or cross-team coordination needs. On a team of eight to ten developers at a mid-size company, you might be coding only 30% of the time because the coordination overhead is much higher. On a team of twelve or more, you might barely be coding at all, at which point you should ask whether you're actually a tech lead or an engineering manager without the title.
+
+Patrick Kua suggests a useful mental model: think of your coding time as "teaching time" rather than "shipping time." As a tech lead, the most valuable code you write isn't the code that ships the most features. It's the code that demonstrates patterns for the rest of the team. The reference implementation. The first test in a new testing framework. The example service that shows how to structure a new microservice. You're coding to set standards, not to maximize personal output.
+
+One practical technique that works well: block your calendar into "maker time" and "manager time." Paul Graham wrote the canonical essay on this (it's called "Maker's Schedule, Manager's Schedule" and it's from 2009 but still completely relevant). Set aside two or three blocks of uninterrupted coding time per week, ideally in the morning when your brain is sharpest. Group your meetings, reviews, and one-on-ones into the remaining blocks. Don't let meetings scatter randomly across your day or you'll never get into a coding flow state.
+
+Some tech leads fight the time split instead of accepting it. They try to do everything: maintain full coding output while also handling all the leadership responsibilities. This path leads to burnout. You'll work 60-hour weeks, do a mediocre job at both coding and leading, and eventually either quit or get pulled off one of the two roles. Accept the trade. Your individual code output will drop. Your team's total output should increase. That's the whole point.
+
+## 7. Technical Skills You Should Double Down On
+
+While the transition to tech lead is primarily about developing non-technical skills, there are specific technical areas where you should go deeper. These are the domains that have the most impact on team-level technical decisions.
+
+**System design and architecture.** You need to be able to look at a feature request and sketch out how it will work across multiple services, databases, and APIs. Not in theory. In practice, with real constraints around latency, cost, maintainability, and your team's actual skill set. Learn distributed systems concepts if you haven't already. Understand the tradeoffs between consistency and availability. Know when to use a message queue vs. a direct API call. Understand caching strategies and their failure modes.
+
+The best resource for this is studying real systems. Read the architecture blogs from Uber, Netflix, Stripe, and Shopify. They publish detailed breakdowns of how their systems work, what went wrong, and what they'd do differently. The "Architecture Notes" newsletter by Mahdi Yusuf is also excellent. These aren't theoretical. They're battle-tested insights from engineers building systems at massive scale.
+
+**Observability and debugging at scale.** When production breaks at 3 AM, the tech lead is usually the first person called. You need to be able to trace a request through a distributed system, identify the failing component, and coordinate the response. This means being comfortable with logging frameworks, distributed tracing (OpenTelemetry, Jaeger, Datadog), metrics dashboards (Grafana, Prometheus), and error tracking tools (Sentry, Bugsnag). More importantly, you need the mental model to know where to look first. Is this a database issue? A downstream service timeout? A memory leak? A deployment that went bad? Experience helps here, but so does deliberately studying incident reports and post-mortems.
+
+**Security fundamentals.** You don't need to be a security engineer. But you need to know enough to catch common vulnerabilities during code reviews and to make informed decisions about authentication, authorization, data encryption, and API security. OWASP's Top 10 is the minimum. Understanding how SQL injection, XSS, CSRF, and broken access control work should be table stakes. When a security-sensitive feature comes up (payment processing, user data handling, authentication flows), the tech lead needs to know enough to flag risks even if a dedicated security team handles the implementation.
+
+**Infrastructure and deployment.** You don't need to be a DevOps expert. But you should understand how your code gets from a pull request to production. What does the CI/CD pipeline do? How do deployments roll out? What does the rollback process look like? What are the infrastructure costs and how do architectural decisions affect them? Tech leads who understand the deployment pipeline make better architectural decisions because they can factor in operational complexity, not just code elegance.
+
+## 8. Books and Resources That Actually Help
+
+There are thousands of "leadership" books. Most of them are useless for tech leads because they're written for generic managers in generic industries. Here are the ones that are actually worth your time.
+
+**"Talking with Tech Leads" by Pat Kua** is the closest thing to a tech lead manual that exists. Kua interviewed dozens of tech leads across different companies and distilled their experiences into practical patterns. It's short, focused, and directly relevant. If you read one book from this list, make it this one.
+
+**"The Manager's Path" by Camille Fournier** covers the entire engineering leadership ladder from tech lead through CTO. The tech lead chapter alone is worth the price of the book. Fournier is a former CTO of Rent the Runway and she writes with the specificity of someone who's lived every level of the ladder. She's honest about the ugly parts too, like the political dynamics and the emotional labor that nobody warns you about.
+
+**"Staff Engineer" by Will Larson** is technically about the Staff Engineer role, which is one level above tech lead on the IC track at most companies. But the skills overlap significantly. Larson's descriptions of "glue work," technical vision documents, and navigating organizational complexity are directly applicable to tech leads. His section on writing "engineering strategy" documents is particularly practical.
+
+**"An Elegant Puzzle" by Will Larson** covers systems of engineering management. Even though you're not a manager, understanding how engineering organizations work will make you a more effective tech lead. You'll understand why certain decisions get made, how resource allocation works, and how to navigate the organizational dynamics that affect your team.
+
+**"The Complete Software Developer's Career Guide" by John Sonmez** has a chapter on "Being in a Leadership Position" that nails the fundamentals. Sonmez's point about leadership being something you do, not a title you're given, is the single most important insight for aspiring tech leads. He also covers the career path chapter which lays out the different directions you can take from the tech lead position: deeper into staff/principal engineering, into engineering management, or into entrepreneurship.
+
+## 9. What Comes After Tech Lead
+
+The tech lead role is powerful, but it's not a terminal destination for most people. It's a branching point. Understanding where the role leads helps you decide whether it's the right next step for your specific career goals.
+
+**Staff Engineer or Principal Engineer.** This is the natural progression on the individual contributor track. Staff engineers have broader technical influence than tech leads, often spanning multiple teams or an entire organization. They set technical direction at a higher level, drive long-term architectural initiatives, and operate as technical advisors to senior leadership. If you love the technical side of the tech lead role but want to shed the team-management-adjacent responsibilities, this is your path.
+
+The jump from tech lead to Staff Engineer typically requires demonstrating impact beyond a single team. You need to show that your technical decisions improved outcomes across multiple teams or across a significant portion of the codebase. Writing technical strategy documents, leading cross-team initiatives, and building shared infrastructure are common paths to Staff.
+
+**Engineering Manager.** Some tech leads discover they enjoy the people side more than the technical side. Helping developers grow, building high-performing teams, and navigating organizational dynamics. If that's you, engineering management is the natural next step. The transition isn't as big as going from individual contributor to manager because you've already been doing some management-adjacent work as a tech lead. You have context on team dynamics, stakeholder communication, and making decisions under uncertainty.
+
+The biggest adjustment is letting go of technical authority. As an engineering manager, your tech leads make the technical decisions. Your job is to hire the right people, create the conditions for good work, and remove obstacles. If you can't let go of being the person who makes the architectural calls, management will be frustrating for you and for your tech leads.
+
+**CTO or VP of Engineering.** At startups, the tech lead role can be a direct path to CTO. Many startup CTOs were the first tech lead on a three-person engineering team and grew into the role as the company scaled. This path requires developing a much broader skill set: hiring strategy, budget management, vendor evaluation, board communication, and technology strategy at the company level. It's exciting and lucrative, but it's also the path that takes you furthest from code.
+
+**Entrepreneurship.** The tech lead skill set is remarkably well-suited to founding a technical startup. You can build the product yourself (or at least build the first version). You understand system design well enough to make good early architectural decisions. You know how to communicate with non-technical stakeholders. And you've developed the decision-making-under-uncertainty muscle that every founder needs. Sonmez himself followed this path, going from developer to tech leader to building Simple Programmer into a business that generates revenue through courses, books, and coaching.
+
+## 10. The Real Talk: Is Tech Lead Right for You?
+
+Not every developer should become a tech lead. That's not a motivational cop-out. It's reality. The role requires a specific set of preferences and personality traits that not everyone has, and that's completely fine.
+
+You should pursue the tech lead role if you genuinely enjoy helping other developers succeed. Not in a "I tolerate mentoring" way. In a "I get real satisfaction when someone on my team ships something they couldn't have shipped three months ago" way. If watching other people grow doesn't excite you, the role will feel like a burden.
+
+You should pursue it if you're comfortable with ambiguity. Tech lead decisions rarely have clear right answers. You'll spend your days weighing tradeoffs, making judgment calls, and living with the uncertainty of not knowing whether you chose correctly. If you need the certainty of "this code compiles and passes all tests," the ambiguity of leadership decisions will stress you out.
+
+You should pursue it if you're willing to reduce your personal coding output. Not eliminate it. Reduce it. If your identity is wrapped up in being "the best coder on the team" and the idea of writing less code feels like a demotion, the tech lead role will feel like losing something precious. It is a trade. You give up some coding time and gain influence over the team's entire technical output. For the right person, that's a trade worth making a hundred times over.
+
+You should NOT pursue it just for the money or the title. Those things are nice. But if the day-to-day work doesn't appeal to you, the money won't compensate for the frustration. A senior developer who loves coding and hates meetings will be miserable as a tech lead, regardless of the salary bump. Stay on the IC track and optimize for Staff or Principal Engineer instead. The money at those levels is comparable, and the work is much closer to what you already enjoy.
+
+The tech lead role is one of the most rewarding positions in software engineering when it fits. You're close enough to the code to stay sharp technically. You're far enough from the code to see the bigger picture. You're helping people grow. You're shaping the technical direction of real products used by real people. And you're building skills that translate to almost every senior technical role that comes after.
+
+But it starts with doing the work before you have the title. Nobody is going to tap you on the shoulder and say, "You're ready, here's your tech lead badge." You have to earn it by leading when no one asked you to. By making decisions that help the team. By communicating when it would be easier to stay quiet. By mentoring when it would be faster to just write the code yourself.
+
+That's the path. It's not complicated. But it requires you to do things that feel uncomfortable for someone who got into this career because they loved writing code in a quiet room. The developers who make the transition successfully are the ones who realize that growing as a leader doesn't mean abandoning what made them a good developer. It means adding new dimensions to it.
+
+Start this week. Pick the subsystem. Write the ADR nobody asked for. Give a code review that actually teaches something. Walk the path first, and the team will follow.

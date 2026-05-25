@@ -1,0 +1,160 @@
+---
+title: "GitHub - tylerwillingham/resume: Resume of Tyler Willingham"
+topic: "github-portfolio"
+career_level:
+  - mid
+source_url: "https://github.com/tylerwillingham/resume"
+source_domain: "github.com"
+word_count: 1123
+text_to_link_ratio: 1.0
+signal_score: 0.8945
+is_curated: false
+tags:
+  - Ruby on Rails
+  - GraphQL
+  - technical leadership
+  - serverless
+  - Shopify
+  - engineering mentorship
+ingested_at: "2026-05-25"
+doc_type: "reference"
+core_question: "What technical achievements and leadership skills demonstrate expertise at scale?"
+tldr: "Technical leader with experience at Shopify building Rails monoliths, GraphQL APIs, serverless architecture, and mentoring engineers across multiple products."
+---
+
+# GitHub - tylerwillingham/resume: Resume of Tyler Willingham
+
+I'm a pragmatic, technical leader with a passion for building products that delight users. My career has been a mix of time spent at start-ups helping iterate quickly, but sustainably in order to regularly ship features to users, test them and continue iterating. I have also learned to tune my craft at scale, constantly thinking about instrumentation, performance, and shipping iterations with zero downtime.
+
+- Pragmatism
+- Product-oriented mindset
+- Leading technical teams through challenging projects
+- Technical design and documentation
+- Testing (TDD proponent)
+
+Review my specific technical skills
+
+**Technologies:**
+
+Ruby, Rails, React, TypeScript, REST, GraphQL Sidekiq, AWS, Datadog, Buildkite
+
+*April 2024 - Present*
+
+- Participate in high-level convention-setting conversations with other senior engineering leaders
+- Regularly review, provide feedback, and author technical designs
+- Contributed to broad-scale technical discovery and planning related to rethinking core data models
+- Championed full-stack effort to bring standards and conventions to our internal HTTP API
+- Introduced GraphQL + authorization best practices from ground zero
+- Built a highly observable foundation to keep performance concerns at bay
+- Introduced and educated engineers on the dataloader pattern
+
+- Led effort to migrate and consolidate session-monitoring tooling from Glassbox to Datadog
+- Contributed to application logging refinement and standardization
+- Transitioned from Lograge ➡️ SemanticLogger
+
+*May 2023 - April 2024*
+
+- Identified gaps in existing observability process, advocated for and led migration of APM tooling to Datadog from New Relic
+- Routinely identified opportunities for simplifying our Rails monolith by religiously advocating for Rails conventions
+- Refined existing modularity approach with team + stakeholders to increase developer experience + productivity working in large Rails monolith (Packwerk)
+- Contributed to broad-scale rearchitecting of core catalog interfaces and implementing a declarative API with less burdon from the underlying, complex, data model
+
+**Technologies:**
+
+Ruby, Rails, React, TypeScript, GraphQL, Sidekiq, Kafka, DataDog, BuildKite, AWS
+
+*January 2023 - May 2023*
+
+As a technical leader for the Claims team I worked with engineers to design and implement maintainable and iterative improvements to the existing serverless Claims service after a period significant period without ownership. In a few short months we:
+
+- Refactored legacy, highly procedural business logic into smaller, single-responsibility classes with more thorough test coverage
+- Refined instrumentation to provide key product health insight for technical and non-technical stakeholders
+- Shipped incremental improvements to our core Claims data model, including zero-downtime strangler-fig migration of data
+- Took over maintenance and development of distributed API client
+- Improved performance to the most business critical endpoints by > 5x
+- Required introducing new AWS infrastructure
+
+- Iteratively migrated from deprecated ORM to modern alternative
+- Identified and implemented database-level performance improvements
+- Leveraged new instrumentation to target long-running queries deserving of new indexes
+- Targeted index additions to suppor data-integrity concerns
+- Removed foreign key constraints to support online schema migration tooling
+
+- Began work to enable self-serve Claims for additional merchants
+
+In addition to these domain-specific wins I also contributed to more broad impact initiatives such as:
+
+- Prototyped high-throughput Kafka-based eventing system leveraging Shopify's production-grade Kafka clusters
+- GraphQL API
+
+- Contributed to an organization-wide effort to test and replace a deprecated NodeJS ORM with a modern alternative
+- Spiked on two frameworks (Prisma, TypeORM)
+- Presented to technical leadership committee
+- Developed key tooling and playbook for other teams to follow for seamless transitions
+
+- Led initiative to replace default serverless build tooling with alternative
+- Reduced deploy sizes by ~6x
+- Reduced time-to-deploy by ~50%
+- Reduced lambda cold-boot by ~60%
+
+- Collaborated with product engineering to assist with organization-wide efforts to define repeatable, blue-green database migration process for reducing downtime caused by database schema changes
+
+Unfortunately my time with Shopify and Shopify Logistics was cut short due to broad, performance-agnostic cuts.
+
+*March 2022 - January 2023*
+
+Full-stack technical leader within Shopify Logistics. Worked in both the Onboarding and Pricing/Billing/Claims spheres. In the former, contributing to a Rails monolith at-scale and in the latter, highly distributed Node/TypeScript microservices on serverless architectures.
+
+**Technologies:**
+
+Ruby, Rails, React, ElasticSearch, PostgreSQL, Sidekiq, Aptible, New Relic, Travis CI, Git
+
+*February 2021 - March 2022*
+
+As a senior staff engineer and tech lead for the Healthify product at WellSky it is my responsibility to look after the technical direction of the user-facing application across the full-stack but primarily the Ruby and Rails ecosystem and the React front-end while also helping to mentor and grow engineers on the team through providing new opportunities and as a consultant on difficult ones.
+
+Additionally, as en engineering manager over a small number of individual contributors, I work to develop individually-catered monthly, quarterly goals for reports. I conduct weekly 1-on-1 check-ins, help align and organize the time around strategic goals while also providing autonomy and space for team members to drive product changes.
+
+*October 2017 - February 2021*
+
+Collaboratively design and implement time-sensitive (but scalable), mission-driven solutions to aid in addressing individuals' social determinants of health with the ultimate goal of building a world where no one's health is hindered by their need.
+
+Contributes as a full-stack engineer in a Rails monolith with a hybrid front-end composed of legacy Rails-rendered pages while migrating towards a modern, interactive, React-powered front-end.
+
+**Technologies:**
+
+Ruby, Rails, Node.js, React, PostgreSQL, Sidekiq, Heroku, Skylight, Gemnasium, New Relic, CircleCI, RayGun, Rubocop, Git
+
+*July 2016 - October 2017*
+
+Support and lead agile engineering team. Implement and maintain features in a Rails application with over half of a million users. Introduced tooling to improve application performance and security. Assisted in the implementation and revision of agile processes to improve team efficiency. Mentored growing engineers on the importance of writing clean, maintainable code. Oversaw integration of React for more maintainable interactive components. Lead effort for major Rails version upgrade.
+
+Company Website | Main product website
+
+**Technologies:**
+
+Ruby, Rails, Node.js, React, PostgreSQL, Sidekiq, Elasticsearch, AWS, New Relic, CodeClimate, CircleCI, Memcached, Rubocop, Git
+
+*April 2015 - July 2016*
+
+Maintain and improve cloud-based management suite for self-storage companies in an agile environment with a focus on code quality and maintainability.
+
+**Technologies:**
+
+Linux, Nginx, Apache, MySQL, PostgreSQL, PHP, Symfony 2, Yii, ExpressionEngine, Craft CMS, Ruby, Ruby on Rails, HTML5, CSS3, Javascript, RequireJS, Grunt, Gulp, Vagrant, Puppet, Chef, Git, Subversion
+
+*June 2012 - April 2015*
+
+Estimate, architect, lead, and engineer websites and web applications across a diverse spread of markets while utilizing agile practices to respect project objectives, budgets and deadlines.
+
+**Technologies:**
+
+Linux, Nginx, Apache, MySQL, PHP, ExpressionEngine, Wordpress HTML, CSS, Javascript, Git
+
+*March 2011 - June 2012*
+
+Developed and maintained websites for both internal and external use as well as a service-oriented work for third-parties.
+
+**Graduating Year:** 2010
+
+Received my high school diploma in the Spring of 2010. Elective courses consisted of Programming, Web Design, and Photography.

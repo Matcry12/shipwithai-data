@@ -1,0 +1,111 @@
+---
+source_url: "https://www.themuse.com/advice/career-break-resume-samples"
+source_domain: "themuse.com"
+topic: "career-gap"
+extractor: "trafilatura-2.0"
+fetched_at: "2026-05-25T06:46:55.315882+00:00"
+word_count: 1717
+stage: "raw-extracted"
+---
+
+I’ve coached hundreds of job seekers over the past six years, but *never* have I seen more of them returning to work after months- or years-long career breaks than I have recently. For example, I work with moms whose career plans got dashed by the pandemic and with immigrants who need a minute to settle their families into a new country.
+
+Although they’re in good company, clients are anxious about these gaps—even the planned and intentional career breaks—worrying they’ll be perceived as less attractive than other candidates. After all, professionals with resume gaps *have* historically faced biases that affected their employment odds. In the past, I’ve seen some clients with clear gaps on their resumes have trouble landing interviews, and others try to find creative or even questionable ways to hide career breaks.
+
+But nowadays, I reassure my clients that there’s no need for Simone Biles–level resume gymnastics. They’re re-entering the workforce at a time when career breaks aren’t as taboo as they once were. I even encourage them to address those gaps head-on in their resumes—because, when done strategically, it can actually help you.
+
+## Why career breaks have become so common—to take and talk about
+
+We can’t all work nonstop from the moment we toss that graduation cap in the air until the day we retire. People have long taken deliberate career breaks for all kinds of reasons, such as leaving a disappointing or toxic workplace; focusing on family commitments; relocating for a partner; traveling; doing some reflection and strategic career planning; pursuing education or training; volunteering; focusing on a passion; resting and recovering from overwork; or exploring a new career path.
+
+But the pandemic and the realizations it spurred about work and life led many *more* workers to take breaks, whether by necessity or very much by choice. Professionals exited the workforce in droves, with women leaving at higher rates than men, according to International Labour Organization (ILO) data. But people’s career breaks eventually came to an end, and in 2022, employment surpassed pre-pandemic levels.
+
+While the outpouring of talent from the workforce was initially because of layoffs and personal obligations like caretaking, it continued for other reasons. More people than ever before found themselves without a commute and working remotely. With more time to think about what they wanted and growing clarity on what they were and weren’t willing to put up with, people quit their jobs at record rates during the Great Resignation. Not everyone had another job lined up.
+
+In early 2022, LinkedIn polled close to 23,000 workers and more than 7,000 hiring managers about career breaks. They discovered that a whopping 62% of employees had taken career breaks in the past, and 35% (mostly women) expressed an interest in taking a career break in the future.
+
+LinkedIn even rolled out a new feature in March 2022, allowing members to spotlight career breaks in the “Experience” section of their profiles. Users can indicate they took a career break and select a reason from a dropdown menu, including relocation, retirement, travel, volunteer work, bereavement, career transition, caregiving, full-time parenting, gap year, layoff/position eliminated, and professional development. Users can also add details such as responsibilities, achievements, and skills developed, much like they would provide for any other work experience.
+
+With so many people taking, planning, and even highlighting career breaks on their professional profiles, I reassure my clients with career gaps that it’s OK—and can even be beneficial—to include them on their resumes.
+
+## Why you might want to include a career break on your resume
+
+Putting a career break proudly on your resume gives you the opportunity to take control of the narrative. You can frame a career break as a positive, explain whether it was intentional, and in any case show how you made the most of the time and what you gained from it. Highlighting a break with those kinds of details could tell an employer more about your character, values, and skill set—i.e., everything they’re trying to find out in the interview process.
+
+Some recruiters and employers specifically target professionals returning after career breaks and even offer re-entry programs (*Harvard Business Review* estimates that nearly 40% of Fortune 50 companies have one of these programs in-house). When people cut or try to camouflage a career break from their resumes, screening programs and recruiters may not recognize they qualify, and both sides miss out.
+
+## When to include a career break on your resume
+
+When I discover a client has an unexplained resume gap, I gather information about the break and first decide if we need to add it to their resume. Ask yourself:
+
+**When was the career break?**If my client’s break took place more than 10 to 15 years ago, we don’t include it because we don’t include any content that far back.**How long was the career break?**If it’s more recent, the deciding factor is the length of the break—I recommend adding it if it lasted more than a month. If there’s more than a one-month gap on your resume, then an employer will assume you weren’t working. For example, if one job on your resume ended in May 2022, they’d expect another employer to be listed starting in May 2022 or June 2022. If the starting date for a new employer is July 2022 or later, you should add a career break to your resume with an explanation.
+
+## How to add a career break to your resume experience section
+
+The best spot for a career break on your resume is in your experience section. To add one, follow these simple steps:
+
+- Come up with a name for the “position,” such as “Family Sabbatical,” “Professional Development,” or “Volunteer.”
+- Where the name of a company is typically listed, add “Career Break,”
+
+“Planned Career Break,” or other similar language. Alternatively, if you volunteered during your career break, you can list the name of the sponsoring company. - Write the time frame for the career break just as you would for a job.
+- List a handful of notable activities and accomplishments.
+
+### Examples of career breaks on a resume experience section
+
+Here’s how I listed my own career break on my resume:
+
+**Self-Employed Part-Time**, January 2022 – June 2022**Planned Career Break **
+
+*Took an intentional pause to focus on caregiving for my infant.**Recruited notable guests and recorded episodes for my*Express to Impress Podcast*.*
+
+As you can see, you might take one career break for multiple reasons, and your resume should reflect that.
+
+Here are several additional examples of what a career break could look like in the experience section of your resume (some of these are real examples!):
+
+**Education and Family Sabbatical, **Mar. 2021 – Present
+
+*Relocated to Tokyo to join my husband and carry out family caretaking responsibilities.**Completed Accreditat Certificate in English Language Teaching and International House Teaching Certificate.*
+
+**Education and Wellness Sabbatical,** Feb 2019 – Jan 2020**Career Break**Took voluntary career hiatus for a wellness sabbatical to get credentialed as a coach, travel, explore programs and build capabilities in well-being, and mindfulness to enrich my leadership and professional development skills to help organizations build workplaces and cultures where people can thrive and perform better. I built the following skills: blogging, relationship building, people development, and leadership development.
+
+**Career Break** | **April 2019**** – ****March 2021**Relocation
+
+*Intentionally relocated my family from India to the U.S., purchasing and settling into our home, taking maternity leave, and enrolling the children in school.**Earned AWS Certified Cloud Practitioner qualification.*
+
+**Skipper, April 2017–April 2018****Career Break**Achieved dream to complete a long-distance sail with family from Seattle to the Galapagos Islands with many stops along the way. Survived a broken mast, steering loss, a fire, many leaks, and toddler tantrums.
+
+**Professionally Active Career Break****June 2020–December 2020**
+
+*Member of a 50-person division laid off during the COVID-19 global pandemic.**Stayed professionally active by attending weekly webinars and training to gain new skills.**Joined Toastmasters (in a remote format) and improved professional speaking skills.**Earned PMP certification.*
+
+**Professional Development | December 2021–April 2022****Career Break**
+
+*Took an intentional pause from a 15-year fulfilling career to take a self-designed sabbatical to rejuvenate myself and discover opportunities to use my skill set in new ways.**Shadowed 3 professionals to gain a deeper understanding of their day-to-day responsibilities**Conducted 20+ informational interviews to understand new industries and my career options.**Successfully completed Flatiron School’s cybersecurity bootcamp.*
+
+**Dad**
+
+Intentional Career Break, Jan 2019 – Dec 2020
+
+*Resigned from fulfilling role to spend quality time with my family as a stay-at-home dad, allowing my wife to pursue her career goals.**Grew my planning, management, multi-tasking and troubleshooting skills and developed patience and gratitude.*
+
+*Volunteer Nurse, ***IVHQ | ****Buenos Aires, Argentina***December 2021–February 2022*
+
+*Treated patients under supervision, performing check-ups, providing basic medical care, and taking patient notes.**Gained insight into the Argentinian healthcare system.**Improved Spanish language skills.*
+
+## How (and if) to mention a career break in your resume summary
+
+I typically don’t recommend mentioning a career break in your resume summary because there’s already precious little space there, and you can—and *should*—address it in a positive way in a cover letter instead. But suppose an employer doesn’t allow candidates to send a cover letter. In that case, I’d suggest adding a sentence to the end of the summary section acknowledging you took time off, sharing the reason briefly, and expressing your eagerness to return to work.
+
+### Examples of career break mentions in a resume summary
+
+Let’s take a quick look at a few examples of what that line at the end of your resume summary could look like.
+
+*Highly motivated to rejoin the workforce in a role that leverages my organizational skills after taking a career break for caretaking.*
+
+*More inspired than ever to engage in meaningful work after a refreshing intentional two-month career break for travel.*
+
+*Invested in my education after a COVID-19 layoff, and eager to bring new knowledge to a growing company.*
+
+What I love about all of these examples is that these professionals are proud of their career breaks. And by focusing on what they gained during a break from traditional employment, they set the tone and shape how others perceive these gaps.
+
+Whether intentional or unplanned, a career break provides rich growth opportunities and can be one of the *most* interesting parts in your career journey. So go ahead and display yours proudly and prominently.

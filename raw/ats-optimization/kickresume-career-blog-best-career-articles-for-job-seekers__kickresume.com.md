@@ -1,0 +1,50 @@
+---
+source_url: "https://www.kickresume.com/en/blog/"
+source_domain: "kickresume.com"
+topic: "ats-optimization"
+extractor: "trafilatura-2.0"
+fetched_at: "2026-05-25T06:45:49.175590+00:00"
+word_count: 405
+stage: "raw-extracted"
+---
+
+Kickresume Career Blog
+Discover the best job search hacks we’ve learned in our 10 years in recruiting. No AI bullshit—just great advice from our experts. This is where you go if you want to land your next job faster and more easily.
+Help Center
+Kickresume Blog
+Search
+Latest articles
+Blog
+Work in 2025: 11 Kickresume Surveys, Too Many Truths to Handle
+Kickresume surveyed 16,119 people worldwide to uncover what work in 2025 truly looks like—burnout, AI, salaries, mental health, and more.
+Blog
+Top 10 AI Design Tools to Boost Your Graphic Design Career
+Worried about AI's impact on your job? This guide to the top 10 AI design tools will show you how to leverage technology to enhance your skills and build a standout graphic design resume. Learn how to make your graphic designer resume shine in the age of AI.
+Blog
+How to Find a Job in New York City? Here’s a Quick Guide
+How to get a job in New York City? It can be a difficult task. In this quick guide we show you the best ways to get a New York City job.
+Blog
+How To Write a Resume For Working Abroad
+Do you want to work abroad? Here's some practical stuff to know before you apply for an international job.
+Blog
+How to Become a Judge: Degrees, Exams & More
+What does a judge do? How can you become one? What skills do you need? These are the basic steps you can take to become a judge in the US.
+Blog
+20 Best Internship Websites & Easiest Internships to Get
+Not sure how to get an internship during college? This is where you'll find all useful hacks, tips and tricks to get it fast.
+Blog
+How to Become an Architect: Degrees, Exams & More
+Wondering how to become an architect? We'll guide you through the requirements, and qualifications you need to become a licensed architect.
+Blog
+How to Get a Job at Tesla: Job Application, Interview & More
+Former employees share the secret of how to get a job at Tesla. Who knows, after reading this guide you might have a chance too. Good luck!
+Blog
+Pros and Cons of Being a Digital Nomad and How to Become One
+Wouldn't it be awesome to travel around the world and earn money? You can become a digital nomad make the world your office.
+Previous
+1
+2
+3
+…
+25
+Next >
