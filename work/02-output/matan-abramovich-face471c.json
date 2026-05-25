@@ -1,0 +1,61 @@
+{
+  "markdown": "# Matan Abramovich\n\nData nerd who wants to make AI approachable and simple to understand 🤓\n\n## Want to connect with Matan Abramovich?\n\nCreate an account to connect with Matan Abramovich. You can also sign in below to proceed if you already have an account.\n\nAlready have an account?\nSign in\n\nloading...\n",
+  "metadata": {
+    "source_url": "https://dev.to/matan_abramovich",
+    "source_domain": "dev.to",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:38:04.497796+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Matan Abramovich",
+    "description": "Data nerd who wants to make AI approachable and simple to understand 🤓",
+    "language": "en",
+    "word_count": 52,
+    "content_hash": "sha256:db1c0aba7253733ff9461be257c6c5e0248970acd645ecdf112919cb81472224",
+    "reading_time": 1,
+    "author": "Matan Abramovich",
+    "published_date": "2023-10-10",
+    "og_title": null,
+    "signal_score": 0.5433,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Matan Abramovich",
+        "section_type": "title",
+        "header_path": [
+          "Matan Abramovich"
+        ],
+        "char_start": 0,
+        "char_end": 303
+      },
+      {
+        "level": 2,
+        "title": "Want to connect with Matan Abramovich?",
+        "section_type": "content",
+        "header_path": [
+          "Matan Abramovich",
+          "Want to connect with Matan Abramovich?"
+        ],
+        "char_start": 92,
+        "char_end": 303
+      }
+    ]
+  },
+  "links": [
+    "https://dev.to/enter"
+  ],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

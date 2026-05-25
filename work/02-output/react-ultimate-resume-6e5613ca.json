@@ -1,0 +1,79 @@
+{
+  "markdown": "# GitHub - welovedevs/react-ultimate-resume: 💼 🎨 A modern software developer resume built with React and JSONResume\n\n**react-ultimate-resume** is an open-source customizable software developer resume to highlight your skills and experiences.\n\nDiscover a modern approach of the traditional CV that includes animations and latest front-end technologies. Impress recruiters or customers with your projects, hobbies and experiences as never before.\n\nWe used JSON Resume, a community driven open source initiative to create a JSON based standard for resumes. Discover the official schema here. We added a few extra-fields to JSON Resume standard to fit developers needs. Learn more about them here.\n\nThis app is built using the popular create-react-app. You will find a lot of resources to understand how to edit and publish your resume directly on https://create-react-app.dev/\n\nDocs can be found Here.\n\nFeel free to improve it with a PR\n\nThe resume is designed with 10 Cards (we plan to add more !)\n\n- 🙂 Basics: Your basics : Where are you ? When did you start coding ...\n- 📊 Skills: Beautiful Graphs to show your skills\n- 💼 Dream job: Explain easily to recruiters what is your dream job\n- 💾 Experiences: Describe your professional experiences\n- 🎓 Studies: How did you learn to code ?\n- ✨ Projects: Highlight your best projects\n- 📺 Hobbies: Show your hobbies with GIF !\n- 🎶 Music: Add your favorite Spotify Playlist\n- 🔭 Interested by: Tell more about technologies you would love to learn\n- 🌎 Languages: What language do you master?\n\nEach cards comes with an edit dialog to edit your JSON Resume directly inside the app\n\n🎨 This resume is fully customizable with an included set of nice color palettes :\n\nFork this repository. `git clone`\n\nyour fork 💪\n\nInstall\n\n```\nyarn install\n```\n\nRun\n\n```\nyarn start\n```\n\nSee the website on localhost with the following url:\n\n```\nlocalhost:3000\n```\n\nReplace the default JSON Resume with yours\n\n```\n/src/data/json_stub.json\n```\n\nYou can deploy your resume on your own server in few minutes. Follow our HOW TO documentation.\n\nYou can install the resume directly inside your project.\n\n```\nnpm i @welovedevs/react-ultimate-resume\n```\n\nThen\n\n```\nimport DeveloperProfile from '@welovedevs/react-ultimate-resume';\n```\n\nParameter |\nType |\nDescription |\n|---|---|---|\n| mode | \"edit\" | \"readOnly\" | Use this to activate or disable the Edit mode. In \"edit\" mode you will be able to update and customize your resume. Use \"readOnly\" in production. |\n| data | JSONResume | This is your stringified JSONResume |\n| options | Object | See options for more informations here |\n| onCustomizationChanged | Callback | Get the current customization if the customization is updated. |\n| additionalNodes | Object | Additional nodes is used to add react components directly inside the resume. This is an advanced feature that will be documented later. |\n\nParameter |\nType |\nDescription |\n|---|---|---|\n| locale | \"fr\" | \"en\" | Resume locale (Default to \"en\") |\n| side | \"front\" | \"back\" | Cards default side (Default to \"front\") |\n| apiKeys | { giphy : string } | Api keys for 3thd party librairies. For instance Giphy in edit mode. |\n| endpoint | { devicons : string, unsplashProxy: string } | Endpoints for 3thd party services. Used to get the technology list and use unsplash. |\n| customization | Object | Current resume customization. |\n\nCategory |\nField name |\nType |\nDescription |\n|---|---|---|---|\n| basics | visaSponsorship | Boolean | True if you need a visa sponsorship to work in your dream country. |\n| basics | personalDescription | String | A short description that will be displayed below your name in the resume header. Example: \"Passionate React Developer\". |\n| dreamJob | locations | Array<{ name : string, title: string }> | Your dream job cities. Example: \"San Francisco, US\". |\n| work | remote | String | Give here more information about the frequency if your dream job is a remote job. Example: \"regularly\" |\n| education | studiesLevel | Number | What is your highest level of formal education? (Bachelor = 3 years post graduate. Master = 5 years post graduate) |\n| work | contractTypes | Array<\"fixedTerm\" | \"permanent\" | \"internship\" | \"apprenticeship\" | \"freelance\"> | Your dream job contract types. Example: ['fixedTerm'] |\n| work | codingYears | Number | How long have you been coding (in years)? Example: 5 |\n| work | codingReason | String | What motivates you to wake up every day to code? |\n| work | searchState | \"activelySearching\" | \"openOpportunities\" | \"dreamjobOnly\" | \"notSearching\" | Are you open to new job opportunities? |\n| work | experienceYears | Number | How many years of professional experience do you have? |\n| sound | embedUrl | String | Your favorite Spotify playlist. |\n| interestedBy | String | What languages do you want to learn? Example: Angular and Vue.js |\n\nDon't want to host your profile ?\n\nCreate your JSONResume and get your free subdomain in less than 10 minutes by registering on welovedevs.com.\n\nWe added a few extra features that you will love :\n\n- ⚡ Server side rendering for ultra fast loading\n- 🔒 Secured using reCAPTCHA v3, HTTPS and Cloudflare\n\nThe resume is currently available in English, French and Turkish. Feel free to contribute with your language translation file !\n\nhttps://web-develop.me/ - by @liorchalma\n\nThis project exists thanks to all the people who contribute.\n\nThomas Grivet |\nClément Devos |\nVincent Cotro |\nAntonin Catrix |\n\nChat with us on Discord !\n\nreact-ultimate-resume is relased under GNU AGPL v3 license\n\nWeLoveDevs.com is a website crafted for developers (by Developers) looking for new career opportunities. More than 1700 companies use WeLoveDevs.com to find their talents. Discover your next company here\n",
+  "metadata": {
+    "source_url": "https://github.com/welovedevs/react-ultimate-resume",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:39.601780+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "GitHub - welovedevs/react-ultimate-resume: 💼 🎨 A modern software developer resume built with React and JSONResume",
+    "description": "💼 🎨 A modern software developer resume built with React and JSONResume - welovedevs/react-ultimate-resume",
+    "language": "en",
+    "word_count": 959,
+    "content_hash": "sha256:24ebbbd974e00666b11b36d84c962793ae462986c9dcdc72c575b518898c5fb4",
+    "reading_time": 5,
+    "author": "Welovedevs",
+    "published_date": "2019-12-18",
+    "og_title": null,
+    "signal_score": 0.4432,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Open-source React component for building customizable developer resumes using JSON Resume standard with animations and modern front-end technologies.",
+    "entities": {
+      "primary": "React ultimate resume",
+      "aliases": [
+        "JSON Resume",
+        "developer resume builder",
+        "resume component"
+      ]
+    },
+    "core_question": "How do you build a customizable developer resume with React?",
+    "doc_type": "reference",
+    "key_topics": [
+      "React",
+      "JSON Resume",
+      "resume builder",
+      "customization",
+      "developer portfolio",
+      "open source"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "GitHub - welovedevs/react-ultimate-resume: 💼 🎨 A modern software developer resume built with React and JSONResume",
+        "section_type": "title",
+        "header_path": [
+          "GitHub - welovedevs/react-ultimate-resume: 💼 🎨 A modern software developer resume built with React and JSONResume"
+        ],
+        "char_start": 0,
+        "char_end": 5712
+      }
+    ]
+  },
+  "links": [
+    "https://github.com/jsonresume",
+    "https://jsonresume.org/schema/",
+    "https://github.com#json-resume-extra-fields",
+    "https://github.com/facebook/create-react-app",
+    "https://create-react-app.dev/",
+    "https://welovedevs.com/react-ultimate-resume/docs/home",
+    "https://welovedevs.com/react-ultimate-resume/docs/Deploy/deploy-fork",
+    "https://welovedevs.com/app/register_developer",
+    "https://web-develop.me/",
+    "https://github.com/liorchamla",
+    "https://github.com/clementdevos",
+    "https://github.com/VincentCtr",
+    "https://github.com/catrx",
+    "https://discord.gg/udbbbAq",
+    "https://github.com/welovedevs/developer-profile/blob/master/LICENSE.md",
+    "https://welovedevs.com/app/companies"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

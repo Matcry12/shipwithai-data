@@ -1,0 +1,59 @@
+{
+  "markdown": "# LinkedIn Headline Examples\n\nIn a headline, consider including at least two of the following:\n\n- Your current role\n- Area of study\n- Top skills or area(s) of expertise\n- Notable accomplishments\n- Career goal\n- Industry of interest\n\n## Here are some examples\n\nPhD (c), Electrical & Computer Engineering, Interested in R&D related to the Internet of Things (IoT) networks\n\nHonours English Literature Student | Writer, Editor, and Aspiring Publishing Professional\n\nChemical & Biochemical Engineer | Skilled in Wastewater Treatment | Interest in Research & Development\n\nWestern Law Student | Interested in Immigration and Personal Injury Law | Dean's List 2019 | Faculty of Law Blog Editor\n",
+  "metadata": {
+    "source_url": "https://career.uwo.ca/resources/linkedin_headline_examples.html",
+    "source_domain": "career.uwo.ca",
+    "topic": "linkedin-profile",
+    "fetched_at": "2026-05-25T06:37:35.350765+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "LinkedIn Headline Examples",
+    "description": "Western University, in vibrant London, Ontario, delivers an academic and student experience second to none.",
+    "language": "en",
+    "word_count": 109,
+    "content_hash": "sha256:43181db2c197d38a70756534b743d502a857c35a5e905d452fa8795f1e17e228",
+    "reading_time": 1,
+    "author": null,
+    "published_date": "2019-01-01",
+    "og_title": null,
+    "signal_score": 0.0058,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "LinkedIn Headline Examples",
+        "section_type": "title",
+        "header_path": [
+          "LinkedIn Headline Examples"
+        ],
+        "char_start": 0,
+        "char_end": 687
+      },
+      {
+        "level": 2,
+        "title": "Here are some examples",
+        "section_type": "content",
+        "header_path": [
+          "LinkedIn Headline Examples",
+          "Here are some examples"
+        ],
+        "char_start": 233,
+        "char_end": 687
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

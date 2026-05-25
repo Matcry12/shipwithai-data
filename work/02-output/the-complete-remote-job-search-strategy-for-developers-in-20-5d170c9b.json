@@ -1,0 +1,304 @@
+{
+  "markdown": "# The Complete Remote Job Search Strategy for Developers in 2026\n\nThe remote job market for developers has changed dramatically since the post-pandemic boom. The \"everyone is hiring remote\" era of 2021-2022 is gone. What replaced it is more nuanced: companies are more selective, competition is global, and the bar for remote candidates is higher than ever.\n\nBut here is what most people miss: the total number of remote developer positions in 2026 is actually higher than it was in 2022. The difference is that companies have gotten better at filtering candidates, remote-specific skills matter more, and the low-effort \"spray and pray\" application strategy no longer works.\n\nI have spent the last several months studying the remote job market — talking to hiring managers, analyzing job postings, and researching what actually gets developers hired remotely. This article is the complete strategy, broken down into four pillars.\n\n## The State of Remote Work in 2026\n\nBefore diving into strategy, let us understand the landscape:\n\n**What has changed:**\n\n**Hybrid is the new default.**Most large companies offer hybrid, not fully remote. True remote positions (work from anywhere) are now a premium benefit, not a baseline expectation. -\n**Global competition is real.**A senior developer in Poland competes with one in Brazil competes with one in India. Your local salary expectations mean nothing — your global value does. -\n**Asynchronous communication skills are non-negotiable.**Companies have learned (painfully) that remote only works when people can communicate well in writing. This is now a core hiring criterion, not a nice-to-have. -\n**Time zone overlap matters more.**Many companies require 4-6 hours of overlap with their core team. \"Work from anywhere\" increasingly means \"work from anywhere in these time zones.\" -\n**Return-to-office mandates have reshuffled talent.**Some excellent developers left RTO-mandating companies and are now competing for the same remote positions you want.\n\n**What has not changed:**\n\n- Developers are still in high demand\n- Remote positions still pay well\n- The talent shortage in specialized areas (AI/ML, security, infrastructure) is bigger than ever\n- Companies that trust remote work tend to have better engineering cultures\n\n**The numbers (2026 market data):**\n\n- Average remote developer salary (US-based companies): $120,000-$180,000 for mid-senior roles\n- Remote positions as percentage of all dev jobs: ~25-30% (down from ~40% peak in 2022, but up from ~15% pre-pandemic)\n- Average applications per remote developer position: 200-400 (up from 50-100 in 2021)\n- Average time from application to offer (remote roles): 4-8 weeks\n\nThose application numbers are why strategy matters. You cannot compete with 400 applicants by being \"pretty good.\" You need to be strategic.\n\n## Pillar 1: Profile Optimization\n\nBefore you apply to a single job, your online presence needs to work for you. In the remote world, your digital presence IS your first impression. There is no handshake, no office tour, no body language. Just your profiles, your code, and your written communication.\n\n### LinkedIn Profile Optimization\n\n**Headline formula:** `[Role] | [Key Skill] | [Differentiator]`\n\nBad: \"Software Developer\"\n\nGood: \"Senior Backend Engineer | Go & Distributed Systems | Building scalable APIs for fintech\"\n\nBetter: \"Senior Backend Engineer | Go & Distributed Systems | Remote-first since 2020 | Open to global opportunities\"\n\nInclude \"remote\" or \"open to remote\" in your headline. Recruiters search for it.\n\n**About section structure:**\n\n```\nParagraph 1: What you do and what you are best at (2-3 sentences)\nParagraph 2: Your remote work experience and how you collaborate (2-3 sentences)\nParagraph 3: Key technologies and domains (bullet list)\nParagraph 4: What you are looking for (1-2 sentences)\n```\n\n**Example:**\n\n```\nI build backend systems that handle millions of requests without breaking\na sweat. For the past four years, I have designed and scaled APIs,\nmicroservices, and data pipelines for companies ranging from seed-stage\nstartups to Series C fintechs.\nI have worked remotely since 2021 across teams spanning 5 time zones.\nI am deeply comfortable with async communication, written technical\nproposals, and the discipline that distributed work requires. I document\neverything because I believe good documentation is the foundation of\ngood remote collaboration.\nCore stack: Go, PostgreSQL, Redis, gRPC, Kubernetes, AWS\nDomains: Fintech, payments, real-time data processing\nLooking for: Senior/Staff Backend Engineer roles at remote-first\ncompanies building ambitious technical products.\n```\n\n**Featured section:** Pin your best work — blog posts, open-source contributions, talks, or projects. This section is prime real estate that most developers ignore.\n\n**Skills endorsements:** Get endorsed for your top 5 technical skills. Recruiters filter by skills, and endorsed skills rank higher.\n\n### GitHub Profile Optimization\n\nYour GitHub is your portfolio. For remote positions, it carries extra weight because it shows how you actually work, not just what you claim.\n\n**README.md (profile page):**\n\n```\n## Hi, I'm [Name] 👋\nBackend engineer focused on distributed systems and API design.\n### What I'm working on\n- [Project 1] — Brief description with 1-2 sentences\n- [Project 2] — Brief description with 1-2 sentences\n### Recent writing\n- [Article Title](link) — Dev.to / blog\n- [Article Title](link) — Dev.to / blog\n### How to reach me\n- [LinkedIn](link) | [Twitter](link) | [Email]\n```\n\n**Pinned repositories:** Choose 4-6 repos that showcase:\n\n- A complete project (shows you can ship)\n- A library or tool others use (shows you think about developer experience)\n- A well-documented repo (shows you communicate well in code)\n- Something technically interesting (shows depth)\n\n**Green squares matter** — not because daily commits indicate good engineering, but because they show consistency. A pattern of regular contributions signals reliability, which is exactly what remote hiring managers worry about.\n\n**README quality is critical.** Every pinned repo should have:\n\n- Clear description of what it does\n- How to install and run it\n- Architecture overview (for complex projects)\n- Screenshots or GIFs for visual projects\n- Contributing guidelines (shows you think about collaboration)\n\n### Portfolio Site (Optional but Powerful)\n\nIf you have time, a simple portfolio site ties everything together. It does not need to be fancy:\n\n**Hero section:**Your name, role, one-sentence description -\n**Projects section:**3-4 projects with descriptions, tech stack, and links -\n**Writing section:**Links to your best articles -\n**Contact:**Email and LinkedIn\n\nUse a static site generator (Hugo, Next.js, or even plain HTML). Host it on GitHub Pages, Vercel, or Netlify for free.\n\n**The key:** Your portfolio should tell a story. Not \"here is a list of things I built\" but \"here is the type of problems I solve and how I solve them.\"\n\n## Pillar 2: Targeted Job Search\n\nThe spray-and-pray approach — applying to 100 jobs with the same resume — has a terrible hit rate for remote positions. Instead, you need a targeted strategy.\n\n### Where to Find Remote Developer Jobs\n\n**Tier 1: High-quality, curated listings**\n\n**We Work Remotely**— One of the oldest remote job boards. Employers pay to list, which filters out low-quality postings. Good for mid-senior roles. -\n**Remote OK**— Large database with salary transparency. Good filtering by tech stack, time zone, and salary range. -\n**Remotive**— Curated listings with a community aspect. Their newsletter is worth subscribing to. -\n**Hacker News \"Who is Hiring\" thread**— Monthly thread (first of each month). Many of the best remote companies recruit here. The signal-to-noise ratio is excellent.\n\nIf you want a deeper comparison of how the top remote job boards differ, this breakdown is worth reading: Best Remote Job Boards in 2026: Why Using Just One Means Missing 90% of the Market.\n\n**Tier 2: General platforms with strong remote filters**\n\n**LinkedIn Jobs**— Filter by \"Remote\" and set up alerts. The volume is highest here, but so is the noise. -\n**Indeed**— Surprisingly good for remote tech roles if you use the right search filters. -\n**AngelList/Wellfound**— Best for startup roles. Many startups are remote-first by default. -\n**Arc.dev**— Developer-specific platform. You create a profile, companies come to you.\n\n**Tier 3: Niche and regional**\n\n**Turing**— Matches developers with US companies. Good for non-US developers targeting US salaries. -\n**Toptal**— Selective freelance platform. Tough screening process but high-quality clients. -\n**Working Nomads**— Good for digital nomad-friendly positions. -\n**Remote.co**— Smaller but curated listings with company culture information.\n\n### Setting Up an Effective Job Alert System\n\nDo not manually check job boards daily. Set up alerts:\n\n**LinkedIn:**Create saved searches for:- \"[Your tech stack] remote\"\n- \"[Your role] remote\"\n- \"remote engineer [your specialization]\"\n- Set alerts to daily\n\n**Google Alerts:**Set up for:- \"[Company you admire] hiring remote\"\n- \"[Your tech stack] remote jobs\"\n\n**RSS feeds:**Many job boards have RSS. Subscribe in your feed reader.**Twitter/X lists:**Create a list of companies you want to work for. Watch for hiring tweets.\n\nSpend 15 minutes per day reviewing alerts and applying to 1-2 carefully targeted positions. This beats spending 3 hours on a weekend mass-applying.\n\n### The \"Dream 20\" List\n\nMake a list of 20 companies you would love to work for. Research each one:\n\n- Are they remote-first, remote-friendly, or hybrid?\n- What tech stack do they use?\n- What is their engineering culture like? (Check their engineering blog)\n- Who are their engineering leaders? (Follow them on Twitter/LinkedIn)\n- Do they have open positions that match your skills?\n\nEven if they are not currently hiring, engaging with their content and community puts you on their radar. When a position opens, you will not be a cold applicant — you will be someone they recognize.\n\n## Pillar 3: Application Strategy\n\nThis is where most developers lose. They have the skills, the profile, and the motivation. But their application strategy is generic, and generic gets filtered out.\n\n### Customizing Your Resume for Remote Positions\n\nRemote-specific resume adjustments:\n\n**Add a \"Remote Work\" section or subtitle:**\n\n```\nSENIOR BACKEND ENGINEER\nRemote | 4 years distributed team experience | UTC-5 to UTC+3 overlap\n```\n\n**Quantify remote collaboration:**\n\nInstead of: \"Worked on a distributed team\"\n\nWrite: \"Collaborated across 5 time zones (US, EU, Asia) with a team of 12 engineers, maintaining 98% sprint commitment accuracy through async documentation practices\"\n\n**Highlight async-relevant skills:**\n\n- Technical writing and documentation\n- Written proposals and design documents (RFCs)\n- Self-management and time tracking\n- Video communication and screen sharing/recording\n- Incident response documentation\n\n**Technical skills formatting:**\n\n```\nTECHNICAL SKILLS\nLanguages: Go (5 years), Python (4 years), TypeScript (3 years)\nInfrastructure: AWS (ECS, Lambda, RDS, SQS), Terraform, Docker, K8s\nDatabases: PostgreSQL, Redis, DynamoDB, Elasticsearch\nPractices: CI/CD, TDD, async code review, technical RFCs\n```\n\n### Writing Cover Letters That Get Read\n\nMost developers do not write cover letters. This is an opportunity, not a norm to follow.\n\nFor remote positions, a short (3-paragraph) cover letter dramatically increases your response rate because it demonstrates written communication skill — the most important remote competency.\n\n**Structure:**\n\n```\nParagraph 1: Why this company + role specifically\n\"I've been following [Company]'s engineering blog since [specific post].\nYour approach to [specific technical challenge] resonates with how I\nthink about [related problem].\"\nParagraph 2: Why you are specifically suited\n\"In my current role at [Company], I [specific achievement relevant to\nthe job description]. I've been working remotely for [X] years and have\ndeveloped strong practices around [async communication, documentation,\nself-management].\"\nParagraph 3: Specific enthusiasm + call to action\n\"I'm particularly excited about [specific technical challenge in the\njob description] because [brief reasoning]. I'd love to discuss how\nmy experience with [relevant skill] could contribute to [specific goal].\"\n```\n\n**Keep it under 200 words.** Nobody reads long cover letters.\n\n### The Referral Strategy\n\nReferrals bypass the 400-applicant pile. Here is how to get them ethically:\n\n**First-degree connections:**Do you know anyone at the company? Ask for a referral directly.**Second-degree connections:**Check LinkedIn for mutual connections. Ask for an introduction.**Community connections:**Are you active in the same open-source project, Discord server, or tech community as someone at the company? That is a legitimate connection.**Create the connection:**If you have no existing connection, engage with the company's engineering content for 2-3 weeks (genuine engagement, not spam), then reach out to a developer on the team: \"Hi, I've been following your blog posts about [topic]. I'm interested in the [position] role. Would you be open to a brief chat about what it's like working at [Company]?\"\n\nMost people will say yes. This is not manipulative — it is networking, and it is how most remote positions are filled.\n\n## Pillar 4: Interview Mastery\n\nRemote interviews test different things than in-person interviews. Beyond technical competence, companies are evaluating whether you can work effectively without anyone watching.\n\n### Remote-Specific Interview Skills\n\n**Written communication demo:** Many remote companies include a written exercise — a technical proposal, a design document, or a written response to a scenario. Treat these as seriously as coding challenges.\n\nTips for written exercises:\n\n- Structure your response with clear headers\n- Use bullet points for lists\n- Include trade-offs for technical decisions (shows maturity)\n- Proofread. Typos in a written exercise for a remote position are like showing up to an in-person interview in pajamas\n- Keep it concise. Say more with fewer words\n\n**Async communication assessment:** Some companies will evaluate your communication during the hiring process itself. How you respond to scheduling emails, how you ask clarifying questions, how you follow up — all of this is data.\n\nRules:\n\n- Respond to emails within 24 hours (faster is better)\n- Be specific when asking questions: not \"I have a question\" but \"The exercise mentions X but I want to clarify whether Y or Z\"\n- Follow up after interviews with a brief, genuine thank-you message\n- If you need to reschedule, provide alternatives, do not just say \"can we reschedule?\"\n\n**Video interview best practices:**\n\n**Environment:**Clean background, good lighting (light facing you, not behind you), minimal distractions -\n**Audio:**Use headphones with a microphone. Built-in laptop mics are fine for casual calls, not for job interviews -\n**Connection:**Use ethernet if possible. If on WiFi, close all unnecessary applications -\n**Camera position:**Eye level. Not looking up at you from below (the nostril cam) or down from above -\n**Screen sharing:**Practice sharing your screen smoothly. Know your keyboard shortcuts. Have your IDE ready with a clean workspace -\n**Think out loud:**In remote interviews, silence is awkward. Narrate your thought process even more than you would in person\n\n### Technical Interview Preparation\n\nThe technical interview itself is not fundamentally different for remote roles, but the format often is:\n\n**Common remote interview formats:**\n\n**Take-home projects**(8-12 hours of work) — More common for remote roles. Shows how you work independently. -\n**Pair programming via screen share**— Tests collaboration, communication, and how you think through problems. -\n**System design over whiteboard tool**— Excalidraw, Miro, or similar. Practice using these tools. -\n**Async code review**— You review a PR and provide written feedback. Tests your code review skills.\n\n**Take-home project tips:**\n\n- Read the requirements carefully. Twice\n- Ask clarifying questions before starting (this is a positive signal)\n- Include a README with setup instructions, design decisions, and trade-offs\n- Write tests. Always write tests\n- Do not over-engineer. A clean, simple solution beats a complex one\n- Submit on time. If you need more time, communicate early\n\n### Salary Negotiation for Remote Roles\n\nRemote salary negotiation has unique considerations:\n\n**The location-based pay debate:**\n\nSome companies adjust salary based on your location (cost-of-living adjustments). Others pay the same regardless of where you live. Know which type you are dealing with before negotiating.\n\n**Location-based companies:**Negotiate based on the salary band for your location. Ask what their bands are. -\n**Location-agnostic companies:**Negotiate based on market rate for the role, regardless of where you live. These are the best deals for developers in lower-cost areas.\n\n**The timezone premium:**\n\nIf you are in a timezone that is convenient for the company (good overlap with their core team), that has value. If you are in an inconvenient timezone but still willing to adjust your hours, mention this proactively: \"I'm happy to shift my working hours to ensure 5 hours of overlap with the US East Coast team.\"\n\n**Negotiation script:**\n\n```\n\"Thank you for the offer. I'm excited about the role and the team.\nI'd like to discuss the compensation. Based on my research of\nmarket rates for [role] at [company stage/size], and considering\nmy [X years] of experience with [relevant skills], I was expecting\nsomething in the range of [your target]. Is there flexibility to\nget closer to that number?\"\n```\n\nKey points:\n\n- Always negotiate. The worst they can say is no\n- Negotiate base salary first, then benefits/equity\n- For remote roles, also negotiate: equipment budget, coworking space allowance, professional development budget, travel budget for team meetups\n- Get the final offer in writing before accepting\n\n## Building a Remote Work Routine\n\nLanding the job is step one. Thriving in it is the long game.\n\n**The structure paradox:** Remote work gives you freedom from structure, but you need MORE structure than in-office workers, not less. Without the natural rhythms of an office (commute, lunch break, colleagues leaving at 6), your work can expand to fill every waking hour.\n\n**My recommended remote routine framework:**\n\n```\n08:00 - 08:30 Morning routine (no screens)\n08:30 - 09:00 Check messages, plan the day\n09:00 - 12:00 Deep work block #1 (hardest task first)\n12:00 - 13:00 Lunch + walk (leave the house)\n13:00 - 15:00 Meetings and collaboration\n15:00 - 17:00 Deep work block #2\n17:00 - 17:30 Wrap up, tomorrow's plan\n17:30+ Done. Close the laptop.\n```\n\n**The rules that keep me sane:**\n\n**Hard shutdown at 17:30.**No exceptions unless there is an actual emergency. -\n**Separate workspace.**Even if it is just a desk in the corner — it is only for work. -\n**Get dressed.**You do not need a suit, but changing out of pajamas creates a mental shift. -\n**Leave the house daily.**A walk, a coffee shop, a gym session — anything. -\n**Block deep work time on the calendar.**If it is not blocked, someone will book a meeting over it.\n\n## Putting It All Together\n\nThe remote job search is a project, and you should manage it like one:\n\n**Week 1-2: Foundation**\n\n- Optimize LinkedIn, GitHub, and portfolio\n- Create your \"Dream 20\" company list\n- Set up job alerts on 4-5 platforms\n- Update resume with remote-specific language\n\n**Week 3-4: Pipeline Building**\n\n- Apply to 2-3 carefully targeted positions per day\n- Engage with content from target companies\n- Reach out to 2-3 connections per week\n- Write one article related to your expertise\n\n**Week 5-8: Active Interviewing**\n\n- Practice system design, coding challenges, and written exercises\n- Prepare remote-specific stories (async collaboration, self-management)\n- Research each company deeply before interviews\n- Follow up after every interview\n\n**Ongoing: Network Building**\n\n- Contribute to open source in your domain\n- Write consistently about your technical expertise\n- Engage genuinely in developer communities\n- Build relationships before you need referrals\n\nThe developers who succeed in remote job searches are not necessarily the best coders. They are the best communicators, the most strategic networkers, and the most disciplined executors. Technical skill gets you in the door. Everything else determines which door you walk through.\n\nFor practical templates and career-focused guides that complement this article, check out my digital products collection. It includes resume, cover letter, interview, LinkedIn, and career strategy resources you can use right away.\n",
+  "metadata": {
+    "source_url": "https://dev.to/__be2942592/the-complete-remote-job-search-strategy-for-developers-in-2026-211c",
+    "source_domain": "dev.to",
+    "topic": "remote-work-resume",
+    "fetched_at": "2026-05-25T06:37:56.329280+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "The Complete Remote Job Search Strategy for Developers in 2026",
+    "description": "The remote job market for developers has changed dramatically since the post-pandemic boom. The...",
+    "language": "en",
+    "word_count": 3173,
+    "content_hash": "sha256:d2d56097b00fdfa53021b8a62fa54e800291e1a499e3184649210fa2d50825d6",
+    "reading_time": 16,
+    "author": "Daniil Kornilov",
+    "published_date": "2026-03-29",
+    "og_title": null,
+    "signal_score": 0.9695,
+    "text_to_link_ratio": 0.9965,
+    "tldr": "Complete remote job search strategy for 2026 developers covering profile optimization, remote-specific skills, application strategy, interview prep, and negotiation tactics.",
+    "entities": {
+      "primary": "remote job search strategy",
+      "aliases": [
+        "remote developer jobs",
+        "work from home",
+        "distributed work"
+      ]
+    },
+    "core_question": "What is the complete strategy for landing remote developer positions in 2026?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "remote work",
+      "job search",
+      "developers",
+      "career strategy",
+      "application tactics"
+    ]
+  },
+  "structure": {
+    "section_count": 20,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "The Complete Remote Job Search Strategy for Developers in 2026",
+        "section_type": "title",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026"
+        ],
+        "char_start": 0,
+        "char_end": 20851
+      },
+      {
+        "level": 2,
+        "title": "The State of Remote Work in 2026",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "The State of Remote Work in 2026"
+        ],
+        "char_start": 932,
+        "char_end": 2822
+      },
+      {
+        "level": 2,
+        "title": "Pillar 1: Profile Optimization",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 1: Profile Optimization"
+        ],
+        "char_start": 2822,
+        "char_end": 6979
+      },
+      {
+        "level": 3,
+        "title": "LinkedIn Profile Optimization",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 1: Profile Optimization",
+          "LinkedIn Profile Optimization"
+        ],
+        "char_start": 3125,
+        "char_end": 4945
+      },
+      {
+        "level": 3,
+        "title": "GitHub Profile Optimization",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 1: Profile Optimization",
+          "GitHub Profile Optimization"
+        ],
+        "char_start": 4945,
+        "char_end": 6342
+      },
+      {
+        "level": 3,
+        "title": "Portfolio Site (Optional but Powerful)",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 1: Profile Optimization",
+          "Portfolio Site (Optional but Powerful)"
+        ],
+        "char_start": 6342,
+        "char_end": 6979
+      },
+      {
+        "level": 2,
+        "title": "Pillar 2: Targeted Job Search",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 2: Targeted Job Search"
+        ],
+        "char_start": 6979,
+        "char_end": 10055
+      },
+      {
+        "level": 3,
+        "title": "Where to Find Remote Developer Jobs",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 2: Targeted Job Search",
+          "Where to Find Remote Developer Jobs"
+        ],
+        "char_start": 7173,
+        "char_end": 8795
+      },
+      {
+        "level": 3,
+        "title": "Setting Up an Effective Job Alert System",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 2: Targeted Job Search",
+          "Setting Up an Effective Job Alert System"
+        ],
+        "char_start": 8795,
+        "char_end": 9470
+      },
+      {
+        "level": 3,
+        "title": "The \"Dream 20\" List",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 2: Targeted Job Search",
+          "The \"Dream 20\" List"
+        ],
+        "char_start": 9470,
+        "char_end": 10055
+      },
+      {
+        "level": 2,
+        "title": "Pillar 3: Application Strategy",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 3: Application Strategy"
+        ],
+        "char_start": 10055,
+        "char_end": 13410
+      },
+      {
+        "level": 3,
+        "title": "Customizing Your Resume for Remote Positions",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 3: Application Strategy",
+          "Customizing Your Resume for Remote Positions"
+        ],
+        "char_start": 10256,
+        "char_end": 11289
+      },
+      {
+        "level": 3,
+        "title": "Writing Cover Letters That Get Read",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 3: Application Strategy",
+          "Writing Cover Letters That Get Read"
+        ],
+        "char_start": 11289,
+        "char_end": 12463
+      },
+      {
+        "level": 3,
+        "title": "The Referral Strategy",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 3: Application Strategy",
+          "The Referral Strategy"
+        ],
+        "char_start": 12463,
+        "char_end": 13410
+      },
+      {
+        "level": 2,
+        "title": "Pillar 4: Interview Mastery",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 4: Interview Mastery"
+        ],
+        "char_start": 13410,
+        "char_end": 18123
+      },
+      {
+        "level": 3,
+        "title": "Remote-Specific Interview Skills",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 4: Interview Mastery",
+          "Remote-Specific Interview Skills"
+        ],
+        "char_start": 13622,
+        "char_end": 15495
+      },
+      {
+        "level": 3,
+        "title": "Technical Interview Preparation",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 4: Interview Mastery",
+          "Technical Interview Preparation"
+        ],
+        "char_start": 15495,
+        "char_end": 16482
+      },
+      {
+        "level": 3,
+        "title": "Salary Negotiation for Remote Roles",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Pillar 4: Interview Mastery",
+          "Salary Negotiation for Remote Roles"
+        ],
+        "char_start": 16482,
+        "char_end": 18123
+      },
+      {
+        "level": 2,
+        "title": "Building a Remote Work Routine",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Building a Remote Work Routine"
+        ],
+        "char_start": 18123,
+        "char_end": 19353
+      },
+      {
+        "level": 2,
+        "title": "Putting It All Together",
+        "section_type": "content",
+        "header_path": [
+          "The Complete Remote Job Search Strategy for Developers in 2026",
+          "Putting It All Together"
+        ],
+        "char_start": 19353,
+        "char_end": 20851
+      }
+    ]
+  },
+  "links": [
+    "https://dev.to#the-state-of-remote-work-in-2026",
+    "https://dev.to#pillar-1-profile-optimization",
+    "https://dev.to#linkedin-profile-optimization",
+    "https://dev.to#github-profile-optimization",
+    "https://dev.to#portfolio-site-optional-but-powerful",
+    "https://dev.to#pillar-2-targeted-job-search",
+    "https://dev.to#where-to-find-remote-developer-jobs",
+    "https://dev.to/humayunb/best-remote-job-boards-in-2026-why-using-just-one-means-missing-90-of-the-market-2mf2",
+    "https://dev.to#setting-up-an-effective-job-alert-system",
+    "https://dev.to#the-dream-20-list",
+    "https://dev.to#pillar-3-application-strategy",
+    "https://dev.to#customizing-your-resume-for-remote-positions",
+    "https://dev.to#writing-cover-letters-that-get-read",
+    "https://dev.to#the-referral-strategy",
+    "https://dev.to#pillar-4-interview-mastery",
+    "https://dev.to#remotespecific-interview-skills",
+    "https://dev.to#technical-interview-preparation",
+    "https://dev.to#salary-negotiation-for-remote-roles",
+    "https://dev.to#building-a-remote-work-routine",
+    "https://dev.to#putting-it-all-together",
+    "https://pease163.github.io/digital-products/#products"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,333 @@
+{
+  "markdown": "# ATS Resume Keywords Guide: What Actually Works in 2026\n\nYou've got 20 years of experience. You're perfect for the role. Yet your resume disappears into the void after every application.\n\nThe problem isn't your qualifications. It's that 75% of employers use Applicant Tracking Systems (ATS) to screen resumes before any human sees them. These systems scan for specific keywords, and if yours don't match, you're out—regardless of how qualified you actually are.\n\nThis guide shows you which keywords matter for your target role, how to find them, and how to integrate them naturally so you pass ATS filters and get interviews.\n\n## What You'll Learn in This Guide\n\n- Why 80% of resumes get rejected by ATS before human review\n- The two types of keywords that matter (and which to prioritize)\n- How to identify the 15-25 keywords you actually need per resume\n- Where to place keywords so ATS systems recognize them\n- How to avoid keyword stuffing that triggers automatic rejection\n\n## Why Qualified Candidates Get Rejected\n\nATS systems don't evaluate your qualifications. They scan for keyword matches.\n\nIf you use different terminology in your resume than the job posting, you run a risk of getting rejected even though you have the right qualifications. For example, you write \"marketing automation\" when the job posting says \"martech.\" The ATS doesn't recognize the match. You're automatically ranked lower.\n\nKeywords are a translation layer between your experience and what the ATS algorithm is programmed to recognize. Most professionals write for human readers, not algorithms. That's the core problem.\n\n## What Are ATS Keywords?\n\n**ATS keywords** are specific words and phrases that ATS systems are programmed to recognize and score:\n\n- Job titles: Project Manager, Financial Analyst, Solutions Architect\n- Technical skills: Python, SQL, Salesforce, AWS\n- Software names: Microsoft Office, Tableau, SAP, HubSpot\n- Certifications: PMP, CPA, Six Sigma, CISSP\n- Industry terms: Agile, GAAP, HIPAA, DevOps\n- Competencies: stakeholder management, budget forecasting, cross-functional leadership\n\nBut here's what matters: having keywords isn't enough. You need:\n\n- The right keywords for the specific role\n- Keywords placed where ATS looks first\n- Natural integration that doesn't sound robotic\n- Actual experience backing up every keyword you claim\n\n**Warning:** Keyword stuffing gets flagged by modern ATS. \"Strategic leader with strategic planning expertise in strategic initiatives\" triggers rejection. The goal is to have a natural integration where keywords appear because you're describing real work.\n\n## The Two Types of Keywords (And Which Matters More)\n\nNot all keywords carry equal weight.\n\n### Job-Specific Keywords (High Priority)\n\nExact terms from the specific job posting you're applying to. If the posting says \"Salesforce CRM administration,\" that exact phrase is what the ATS is scanning for.\n\n**Where to find them:** Job description text, requirements section, responsibilities list\n\n### Industry-Wide Keywords (Medium Priority)\n\nStandard terminology that appears across multiple job postings in your field. These show you speak the language of your profession.\n\n**Where to find them:** Multiple job postings, LinkedIn profiles in your target role, industry reports\n\n**Priority rule:** Job-specific keywords matter more because they directly match what this specific employer programmed their ATS to find. When a keyword appears in both categories (like \"Agile\" in tech roles), it's automatically high-priority.\n\n## How to Find ATS Keywords\n\n### Step 1: Analyze Job Descriptions\n\nPull 3-5 job descriptions for your target role from different companies. Copy the text and highlight every skill, software, certification, and technical term mentioned.\n\nKeywords that repeat across multiple postings are industry-wide standards. Keywords unique to one posting are job-specific priorities.\n\n### Step 2: Identify What ATS Prioritizes\n\nJob descriptions have predictable sections where keywords concentrate:\n\n- Requirements section → Keyword goldmine. Direct list of what the ATS scans for.\n- Responsibilities section → Look for action verb + skill combinations: \"manage Salesforce CRM\" means \"Salesforce CRM\" is a keyword.\n- Qualifications section → Certifications, experience levels, industry-specific requirements.\n- Narrative text → Hidden keywords like \"lead cross-functional teams\" translate to \"cross-functional leadership\" or \"cross-functional collaboration.\"\n\nSoftware, tools, and platforms mentioned anywhere are high-priority. Certifications or degrees (\"PMP certification preferred\") are keywords.\n\n### Alternatively: Use an ATS Score Checker\n\nIf you don't want to analyze job descriptions manually, use an **ATS score checker** like Upplai or Jobscan. These tools automatically scan the job description and identify which keywords an ATS would prioritize.\n\nThey also compare those terms with your resume to highlight what's **present, missing, or underused**, and generate an **ATS score** — a percentage that reflects how likely your resume is to pass automated screening.\n\n## Keyword Frequency Analysis: What Actually Matters\n\nAnalyze how often keywords appear across job postings:\n\n- Appears in 80%+ of postings → Must-have (High Priority)\n- Appears in 40-60% of postings → Nice-to-have (Medium Priority)\n- Appears in less than 40% → Niche skill (Low Priority)\n\nAdditional priority rules:\n\n- \"Required\" section keywords outweigh \"Preferred\" section\n- Keywords listed first typically get weighted more heavily\n- Focus on must-have keywords, include nice-to-have if you have them, skip niche unless applying to a specific company\n\n**Reality check:** If you lack 50%+ of the required skills, keyword optimization won't help. You'll fail human review. Don't waste time on applications where you're not a strong fit.\n\n## Common ATS Keywords by Industry (2026)\n\nBased on an internal study of 20,000 resumes, the following are the most popular keywords in 2026:\n\nMid-Level Professionals (10-15 years)\n\nProject Management, Data Analysis, Process Optimization, Team Coordination, Budget Management, Stakeholder Communication\n\nSenior Professionals (15-25 years)\n\nStrategic Planning, Executive Leadership, Organizational Development, P&L Management, Change Management, Board-Level Communication, Risk Management\n\n**Top Keywords** By Industry\n\n| Industry | Top Keywords |\n|---|---|\nTechnology |\nPython, AWS, Agile, CI/CD, Kubernetes, API Development, Machine Learning |\nFinance |\nFinancial Analysis, GAAP, Risk Management, Compliance, M&A, Treasury |\nOperations |\nSupply Chain, Six Sigma, Lean, ERP Systems, Vendor Management, Forecasting |\nSales |\nSalesforce, Pipeline Management, Revenue Growth, Account Management, Territory Management |\n\n## How to Use Keywords Without Sounding Like a Robot\n\nNatural integration means keywords appear because you're describing actual work, not forcing them into sentences.\n\n❌ \"I am a strategic leader with strategic planning skills who strategically manages teams\"\n\n✅ \"Led strategic planning initiatives that resulted in 15% revenue growth and improved operational efficiency\"\n\n### Keyword Density Guidelines\n\n- Target: 15-25 relevant keywords per resume\n- Placement: Job titles, bullet points, skills section, professional summary\n- Context: \"Managed Salesforce CRM implementation for 500+ users\" beats \"Salesforce CRM Salesforce\"\n\n**The readability test:** Read your resume aloud. If it sounds like a robot wrote it, you've over-optimized.\n\n## Where to Place Keywords (ATS Priority Zones)\n\nJust adding keywords in your resume isn't enough. You need to add them in the right places for maximum impact:\n\n| Resume Section | Priority | How to Use |\n|---|---|---|\nJob Titles |\nHigh | Use industry-standard titles. Clarify vague titles with descriptions. |\nProfessional Summary |\nHigh | Include 3-5 most important keywords naturally in 2-3 sentences. |\nSkills Section |\nHigh | List 10-15 relevant keywords organized by category. |\nJob Responsibility Bullets\nMedium-High | Weave keywords into accomplishment statements with metrics. |\nCertifications |\nMedium | List full names and acronyms: \"Project Management Professional (PMP)\" |\n\n## The 4-Step Integration Process\n\n### Step 1: Assess Your Fit First\n\nBefore optimizing keywords, check if you meet the baseline:\n\n**Required skills:**You should have 80%+ -\n**Preferred skills:**You should have 50%+\n\nIf you're missing critical requirements, keyword optimization won't help. You'll fail human review. This step prevents wasting time on roles you're not qualified for.\n\n### Step 2: Map Keywords to Real Experience\n\nCreate a simple inventory:\n\n| Job Description Keyword | Your Experience | Priority |\n|---|---|---|\n| Salesforce CRM | Led implementation for 200+ users | Must-have |\n| Agile methodology | Managed 15+ sprints across 3 products | Must-have |\n| Python | None | Missing |\n\nFocus on must-have and nice-to-have keywords. Don't force missing keywords into your resume.\n\n### Step 3: Integrate Keywords Naturally\n\nPlace keywords where they make sense in your actual work descriptions:\n\n\"Implemented **Salesforce CRM** system for 500+ users, reducing manual data entry by 40% and improving sales team productivity by 25%.\"\n\nThis sentence includes:\n\n- Keyword (Salesforce CRM)\n- Scope (500+ users)\n- Impact (40% reduction)\n- Result (25% improvement)\n\n### Step 4: Verify Your Coverage\n\nOpen your resume and the job description side-by-side. Highlight keywords from the posting that appear in your resume. Count them.\n\n**Target coverage:**\n\n- 60-80% = Good\n- 80%+ = Excellent\n- Below 50% = Likely won't pass ATS\n\n**Stop optimizing when:**\n\n- You've reached 70%+ keyword match\n- You've included all keywords matching your experience\n- Adding more would require keyword stuffing\n\nTools like Jobscan or Upplai can automate this analysis and show which keywords are missing, saving you hours of manual work.\n\n## What Happens After You Pass ATS\n\nPassing ATS is the first hurdle, not the finish line. Once your resume reaches a recruiter (the second round of screening), they evaluate:\n\n**Accomplishments and impact**(quantifiable results) -\n**Career progression**(upward trajectory) -\n**Culture fit**(values alignment) -\n**Communication skills**(clarity and professionalism)\n\nKeywords get you past the algorithm, but to get hired, you must get noticed by the recruiter.\n\nYour resume should tell a story: \"I did X, using Y tools, and achieved Z results.\"\n\n**Example:** \"Led **cross-functional teams** (keyword) using **Agile methodology** (keyword) to deliver product launch 2 months ahead of schedule, resulting in $2M revenue in first quarter.\"\n\n## Mistakes That Still Get You Rejected\n\n**Keyword stuffing:** Repeating keywords unnaturally gets flagged and rejected. Modern ATS uses AI to detect unnatural language patterns.\n\n**Claiming skills you don't have:** If you list \"Python\" but can't code, you'll fail the technical interview. Keywords get you screened in. Your actual skills get you hired.\n\n**Ignoring job-specific keywords:** Focusing only on industry-wide keywords misses what this specific ATS prioritizes.\n\n**Poor placement:** Putting keywords only in the skills section instead of throughout your resume reduces their impact.\n\n**Same resume for every application:** Each job posting has different keyword priorities. Tailoring takes time, but generic resumes get rejected.\n\n**Outdated keywords:** Terms like \"Flash\" or \"Silverlight\" in tech no longer matter. Update your keyword list regularly.\n\n## Key Takeaways\n\nATS keywords are the bridge between your qualifications and the systems screening resumes before humans see them.\n\n**What matters:**\n\n- Two types of keywords exist: job-specific (from the posting) and industry-wide (standard terms). Prioritize job-specific.\n- Keywords must match your actual experience. Keyword stuffing triggers rejection.\n- Place keywords in high-priority zones: job titles, professional summary, skills section, and first bullet point of each role.\n- Aim for 15-25 relevant keywords with 60-80% coverage of job description keywords.\n- Passing ATS is necessary. Your accomplishments and impact get you interviews.\n\nYour experience matters. Your qualifications matter. But if the algorithm can't recognize them, you never get the chance to prove it.\n\nMastering ATS keywords isn't gaming the system. It's ensuring your actual qualifications are visible to the people who can hire you. To get more interviews, you have no choice but to understand the math behind how an ATS scores your resume.\n",
+  "metadata": {
+    "source_url": "https://uppl.ai/ats-resume-keywords/",
+    "source_domain": "uppl.ai",
+    "topic": "ats-optimization",
+    "fetched_at": "2026-05-25T06:42:49.138108+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "ATS Resume Keywords Guide: What Actually Works in 2026",
+    "description": "80% of resumes get filtered by ATS. Learn which keywords matter, where to place them, and how to pass ATS filters without keyword stuffing.",
+    "language": "en",
+    "word_count": 1846,
+    "content_hash": "sha256:bbcbf15d558356c55530728ac9672f5c91e142849aa3c64fa1007f24469c4ec1",
+    "reading_time": 10,
+    "author": "Soubhik Dawn",
+    "published_date": "2025-10-26",
+    "og_title": null,
+    "signal_score": 0.6657,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Explains ATS keyword importance for 2026, showing how to identify, prioritize, and naturally integrate job-specific versus industry-wide keywords into resumes.",
+    "entities": {
+      "primary": "ATS resume keywords",
+      "aliases": [
+        "keyword matching strategy",
+        "job-specific keywords",
+        "keyword prioritization"
+      ]
+    },
+    "core_question": "Which keywords matter most for ATS screening and how do you find them?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "keyword identification",
+      "job descriptions",
+      "keyword frequency",
+      "skill keywords",
+      "certification keywords",
+      "natural integration"
+    ]
+  },
+  "structure": {
+    "section_count": 24,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "ATS Resume Keywords Guide: What Actually Works in 2026",
+        "section_type": "title",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026"
+        ],
+        "char_start": 0,
+        "char_end": 12532
+      },
+      {
+        "level": 2,
+        "title": "What You'll Learn in This Guide",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "What You'll Learn in This Guide"
+        ],
+        "char_start": 628,
+        "char_end": 980
+      },
+      {
+        "level": 2,
+        "title": "Why Qualified Candidates Get Rejected",
+        "section_type": "intro",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "Why Qualified Candidates Get Rejected"
+        ],
+        "char_start": 980,
+        "char_end": 1608
+      },
+      {
+        "level": 2,
+        "title": "What Are ATS Keywords?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "What Are ATS Keywords?"
+        ],
+        "char_start": 1608,
+        "char_end": 2608
+      },
+      {
+        "level": 2,
+        "title": "The Two Types of Keywords (And Which Matters More)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The Two Types of Keywords (And Which Matters More)"
+        ],
+        "char_start": 2608,
+        "char_end": 3531
+      },
+      {
+        "level": 3,
+        "title": "Job-Specific Keywords (High Priority)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The Two Types of Keywords (And Which Matters More)",
+          "Job-Specific Keywords (High Priority)"
+        ],
+        "char_start": 2701,
+        "char_end": 3002
+      },
+      {
+        "level": 3,
+        "title": "Industry-Wide Keywords (Medium Priority)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The Two Types of Keywords (And Which Matters More)",
+          "Industry-Wide Keywords (Medium Priority)"
+        ],
+        "char_start": 3002,
+        "char_end": 3531
+      },
+      {
+        "level": 2,
+        "title": "How to Find ATS Keywords",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "How to Find ATS Keywords"
+        ],
+        "char_start": 3531,
+        "char_end": 5098
+      },
+      {
+        "level": 3,
+        "title": "Step 1: Analyze Job Descriptions",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "How to Find ATS Keywords",
+          "Step 1: Analyze Job Descriptions"
+        ],
+        "char_start": 3560,
+        "char_end": 3904
+      },
+      {
+        "level": 3,
+        "title": "Step 2: Identify What ATS Prioritizes",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "How to Find ATS Keywords",
+          "Step 2: Identify What ATS Prioritizes"
+        ],
+        "char_start": 3904,
+        "char_end": 4621
+      },
+      {
+        "level": 3,
+        "title": "Alternatively: Use an ATS Score Checker",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "How to Find ATS Keywords",
+          "Alternatively: Use an ATS Score Checker"
+        ],
+        "char_start": 4621,
+        "char_end": 5098
+      },
+      {
+        "level": 2,
+        "title": "Keyword Frequency Analysis: What Actually Matters",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "Keyword Frequency Analysis: What Actually Matters"
+        ],
+        "char_start": 5098,
+        "char_end": 5839
+      },
+      {
+        "level": 2,
+        "title": "Common ATS Keywords by Industry (2026)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "Common ATS Keywords by Industry (2026)"
+        ],
+        "char_start": 5839,
+        "char_end": 6756
+      },
+      {
+        "level": 2,
+        "title": "How to Use Keywords Without Sounding Like a Robot",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "How to Use Keywords Without Sounding Like a Robot"
+        ],
+        "char_start": 6756,
+        "char_end": 7494
+      },
+      {
+        "level": 3,
+        "title": "Keyword Density Guidelines",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "How to Use Keywords Without Sounding Like a Robot",
+          "Keyword Density Guidelines"
+        ],
+        "char_start": 7129,
+        "char_end": 7494
+      },
+      {
+        "level": 2,
+        "title": "Where to Place Keywords (ATS Priority Zones)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "Where to Place Keywords (ATS Priority Zones)"
+        ],
+        "char_start": 7494,
+        "char_end": 8180
+      },
+      {
+        "level": 2,
+        "title": "The 4-Step Integration Process",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The 4-Step Integration Process"
+        ],
+        "char_start": 8180,
+        "char_end": 9902
+      },
+      {
+        "level": 3,
+        "title": "Step 1: Assess Your Fit First",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The 4-Step Integration Process",
+          "Step 1: Assess Your Fit First"
+        ],
+        "char_start": 8215,
+        "char_end": 8565
+      },
+      {
+        "level": 3,
+        "title": "Step 2: Map Keywords to Real Experience",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The 4-Step Integration Process",
+          "Step 2: Map Keywords to Real Experience"
+        ],
+        "char_start": 8565,
+        "char_end": 8973
+      },
+      {
+        "level": 3,
+        "title": "Step 3: Integrate Keywords Naturally",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The 4-Step Integration Process",
+          "Step 3: Integrate Keywords Naturally"
+        ],
+        "char_start": 8973,
+        "char_end": 9350
+      },
+      {
+        "level": 3,
+        "title": "Step 4: Verify Your Coverage",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "The 4-Step Integration Process",
+          "Step 4: Verify Your Coverage"
+        ],
+        "char_start": 9350,
+        "char_end": 9902
+      },
+      {
+        "level": 2,
+        "title": "What Happens After You Pass ATS",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "What Happens After You Pass ATS"
+        ],
+        "char_start": 9902,
+        "char_end": 10639
+      },
+      {
+        "level": 2,
+        "title": "Mistakes That Still Get You Rejected",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "Mistakes That Still Get You Rejected"
+        ],
+        "char_start": 10639,
+        "char_end": 11504
+      },
+      {
+        "level": 2,
+        "title": "Key Takeaways",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Keywords Guide: What Actually Works in 2026",
+          "Key Takeaways"
+        ],
+        "char_start": 11504,
+        "char_end": 12532
+      }
+    ]
+  },
+  "links": [
+    "https://uppl.ai/how_ats_works/",
+    "https://uppl.ai/linkedin-premium-worth-it/",
+    "https://uppl.ai/resume-checker/",
+    "https://uppl.ai/resume-summary/",
+    "https://uppl.ai/jobscan-alternatives/",
+    "https://uppl.ai/get-your-resume-noticed/",
+    "https://uppl.ai/mastering-ats-resume-optimization/"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

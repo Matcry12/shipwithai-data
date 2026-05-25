@@ -1,0 +1,87 @@
+{
+  "markdown": "# How to make a professional github profile ? · community · Discussion #182675\n\n## Select Topic AreaQuestion ## BodyI am a b.tech student and i want to make my github profile look professional. |\n\nBeta Was this translation helpful? Give feedback.\n\n## 9 comments 1 reply\n\nHow to Make a Professional GitHub Profile A professional GitHub profile reflects your skills, consistency, and real-world experience. Here's how a B.Tech student can build one effectively:\nUse a clear professional profile photo Write a concise bio (role, tech stack, goals) Add location, LinkedIn/portfolio, and email Create a GitHub Profile README (username/username repo)\nInclude: Short intro (who you are & what you're learning) Tech stack (languages, frameworks, tools) Featured projects with links GitHub stats (optional, keep it clean) Contact links\nPrefer fewer high-quality projects over many basic ones Each repo should have: Clear README (overview, tech used, setup steps) Clean commit history Proper folder structure Avoid pushing incomplete or copied projects\nFull-stack apps, APIs, automation scripts Projects that solve real problems Deploy projects and add live links\nCommit regularly (even small improvements) Fix bugs, refactor code, improve documentation Contribute to open source (docs, issues, PRs)\nMeaningful commit messages Proper .gitignore Follow coding standards Use branches instead of committing directly to main\nStar useful repositories Follow developers and organizations Participate in GitHub Discussions and Issues Final Tip Recruiters don't look for perfection—they look for clarity, effort, and growth. A professional GitHub profile tells a story: you can build, learn, and improve continuously. |\n\nBeta Was this translation helpful? Give feedback.\n\nBuilding a professional GitHub profile in 2025 focuses on providing clear proof of your ability to build and collaborate. This step-by-step guide simplifies the process while ensuring you don't miss critical technical details.\n\nBeta Was this translation helpful? Give feedback.\n\nI have a posted a quick YouTube tutorial showing different ways of achieving this. Outstanding GitHub Profile README Portfolio | 2 Ways in 4 Minutes! |\n\nBeta Was this translation helpful? Give feedback.\n\nIf you're a beginner and want to make your GitHub profile look professional, you can start with online README generators: Beginner: Intermediate: Advanced: |\n\nBeta Was this translation helpful? Give feedback.\n\nTo make your GitHub profile stand out and look professional, you can follow these key steps:\nA professional profile is not just about how it looks, but about the quality of the code inside your repositories! |\n\nBeta Was this translation helpful? Give feedback.\n\nThis comment was marked as off-topic.\n\nThis comment was marked as off-topic.\n\nTo create a professional GitHub profile: Use a clear profile picture – A simple, professional photo works best. Write a strong bio – Include your role, skills, and interests in a concise way. Showcase pinned repositories – Pin your best projects that highlight your skills. Keep your repos organized – Use proper naming, README files, and documentation. Contribute regularly – Even small commits show activity and consistency. Use GitHub Pages or portfolio links – Link your personal portfolio or resume. Highlight contributions to open-source – Contributing to popular projects adds credibility. For more tips and examples, you can check out my GitHub profile |\n\nBeta Was this translation helpful? Give feedback.\n\nThe easiest way is to use AI itself, and some open-source Professional Github Tools available out there that can help in adding:\nand much more... |\n\nBeta Was this translation helpful? Give feedback.\n\n🕒 This Discussion has been labeled as dormant by an automated system for having no activity in the last 60 days. Please consider one the following actions: 1️⃣ Close as Out of Date: If the topic is no longer relevant, close the Discussion as 2️⃣ Provide More Information: Share additional details or context — or let the community know if you've found a solution on your own. 3️⃣ Mark a Reply as Answer: If your question has been answered by a reply, mark the most helpful reply as the solution. Note: This dormant notification will only apply to Discussions with the Thank you for helping bring this Discussion to a resolution! 💬 |\n\nBeta Was this translation helpful? Give feedback.\n",
+  "metadata": {
+    "source_url": "https://github.com/orgs/community/discussions/182675",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:24.542304+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How to make a professional github profile ? · community · Discussion #182675",
+    "description": "Select Topic Area Question Body I am a b.tech student and i want to make my github profile look professional.",
+    "language": "en",
+    "word_count": 680,
+    "content_hash": "sha256:bd7a0bd62aa5dd8266f94b8a5b8acb0ed8ae5c6a7d6c894393c86ccef203ffd8",
+    "reading_time": 4,
+    "author": null,
+    "published_date": "2025-12-25",
+    "og_title": null,
+    "signal_score": 0.8876,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide to building a professional GitHub profile with strategies for profile photos, README, quality projects, commit practices, and open-source contributions.",
+    "entities": {
+      "primary": "Professional GitHub profile",
+      "aliases": [
+        "GitHub portfolio",
+        "developer profile optimization",
+        "GitHub visibility"
+      ]
+    },
+    "core_question": "How can a B.Tech student make their GitHub profile look professional and impress recruiters?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "GitHub profile",
+      "professional presence",
+      "README setup",
+      "portfolio projects",
+      "open source"
+    ]
+  },
+  "structure": {
+    "section_count": 3,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "How to make a professional github profile ? · community · Discussion #182675",
+        "section_type": "title",
+        "header_path": [
+          "How to make a professional github profile ? · community · Discussion #182675"
+        ],
+        "char_start": 0,
+        "char_end": 4386
+      },
+      {
+        "level": 2,
+        "title": "Select Topic AreaQuestion ## BodyI am a b.tech student and i want to make my github profile look professional. |",
+        "section_type": "content",
+        "header_path": [
+          "How to make a professional github profile ? · community · Discussion #182675",
+          "Select Topic AreaQuestion ## BodyI am a b.tech student and i want to make my github profile look professional. |"
+        ],
+        "char_start": 80,
+        "char_end": 248
+      },
+      {
+        "level": 2,
+        "title": "9 comments 1 reply",
+        "section_type": "content",
+        "header_path": [
+          "How to make a professional github profile ? · community · Discussion #182675",
+          "9 comments 1 reply"
+        ],
+        "char_start": 248,
+        "char_end": 4386
+      }
+    ]
+  },
+  "links": [
+    "https://github.com",
+    "https://github.com/join?source=comment-repo",
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Forgs%2Fcommunity%2Fdiscussions%2F182675"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

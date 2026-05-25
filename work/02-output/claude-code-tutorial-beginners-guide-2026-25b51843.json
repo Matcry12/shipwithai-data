@@ -1,0 +1,387 @@
+{
+  "markdown": "# Key Takeaways\n\n**Terminal-native, not a chatbot**: Claude Code runs directly on your local files, indexes your entire project structure, and operates through a permission system where you approve every file change and command execution.**Plan Mode for complex tasks**: Tell Claude to plan its approach before making changes -- it analyzes the problem, outlines steps, shows reasoning, and waits for your approval before executing.**Sonnet for 80%, Opus for 20%**: Use Sonnet 4.6 for everyday tasks (fast, cost-effective); switch to Opus 4.6 for complex multi-file refactoring, architectural decisions, or Agent Teams.**CLAUDE.md boosts consistency**: Create a project-specific CLAUDE.md file with coding conventions, tech stack preferences, and testing requirements that Claude reads automatically every session.\n\n# Claude Code Tutorial for Beginners: Complete Getting Started Guide\n\nClaude Code is the AI coding assistant that lives in your terminal.\n\n**Claude Code is Anthropic's terminal-native AI coding agent that reads, edits, and debugs your entire codebase through natural language.** It supports Claude Opus 4.6 and Sonnet 4.6 with up to 1M tokens of context, Plan Mode for reasoning through complex problems before acting, and Agent Teams for parallel sub-tasks. Starting at $20/month with Claude Pro, it scores 80.8% on SWE-bench Verified — making it one of the highest-performing coding tools available.\n\nBuilt by Anthropic, it connects directly to your codebase, understands your project structure, and writes real code on your machine — all through natural language conversation. Since its general availability in May 2025, Claude Code has grown into one of the most widely adopted AI development tools, contributing to Anthropic reaching over $1 billion in annualized revenue by November 2025.\n\nThis tutorial takes you from zero to productive. No prior AI tooling experience required.\n\n## Table of Contents\n\n- What is Claude Code?\n- Prerequisites and Installation\n- Your First Session\n- Essential Commands Reference\n- Plan Mode: Think Before You Code\n- Setting Up CLAUDE.md\n- Real-World Workflow Examples\n- Choosing Between Sonnet 4.6 and Opus 4.6\n- Tips for Getting the Most Out of Claude Code\n\n### Describe what you want — NxCode builds it for you.\n\nTurn your idea into a working app — no coding required.\n\n## What is Claude Code?\n\nClaude Code is Anthropic's **terminal-native AI coding assistant**. Unlike browser-based chatbots or IDE extensions, it runs directly inside your terminal and operates on your local files.\n\nHere is what makes it different:\n\n**Deep codebase awareness**— Claude indexes your entire project and understands how files relate to each other**Interactive reasoning**— it shows its thinking process and asks for your input at decision points**Local execution**— edits files and runs commands on your machine, not in a remote sandbox**Permission system**— every file change and command execution requires your approval\n\nClaude Code is powered by **Claude Opus 4.6** and **Claude Sonnet 4.6**, Anthropic's most capable models. It supports a standard 200K context window, with a 1M token beta available on Opus 4.6.\n\n\"Claude Code is not a chatbot. It is a coding agent that happens to communicate through conversation.\"\n\n## Prerequisites and Installation\n\n### What You Need\n\nBefore installing, make sure you have:\n\n**A Claude subscription**— Claude Pro ($20/month) at minimum**A terminal application**— Terminal.app (macOS), your preferred Linux terminal, or Windows Terminal**A supported OS**— macOS, Linux, or Windows 11**Node.js**— required for the npm installation method\n\n### Step 1: Install Claude Code\n\nOpen your terminal and run:\n\n```\nnpm install -g @anthropic-ai/claude-code\n```\n\nAlternatively, you can install via the official script:\n\n```\ncurl -fsSL https://claude.ai/install.sh | sh\n```\n\n### Step 2: Verify the Installation\n\n```\nclaude --version\n```\n\nYou should see the current version number printed. If you get a \"command not found\" error, make sure your Node.js bin directory is in your PATH.\n\n### Step 3: Navigate to Your Project\n\nClaude Code works best when launched from the root of your project:\n\n```\ncd ~/projects/my-app\nclaude\n```\n\nThat is it. Claude will scan your project and you are ready to go.\n\n## Your First Session\n\nWhen you launch `claude`\n\nfor the first time inside a project, here is what happens:\n\n- Claude indexes your project files and structure\n- It opens an interactive prompt where you type in natural language\n- You ask questions or give instructions, and Claude responds with code, edits, or explanations\n\n### A Simple First Interaction\n\nTry starting with something like this:\n\n```\n> What does this project do? Summarize the tech stack and folder structure.\n```\n\nClaude will scan through your files and give you a structured breakdown of your project — the frameworks, the entry points, the key modules.\n\nFollow it up with a real task:\n\n```\n> Add input validation to the signup form. Email should be validated and password needs at least 8 characters.\n```\n\nClaude will:\n\n- Find the relevant form component\n- Show you its plan for the changes\n- Ask for your permission before modifying any files\n- Apply the edits and confirm what was changed\n\nYou stay in control throughout. Nothing happens without your approval.\n\n## Essential Commands Reference\n\nThese are the commands you will use most often inside a Claude Code session:\n\n| Command | What It Does |\n|---|---|\n`claude` | Start a new Claude Code session |\n`/help` | Show all available commands |\n`/plan` | Enter Plan Mode — Claude plans before executing |\n`/clear` | Clear the conversation context and start fresh |\n`/cost` | Show token usage and estimated costs for the session |\n`/compact` | Compress the conversation to save context window space |\n\nYou do not need to memorize slash commands to be productive. Most of the time, you simply type your request in natural language and Claude figures out the rest.\n\n## Plan Mode: Think Before You Code\n\nPlan Mode is one of Claude Code's most important features, especially for beginners.\n\nWhen you enter Plan Mode with `/plan`\n\n, Claude shifts its behavior:\n\n**It analyzes the problem**— reads relevant files, traces dependencies, identifies affected areas**It outlines a step-by-step plan**— what it will change, in what order, and why**It shows its reasoning**— you see how Claude thinks through the problem**It waits for your approval**— nothing is executed until you say go\n\n### When to Use Plan Mode\n\n**Complex refactoring**— renaming a module that is imported across dozens of files**Multi-file features**— adding a new API endpoint that touches routes, controllers, models, and tests**Unfamiliar codebases**— when you want to understand the impact before making changes**Learning**— reading Claude's reasoning helps you understand your own codebase better\n\n### Example: Plan Mode in Action\n\n```\n> /plan\n> Refactor the authentication module to use JWT tokens instead of session cookies.\n```\n\nClaude will respond with something like:\n\nHere is my plan:\n\n- Update\n`auth/middleware.js`\n\nto verify JWT tokens instead of checking session store- Modify\n`auth/login.js`\n\nto generate and return a JWT on successful login- Update\n`auth/logout.js`\n\nto handle token invalidation- Adjust the API client in\n`frontend/src/api.js`\n\nto send tokens in the Authorization header- Update 3 test files to use JWT-based authentication fixtures\nShall I proceed?\n\nYou review, ask questions, adjust the plan if needed, and then approve.\n\n## Setting Up CLAUDE.md\n\n`CLAUDE.md`\n\nis a special file that Claude reads automatically at the start of every session. Think of it as a configuration file for how Claude should behave in your project.\n\n### Create Your CLAUDE.md\n\nPlace it in the root of your project:\n\n```\n# Project: My SaaS App\n## Tech Stack\n- Next.js 14 with App Router\n- TypeScript (strict mode)\n- Tailwind CSS\n- PostgreSQL with Prisma ORM\n## Coding Conventions\n- Use functional components with hooks (no class components)\n- All functions must have TypeScript return types\n- Use named exports, not default exports\n- Write tests for all new utility functions\n## Testing\n- Run tests with: npm run test\n- Use Vitest for unit tests\n- Test files go in __tests__ directories next to source files\n## Git\n- Conventional commits: feat(), fix(), refactor()\n- Always create a new branch for features\n```\n\n### Why CLAUDE.md Matters\n\nWithout `CLAUDE.md`\n\n, Claude makes reasonable guesses about your conventions. With it, Claude follows your exact standards from the first prompt. This is especially valuable on teams where consistency matters.\n\n## Real-World Workflow Examples\n\n### Debugging a Production Issue\n\n```\n> Users are reporting that the dashboard takes 15 seconds to load.\n> Check the API calls on the dashboard page and identify any performance bottlenecks.\n```\n\nClaude will trace through the dashboard component, find the API calls, check for N+1 queries or missing indexes, and suggest specific fixes.\n\n### Adding a New Feature\n\n```\n> Add a dark mode toggle to the app. It should persist the user's preference\n> in localStorage and apply on page load without a flash of unstyled content.\n```\n\nClaude will identify where to add the toggle component, set up the theme context, add the localStorage logic, and handle the initial render correctly.\n\n### Refactoring Legacy Code\n\n```\n> /plan\n> This file uses callback-based async patterns. Refactor it to use async/await\n> while keeping the same external API.\n```\n\nClaude plans the refactoring, shows which functions change, and confirms nothing breaks externally before proceeding.\n\n### Git Integration\n\nClaude Code works directly with Git. You can ask it to:\n\n```\n> Create a new branch called feat/dark-mode, commit the changes we just made,\n> and open a pull request with a description of what was changed.\n```\n\nClaude will create the branch, stage the files, write a commit message, and use the GitHub CLI to open a PR — all within your terminal session.\n\n## Choosing Between Sonnet 4.6 and Opus 4.6\n\nClaude Code gives you access to two models. Picking the right one saves you time and money.\n\n| Sonnet 4.6 | Opus 4.6 | |\n|---|---|---|\nSpeed | Fast | Slower |\nCost (API) | $3 / $15 per 1M tokens | $15 / $75 per 1M tokens |\nBest for | Most everyday coding tasks | Complex architecture, multi-file refactoring |\nContext window | 200K tokens | 200K standard, 1M beta |\nAgent Teams | Not available | Available (Opus only) |\n\n### The 80/20 Rule\n\nUse **Sonnet 4.6 for roughly 80% of your work**: writing functions, fixing bugs, adding features, writing tests, explaining code. It is fast, cheap, and more than capable.\n\nSwitch to **Opus 4.6 for the hardest 20%**: large-scale refactoring across many files, complex architectural decisions, Agent Teams for parallel work, or when you need the 1M token context window for analyzing a large codebase.\n\n## Tips for Getting the Most Out of Claude Code\n\n**1. Start every project with context.**\nBefore diving into tasks, ask Claude to summarize what the project does. This helps Claude build an accurate mental model and results in better code from the first prompt.\n\n```\n> What does this project do? Walk me through the architecture.\n```\n\n**2. Use Plan Mode for anything complex.**\nIf a task touches more than two files, use `/plan`\n\n. The upfront cost of planning saves you from incorrect changes that are harder to undo.\n\n**3. Be specific with your requests.**\nInstead of \"make the code better,\" try \"refactor the `processPayment`\n\nfunction to handle failed Stripe charges and retry up to 3 times with exponential backoff.\"\n\n**4. Use /compact when hitting context limits.**\nLong sessions accumulate context. When Claude starts losing track of earlier conversations, run `/compact`\n\nto compress the history and free up space.\n\n**5. Create and maintain your CLAUDE.md.**\nThis is the single highest-leverage thing you can do. A good `CLAUDE.md`\n\neliminates repetitive corrections and keeps Claude aligned with your team's standards.\n\n**6. Review diffs before approving.**\nClaude's permission system exists for a reason. Read the proposed changes, especially for unfamiliar codebases. Claude is powerful but not infallible.\n\n**7. Use Git integration for clean workflows.**\nLet Claude handle the mechanical parts of Git — branching, committing, writing PR descriptions — so you can focus on reviewing the actual code changes.\n\n**8. Chain tasks in a single session.**\nClaude remembers context within a session. After building a feature, follow up immediately with \"now write tests for what we just added\" — Claude already knows the code.\n\n## What's Next?\n\nYou now have everything you need to start using Claude Code productively. The learning curve is short: most developers find their rhythm within the first few sessions.\n\nAs you get comfortable, explore these more advanced capabilities:\n\n**Agent Teams**— spin up multiple Claude instances for parallel work on large projects (Opus 4.6 only)**1M token context window**— analyze massive codebases in a single session (Opus 4.6 beta)**Custom slash commands**— automate repetitive workflows with project-specific commands**CI/CD integration**— run Claude Code as part of your build and review pipeline\n",
+  "metadata": {
+    "source_url": "https://www.nxcode.io/resources/news/claude-code-tutorial-beginners-guide-2026",
+    "source_domain": "nxcode.io",
+    "topic": "claude-code-workflow",
+    "fetched_at": "2026-05-25T06:46:33.095497+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Claude Code Tutorial 2026: Complete Beginner's Guide (Install, Commands, Plan Mode)",
+    "description": "Master Claude Code in one tutorial. Install in under 2 minutes, learn the essential commands, Plan Mode, CLAUDE.md, and real-world workflows that let beginners ship code on day one. 2026 edition with Opus 4.7 + Sonnet 4.6.",
+    "language": "en",
+    "word_count": 2101,
+    "content_hash": "sha256:20917660e8319853ec93e7194a8966e0f25e4391d5d2f5b3bdaadf2922c7d46c",
+    "reading_time": 11,
+    "author": null,
+    "published_date": "2026-03-11",
+    "og_title": null,
+    "signal_score": 0.8209,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Complete 2026 beginner guide to Claude Code covering installation, first session, essential commands, Plan Mode, CLAUDE.md setup, Sonnet vs Opus, and workflow examples.",
+    "entities": {
+      "primary": "Claude Code beginners guide 2026",
+      "aliases": [
+        "Claude Code getting started",
+        "Claude Code tutorial"
+      ]
+    },
+    "core_question": "How do I install and start using Claude Code effectively?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "installation",
+      "Plan Mode",
+      "CLAUDE.md",
+      "Sonnet 4.6",
+      "Opus 4.6",
+      "context window"
+    ]
+  },
+  "structure": {
+    "section_count": 28,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Key Takeaways",
+        "section_type": "title",
+        "header_path": [
+          "Key Takeaways"
+        ],
+        "char_start": 0,
+        "char_end": 816
+      },
+      {
+        "level": 1,
+        "title": "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+        "section_type": "title",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide"
+        ],
+        "char_start": 816,
+        "char_end": 13203
+      },
+      {
+        "level": 2,
+        "title": "Table of Contents",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Table of Contents"
+        ],
+        "char_start": 1903,
+        "char_end": 2326
+      },
+      {
+        "level": 3,
+        "title": "Describe what you want — NxCode builds it for you.",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Table of Contents",
+          "Describe what you want — NxCode builds it for you."
+        ],
+        "char_start": 2213,
+        "char_end": 2326
+      },
+      {
+        "level": 2,
+        "title": "What is Claude Code?",
+        "section_type": "intro",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "What is Claude Code?"
+        ],
+        "char_start": 2326,
+        "char_end": 3261
+      },
+      {
+        "level": 2,
+        "title": "Prerequisites and Installation",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Prerequisites and Installation"
+        ],
+        "char_start": 3261,
+        "char_end": 4261
+      },
+      {
+        "level": 3,
+        "title": "What You Need",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Prerequisites and Installation",
+          "What You Need"
+        ],
+        "char_start": 3296,
+        "char_end": 3617
+      },
+      {
+        "level": 3,
+        "title": "Step 1: Install Claude Code",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Prerequisites and Installation",
+          "Step 1: Install Claude Code"
+        ],
+        "char_start": 3617,
+        "char_end": 3840
+      },
+      {
+        "level": 3,
+        "title": "Step 2: Verify the Installation",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Prerequisites and Installation",
+          "Step 2: Verify the Installation"
+        ],
+        "char_start": 3840,
+        "char_end": 4049
+      },
+      {
+        "level": 3,
+        "title": "Step 3: Navigate to Your Project",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Prerequisites and Installation",
+          "Step 3: Navigate to Your Project"
+        ],
+        "char_start": 4049,
+        "char_end": 4261
+      },
+      {
+        "level": 2,
+        "title": "Your First Session",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Your First Session"
+        ],
+        "char_start": 4261,
+        "char_end": 5294
+      },
+      {
+        "level": 3,
+        "title": "A Simple First Interaction",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Your First Session",
+          "A Simple First Interaction"
+        ],
+        "char_start": 4585,
+        "char_end": 5294
+      },
+      {
+        "level": 2,
+        "title": "Essential Commands Reference",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Essential Commands Reference"
+        ],
+        "char_start": 5294,
+        "char_end": 5945
+      },
+      {
+        "level": 2,
+        "title": "Plan Mode: Think Before You Code",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Plan Mode: Think Before You Code"
+        ],
+        "char_start": 5945,
+        "char_end": 7497
+      },
+      {
+        "level": 3,
+        "title": "When to Use Plan Mode",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Plan Mode: Think Before You Code",
+          "When to Use Plan Mode"
+        ],
+        "char_start": 6458,
+        "char_end": 6843
+      },
+      {
+        "level": 3,
+        "title": "Example: Plan Mode in Action",
+        "section_type": "example",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Plan Mode: Think Before You Code",
+          "Example: Plan Mode in Action"
+        ],
+        "char_start": 6843,
+        "char_end": 7497
+      },
+      {
+        "level": 2,
+        "title": "Setting Up CLAUDE.md",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Setting Up CLAUDE.md"
+        ],
+        "char_start": 7497,
+        "char_end": 8599
+      },
+      {
+        "level": 3,
+        "title": "Create Your CLAUDE.md",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Setting Up CLAUDE.md",
+          "Create Your CLAUDE.md"
+        ],
+        "char_start": 7699,
+        "char_end": 8360
+      },
+      {
+        "level": 3,
+        "title": "Why CLAUDE.md Matters",
+        "section_type": "intro",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Setting Up CLAUDE.md",
+          "Why CLAUDE.md Matters"
+        ],
+        "char_start": 8360,
+        "char_end": 8599
+      },
+      {
+        "level": 2,
+        "title": "Real-World Workflow Examples",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Real-World Workflow Examples"
+        ],
+        "char_start": 8599,
+        "char_end": 9971
+      },
+      {
+        "level": 3,
+        "title": "Debugging a Production Issue",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Real-World Workflow Examples",
+          "Debugging a Production Issue"
+        ],
+        "char_start": 8632,
+        "char_end": 8970
+      },
+      {
+        "level": 3,
+        "title": "Adding a New Feature",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Real-World Workflow Examples",
+          "Adding a New Feature"
+        ],
+        "char_start": 8970,
+        "char_end": 9312
+      },
+      {
+        "level": 3,
+        "title": "Refactoring Legacy Code",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Real-World Workflow Examples",
+          "Refactoring Legacy Code"
+        ],
+        "char_start": 9312,
+        "char_end": 9595
+      },
+      {
+        "level": 3,
+        "title": "Git Integration",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Real-World Workflow Examples",
+          "Git Integration"
+        ],
+        "char_start": 9595,
+        "char_end": 9971
+      },
+      {
+        "level": 2,
+        "title": "Choosing Between Sonnet 4.6 and Opus 4.6",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Choosing Between Sonnet 4.6 and Opus 4.6"
+        ],
+        "char_start": 9971,
+        "char_end": 10859
+      },
+      {
+        "level": 3,
+        "title": "The 80/20 Rule",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Choosing Between Sonnet 4.6 and Opus 4.6",
+          "The 80/20 Rule"
+        ],
+        "char_start": 10437,
+        "char_end": 10859
+      },
+      {
+        "level": 2,
+        "title": "Tips for Getting the Most Out of Claude Code",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "Tips for Getting the Most Out of Claude Code"
+        ],
+        "char_start": 10859,
+        "char_end": 12590
+      },
+      {
+        "level": 2,
+        "title": "What's Next?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners: Complete Getting Started Guide",
+          "What's Next?"
+        ],
+        "char_start": 12590,
+        "char_end": 13203
+      }
+    ]
+  },
+  "links": [
+    "https://studio.nxcode.io?ref=article_top_claude-code-tutorial-beginners-guide-2026&article=claude-code-tutorial-beginners-guide-2026",
+    "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "https://claude.com/pricing",
+    "https://www.anthropic.com/news/claude-opus-4-6",
+    "https://www.nxcode.io#what-is-claude-code",
+    "https://www.nxcode.io#prerequisites-and-installation",
+    "https://www.nxcode.io#your-first-session",
+    "https://www.nxcode.io#essential-commands-reference",
+    "https://www.nxcode.io#plan-mode-think-before-you-code",
+    "https://www.nxcode.io#setting-up-claudemd",
+    "https://www.nxcode.io#real-world-workflow-examples",
+    "https://www.nxcode.io#choosing-between-sonnet-46-and-opus-46",
+    "https://www.nxcode.io#tips-for-getting-the-most-out-of-claude-code",
+    "https://www.nxcode.io/resources/news"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

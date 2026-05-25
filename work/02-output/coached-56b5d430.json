@@ -1,0 +1,76 @@
+{
+  "markdown": "# Coached by Resume Worded - your no-BS, weekly career coach\n\nHi, future reader! It's Rohan.\n\nIn short - I'm obsessed with figuring out what makes careers tick.\nA few years ago, I realized most career advice was either too fluffy or totally BS and disconnected from reality.\nI decided to fix that - so I started Resume Worded and this email series, Coached.\n\nHere's what to expect from every email:\n\n- Practical career strategies you won't get anywhere else.\n- Email templates you can copy-and-send to easily grow your network.\n- Step-by-step frameworks proven to get promoted and grow as a leader.\n- Everything from email tricks to make you sound like a CEO, how to never get nervous, and body language hacks that will help in high pressure career situations.\n\nNo fluff, no-BS — just practical stuff that will give you a leg up in your career.\n\nWhether you're a mid-level manager or gunning for the C-suite, there's something here to help you level up.\n\nMy promise to you is that every single email will add value to your career. And I mean it. If an email doesn't pass our high quality bar, I won't send it out — even if I've spent days on it. This email is not about quantity. It's about quality career ideas that will make a noticeable impact if you implement them in your day-to-day.\n\nSee you in your inbox,\n\n## Rohan\n\nFounder at Coached & Resume Worded\n\nConnect with me on LinkedIn\n",
+  "metadata": {
+    "source_url": "https://resumeworded.com/coached",
+    "source_domain": "resumeworded.com",
+    "topic": "remote-work-resume",
+    "fetched_at": "2026-05-25T06:41:26.654266+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Coached by Resume Worded - your no-BS, weekly career coach",
+    "description": "Get the weekly career email everyone is talking about. Get ahead in work and life with a 5-minute weekly lesson.",
+    "language": "en",
+    "word_count": 250,
+    "content_hash": "sha256:507fe589fa8f336af2cf67d86fe3e7750325e6927301f1ec70753deffe11c569",
+    "reading_time": 2,
+    "author": "Rohan Founder; Resume Worded",
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.7083,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Career coaching service Coached by Resume Worded, offering practical strategies, email templates, promotion frameworks, and no-BS career advice for professionals.",
+    "entities": {
+      "primary": "Coached career coaching service",
+      "aliases": [
+        "Resume Worded coaching",
+        "career advice"
+      ]
+    },
+    "core_question": "How can I accelerate my career growth and get promoted?",
+    "doc_type": "other",
+    "key_topics": [
+      "career strategy",
+      "email templates",
+      "leadership",
+      "networking",
+      "CEO skills",
+      "high-pressure situations"
+    ]
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Coached by Resume Worded - your no-BS, weekly career coach",
+        "section_type": "title",
+        "header_path": [
+          "Coached by Resume Worded - your no-BS, weekly career coach"
+        ],
+        "char_start": 0,
+        "char_end": 1388
+      },
+      {
+        "level": 2,
+        "title": "Rohan",
+        "section_type": "content",
+        "header_path": [
+          "Coached by Resume Worded - your no-BS, weekly career coach",
+          "Rohan"
+        ],
+        "char_start": 1314,
+        "char_end": 1388
+      }
+    ]
+  },
+  "links": [
+    "https://resumeworded.com",
+    "https://coached.com",
+    "https://www.linkedin.com/in/rohanmahtani/"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

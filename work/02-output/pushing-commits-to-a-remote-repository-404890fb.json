@@ -1,0 +1,154 @@
+{
+  "markdown": "# Pushing commits to a remote repository\n\n## About `git push`\n\nThe `git push`\n\ncommand takes two arguments:\n\n- A remote name, for example,\n`origin`\n\n- A branch name, for example,\n`main`\n\nFor example:\n\n```\ngit push REMOTE-NAME BRANCH-NAME\n```\n\nAs an example, you usually run `git push origin main`\n\nto push your local changes\nto your online repository.\n\n## Renaming branches\n\nTo rename a branch, you'd use the same `git push`\n\ncommand, but you would add\none more argument: the name of the new branch. For example:\n\n```\ngit push REMOTE-NAME LOCAL-BRANCH-NAME:REMOTE-BRANCH-NAME\n```\n\nThis pushes the `LOCAL-BRANCH-NAME`\n\nto your `REMOTE-NAME`\n\n, but it is renamed to `REMOTE-BRANCH-NAME`\n\n## Dealing with \"non-fast-forward\" errors\n\nIf your local copy of a repository is out of sync with, or \"behind,\" the upstream\nrepository you're pushing to, you'll get a message saying `non-fast-forward updates were rejected`\n\nThis means that you must retrieve, or \"fetch,\" the upstream changes, before\nyou are able to push your local changes.\n\nFor more information on this error, see Dealing with non-fast-forward errors.\n\n## Resolving blocked commits\n\nTo maintain the security of the repository you're pushing to, GitHub's push protection automatically protects you from accidentally committing secrets to public repositories on GitHub.com. Exposed secrets can pose serious security risks to your repository and your supply chain. If GitHub detects that the commit you're attempting to push contains a supported secret, it blocks the push. In order to resolve the block, you should either:\n\n**Remove the secret**from your commit(s). For more information, see Resolving a blocked push.**Follow the provided URL**to see options to allow the push. For more information, see Bypassing push protection\n\nTo learn more about push protection, see Managing push protection for users.\n\n## Pushing tags\n\nBy default, and without additional parameters, `git push`\n\nsends all matching branches\nthat have the same names as remote branches.\n\nTo push a single tag, you can issue the same command as pushing a branch:\n\n```\ngit push REMOTE-NAME TAG-NAME\n```\n\nTo push all your tags, you can type the command:\n\n```\ngit push REMOTE-NAME --tags\n```\n\n## Deleting a remote branch or tag\n\nThe syntax to delete a branch is a bit arcane at first glance:\n\n```\ngit push REMOTE-NAME :BRANCH-NAME\n```\n\nNote that there is a space before the colon. The command resembles the same steps\nyou'd take to rename a branch. However, here, you're telling Git to push *nothing*\ninto `BRANCH-NAME`\n\non `REMOTE-NAME`\n\n. Because of this, `git push`\n\ndeletes the branch\non the remote repository.\n\n## Remotes and forks\n\nYou might already know that you can \"fork\" repositories on GitHub.\n\nWhen you clone a repository you own, you provide it with a remote URL that tells\nGit where to fetch and push updates. If you want to collaborate with the original\nrepository, you'd add a new remote URL, typically called `upstream`\n\n, to\nyour local Git clone:\n\n```\ngit remote add upstream THEIR_REMOTE_URL\n```\n\nNow, you can fetch updates and branches from *their* fork:\n\n```\ngit fetch upstream\n# Grab the upstream remote's branches\n> remote: Counting objects: 75, done.\n> remote: Compressing objects: 100% (53/53), done.\n> remote: Total 62 (delta 27), reused 44 (delta 9)\n> Unpacking objects: 100% (62/62), done.\n> From https://github.com/OCTOCAT/REPO\n> * [new branch] main -> upstream/main\n```\n\nWhen you're done making local changes, you can push your local branch to GitHub and initiate a pull request.\n\nFor more information on working with forks, see Syncing a fork.\n",
+  "metadata": {
+    "source_url": "https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository",
+    "source_domain": "docs.github.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:38:26.075093+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Pushing commits to a remote repository",
+    "description": "Use git push to push commits made on your local branch to a remote repository.",
+    "language": "en",
+    "word_count": 575,
+    "content_hash": "sha256:e400f9bbaff8b3f62325f75d6c0c8fa6224b74c84c3a99e039c03c8b373493dd",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.9792,
+    "text_to_link_ratio": 1.0,
+    "tldr": "GitHub documentation on using git push to upload commits to remote repositories, including branching, renaming, error handling, and tag management.",
+    "entities": {
+      "primary": "Git push to remote repositories",
+      "aliases": [
+        "git push command",
+        "pushing commits",
+        "GitHub documentation"
+      ]
+    },
+    "core_question": "How do you push commits to a remote repository using git?",
+    "doc_type": "reference",
+    "key_topics": [
+      "git push",
+      "remote repository",
+      "branching",
+      "non-fast-forward errors",
+      "push protection",
+      "tags"
+    ]
+  },
+  "structure": {
+    "section_count": 8,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Pushing commits to a remote repository",
+        "section_type": "title",
+        "header_path": [
+          "Pushing commits to a remote repository"
+        ],
+        "char_start": 0,
+        "char_end": 3595
+      },
+      {
+        "level": 2,
+        "title": "About `git push`",
+        "section_type": "content",
+        "header_path": [
+          "Pushing commits to a remote repository",
+          "About `git push`"
+        ],
+        "char_start": 42,
+        "char_end": 353
+      },
+      {
+        "level": 2,
+        "title": "Renaming branches",
+        "section_type": "content",
+        "header_path": [
+          "Pushing commits to a remote repository",
+          "Renaming branches"
+        ],
+        "char_start": 353,
+        "char_end": 686
+      },
+      {
+        "level": 2,
+        "title": "Dealing with \"non-fast-forward\" errors",
+        "section_type": "content",
+        "header_path": [
+          "Pushing commits to a remote repository",
+          "Dealing with \"non-fast-forward\" errors"
+        ],
+        "char_start": 686,
+        "char_end": 1108
+      },
+      {
+        "level": 2,
+        "title": "Resolving blocked commits",
+        "section_type": "content",
+        "header_path": [
+          "Pushing commits to a remote repository",
+          "Resolving blocked commits"
+        ],
+        "char_start": 1108,
+        "char_end": 1862
+      },
+      {
+        "level": 2,
+        "title": "Pushing tags",
+        "section_type": "content",
+        "header_path": [
+          "Pushing commits to a remote repository",
+          "Pushing tags"
+        ],
+        "char_start": 1862,
+        "char_end": 2213
+      },
+      {
+        "level": 2,
+        "title": "Deleting a remote branch or tag",
+        "section_type": "content",
+        "header_path": [
+          "Pushing commits to a remote repository",
+          "Deleting a remote branch or tag"
+        ],
+        "char_start": 2213,
+        "char_end": 2636
+      },
+      {
+        "level": 2,
+        "title": "Remotes and forks",
+        "section_type": "content",
+        "header_path": [
+          "Pushing commits to a remote repository",
+          "Remotes and forks"
+        ],
+        "char_start": 2636,
+        "char_end": 3595
+      }
+    ]
+  },
+  "links": [
+    "https://docs.github.com#about-git-push",
+    "https://docs.github.com#renaming-branches",
+    "https://docs.github.com#dealing-with-non-fast-forward-errors",
+    "https://docs.github.com/en/get-started/using-git/dealing-with-non-fast-forward-errors",
+    "https://docs.github.com#resolving-blocked-commits",
+    "https://docs.github.com/en/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push",
+    "https://docs.github.com/en/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#bypassing-push-protection",
+    "https://docs.github.com/en/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/push-protection-for-users",
+    "https://docs.github.com#pushing-tags",
+    "https://docs.github.com#deleting-a-remote-branch-or-tag",
+    "https://docs.github.com#remotes-and-forks",
+    "https://guides.github.com/overviews/forking/",
+    "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+    "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,260 @@
+{
+  "markdown": "# Martin Krasser\n\nAI engineer and architect with a proven track-record in agentic systems, machine learning, distributed systems, and system integration. 8+ years of AI/ML engineering experience and 20+ years of architecting, developing, and operating production software systems at scale. Extensive industry experience in both technical and leadership roles. Active open source contributor.\n\n## Industry Experience\n\n### Custom Agentic AI & ML solutions\n\nWe automate manual processes with AI agents that understand your business logic, collaborate with your team, and learn from your expertise. We draw on 8+ years of AI/ML engineering and 20+ years of architecting, developing, and operating production software systems at scale.\n\nSolutions we've built for clients serve thousands of B2B customers worldwide. We are active open source contributors, currently focused on multi-party conversational AI and on agents that act and self-improve via code actions.\n\n### AI-powered visual search platform\n\nDevelopment of an AI-powered visual and hybrid search platform built as a cloud-native solution with horizontal scalability as a key feature. Training of custom query processing models with synthetic data to deliver accurate search results across diverse content types.\n\nRunning in production for 2000+ B2B customers. Responsible for all ML research and development efforts at Canto.\n\n### Merlin Accelerated Intelligence (AI) Suite\n\nConception and development of a multimodal, agentic AI search engine with semantic understanding of images, videos, documents, and audio, enhanced through domain-specific model fine-tuning for media organizations. Supports facial recognition for identity-constrained searches, and image aesthetics assessment for selecting images with perceived highest quality.\n\nRunning in production at several customer sites, including the publicly accessible AP Newsroom (see also press release). Responsible for all ML research and development efforts at MerlinOne. The success of the Merlin AI Suite was a major factor in the acquisition of MerlinOne by Canto in 2023.\n\n### Applied machine learning study\n\nFocused on deep learning and traditional machine learning, supported by a detailed review of statistics and mathematics. Work included completing online certifications and publishing technical articles and open-source projects. Balanced the study of scientific theory with ML engineering best-practices.\n\n### Global distribution of a digital asset management system\n\nGlobal distribution of the data management layer of RBMH's in-house DAM system for low-latency and partition-tolerant access to local datacenters. The developed inter-datacenter replication mechanism provides causal consistency guarantees and supports convergence of application state under concurrent updates via operation-based CRDTs. The generic part of the solution was open-sourced as Eventuate toolkit.\n\nProduction deployment to multiple datacenters world-wide. Responsible for conception, architecture, design and implementation of Eventuate and its in-house applications. Eventuate is an evolution of Akka Persistence which I developed in another project.\n\n### Streaming platform for sports betting applications\n\nDevelopment of a streaming platform for calculating real-time odds and risk models in sports betting applications. Bets on odds from up to hundred bookmakers, each with several thousand constantly changing odds, are used to calculate models for adjusting a bookmaker's odds such that their risk is minimized. Development of streaming data analytics extensions for Eventuate.\n\nConsultation on event sourcing best practices for all relevant use cases and responsible for their implementation with the Eventuate toolkit.\n\n### Akka Persistence: actor state persistence via event sourcing\n\nDevelopment of Akka Persistence which enables stateful Akka actors to persist their state via event sourcing. Events are written to append-only storage which allows for very high transaction rates and efficient replication. A stateful actor is recovered by replaying stored events to the actor, allowing it to rebuild its internal state.\n\nImplementation in numerous commercial and open-source projects. Responsible for all phases of the project, from initial idea to production quality code. Akka Persistence is an evolution of Eventsourced, a predecessor that I developed in a prior project.\n\n### Low-latency, high-throughput e-wallet management web service\n\nDevelopmenent of the persistence layer of an e-wallet management web service for customers in the online gambling industry. Implementation of an event sourcing architecture for supporting low-latency and high-throughput transactions. The core components of the persistence layer were open-sourced as Eventsourced library.\n\nResponsible for conception, design and implementation of Eventsourced and its integration into Eligotech products.\n\n### Software development and consulting services\n\nI partner with clients to develop and operate software systems at scale, with a focus on artificial intelligence, distributed systems, event sourcing and system integration. See industry experience for a selected list of projects, and stories for selected open source contributions.\n\n### E-Health integration platform based on HL7 and IHE standards\n\nDevelopment of the Open eHealth Integration Platform (IPF), a platform for integrating healthcare information systems. IPF was open sourced in 2008 after several years of in-house development and application in customer projects. IPF's programming model is a domain-specific language (DSL) for implementing enterprise integration patterns in healthcare-specific integration solutions, based on HL7 and IHE standards.\n\nProduction deployments in many healthcare integration solution world-wide. IPF is still actively maintained today, by contributors from several healthcare integration providers. Responsible for conception, design and implementation of IPF and its application in customer projects. Founder of the open source project and lead developer until 2010.\n\n### Distributed scientific computing solution for a drug discovery pipeline\n\nDevelopment of a distributed computing solution for integrating chemical analysis tools in a drug discovery pipeline, with fault-tolerant scheduling of tool executions and aggregation of analysis results, for unified experience across research locations in different countries. Implementation of high-performance hierarchical clustering algorithms that reduced analysis times by 1-2 orders of magnitude.\n\nRunning for several years in production at Bayer AG. Responsible for architecture, design and implementation of the solution and its continuous improvement based on close collaboration with researchers.\n\n### Ab-initio protein structure prediction\n\nDevelopment of algorithms and software for ab-initio protein structure prediction. Application of statistical mechanics for protein structure optimization and evaluation.\n\n### Patient transportation management system\n\nDevelopment of a patient transportation management system in the IT department of the Red Cross in Graz, Austria. Work done during my civil service at the Red Cross.\n\n## Education\n",
+  "metadata": {
+    "source_url": "http://krasserm.github.io/resume/",
+    "source_domain": "krasserm.github.io",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:36:54.529779+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Martin Krasser",
+    "description": null,
+    "language": "en",
+    "word_count": 982,
+    "content_hash": "sha256:80a6566a1fb468921e75458e98543865bd3a941213a8b8f999887259b8c958a9",
+    "reading_time": 5,
+    "author": null,
+    "published_date": "2000-01-01",
+    "og_title": null,
+    "signal_score": 0.999,
+    "text_to_link_ratio": 1.0,
+    "tldr": "AI engineer and architect with 8+ years ML experience and 20+ years at scale; built agentic systems, visual search platforms, and distributed systems.",
+    "entities": {
+      "primary": "AI engineer and architect",
+      "aliases": [
+        "machine learning architect",
+        "agentic AI systems",
+        "ML engineer"
+      ]
+    },
+    "core_question": "What defines expertise in AI engineering and agentic systems architecture?",
+    "doc_type": "reference",
+    "key_topics": [
+      "agentic AI",
+      "machine learning",
+      "event sourcing",
+      "distributed systems",
+      "model training"
+    ]
+  },
+  "structure": {
+    "section_count": 16,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Martin Krasser",
+        "section_type": "title",
+        "header_path": [
+          "Martin Krasser"
+        ],
+        "char_start": 0,
+        "char_end": 7193
+      },
+      {
+        "level": 2,
+        "title": "Industry Experience",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience"
+        ],
+        "char_start": 393,
+        "char_end": 7180
+      },
+      {
+        "level": 3,
+        "title": "Custom Agentic AI & ML solutions",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Custom Agentic AI & ML solutions"
+        ],
+        "char_start": 417,
+        "char_end": 960
+      },
+      {
+        "level": 3,
+        "title": "AI-powered visual search platform",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "AI-powered visual search platform"
+        ],
+        "char_start": 960,
+        "char_end": 1384
+      },
+      {
+        "level": 3,
+        "title": "Merlin Accelerated Intelligence (AI) Suite",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Merlin Accelerated Intelligence (AI) Suite"
+        ],
+        "char_start": 1384,
+        "char_end": 2091
+      },
+      {
+        "level": 3,
+        "title": "Applied machine learning study",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Applied machine learning study"
+        ],
+        "char_start": 2091,
+        "char_end": 2432
+      },
+      {
+        "level": 3,
+        "title": "Global distribution of a digital asset management system",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Global distribution of a digital asset management system"
+        ],
+        "char_start": 2432,
+        "char_end": 3159
+      },
+      {
+        "level": 3,
+        "title": "Streaming platform for sports betting applications",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Streaming platform for sports betting applications"
+        ],
+        "char_start": 3159,
+        "char_end": 3734
+      },
+      {
+        "level": 3,
+        "title": "Akka Persistence: actor state persistence via event sourcing",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Akka Persistence: actor state persistence via event sourcing"
+        ],
+        "char_start": 3734,
+        "char_end": 4394
+      },
+      {
+        "level": 3,
+        "title": "Low-latency, high-throughput e-wallet management web service",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Low-latency, high-throughput e-wallet management web service"
+        ],
+        "char_start": 4394,
+        "char_end": 4899
+      },
+      {
+        "level": 3,
+        "title": "Software development and consulting services",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Software development and consulting services"
+        ],
+        "char_start": 4899,
+        "char_end": 5233
+      },
+      {
+        "level": 3,
+        "title": "E-Health integration platform based on HL7 and IHE standards",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "E-Health integration platform based on HL7 and IHE standards"
+        ],
+        "char_start": 5233,
+        "char_end": 6065
+      },
+      {
+        "level": 3,
+        "title": "Distributed scientific computing solution for a drug discovery pipeline",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Distributed scientific computing solution for a drug discovery pipeline"
+        ],
+        "char_start": 6065,
+        "char_end": 6751
+      },
+      {
+        "level": 3,
+        "title": "Ab-initio protein structure prediction",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Ab-initio protein structure prediction"
+        ],
+        "char_start": 6751,
+        "char_end": 6967
+      },
+      {
+        "level": 3,
+        "title": "Patient transportation management system",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Industry Experience",
+          "Patient transportation management system"
+        ],
+        "char_start": 6967,
+        "char_end": 7180
+      },
+      {
+        "level": 2,
+        "title": "Education",
+        "section_type": "content",
+        "header_path": [
+          "Martin Krasser",
+          "Education"
+        ],
+        "char_start": 7180,
+        "char_end": 7193
+      }
+    ]
+  },
+  "links": [
+    "https://www.canto.com/product/ai-visual-search/",
+    "https://newsroom.ap.org/",
+    "https://www.ap.org/media-center/press-releases/2023/millions-of-ap-images-and-video-now-available-on-single-platform-with-ai-powered-search/",
+    "http://krasserm.github.io/courses/",
+    "http://krasserm.github.io/",
+    "http://krasserm.github.io/open-source/",
+    "https://rbmhtechnology.github.io/eventuate/architecture.html#operation-based-crdts",
+    "https://rbmhtechnology.github.io/eventuate/overview.html",
+    "https://doc.akka.io/docs/akka/current/persistence.html",
+    "https://www.agido.com/projekte",
+    "https://akka.io/",
+    "https://github.com/search?q=%22akka-persistence%22&type=repositories",
+    "https://github.com/eligosource/eventsourced",
+    "http://krasserm.github.io/industry/",
+    "http://krasserm.github.io/stories/",
+    "https://oehf.github.io/ipf-docs/",
+    "https://www.enterpriseintegrationpatterns.com/",
+    "http://www.hl7.org/",
+    "https://www.ihe.net/",
+    "https://www.bayer.com/"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

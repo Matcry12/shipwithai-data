@@ -1,0 +1,244 @@
+{
+  "markdown": "# Git Workflows\n\nLast updated on 2025-06-16 | Edit this page\n\n## Overview\n\n### Questions\n\n- What is a git workflow?\n- Why use a git workflow\n\n### Objectives\n\n- Know why to use a git workflow\n- Understand some of the most common git workflows, and when you should deviate\n- Be able to choose or design a workflow that meets your group's needs\n\n## Introduction\n\nWhen you are working with others in the same git repository, you'll find you'll need to come to an agreement on how you are going to work in the repository. This can include:\n\n- How you are going to use branches\n- What is considered the \"latest version\", or what is \"production\" vs \"in development\"\n- How those branches are merged\n- When you are making pull requests and into what\n- Whether you are working in a single, central repository, or separate forked repositories\n\nThese questions are often answered by what we will call a git workflow. A git workflow helps you keep organized when working on a team, helps everyone stay on the same page about the state of the code, and helps enable communication. If you've ever emailed around documents you were working on with a team, you might understand the value of everyone on the team always having access to both the latest version, and any material still in progress.\n\nWhen we talk about git workflows often we are really discussing is branching strategies. The branching strategy is how you are going to use branches to work with the code. This includes the purposes of each branch (ex: a feature branch vs a release branch), where a new branch is created, and how, when, and where branches are merged. Different branches and branch types will have different lifetimes as well. For example, once a feature branch has been merged it can often be deleted, however a dedicated development branch might exist for the entire project.\n\nThe git workflow should also dictate what is stable under what conditions, what is tested, and may also include testing strategies.\n\n## Some Common Workflows\n\nThere are a few common workflows that are talked about the most. One might be better in some cases, another in others, but no one is necessarily the best in every case than any of the others. There will likely be one that best fits your application and your team's goals, but you may find you will still need to make adjustments, and that is okay.\n\n### Centralized or Truck-Based Workflow\n\nWith a centralized workflow you only have one main branch (or trunk, borrowing terminology from SVN, another version control system). Team members work in their local clone and push commits less frequently. The central repository is meant to be \"clean\" and should be stable. Git will also prevent you from pushing any changes that cause conflicts. If someone else as pushed a change that conflicts with one of your local commits, git will not let you push those changes and will require you resolve the conflict locally before pushing.\n\nA centralized workflow with a single main branch is not the best for collaborative development, although it may work okay in small teams. We mention it to give a name to a process you might already be familiar with, and as a starting point for other workflows.\n\n### Feature Branching Workflows and GitHub Flow\n\nSince we've covered branching, a simple extension to the centralized workflow is a Feature Branching Workflow. The main branch is like the central repository in the centralized workflow, it is meant to be clean and stable. Instead in working directly in clones of the main branch, all development is done in feature branches, where each branch is created from the main branch to develop a specific feature. The branch is published soon after it is created in the remote repository and commits are regularly pushed. This allows other developers to see the branch and any changes early. Using feature branches also allows an individual developer to work on more than one feature at a time if needed. Say you are working on developing a feature that requires some time and thought, but in the process find a bug that should be fixed immediately. You can create a new branch, fix the bug, and merge it back into the main branch without introducing any of the partially developed code you are still working on in the other feature branch.\n\nOnce the feature is complete and tested, feature branches are merged back into the main branch through Pull Requests. Any merge conflicts should be handled in the feature branch before merging. This can be done by merging any new commits from the main branch into the feature branch, handling any conflicts that emerge. The changes are discussed and reviewed in the Pull Request, and once accepted hey are merged. Once merged, the lifecycle of a feature branch is general complete and it can be deleted if it is no longer needed.\n\nThis is also known as \"GitHub Flow\", as it is used by the developers of GitHub for sections of their website, including their documentation. GitHub even has a dedicated page in their documentation describing the workflow. It is most useful for projects that have a rolling development cycle without specific versioned releases.\n\n### Git Flow\n\nGit Flow is one of the most commonly used workflows. It is used for software projects that require robust, production-ready releases. It is suitable for larger teams where more than one person might work on the same feature.\n\nGit Flow builds on a feature branching workflow, where instead of creating feature branches from the main branch, they are created from a separate permanent development branch. When a feature is complete, its branch is merged into the development branch. Individual release branches are created from the development branch, and once production-ready are merged into the main branch upon release and tagged. The main branch therefore contains only fully tested, stable, production code associated with a particular version. If the code has a bug in the main branch that needs to be fixed immediately, hotfix branches can be created off the main branched and merged directly back into the main branch without being added to the development branch or a release branch.\n\nGit Flow was introduced with a blog post in 2010, which you can see here if you are interested.\n\n### GitLab Flow\n\nSimilar to GitHub Flow, GitLab Flow gets its name because it is the workflow used by GitLab. GitLab is a bit closer to the simplicity of GitHub Flow, but is more appropriate in cases where the rolling releases of GitHub Flow are not possible. GitLab Flow is similar to Git Flow in that feature branches are not merged directly into the production branch, however instead it has a separate named production branch and the feature branches are merged into the main branch, which is more like the development branch of Git Flow. Release branches are optional, and only recommended only when software is released to the outside world.\n\nFor more information, see GitLab's article on GitLab Flow.\n\n### Forking Workflows\n\nIn each of these example workflows we have assumed that anyone contributing to a repository has the ability to directly push commits to a repository. However, sometimes you want to enable developers to contribute to a project without giving them access to the repository itself. In this case, a forking workflow might be suitable. Any of the workflows we've talked about already could incorporate forking. With a forking workflow individual developers create their own fork of a repository and do their development within their fork. When a feature is complete, the developer creates a Pull Request into the appropriate branch of the original repository. The owners of the repository can then approve the Pull Request at their discretion. This is how many open source projects encourage contributions.\n\nWith a forking workflow it can be easy to end up with an old version\nof the code, especially if it changes frequently. It can get confusing\nwhether we are attempting to pull from or push to the fork or the\noriginal repository. Setting up remotes with easy to remember aliases\nmakes this much easier. A \"remote\" is a named connection to a remote\nrepository. You can add and remove remotes with the\n`git remote add`\n\nand `git remote rm`\n\ncommands,\nrespectively. For example:\n\n```\ngit remote add upstream https://github.com/project_team/project.git\ngit remote add my-fork https://github.com/me/project.git\n```\n\nHere we are adding a remote called \"upstream\" for our central team\nrepository and another called \"my-fork\" for our own fork. We can view\nour remotes with `git remote -v`\n\n. Now when you want to\nretrieve any changes from the upstream repository you can run\n`git fetch upstream`\n\n. To update your main branch with these\nchanges, you would merge them into your local forked repository:\n\n```\ngit checkout main # this is the main branch for your fork that you have cloned locally\ngit merge upstream/main\n```\n\nUsing remotes, fetching and merging upstream changes frequently, and\nrunning commands like `git status`\n\nand\n`git remote -v`\n\ncan help you be successful using a forking\nworkflow. Merging upstream changes directly before making a Pull Request\nand ensuring there are no merge conflicts is good etiquette and will\nmake it more likely that your Pull Request will be accepted.\n\n## Communicating with your Collaborators\n\nNow that you've chosen a workflow for your project, how do you communicate it? This is most often done with a CONTRIBUTING document. The CONTRIBUTING document describes the git workflow you are using, any conventions for branch naming that you have, and anything else a collaborator should know in order to contribute. It should be tailored to your project and team, and so it might also include how to run the tests for the project, requirements before creating Pull Requests, or perhaps detailed instructions for how follow the workflow if your team is less familiar with git. One of the goals of a CONTRIBUTING document is to lower the barrier to entry to contributing to a project and a good one will encourage collaboration.\n\n## Enforcing your Workflow\n\nThere are tools that you can use to make sure everyone follows the agreed upon workflow, which can make it easier to collaborate with others. First, you can add branch protections, which will enforce certain rules for certain branches. A common one is to not allow commits directly to the main branch, requiring changes to go through a Pull Request. There are many options for branch protection that you can read about on the GitHub web page. Similarly, you can limit who on the team is able to push or merge changes into a particular branch, or in the entire repository. It is also a good idea to have testing and review requirements, particularly for production branches. These requirements and branch protections should be documented in the CONTRIBUTING document as well.\n\nWe will end with a quick note if your team works on shared systems, including clusters and HPC systems. Be careful with clones on shared drives, you never want to share a cloned repository. Each person should work within their own clone. You might also consider having additional \"production\" clone that is used for running. No one edits the production clone directly, it is only updated by pulling changes from the repository.\n\n## Activity\n\nFor your group's \"project\" that you have been working on through this lesson discuss which workflow would work best for your team. Set up the repository as needed to support this workflow. Start a contributor guide that explains the workflow and any rules for contributing.\n\nIf time allows, discuss any projects that your group members work on collaboratively with others. Is there a specified workflow for this project? How would someone contribute to the project?\n\n## Additional Resources\n\n- Code Refinery: Centralized Workflow\n- Code Refinery: Distributed version control and forking workflow\n- GitHub Flow\n- GitLab Flow\n- Git Flow\n- Atlassian Git Tutorial: Comparing Workflows\n- Atlassian Git Tutorial: Git Forks and Upstreams: How-to and a cool tip\n- Slide version of this lesson\n\n- A git workflow describes how a team or group of contributors is to interact with a repository\n- Git workflows keep a team organized and on the same page by helping them understand what state the code is in\n",
+  "metadata": {
+    "source_url": "https://intersect-training.org/collaborative-git/git-workflows.html",
+    "source_domain": "intersect-training.org",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:40:05.231744+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Git Workflows",
+    "description": null,
+    "language": "en",
+    "word_count": 2066,
+    "content_hash": "sha256:f75d762294e99742c37d96959324a4b3106c4e2462778fd0489c63529ecc9bad",
+    "reading_time": 11,
+    "author": null,
+    "published_date": "2026-05-19",
+    "og_title": null,
+    "signal_score": 0.9959,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Overview of Git workflow concepts covering centralized, feature branching, GitHub Flow, and GitFlow approaches with discussion of branching strategies and team coordination.",
+    "entities": {
+      "primary": "Git workflows",
+      "aliases": [
+        "branching strategies",
+        "development workflows",
+        "team collaboration patterns"
+      ]
+    },
+    "core_question": "What are different Git workflows and when should you use each?",
+    "doc_type": "reference",
+    "key_topics": [
+      "centralized workflow",
+      "feature branching",
+      "GitHub Flow",
+      "GitFlow",
+      "branching strategies"
+    ]
+  },
+  "structure": {
+    "section_count": 15,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Git Workflows",
+        "section_type": "title",
+        "header_path": [
+          "Git Workflows"
+        ],
+        "char_start": 0,
+        "char_end": 12272
+      },
+      {
+        "level": 2,
+        "title": "Overview",
+        "section_type": "intro",
+        "header_path": [
+          "Git Workflows",
+          "Overview"
+        ],
+        "char_start": 62,
+        "char_end": 343
+      },
+      {
+        "level": 3,
+        "title": "Questions",
+        "section_type": "faq",
+        "header_path": [
+          "Git Workflows",
+          "Overview",
+          "Questions"
+        ],
+        "char_start": 75,
+        "char_end": 142
+      },
+      {
+        "level": 3,
+        "title": "Objectives",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Overview",
+          "Objectives"
+        ],
+        "char_start": 142,
+        "char_end": 343
+      },
+      {
+        "level": 2,
+        "title": "Introduction",
+        "section_type": "intro",
+        "header_path": [
+          "Git Workflows",
+          "Introduction"
+        ],
+        "char_start": 343,
+        "char_end": 1976
+      },
+      {
+        "level": 2,
+        "title": "Some Common Workflows",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Some Common Workflows"
+        ],
+        "char_start": 1976,
+        "char_end": 9259
+      },
+      {
+        "level": 3,
+        "title": "Centralized or Truck-Based Workflow",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Some Common Workflows",
+          "Centralized or Truck-Based Workflow"
+        ],
+        "char_start": 2351,
+        "char_end": 3191
+      },
+      {
+        "level": 3,
+        "title": "Feature Branching Workflows and GitHub Flow",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Some Common Workflows",
+          "Feature Branching Workflows and GitHub Flow"
+        ],
+        "char_start": 3191,
+        "char_end": 5135
+      },
+      {
+        "level": 3,
+        "title": "Git Flow",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Some Common Workflows",
+          "Git Flow"
+        ],
+        "char_start": 5135,
+        "char_end": 6239
+      },
+      {
+        "level": 3,
+        "title": "GitLab Flow",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Some Common Workflows",
+          "GitLab Flow"
+        ],
+        "char_start": 6239,
+        "char_end": 6948
+      },
+      {
+        "level": 3,
+        "title": "Forking Workflows",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Some Common Workflows",
+          "Forking Workflows"
+        ],
+        "char_start": 6948,
+        "char_end": 9259
+      },
+      {
+        "level": 2,
+        "title": "Communicating with your Collaborators",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Communicating with your Collaborators"
+        ],
+        "char_start": 9259,
+        "char_end": 10032
+      },
+      {
+        "level": 2,
+        "title": "Enforcing your Workflow",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Enforcing your Workflow"
+        ],
+        "char_start": 10032,
+        "char_end": 11265
+      },
+      {
+        "level": 2,
+        "title": "Activity",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Activity"
+        ],
+        "char_start": 11265,
+        "char_end": 11745
+      },
+      {
+        "level": 2,
+        "title": "Additional Resources",
+        "section_type": "content",
+        "header_path": [
+          "Git Workflows",
+          "Additional Resources"
+        ],
+        "char_start": 11745,
+        "char_end": 12272
+      }
+    ]
+  },
+  "links": [
+    "https://github.com/INTERSECT-training/collaborative-git/edit/main/episodes/git-workflows.md",
+    "https://intersect-training.org#introduction",
+    "https://intersect-training.org#some-common-workflows",
+    "https://intersect-training.org#centralized-or-truck-based-workflow",
+    "https://intersect-training.org#feature-branching-workflows-and-github-flow",
+    "https://docs.github.com/en/get-started/quickstart/github-flow",
+    "https://intersect-training.org#git-flow",
+    "https://nvie.com/posts/a-successful-git-branching-model/",
+    "https://intersect-training.org#gitlab-flow",
+    "https://docs.gitlab.com/ee/topics/gitlab_flow.html",
+    "https://intersect-training.org#forking-workflows",
+    "https://intersect-training.org#communicating-with-your-collaborators",
+    "https://intersect-training.org#enforcing-your-workflow",
+    "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches",
+    "https://intersect-training.org#activity",
+    "https://intersect-training.org#additional-resources",
+    "https://coderefinery.github.io/git-collaborative/centralized/",
+    "https://coderefinery.github.io/git-collaborative/distributed/",
+    "https://www.atlassian.com/git/tutorials/comparing-workflows",
+    "https://www.atlassian.com/git/tutorials/git-forks-and-upstreams",
+    "https://github.com/INTERSECT-training/collaborative-git/blob/main/presentations/CollaborativeGit.pdf"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

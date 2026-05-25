@@ -1,0 +1,165 @@
+{
+  "markdown": "# fresher\n\n## Here are 26 public repositories matching this topic...\n\nWelcome to MR Portfolio, a showcase of my creative journey in the world of 3D art and technology. As the mind behind this interactive experience, I've utilized cutting-edge technologies like Three.js to bring my imagination to life. Explore a fusion of art and innovation as you navigate through my digital realm.\n\nApr 6, 2026 - JavaScript\n\nOne stop solution to make club and chapter recruitment in VIT simpler and hassle free.\n\nFeb 11, 2023 - JavaScript\n\nAI job search for India — scan 196 companies, evaluate fit, generate tailored CVs. Works with Claude Code + Gemini CLI (free).\n\nMay 18, 2026 - Python\n\nA beginner-friendly portfolio repository showcasing my journey as a fresher developer. It includes my personal portfolio website, README, and introduction. Built to highlight my skills, projects, and growth while learning and exploring modern web technologies.\n\nMay 25, 2026 - HTML\n\nCybersecurity internship project covering classical, symmetric, and asymmetric cryptographic techniques with implementations and documentation.\n\nDec 29, 2025 - Python\n\nData of Company names and their respective CTCs for freshers, segregated by Field / Industry\n\nJul 8, 2024\n\nMy GitHub profile README showcasing skills, projects, and career journey.\n\nApr 24, 2026\n\nEnd-to-end HR Attrition Analysis using MySQL + Power BI — 21 SQL queries, CTEs, Window Functions, 5-page dashboard\n\nMar 9, 2026\n\nTask Management REST API with JWT authentication and Swagger documentation. Built with Django REST Framework and PostgreSQL. Deployed on Railway. BCA 2025 graduate seeking Python/Django developer opportunities.\n\nJan 19, 2026 - Python\n\nMar 22, 2026 - Python\n\nSuper Store Sales Analysis using Excel and Pivot Table\n\nMay 2, 2026\n\nTo Do list app with User Registration, Login, Search and full Create Read Update and DELETE functionality.\n\nSep 4, 2023 - Python\n\nAn archive of what i imagine\n\nAug 9, 2025 - JavaScript\n\n## Improve this page\n\nAdd a description, image, and links to the fresher topic page so that developers can more easily learn about it.\n\n## Add this topic to your repo\n\nTo associate your repository with the fresher topic, visit your repo's landing page and select \"manage topics.\"\n",
+  "metadata": {
+    "source_url": "https://github.com/topics/fresher",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:32.021054+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Build software better, together",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "language": "en",
+    "word_count": 355,
+    "content_hash": "sha256:9155891c3a12a6865785bde2a5c15274646efa03cebf5fb7f1e51ee079096b87",
+    "reading_time": 2,
+    "author": null,
+    "published_date": "2025-01-28",
+    "og_title": null,
+    "signal_score": 0.6949,
+    "text_to_link_ratio": 1.0,
+    "tldr": "GitHub topic page showcasing fresher developer repositories and projects including portfolio sites, applications, and beginner-friendly open source contributions.",
+    "entities": {
+      "primary": "Fresher developer repositories",
+      "aliases": [
+        "Junior developer projects",
+        "Beginner developer portfolios",
+        "New graduate code"
+      ]
+    },
+    "core_question": "What projects and repositories are fresher developers creating and contributing to?",
+    "doc_type": "reference",
+    "key_topics": [
+      "Portfolio projects",
+      "Open source contribution",
+      "Web development",
+      "Full-stack apps",
+      "Learning resources",
+      "Beginner friendly"
+    ]
+  },
+  "structure": {
+    "section_count": 4,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "fresher",
+        "section_type": "title",
+        "header_path": [
+          "fresher"
+        ],
+        "char_start": 0,
+        "char_end": 2246
+      },
+      {
+        "level": 2,
+        "title": "Here are 26 public repositories matching this topic...",
+        "section_type": "content",
+        "header_path": [
+          "fresher",
+          "Here are 26 public repositories matching this topic..."
+        ],
+        "char_start": 11,
+        "char_end": 1966
+      },
+      {
+        "level": 2,
+        "title": "Improve this page",
+        "section_type": "content",
+        "header_path": [
+          "fresher",
+          "Improve this page"
+        ],
+        "char_start": 1966,
+        "char_end": 2102
+      },
+      {
+        "level": 2,
+        "title": "Add this topic to your repo",
+        "section_type": "content",
+        "header_path": [
+          "fresher",
+          "Add this topic to your repo"
+        ],
+        "char_start": 2102,
+        "char_end": 2246
+      }
+    ]
+  },
+  "links": [
+    "https://github.com/AyushR1/Resume-Template",
+    "https://github.com/topics/portfolio",
+    "https://github.com/topics/reactjs",
+    "https://github.com/topics/technology",
+    "https://github.com/topics/project",
+    "https://github.com/topics/three-js",
+    "https://github.com/topics/3d-graphics",
+    "https://github.com/topics/personal-portfolio",
+    "https://github.com/topics/developer-portfolio",
+    "https://github.com/topics/fresher",
+    "https://github.com/topics/3d-portfolio",
+    "https://github.com/topics/mohit-rajput-portfolio",
+    "https://github.com/topics/open-source",
+    "https://github.com/topics/automation",
+    "https://github.com/topics/ai",
+    "https://github.com/topics/career",
+    "https://github.com/topics/greenhouse",
+    "https://github.com/topics/india",
+    "https://github.com/topics/data-analyst",
+    "https://github.com/topics/job-search",
+    "https://github.com/topics/gemini-cli",
+    "https://github.com/topics/claude-code",
+    "https://github.com/topics/github-pages",
+    "https://github.com/topics/web-development",
+    "https://github.com/topics/projects",
+    "https://github.com/topics/personal-website",
+    "https://github.com/topics/developer",
+    "https://github.com/topics/responsive-design",
+    "https://github.com/topics/project-showcase",
+    "https://github.com/topics/encryption",
+    "https://github.com/topics/cybersecurity",
+    "https://github.com/topics/information-security",
+    "https://github.com/topics/public-key-cryptography",
+    "https://github.com/topics/network-security",
+    "https://github.com/topics/security-awareness",
+    "https://github.com/topics/classical-ciphers",
+    "https://github.com/topics/internship-project",
+    "https://github.com/topics/private-key-cryptography",
+    "https://github.com/topics/hardware",
+    "https://github.com/topics/job",
+    "https://github.com/topics/jobs",
+    "https://github.com/topics/software",
+    "https://github.com/topics/jobseeker",
+    "https://github.com/topics/average",
+    "https://github.com/topics/jobsearch",
+    "https://github.com/topics/salary",
+    "https://github.com/topics/semiconductor",
+    "https://github.com/topics/placement",
+    "https://github.com/topics/ctc",
+    "https://github.com/topics/freshers",
+    "https://github.com/topics/average-salary",
+    "https://github.com/topics/placement-data",
+    "https://github.com/topics/fresher-job",
+    "https://github.com/topics/job-data",
+    "https://github.com/topics/fresher-data",
+    "https://github.com/topics/fresher-salary",
+    "https://github.com/topics/mysql",
+    "https://github.com/topics/sql",
+    "https://github.com/topics/power-bi",
+    "https://github.com/topics/data-visualization",
+    "https://github.com/topics/business-intelligence",
+    "https://github.com/topics/data-analytics",
+    "https://github.com/topics/hr-analytics",
+    "https://github.com/topics/python",
+    "https://github.com/topics/web-scraping",
+    "https://github.com/topics/web-search",
+    "https://github.com/topics/playwright",
+    "https://github.com/topics/job-automation",
+    "https://github.com/topics/job-bot"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

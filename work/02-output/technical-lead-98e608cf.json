@@ -1,0 +1,443 @@
+{
+  "markdown": "# Technical Lead\n\nLeadership & Scalable Systems\n\nResume template tailored for Technical Leads. Focuses on technical leadership, scalable system design, and mentoring teams while ensuring delivery excellence.\n\n## Role-Specific Tips for Technical Lead\n\n### Technical Leadership\n\n#### DO:\n\n- •Highlight architectural decision-making\n- •Show microservices migration or scalability projects\n- •Include mentoring and team-building\n- •Mention collaboration with cross-functional teams\n\n##### DON'T:\n\n- •List responsibilities without outcomes\n- •Ignore code quality or design reviews\n- •Overlook leadership responsibilities\n\n##### Example:\n\nMigrated core services to microservices, reducing deployment time by 70%\n\n### Delivery & Execution\n\n#### DO:\n\n- •Show project impact on millions of users\n- •Highlight incident reduction or performance improvements\n- •Include CI/CD and automation initiatives\n- •Mention agile delivery practices\n\n##### DON'T:\n\n- •Use generic 'led projects' statements\n- •Forget to tie technical delivery to business outcomes\n- •Exclude team velocity or sprint results\n\n##### Example:\n\nReduced release failures by 90% through CI/CD pipeline automation\n\n### Team Management & Mentorship\n\n#### DO:\n\n- •Include mentoring and coaching outcomes\n- •Highlight hiring and onboarding contributions\n- •Show 1:1 performance reviews and growth plans\n- •Demonstrate cross-functional leadership\n\n##### DON'T:\n\n- •Forget team ramp-up improvements\n- •Ignore career development contributions\n- •Focus only on individual coding tasks\n\n##### Example:\n\nMentored 6 engineers leading to 40% faster ramp-up time\n\n### Achievement Quantification\n\n#### Performance Metrics:\n\n- •Reduced API response time by 60%\n- •Improved release success rate by 90%\n- •Delivered 30% faster incident resolution\n\n##### Scale Metrics:\n\n- •Led backend team serving 4M+ users\n- •Orchestrated scrum ceremonies improving predictability by 25%\n- •Architected payment system scaling to 1M transactions/day\n\n##### Business Metrics:\n\n- •Improved user conversion by 12% via A/B testing\n- •Reduced downtime by 80% through service decoupling\n- •Optimized infra reducing costs by 20%\n\n## ATS Optimization Guide\n\n### Keywords for Technical Lead\n\n#### Leadership:\n\nTeam Mentorship, Technical Strategy, Architecture Reviews, Agile Delivery, Hiring\n\n##### Technical Skills:\n\nJava, Python, Go, TypeScript, React, Spring Boot, Node.js\n\n##### Infrastructure:\n\nKubernetes, Docker, AWS, GCP, Prometheus, Grafana, ELK\n\n💡 Tip: Include keywords from the job description to improve ATS matching\n\n## Related Templates\n\n### Software Engineer\n\nModern & Impact-Driven\n\n### Senior Software Developer\n\nHigh-Performance & Cloud-Native\n\n### Backend Engineer\n\nScalable & High-Performance\n\n### Site Reliability Engineer\n\nUptime & Reliability Focused\n\n### DevOps Engineer\n\nCloud & CI/CD Expertise\n\n### Engineering Manager\n\nLeadership & Delivery Focused\n\n### Explore More Templates\n\nDiscover our complete collection of professionally designed resume templates tailored for every career stage and industry.\n",
+  "metadata": {
+    "source_url": "https://mypivot.work/free-resources/resume-templates/technical-lead",
+    "source_domain": "mypivot.work",
+    "topic": "senior-level-resume",
+    "fetched_at": "2026-05-25T06:40:25.659047+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Technical Lead Resume Template - Free Download",
+    "description": "Resume template tailored for Technical Leads. Focuses on technical leadership, scalable system design, and mentoring teams while ensuring delivery excellence.",
+    "language": "en",
+    "word_count": 413,
+    "content_hash": "sha256:7b27408a1b8e90b8a970b3ea3bb3bb258e6ffe312788d5a38b16cad9ec245343",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.5137,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Technical lead resume template with role-specific tips on highlighting technical leadership, delivery, team management, and achievement quantification with ATS keywords.",
+    "entities": {
+      "primary": "technical lead resume template",
+      "aliases": [
+        "leadership template",
+        "tech lead guide",
+        "resume format"
+      ]
+    },
+    "core_question": "How should a technical lead resume be formatted and what should it emphasize?",
+    "doc_type": "reference",
+    "key_topics": [
+      "resume template",
+      "technical lead",
+      "leadership",
+      "ATS optimization",
+      "quantification"
+    ]
+  },
+  "structure": {
+    "section_count": 31,
+    "max_depth": 5,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Technical Lead",
+        "section_type": "title",
+        "header_path": [
+          "Technical Lead"
+        ],
+        "char_start": 0,
+        "char_end": 3039
+      },
+      {
+        "level": 2,
+        "title": "Role-Specific Tips for Technical Lead",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead"
+        ],
+        "char_start": 209,
+        "char_end": 2143
+      },
+      {
+        "level": 3,
+        "title": "Technical Leadership",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Technical Leadership"
+        ],
+        "char_start": 251,
+        "char_end": 707
+      },
+      {
+        "level": 4,
+        "title": "DO:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Technical Leadership",
+          "DO:"
+        ],
+        "char_start": 277,
+        "char_end": 707
+      },
+      {
+        "level": 5,
+        "title": "DON'T:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Technical Leadership",
+          "DO:",
+          "DON'T:"
+        ],
+        "char_start": 479,
+        "char_end": 617
+      },
+      {
+        "level": 5,
+        "title": "Example:",
+        "section_type": "example",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Technical Leadership",
+          "DO:",
+          "Example:"
+        ],
+        "char_start": 617,
+        "char_end": 707
+      },
+      {
+        "level": 3,
+        "title": "Delivery & Execution",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Delivery & Execution"
+        ],
+        "char_start": 707,
+        "char_end": 1167
+      },
+      {
+        "level": 4,
+        "title": "DO:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Delivery & Execution",
+          "DO:"
+        ],
+        "char_start": 733,
+        "char_end": 1167
+      },
+      {
+        "level": 5,
+        "title": "DON'T:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Delivery & Execution",
+          "DO:",
+          "DON'T:"
+        ],
+        "char_start": 928,
+        "char_end": 1084
+      },
+      {
+        "level": 5,
+        "title": "Example:",
+        "section_type": "example",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Delivery & Execution",
+          "DO:",
+          "Example:"
+        ],
+        "char_start": 1084,
+        "char_end": 1167
+      },
+      {
+        "level": 3,
+        "title": "Team Management & Mentorship",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Team Management & Mentorship"
+        ],
+        "char_start": 1167,
+        "char_end": 1604
+      },
+      {
+        "level": 4,
+        "title": "DO:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Team Management & Mentorship",
+          "DO:"
+        ],
+        "char_start": 1201,
+        "char_end": 1604
+      },
+      {
+        "level": 5,
+        "title": "DON'T:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Team Management & Mentorship",
+          "DO:",
+          "DON'T:"
+        ],
+        "char_start": 1396,
+        "char_end": 1531
+      },
+      {
+        "level": 5,
+        "title": "Example:",
+        "section_type": "example",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Team Management & Mentorship",
+          "DO:",
+          "Example:"
+        ],
+        "char_start": 1531,
+        "char_end": 1604
+      },
+      {
+        "level": 3,
+        "title": "Achievement Quantification",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Achievement Quantification"
+        ],
+        "char_start": 1604,
+        "char_end": 2143
+      },
+      {
+        "level": 4,
+        "title": "Performance Metrics:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Achievement Quantification",
+          "Performance Metrics:"
+        ],
+        "char_start": 1636,
+        "char_end": 2143
+      },
+      {
+        "level": 5,
+        "title": "Scale Metrics:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Achievement Quantification",
+          "Performance Metrics:",
+          "Scale Metrics:"
+        ],
+        "char_start": 1784,
+        "char_end": 1971
+      },
+      {
+        "level": 5,
+        "title": "Business Metrics:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Role-Specific Tips for Technical Lead",
+          "Achievement Quantification",
+          "Performance Metrics:",
+          "Business Metrics:"
+        ],
+        "char_start": 1971,
+        "char_end": 2143
+      },
+      {
+        "level": 2,
+        "title": "ATS Optimization Guide",
+        "section_type": "step",
+        "header_path": [
+          "Technical Lead",
+          "ATS Optimization Guide"
+        ],
+        "char_start": 2143,
+        "char_end": 2541
+      },
+      {
+        "level": 3,
+        "title": "Keywords for Technical Lead",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "ATS Optimization Guide",
+          "Keywords for Technical Lead"
+        ],
+        "char_start": 2170,
+        "char_end": 2541
+      },
+      {
+        "level": 4,
+        "title": "Leadership:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "ATS Optimization Guide",
+          "Keywords for Technical Lead",
+          "Leadership:"
+        ],
+        "char_start": 2203,
+        "char_end": 2541
+      },
+      {
+        "level": 5,
+        "title": "Technical Skills:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "ATS Optimization Guide",
+          "Keywords for Technical Lead",
+          "Leadership:",
+          "Technical Skills:"
+        ],
+        "char_start": 2304,
+        "char_end": 2388
+      },
+      {
+        "level": 5,
+        "title": "Infrastructure:",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "ATS Optimization Guide",
+          "Keywords for Technical Lead",
+          "Leadership:",
+          "Infrastructure:"
+        ],
+        "char_start": 2388,
+        "char_end": 2541
+      },
+      {
+        "level": 2,
+        "title": "Related Templates",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates"
+        ],
+        "char_start": 2541,
+        "char_end": 3039
+      },
+      {
+        "level": 3,
+        "title": "Software Engineer",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates",
+          "Software Engineer"
+        ],
+        "char_start": 2563,
+        "char_end": 2610
+      },
+      {
+        "level": 3,
+        "title": "Senior Software Developer",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates",
+          "Senior Software Developer"
+        ],
+        "char_start": 2610,
+        "char_end": 2674
+      },
+      {
+        "level": 3,
+        "title": "Backend Engineer",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates",
+          "Backend Engineer"
+        ],
+        "char_start": 2674,
+        "char_end": 2725
+      },
+      {
+        "level": 3,
+        "title": "Site Reliability Engineer",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates",
+          "Site Reliability Engineer"
+        ],
+        "char_start": 2725,
+        "char_end": 2786
+      },
+      {
+        "level": 3,
+        "title": "DevOps Engineer",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates",
+          "DevOps Engineer"
+        ],
+        "char_start": 2786,
+        "char_end": 2832
+      },
+      {
+        "level": 3,
+        "title": "Engineering Manager",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates",
+          "Engineering Manager"
+        ],
+        "char_start": 2832,
+        "char_end": 2888
+      },
+      {
+        "level": 3,
+        "title": "Explore More Templates",
+        "section_type": "content",
+        "header_path": [
+          "Technical Lead",
+          "Related Templates",
+          "Explore More Templates"
+        ],
+        "char_start": 2888,
+        "char_end": 3039
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

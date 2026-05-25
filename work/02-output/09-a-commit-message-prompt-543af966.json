@@ -1,0 +1,121 @@
+{
+  "markdown": "# A Useful Prompt for Commit Messages Generation\n\nHere is a prompt you can use to generate a commit message with a LLM. I wrote this prompt for Claude Code, but it's generic enough that you should be able to use it with other LLMs.\n\n## The Prompt\n\n```\nYour task is to help the user to generate a commit message and commit the changes using git.\n## Guidelines\n- DO NOT add any ads such as \"Generated with [Claude Code](https://claude.ai/code)\"\n- Only generate the message for staged files/changes\n- Don't add any files using `git add`. The user will decide what to add.\n- Follow the rules below for the commit message.\n## Format\n```\n<type>:<space><message title>\n<bullet points summarizing what was updated>\n```\n## Example Titles\n```\nfeat(auth): add JWT login flow\nfix(ui): handle null pointer in sidebar\nrefactor(api): split user controller logic\ndocs(readme): add usage section\n```\n## Example with Title and Body\n```\nfeat(auth): add JWT login flow\n- Implemented JWT token validation logic\n- Added documentation for the validation component\n```\n## Rules\n* title is lowercase, no period at the end.\n* Title should be a clear summary, max 50 characters.\n* Use the body (optional) to explain *why*, not just *what*.\n* Bullet points should be concise and high-level.\nAvoid\n* Vague titles like: \"update\", \"fix stuff\"\n* Overly long or unfocused titles\n* Excessive detail in bullet points\n## Allowed Types\n| Type | Description |\n| -------- | ------------------------------------- |\n| feat | New feature |\n| fix | Bug fix |\n| chore | Maintenance (e.g., tooling, deps) |\n| docs | Documentation changes |\n| refactor | Code restructure (no behavior change) |\n| test | Adding or refactoring tests |\n| style | Code formatting (no logic change) |\n| perf | Performance improvements |\n```\n\n## Usage\n\n### Claude Code\n\n- Create a file called\n`~/.claude/commands/gen-commit-msg.md`\n\n- Copy the content from git-commit-message.md into that file\n- Go the directory where you want to commit your changes\n- Run\n`claude`\n\n- Inside of Claude Code, type\n`/user:gen-commit-msg`\n\nThat's it.\n\nAlso see Slash Commands.\n\n### Claude Code - One-Liner\n\nI wish Anthropic will add an option so that even in non-interactive mode, Claude Code can still prompt for additional permissions. For now, you need to open the REPL to generate a commit message.\n\nIf you are brave enough to allow Claude Code to run the commit command, you can use the following to generate a message and commit in one line:\n\n`cat ~/.claude/commands/gen-commit-msg.md | claude --allowedTools 'Bash(git commit -m:*)'`\n\nPersonally, I prefer to review the commit message so I don't use this one-liner.\n\nIf you run into this error:\n\n*Error: Raw mode is not supported on the current process.stdin, which Ink uses as input stream by default.*\n\nYou need to run claude at least once in the current directory and grant permission.\n\n## Conlusion\n\nThis prompt can also be used with Cursor or GitHub Copilot.\n\nSee\n",
+  "metadata": {
+    "source_url": "https://cuong.io/blog/2025/06/09-a-commit-message-prompt",
+    "source_domain": "cuong.io",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:37:48.472867+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "A Useful Prompt for Commit Messages Generation",
+    "description": null,
+    "language": "en",
+    "word_count": 497,
+    "content_hash": "sha256:a4798b203e7b8af29040bbff5da3bb858c5df363d20b5ead01c82feaa0db3339",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2025-06-15",
+    "og_title": null,
+    "signal_score": 0.3837,
+    "text_to_link_ratio": 0.9874,
+    "tldr": "Reusable LLM prompt template for generating well-formatted commit messages following conventional commit standards with type, title, and optional body sections.",
+    "entities": {
+      "primary": "Commit message generation prompt",
+      "aliases": [
+        "conventional commits",
+        "git commit formatting",
+        "LLM commit automation"
+      ]
+    },
+    "core_question": "How can you use an LLM to generate consistent, well-formatted commit messages?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "git commits",
+      "conventional commits",
+      "Claude Code",
+      "LLM prompting",
+      "commit message formatting"
+    ]
+  },
+  "structure": {
+    "section_count": 6,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "A Useful Prompt for Commit Messages Generation",
+        "section_type": "title",
+        "header_path": [
+          "A Useful Prompt for Commit Messages Generation"
+        ],
+        "char_start": 0,
+        "char_end": 2937
+      },
+      {
+        "level": 2,
+        "title": "The Prompt",
+        "section_type": "content",
+        "header_path": [
+          "A Useful Prompt for Commit Messages Generation",
+          "The Prompt"
+        ],
+        "char_start": 233,
+        "char_end": 1774
+      },
+      {
+        "level": 2,
+        "title": "Usage",
+        "section_type": "content",
+        "header_path": [
+          "A Useful Prompt for Commit Messages Generation",
+          "Usage"
+        ],
+        "char_start": 1774,
+        "char_end": 2858
+      },
+      {
+        "level": 3,
+        "title": "Claude Code",
+        "section_type": "content",
+        "header_path": [
+          "A Useful Prompt for Commit Messages Generation",
+          "Usage",
+          "Claude Code"
+        ],
+        "char_start": 1784,
+        "char_end": 2090
+      },
+      {
+        "level": 3,
+        "title": "Claude Code - One-Liner",
+        "section_type": "content",
+        "header_path": [
+          "A Useful Prompt for Commit Messages Generation",
+          "Usage",
+          "Claude Code - One-Liner"
+        ],
+        "char_start": 2090,
+        "char_end": 2858
+      },
+      {
+        "level": 2,
+        "title": "Conlusion",
+        "section_type": "content",
+        "header_path": [
+          "A Useful Prompt for Commit Messages Generation",
+          "Conlusion"
+        ],
+        "char_start": 2858,
+        "char_end": 2937
+      }
+    ]
+  },
+  "links": [
+    "https://raw.githubusercontent.com/thecodecentral/prompt-library/refs/heads/main/general/git-commit-message.md",
+    "https://docs.anthropic.com/en/docs/claude-code/cli-usage#slash-commands"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

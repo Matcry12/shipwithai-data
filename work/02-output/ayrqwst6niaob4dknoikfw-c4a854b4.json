@@ -1,0 +1,59 @@
+{
+  "markdown": "# ATS-Friendly Resume | CV - Visual Vibes\n\n## ATS-Friendly Resume | CV\n\n17 templates\n\nGreen and Black Professional Corporate ATS Resume\n\nResume\n\nEntry Level Tech Professional Resume\n\nResume\n\nWhite Simple Professional Resume Cover Letter\n\nLetter\n\nProfessional Resume\n\nResume\n\nBlack and White Professional Cybersecurity Analyst Resume\n\nResume\n\nWhite and Black Tech Professional Resume\n\nResume\n\nBlack and White Standard Professional Resume\n\nResume\n\nBlue Minimalist Professional Resume\n\nResume\n\nWhite and Blue Professional Resume\n\nResume\n\nWhite and Black Modern New Graduate Professional Resume\n\nResume\n\nBlue Geometric Lines Professional UX Design Tech Resume\n\nResume\n\nWhite and Black Simple Professional Resume Cover Letter\n\nLetter\n\nMinimalist Blue and White Professional Thank You Letter\n\nLetter\n\nBlack and Blue Professional Resume Cover Letter A4\n\nDocument\n\nWhite and Blue Simple Professional Resume Cover Letter\n\nLetter\n\nWhite and Grey Color Blocks Data Analyst Entry Level Resume\n\nResume\n\nCopy of 2 White and Blue Professional Resume Template\n",
+  "metadata": {
+    "source_url": "https://www.canva.com/p/visualvibes/collections/AYrqwST6NIaoB4DkNOIKfw",
+    "source_domain": "canva.com",
+    "topic": "ats-optimization",
+    "fetched_at": "2026-05-25T06:43:38.625481+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "ATS-Friendly Resume | CV - Visual Vibes",
+    "description": null,
+    "language": "en",
+    "word_count": 146,
+    "content_hash": "sha256:d0457fcecdefb783ee31fbb01313423feb8f12ac0380650562ef0504ce98e6e1",
+    "reading_time": 1,
+    "author": null,
+    "published_date": "2026-05-24",
+    "og_title": null,
+    "signal_score": 0.1857,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "ATS-Friendly Resume | CV - Visual Vibes",
+        "section_type": "title",
+        "header_path": [
+          "ATS-Friendly Resume | CV - Visual Vibes"
+        ],
+        "char_start": 0,
+        "char_end": 1044
+      },
+      {
+        "level": 2,
+        "title": "ATS-Friendly Resume | CV",
+        "section_type": "content",
+        "header_path": [
+          "ATS-Friendly Resume | CV - Visual Vibes",
+          "ATS-Friendly Resume | CV"
+        ],
+        "char_start": 43,
+        "char_end": 1044
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

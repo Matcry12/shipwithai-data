@@ -1,0 +1,48 @@
+{
+  "markdown": "# Git Code Review - Best Practices.pptx\n\nThe document outlines best practices for code review, including guidelines for git branching, merging, and commit message formatting. It emphasizes the importance of following naming conventions, obtaining required approvals, and ensuring code quality and security. Additional recommendations include using appropriate coding standards, meaningful variable names, and leveraging tools like SonarQube for code inspection.\n",
+  "metadata": {
+    "source_url": "https://www.slideshare.net/slideshow/git-code-review-best-practicespptx/251692859",
+    "source_domain": "slideshare.net",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:47:12.978308+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Git Code Review - Best Practices.pptx",
+    "description": "The document outlines best practices for code review, including guidelines for git branching, merging, and commit message formatting. It emphasizes the importance of following naming conventions, obtaining required approvals, and ensuring code quality and security. Additional recommendations include using appropriate coding standards, meaningful variable names, and leveraging tools like SonarQube for code inspection. - Download as a PPTX, PDF or view online for free",
+    "language": "en",
+    "word_count": 60,
+    "content_hash": "sha256:7b457efafed2c644dfd791383d7cf10114c18c7a46ece5a438996ececd85a7ab",
+    "reading_time": 1,
+    "author": "Oren Digmi",
+    "published_date": "2022-04-29",
+    "og_title": null,
+    "signal_score": 0.3556,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Git Code Review - Best Practices.pptx",
+        "section_type": "title",
+        "header_path": [
+          "Git Code Review - Best Practices.pptx"
+        ],
+        "char_start": 0,
+        "char_end": 462
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

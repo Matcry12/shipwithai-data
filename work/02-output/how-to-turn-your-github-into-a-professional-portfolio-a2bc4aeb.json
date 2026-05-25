@@ -1,0 +1,212 @@
+{
+  "markdown": "# how to turn your github into a professional portfolio\n\nIf you're a developer, **GitHub** is more than a place to store code – it's a living showcase of your skills. Turning your GitHub into a professional portfolio can dramatically increase interview callbacks, help you land remote gigs, and give recruiters a clear picture of what you can deliver. In this guide we'll walk through every step, from cleaning up repositories to adding AI‑enhanced resume links, so you can present a polished, searchable portfolio that works for you 24/7.\n\n## Why a GitHub Portfolio Matters\n\nRecruiters now scan GitHub profiles before scheduling interviews. According to a recent Stack Overflow survey, **71% of hiring managers** consider a candidate's GitHub activity when evaluating technical roles. A well‑structured portfolio signals:\n\n**Technical competence**– clean code, tests, and documentation.**Problem‑solving ability**– real‑world projects that solve actual problems.**Professional branding**– a cohesive story that aligns with your resume.\n\nBy turning your GitHub into a professional portfolio you bridge the gap between a static resume and a dynamic proof of work.\n\n## Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio\n\nBelow is a practical roadmap you can follow week by week. Each step includes a short checklist and a **do/don't** list to keep you on track.\n\n### 1. Clean Up Your Repositories\n\nBefore you showcase anything, make sure every repo you plan to display meets basic quality standards.\n\n**Checklist**\n\n- Remove dead‑code branches and unused forks.\n- Add a clear, concise\n`README.md`\n\nto each repo. - Include a\n`LICENSE`\n\nfile (MIT, Apache 2.0, etc.). - Ensure the repository builds without errors.\n- Add unit tests and a badge for test coverage.\n\n**Do**\n\n- Keep the repository name short and descriptive.\n- Use consistent naming conventions (e.g.,\n`project-name`\n\n).\n\n**Don't**\n\n- Leave large binary files in the repo; use Git LFS or external storage.\n- Keep outdated dependencies.\n\n### 2. Craft a Professional README\n\nYour `README.md`\n\nis the front‑page of each project. Treat it like a mini‑landing page.\n\n**Core Sections**\n\n**Project Title & Tagline**– One‑line description.**Demo**– Live link or GIF.**Features**– Bullet list of key functionalities.**Installation**– Step‑by‑step commands.**Usage**– Code snippets or screenshots.**Tech Stack**– Badges for languages/frameworks.**Contributing**– Guidelines for collaborators.**License**– Quick statement.\n\n**Example**\n\n```\n# WeatherWizard 🌤️\nA real‑time weather dashboard built with React and OpenWeatherMap API.\n[Live Demo](https://weatherwizard.vercel.app) | [Source Code](https://github.com/yourname/weatherwizard)\n## Features\n- Current weather + 7‑day forecast\n- Search by city or GPS location\n- Dark/Light theme toggle\n## Installation\n```bash\ngit clone https://github.com/yourname/weatherwizard.git\ncd weatherwizard\nnpm install\nnpm start\n```\n\n```\n### 3. Showcase Projects with Context\nA portfolio isn't just a list of repos; it's a narrative. For each project, answer three questions:\n1. **What problem does it solve?**\n2. **How did you approach the solution?**\n3. **What impact did it have?**\nUse screenshots, GIFs, or embedded videos to make the experience visual. If you have a live demo, add a **\"Try it now\"** button that opens in a new tab.\n### 4. Add Personal Branding Elements\nYour GitHub profile should feel like a personal brand hub.\n* **Profile Picture** – Use a professional headshot.\n* **Bio** – Include your title, key skills, and a link to your Resumly AI‑generated resume. Example: `🚀 Full‑Stack Engineer | Open‑Source Contributor | 📄 [My Resume](/link-to-resumly)`.\n* **Pinned Repositories** – Pin 4‑6 of your best projects. Choose variety (frontend, backend, data, etc.).\n* **Social Links** – Add LinkedIn, personal website, and the Resumly **[AI Resume Builder](https://www.resumly.ai/features/ai-resume-builder)**.\n### 5. Integrate AI‑Powered Resume from Resumly\nA recruiter's first glance often lands on your resume. Use Resumly's AI Resume Builder to generate a tailored, ATS‑friendly resume and link it directly from your GitHub bio. The AI can also suggest keywords that match the job descriptions you're targeting, boosting both your resume and GitHub SEO.\n> **Pro tip:** After generating your resume, run it through the **[ATS Resume Checker](https://www.resumly.ai/ats-resume-checker)** to ensure it passes automated scans.\n### 6. Publish a Portfolio Site with GitHub Pages\nWhile a well‑crafted profile is great, a dedicated portfolio site gives you full design control.\n**Steps**\n1. Create a new repository named `yourusername.github.io`.\n2. Choose a static site generator (e.g., Jekyll, Hugo, or plain HTML/CSS).\n3. Add a **Projects** page that pulls data from your pinned repos via the GitHub API.\n4. Deploy with **GitHub Pages** (Settings → Pages → Source: main branch).\n5. (Optional) Connect a custom domain for a professional look.\n### 7. SEO Optimization for Your Portfolio\nSearch engines treat GitHub pages like any other site. Follow these quick wins:\n* **Title Tag** – Include \"GitHub Portfolio\" and your name.\n* **Meta Description** – Summarize your expertise in 150 characters.\n* **Header Hierarchy** – Use H1 for the main keyword, H2 for sections.\n* **Alt Text** – Add descriptive alt text to all images.\n* **Internal Links** – Link to your Resumly resources such as the **[Career Guide](https://www.resumly.ai/career-guide)** and **[Job Search Keywords](https://www.resumly.ai/job-search-keywords)**.\n### 8. Do's and Don'ts Checklist\n| ✅ Do | ❌ Don't |\n|------|----------|\n| Keep README concise and scannable. | Overload README with long paragraphs. |\n| Use badges for build status, coverage, and license. | Forget to update badges after changes. |\n| Add live demos or screenshots. | Rely solely on code listings. |\n| Link to an AI‑generated, ATS‑optimized resume. | Use a generic PDF that isn't tailored. |\n| Regularly update pinned repos. | Let outdated projects sit forever. |\n### 9. Final Pre‑Launch Checklist\n- [ ] All READMEs follow the template.\n- [ ] Each repo has a LICENSE and CI badge.\n- [ ] Portfolio site deployed on GitHub Pages.\n- [ ] Resume link points to the latest Resumly version.\n- [ ] SEO meta tags are set.\n- [ ] Social links (LinkedIn, Twitter, Resumly) are verified.\n- [ ] Test mobile responsiveness.\n## Frequently Asked Questions (FAQs)\n**Q1: Do I need to showcase every repository I own?**\n> No. Focus on quality over quantity. Pin 4‑6 projects that best illustrate your skill set and impact.\n**Q2: How often should I update my GitHub portfolio?**\n> Treat it like a living document. Update whenever you finish a significant project, add a new skill, or receive notable feedback.\n**Q3: Can I use a private repo for my portfolio?**\n> Private repos are invisible to recruiters. If you must keep code private, add a detailed case study in your README and provide a demo video.\n**Q4: What if I'm not a front‑end developer?**\n> Highlight the parts you control: API design, database schema, testing strategy, and documentation. Use diagrams to illustrate architecture.\n**Q5: How does Resumly help with my GitHub portfolio?**\n> Resumly's AI tools generate a resume that mirrors the keywords in your GitHub projects, improving ATS match rates. The **[Job Match](https://www.resumly.ai/features/job-match)** feature also suggests roles that align with your portfolio.\n**Q6: Should I include a blog on my portfolio site?**\n> Absolutely. Writing about challenges you solved (e.g., \"How I Optimized a React App for 2× Speed\") demonstrates communication skills and deepens SEO.\n**Q7: Is a custom domain worth the cost?**\n> A custom domain (e.g., `yourname.dev`) looks more professional and can improve search rankings. It's a small investment for a big branding boost.\n**Q8: How can I measure the impact of my portfolio?**\n> Use GitHub's traffic analytics (Insights → Traffic) and Google Analytics on your portfolio site to track visits, click‑throughs to your resume, and conversion rates.\n## Conclusion: Mastering How to Turn Your GitHub Into a Professional Portfolio\nBy following the steps above, you'll transform a simple code host into a **professional portfolio** that works around the clock to market your talent. Clean repositories, compelling READMEs, AI‑enhanced resumes from **Resumly**, and a SEO‑friendly portfolio site together create a powerful ecosystem that attracts recruiters, showcases your expertise, and accelerates your job search.\nReady to level up? Start by generating an ATS‑optimized resume with the **[AI Resume Builder](https://www.resumly.ai/features/ai-resume-builder)**, then link it directly from your GitHub bio. For deeper insights, explore Resumly's **[Career Guide](https://www.resumly.ai/career-guide)** and the free **[Job Search Keywords](https://www.resumly.ai/job-search-keywords)** tool to fine‑tune your portfolio's language.\nYour GitHub can be more than a code dump—it can be the centerpiece of a winning career strategy. Happy coding, and good luck turning your GitHub into a professional portfolio!\n```\n",
+  "metadata": {
+    "source_url": "https://www.resumly.ai/blog/how-to-turn-your-github-into-a-professional-portfolio",
+    "source_domain": "resumly.ai",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:48:18.480946+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How to Turn Your GitHub Into a Professional Portfolio",
+    "description": "Transform your GitHub repo into a polished, recruiter‑ready portfolio with actionable steps, checklists, and AI‑powered tools from Resumly.",
+    "language": "en",
+    "word_count": 1363,
+    "content_hash": "sha256:ab17499cb6302b3d2aea70df55abddab1a7f1d45c39bfa3cb16e40b3e791b42b",
+    "reading_time": 7,
+    "author": "Jane Smith",
+    "published_date": "2025-10-08",
+    "og_title": null,
+    "signal_score": 0.8217,
+    "text_to_link_ratio": 0.9319,
+    "tldr": "Step-by-step guide to transforming GitHub into a professional portfolio with clean repositories, READMEs, personal branding, and GitHub Pages.",
+    "entities": {
+      "primary": "GitHub professional portfolio",
+      "aliases": [
+        "developer portfolio GitHub",
+        "GitHub showcase"
+      ]
+    },
+    "core_question": "How do you turn your GitHub into a professional portfolio that impresses recruiters?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "repository README",
+      "GitHub Pages",
+      "project showcase",
+      "personal branding",
+      "portfolio optimization"
+    ]
+  },
+  "structure": {
+    "section_count": 14,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "how to turn your github into a professional portfolio",
+        "section_type": "title",
+        "header_path": [
+          "how to turn your github into a professional portfolio"
+        ],
+        "char_start": 0,
+        "char_end": 9091
+      },
+      {
+        "level": 2,
+        "title": "Why a GitHub Portfolio Matters",
+        "section_type": "intro",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Why a GitHub Portfolio Matters"
+        ],
+        "char_start": 541,
+        "char_end": 1164
+      },
+      {
+        "level": 2,
+        "title": "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+        "section_type": "step",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio"
+        ],
+        "char_start": 1164,
+        "char_end": 6354
+      },
+      {
+        "level": 3,
+        "title": "1. Clean Up Your Repositories",
+        "section_type": "content",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "1. Clean Up Your Repositories"
+        ],
+        "char_start": 1379,
+        "char_end": 2013
+      },
+      {
+        "level": 3,
+        "title": "2. Craft a Professional README",
+        "section_type": "content",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "2. Craft a Professional README"
+        ],
+        "char_start": 2013,
+        "char_end": 2935
+      },
+      {
+        "level": 3,
+        "title": "3. Showcase Projects with Context",
+        "section_type": "content",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "3. Showcase Projects with Context"
+        ],
+        "char_start": 2935,
+        "char_end": 3335
+      },
+      {
+        "level": 3,
+        "title": "4. Add Personal Branding Elements",
+        "section_type": "content",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "4. Add Personal Branding Elements"
+        ],
+        "char_start": 3335,
+        "char_end": 3923
+      },
+      {
+        "level": 3,
+        "title": "5. Integrate AI‑Powered Resume from Resumly",
+        "section_type": "content",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "5. Integrate AI‑Powered Resume from Resumly"
+        ],
+        "char_start": 3923,
+        "char_end": 4439
+      },
+      {
+        "level": 3,
+        "title": "6. Publish a Portfolio Site with GitHub Pages",
+        "section_type": "content",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "6. Publish a Portfolio Site with GitHub Pages"
+        ],
+        "char_start": 4439,
+        "char_end": 4953
+      },
+      {
+        "level": 3,
+        "title": "7. SEO Optimization for Your Portfolio",
+        "section_type": "content",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "7. SEO Optimization for Your Portfolio"
+        ],
+        "char_start": 4953,
+        "char_end": 5530
+      },
+      {
+        "level": 3,
+        "title": "8. Do's and Don'ts Checklist",
+        "section_type": "tips",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "8. Do's and Don'ts Checklist"
+        ],
+        "char_start": 5530,
+        "char_end": 6009
+      },
+      {
+        "level": 3,
+        "title": "9. Final Pre‑Launch Checklist",
+        "section_type": "summary",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Step‑by‑step Guide to Turn Your GitHub Into a Professional Portfolio",
+          "9. Final Pre‑Launch Checklist"
+        ],
+        "char_start": 6009,
+        "char_end": 6354
+      },
+      {
+        "level": 2,
+        "title": "Frequently Asked Questions (FAQs)",
+        "section_type": "faq",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Frequently Asked Questions (FAQs)"
+        ],
+        "char_start": 6354,
+        "char_end": 8032
+      },
+      {
+        "level": 2,
+        "title": "Conclusion: Mastering How to Turn Your GitHub Into a Professional Portfolio",
+        "section_type": "step",
+        "header_path": [
+          "how to turn your github into a professional portfolio",
+          "Conclusion: Mastering How to Turn Your GitHub Into a Professional Portfolio"
+        ],
+        "char_start": 8032,
+        "char_end": 9091
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

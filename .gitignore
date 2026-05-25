@@ -1,0 +1,26 @@
+# ── regenerable pipeline intermediates (rebuild from seed_urls.jsonl) ──
+work/01-extracted/
+work/02-normalized/
+work/03-hierarchy/
+work/04-structured/
+work/05-enriched/
+work/enrich_inbox/
+work/enrich_out/
+work/enrich_batches/
+
+# big regenerable previews
+work/STAGE*_PREVIEW.md
+
+# logs
+work/*.log
+*.log
+
+# ── archived v1 raw data (large; history only) ──
+archive/v1-data/
+
+# python / tooling
+__pycache__/
+**/__pycache__/
+*.pyc
+.omc/
+.DS_Store

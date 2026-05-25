@@ -1,0 +1,244 @@
+# Phase 1 Search Queries
+# Each topic gets queries covering ALL career levels: fresher, intern, entry, mid, senior, executive.
+# Run: python scripts/01_crawl.py --force-rescan   (re-searches even if metadata exists)
+
+topics:
+
+  github-portfolio:
+    output_dir: 01-raw/github-portfolio
+    queries:
+      # general
+      - "how to showcase github on resume software engineer"
+      - "github profile for developers cv tips"
+      - "open source contributions on resume examples"
+      - "github readme profile developer job"
+      - "pinned repositories resume portfolio guide"
+      # fresher / intern / entry
+      - "github profile for fresher developer no experience"
+      - "intern resume github projects examples"
+      - "entry level developer github portfolio tips"
+      # mid
+      - "mid level software engineer github resume 3 years experience"
+      - "individual contributor github portfolio showcase resume"
+      # senior / executive
+      - "senior engineer github open source resume"
+      - "engineering lead github profile resume"
+
+  career-gap:
+    output_dir: 01-raw/career-gap
+    queries:
+      # general
+      - "how to explain employment gap on resume"
+      - "resume gap explanation developer returning to tech"
+      - "returning to work after career break cv tips"
+      - "resume after parental leave software engineer"
+      - "addressing career gap cover letter examples"
+      # fresher / intern / entry
+      - "fresher resume gap after graduation"
+      - "entry level resume gap year explanation"
+      # mid
+      - "mid career break resume explanation developer"
+      - "2 year career gap software engineer resume tips"
+      # senior / executive
+      - "senior engineer career gap sabbatical resume"
+      - "executive resume career break explanation"
+
+  career-change:
+    output_dir: 01-raw/career-change
+    queries:
+      # general
+      - "career change to software engineer resume"
+      - "non-cs degree developer cv tips"
+      - "bootcamp graduate resume no experience"
+      - "switching careers into tech resume guide"
+      - "transferable skills resume career change developer"
+      # fresher / intern / entry
+      - "fresher switching to software engineering resume"
+      - "intern career change non technical background cv"
+      # mid
+      - "mid career switch to software developer resume"
+      - "3-5 years experience career change tech resume"
+      # senior / executive
+      - "senior professional career change to tech resume"
+      - "executive career transition to technology resume"
+
+  ats-optimization:
+    output_dir: 01-raw/ats-optimization
+    queries:
+      # general
+      - "ATS resume tips software developer"
+      - "applicant tracking system resume keywords tech jobs"
+      - "how to pass ATS screening developer resume"
+      - "resume formatting for ATS compatibility"
+      - "ATS friendly resume template engineer"
+      # fresher / intern / entry
+      - "ATS resume tips fresher software engineer first job"
+      - "entry level ATS optimized resume developer"
+      # mid
+      - "mid level developer ATS resume keywords 3-5 years"
+      - "individual contributor ATS resume optimization"
+      # senior / executive
+      - "senior engineer ATS resume tips leadership keywords"
+      - "executive resume ATS optimization CTO VP"
+
+  salary-negotiation:
+    output_dir: 01-raw/salary-negotiation
+    queries:
+      # general
+      - "salary negotiation software engineer tips"
+      - "how to negotiate job offer developer"
+      - "counter offer email software engineer example"
+      - "negotiating salary tech job first time"
+      - "total compensation negotiation developer stock options"
+      # fresher / intern / entry
+      - "salary negotiation first job fresher software engineer"
+      - "intern return offer negotiation tech"
+      - "entry level developer negotiate offer tips"
+      # mid
+      - "mid level software engineer salary negotiation 3-5 years"
+      - "individual contributor salary negotiation promotion"
+      # senior / executive
+      - "senior engineer salary negotiation equity RSU"
+      - "CTO VP engineering compensation negotiation"
+
+  senior-level-resume:
+    output_dir: 01-raw/senior-level-resume
+    queries:
+      # general
+      - "senior software engineer resume examples"
+      - "staff engineer cv tips 10 years experience"
+      - "principal engineer resume guide"
+      - "senior developer resume accomplishments not duties"
+      - "tech lead resume impact metrics examples"
+      # fresher / entry — aiming to become senior
+      - "how to grow from junior to senior developer resume"
+      - "entry level to senior engineer career path resume"
+      # mid — transitioning to senior
+      - "mid level to senior software engineer resume promotion"
+      - "individual contributor resume to tech lead"
+      # executive
+      - "staff principal engineer resume vs senior engineer"
+      - "engineering manager resume from senior developer"
+
+  executive-resume:
+    output_dir: 01-raw/executive-resume
+    queries:
+      # general
+      - "CTO resume examples engineering leader"
+      - "VP engineering cv tips"
+      - "engineering director resume guide"
+      - "head of engineering resume accomplishments"
+      - "executive tech resume board presentation"
+      # mid — aspiring to management
+      - "mid level engineer resume to engineering manager"
+      - "developer resume for management track"
+      # senior — moving to executive
+      - "senior engineer to director resume transition"
+      - "staff engineer to VP engineering resume"
+      # executive-specific
+      - "CTO resume board of directors tech startup"
+      - "chief technology officer cv examples achievements"
+
+  remote-work-resume:
+    output_dir: 01-raw/remote-work-resume
+    queries:
+      # general
+      - "remote developer resume tips"
+      - "distributed team experience on resume"
+      - "async work skills resume remote engineer"
+      - "how to list remote work on cv"
+      - "remote first company resume keywords"
+      # fresher / intern / entry
+      - "fresher remote software engineer resume tips"
+      - "entry level remote developer resume no experience"
+      # mid
+      - "mid level remote developer resume distributed team"
+      - "individual contributor remote work resume 3 years"
+      # senior / executive
+      - "senior remote engineer resume async leadership"
+      - "remote engineering manager director resume"
+
+  linkedin-profile:
+    output_dir: 01-raw/linkedin-profile
+    queries:
+      # general
+      - "linkedin profile tips software developer"
+      - "linkedin headline engineer examples"
+      - "linkedin summary section developer guide"
+      - "linkedin open to work settings developer"
+      - "linkedin profile optimization tech recruiter"
+      # fresher / intern / entry
+      - "linkedin profile for fresher software engineer"
+      - "linkedin profile no experience student developer"
+      - "intern linkedin profile tips tech"
+      # mid
+      - "mid level software developer linkedin profile tips"
+      - "linkedin profile individual contributor 3-5 years"
+      # senior / executive
+      - "senior engineer linkedin profile thought leadership"
+      - "CTO VP linkedin profile executive branding"
+
+  cover-letter:
+    output_dir: 01-raw/cover-letter
+    queries:
+      # general
+      - "cover letter software engineer examples"
+      - "how to write cover letter developer job"
+      - "cover letter when underqualified for tech role"
+      - "short cover letter software engineer template"
+      - "cover letter for internal transfer developer"
+      # fresher / intern / entry
+      - "cover letter fresher software engineer no experience"
+      - "internship cover letter computer science student"
+      - "entry level developer cover letter examples"
+      # mid
+      - "mid level software engineer cover letter examples"
+      - "cover letter 3-5 years developer experience"
+      # senior / executive
+      - "senior engineer cover letter leadership examples"
+      - "CTO director engineering cover letter examples"
+
+  git-first-job:
+    output_dir: 01-raw/git-first-job
+    queries:
+      # general
+      - "git for beginners first developer job"
+      - "how to write a good git commit message"
+      - "git branching strategy junior developers"
+      - "resolving git merge conflicts tutorial"
+      - "git workflow team collaboration beginner"
+      - "git mistakes beginners make how to fix"
+      # fresher / intern / entry
+      - "how to open your first pull request github"
+      - "github workflow for fresher software engineer"
+      - "first PR open source contribution guide"
+      - "git rebase vs merge beginner guide"
+      # mid / senior
+      - "git best practices software engineer code review"
+      - "advanced git workflow senior developer team"
+      # AI angle
+      - "using AI tools with git workflow developer"
+      - "Claude Code git commit message workflow"
+
+  claude-code-workflow:
+    output_dir: 01-raw/claude-code-workflow
+    seed_urls:
+      - "https://shipwithai.io"
+    queries:
+      # general
+      - "Claude Code tutorial beginners"
+      - "how to use Claude Code CLI effectively"
+      - "Claude Code vs GitHub Copilot comparison"
+      - "AI coding assistant best practices software engineer"
+      - "AI pair programming developer workflow productivity"
+      # fresher / entry
+      - "AI tools for junior developers first job"
+      - "using Claude Code to understand unfamiliar codebase"
+      - "Claude Code for beginner developers tutorial"
+      # mid / senior
+      - "Claude Code for code review senior engineer"
+      - "AI assisted development workflow team productivity"
+      - "Claude Code slash commands tips advanced"
+      # concepts
+      - "agentic coding workflow Claude Code"
+      - "prompt engineering for developers Claude"

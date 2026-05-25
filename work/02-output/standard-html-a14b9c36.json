@@ -1,0 +1,67 @@
+{
+  "markdown": "# The Standard of Code Review\n\nThe primary purpose of code review is to make sure that the overall code health of Google's code base is improving over time. All of the tools and processes of code review are designed to this end.\n\nIn order to accomplish this, a series of trade-offs have to be balanced.\n\nFirst, developers must be able to *make progress* on their tasks. If you never\nsubmit an improvement to the codebase, then the codebase never improves. Also,\nif a reviewer makes it very difficult for *any* change to go in, then developers\nare disincentivized to make improvements in the future.\n\nOn the other hand, it is the duty of the reviewer to make sure that each CL is of such a quality that the overall code health of their codebase is not decreasing as time goes on. This can be tricky, because often, codebases degrade through small decreases in code health over time, especially when a team is under significant time constraints and they feel that they have to take shortcuts in order to accomplish their goals.\n\nAlso, a reviewer has ownership and responsibility over the code they are reviewing. They want to ensure that the codebase stays consistent, maintainable, and all of the other things mentioned in \"What to look for in a code review.\"\n\nThus, we get the following rule as the standard we expect in code reviews:\n\n**In general, reviewers should favor approving a CL once it is in a state where\nit definitely improves the overall\ncode health of the system\nbeing worked on, even if the CL isn't perfect.**\n\nThat is *the* senior principle among all of the code review guidelines.\n\nThere are limitations to this, of course. For example, if a CL adds a feature that the reviewer doesn't want in their system, then the reviewer can certainly deny approval even if the code is well-designed.\n\nA key point here is that there is no such thing as \"perfect\" code—there is\nonly *better* code. Reviewers should not require the author to polish every tiny\npiece of a CL before granting approval. Rather, the reviewer should balance out\nthe need to make forward progress compared to the importance of the changes they\nare suggesting. Instead of seeking perfection, what a reviewer should seek is\n*continuous improvement*. A CL that, as a whole, improves the maintainability,\nreadability, and understandability of the system shouldn't be delayed for days\nor weeks because it isn't \"perfect.\"\n\nReviewers should *always* feel free to leave comments expressing that something\ncould be better, but if it's not very important, prefix it with something like\n\"Nit: \" to let the author know that it's just a point of polish that they could\nchoose to ignore.\n\nNote: Nothing in this document justifies checking in CLs that definitely\n*worsen* the overall code health of the system. The only time you would do that\nwould be in an emergency.\n\nCode review can have an important function of teaching developers something new about a language, a framework, or general software design principles. It's always fine to leave comments that help a developer learn something new. Sharing knowledge is part of improving the code health of a system over time. Just keep in mind that if your comment is purely educational, but not critical to meeting the standards described in this document, prefix it with \"Nit: \" or otherwise indicate that it's not mandatory for the author to resolve it in this CL.\n\nTechnical facts and data overrule opinions and personal preferences.\n\nOn matters of style, the style guide is the absolute authority. Any purely style point (whitespace, etc.) that is not in the style guide is a matter of personal preference. The style should be consistent with what is there. If there is no previous style, accept the author's.\n\n**Aspects of software design are almost never a pure style issue or just a\npersonal preference.** They are based on underlying principles and should be\nweighed on those principles, not simply by personal opinion. Sometimes there\nare a few valid options. If the author can demonstrate (either through data\nor based on solid engineering principles) that several approaches are\nequally valid, then the reviewer should accept the preference of the author.\nOtherwise the choice is dictated by standard principles of software design.\n\nIf no other rule applies, then the reviewer may ask the author to be consistent with what is in the current codebase, as long as that doesn't worsen the overall code health of the system.\n\nIn any conflict on a code review, the first step should always be for the developer and reviewer to try to come to consensus, based on the contents of this document and the other documents in The CL Author's Guide and this Reviewer Guide.\n\nWhen coming to consensus becomes especially difficult, it can help to have a face-to-face meeting or a video conference between the reviewer and the author, instead of just trying to resolve the conflict through code review comments. (If you do this, though, make sure to record the results of the discussion as a comment on the CL, for future readers.)\n\nIf that doesn't resolve the situation, the most common way to resolve it would\nbe to escalate. Often the\nescalation path is to a broader team discussion, having a Technical Lead weigh in, asking\nfor a decision from a maintainer of the code, or asking an Eng Manager to help\nout. **Don't let a CL sit around because the author and the reviewer can't come\nto an agreement.**\n",
+  "metadata": {
+    "source_url": "https://google.github.io/eng-practices/review/reviewer/standard.html",
+    "source_domain": "google.github.io",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:39:43.432769+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "The Standard of Code Review",
+    "description": "Google’s Engineering Practices documentation",
+    "language": "en",
+    "word_count": 926,
+    "content_hash": "sha256:76a110dd09ae14e7ab73be3cb2b3f8cf44c355b647d1486ac3ec3246d6960c2d",
+    "reading_time": 5,
+    "author": null,
+    "published_date": null,
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Google's code review standards emphasizing continuous code health improvement, balancing progress with quality, and principles for reviewers and authors.",
+    "entities": {
+      "primary": "Code review standard",
+      "aliases": [
+        "Google code review",
+        "review principles",
+        "code quality"
+      ]
+    },
+    "core_question": "What is the standard for conducting code reviews?",
+    "doc_type": "reference",
+    "key_topics": [
+      "code review",
+      "code health",
+      "reviewer responsibility",
+      "style guide",
+      "technical principles"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "The Standard of Code Review",
+        "section_type": "title",
+        "header_path": [
+          "The Standard of Code Review"
+        ],
+        "char_start": 0,
+        "char_end": 5419
+      }
+    ]
+  },
+  "links": [
+    "https://google.github.io/eng-practices/review/reviewer/looking-for.html",
+    "https://google.github.io/eng-practices/review/emergencies.html",
+    "http://google.github.io/styleguide/",
+    "https://google.github.io/eng-practices/review/developer/",
+    "https://google.github.io/eng-practices/review/reviewer/"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

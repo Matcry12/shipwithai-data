@@ -1,0 +1,114 @@
+{
+  "markdown": "# Managing your profile README\n\n## Prerequisites\n\nGitHub will display your profile README on your profile page if all of the following are true.\n\n- You've created a repository with a name that matches your GitHub username.\n- The repository is public.\n- The repository contains a file named README.md in its root.\n- The README.md file contains any content.\n\nNote\n\nIf you created a public repository with the same name as your username before July 2020, GitHub won't automatically show the repository's README on your profile. You can manually share the repository's README to your profile by going to the repository on GitHub and clicking **Share to profile**.\n\n## Adding a profile README\n\nIn the upper-right corner of any page, select , then click\n\n**New repository**. -\nUnder \"Repository name\", type a repository name that matches your GitHub username. For example, if your username is \"octocat\", the repository name must be \"octocat.\"\n\nOptionally, in the \"Description\" field, type a description of your repository. For example, \"My personal repository.\"\n\nSelect\n\n**Public**. -\nToggle\n\n**Add README**to**On**. -\nClick\n\n**Create repository**. -\nAbove the right sidebar, click\n\n**Edit README**.\n\nThe generated README file is pre-populated with a template to give you some inspiration for your profile README.\n\nFor a summary of all the available emojis and their codes, see Emoji cheat sheet.\n\n## Removing a profile README\n\nThe profile README will be removed from your GitHub profile if any of the following apply:\n\n- The README file is removed or made empty.\n- The repository is made private.\n- The repository name no longer matches your username due to a change in either or both names.\n\nThe method you choose depends upon your needs, but if you're unsure, we recommend making your repository private. For steps on how to make your repository private, see Setting repository visibility.\n\n## Next steps\n\n- For reference information, see Profile reference.\n",
+  "metadata": {
+    "source_url": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme",
+    "source_domain": "docs.github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:38:21.992806+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Managing your profile README",
+    "description": "You can add a README to your GitHub profile to tell other people about yourself.",
+    "language": "en",
+    "word_count": 315,
+    "content_hash": "sha256:f09659ad161ad39177a1fa8929ffdb51b1364b57478d637da0076e1c78041d3d",
+    "reading_time": 2,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.7625,
+    "text_to_link_ratio": 1.0,
+    "tldr": "GitHub documentation for creating and managing profile README files to customize your GitHub profile page with personal content and projects.",
+    "entities": {
+      "primary": "GitHub profile README management",
+      "aliases": [
+        "GitHub profile customization",
+        "README setup",
+        "GitHub documentation"
+      ]
+    },
+    "core_question": "How do you create and manage a profile README on GitHub?",
+    "doc_type": "reference",
+    "key_topics": [
+      "GitHub profile README",
+      "repository setup",
+      "public repository",
+      "profile customization",
+      "emoji support",
+      "markdown"
+    ]
+  },
+  "structure": {
+    "section_count": 5,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Managing your profile README",
+        "section_type": "title",
+        "header_path": [
+          "Managing your profile README"
+        ],
+        "char_start": 0,
+        "char_end": 1955
+      },
+      {
+        "level": 2,
+        "title": "Prerequisites",
+        "section_type": "content",
+        "header_path": [
+          "Managing your profile README",
+          "Prerequisites"
+        ],
+        "char_start": 32,
+        "char_end": 661
+      },
+      {
+        "level": 2,
+        "title": "Adding a profile README",
+        "section_type": "content",
+        "header_path": [
+          "Managing your profile README",
+          "Adding a profile README"
+        ],
+        "char_start": 661,
+        "char_end": 1392
+      },
+      {
+        "level": 2,
+        "title": "Removing a profile README",
+        "section_type": "content",
+        "header_path": [
+          "Managing your profile README",
+          "Removing a profile README"
+        ],
+        "char_start": 1392,
+        "char_end": 1888
+      },
+      {
+        "level": 2,
+        "title": "Next steps",
+        "section_type": "content",
+        "header_path": [
+          "Managing your profile README",
+          "Next steps"
+        ],
+        "char_start": 1888,
+        "char_end": 1955
+      }
+    ]
+  },
+  "links": [
+    "https://docs.github.com#prerequisites",
+    "https://docs.github.com#adding-a-profile-readme",
+    "https://www.webfx.com/tools/emoji-cheat-sheet/",
+    "https://docs.github.com#removing-a-profile-readme",
+    "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility",
+    "https://docs.github.com#next-steps",
+    "https://docs.github.com/en/account-and-profile/reference/profile-reference"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

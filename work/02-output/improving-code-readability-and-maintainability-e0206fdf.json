@@ -1,0 +1,267 @@
+{
+  "markdown": "# Improving code readability and maintainability\n\nCode with poor readability is difficult for other developers to maintain and extend. Copilot Chat can help in a number of ways. For example, by:\n\n- Suggesting improvements to variable names\n- Avoiding sequential conditional checks\n- Reducing nested logic\n- Splitting large methods into smaller, more readable ones\n\nDocumenting your code is another way to improve the maintainability of your code. For information about using Copilot Chat to help you add useful comments to your code, see the example prompts in Documenting code.\n\nNote\n\nThe responses shown in this article are examples. Copilot Chat responses are non-deterministic, so you may get different responses from the ones shown here.\n\n## Improving variable names\n\nDescriptive variable names and parameter names make it easier to understand their purpose.\n\n### Example scenario\n\nThis JavaScript code logs a message about a person's age to the console. The abstract parameter names make it difficult to understand the purpose of the code.\n\n```\nfunction logPersonsAge(a, b, c) {\nif (c) {\nconsole.log(a + \" is \" + b + \" years old.\");\n} else {\nconsole.log(a + \" does not want to reveal their age.\");\n}\n}\n```\n\n### Example prompt\n\nIn the editor, select the function you want to change, then ask Copilot Chat:\n\nImprove the variable names in this function\n\nfunction logPersonsAge(a, b, c) { if (c) { console.log(a + \" is \" + b + \" years old.\"); } else { console.log(a + \" does not want to reveal their age.\"); } } Improve the variable names in this function\n\n```\nImprove the variable names in this function\n```\n\n### Example response\n\nCopilot suggests descriptive variable names.\n\n```\nfunction logPersonAge(name, age, revealAge) {\nif (revealAge) {\nconsole.log(name + \" is \" + age + \" years old.\");\n} else {\nconsole.log(name + \" does not want to reveal their age.\");\n}\n}\n```\n\n## Avoiding sequential conditional checks\n\n`if...else`\n\nchains can be difficult to read, especially when they are long.\n\n### Example scenario\n\nThis Python code prints the sound that various animals make, if defined, or \"Unknown animal\" if the animal type is not recognized. However, the chain of `if...else`\n\nstatements makes the code inefficient and cumbersome.\n\n```\nclass Animal:\ndef speak(self):\npass\nclass Dog(Animal):\ndef speak(self):\nreturn \"Woof!\"\nclass Cat(Animal):\ndef speak(self):\nreturn \"Meow!\"\nclass Bird(Animal):\ndef speak(self):\nreturn \"Tweet!\"\ndef animal_sound(animal_type):\nif animal_type == \"dog\":\nreturn Dog().speak()\nelif animal_type == \"cat\":\nreturn Cat().speak()\nelif animal_type == \"bird\":\nreturn Bird().speak()\nelse:\nreturn \"Unknown animal\"\nprint(animal_sound(\"dog\"))\nprint(animal_sound(\"cat\"))\nprint(animal_sound(\"bird\"))\nprint(animal_sound(\"fish\"))\n```\n\n### Example prompt\n\nSimplify this code. Avoid using if/else chains but retain all function return values.\n\nclass Animal: def speak(self): pass class Dog(Animal): def speak(self): return \"Woof!\" class Cat(Animal): def speak(self): return \"Meow!\" class Bird(Animal): def speak(self): return \"Tweet!\" def animal_sound(animal_type): if animal_type == \"dog\": return Dog().speak() elif animal_type == \"cat\": return Cat().speak() elif animal_type == \"bird\": return Bird().speak() else: return \"Unknown animal\" print(animal_sound(\"dog\")) print(animal_sound(\"cat\")) print(animal_sound(\"bird\")) print(animal_sound(\"fish\")) Simplify this code. Avoid using if/else chains but retain all function return values.\n\n```\nSimplify this code. Avoid using if/else chains but retain all function return values.\n```\n\n### Example response\n\nCopilot suggests using a dictionary to map the animal types to their corresponding classes.\n\n```\nclass Animal:\ndef speak(self):\npass\nclass Dog(Animal):\ndef speak(self):\nreturn \"Woof!\"\nclass Cat(Animal):\ndef speak(self):\nreturn \"Meow!\"\nclass Bird(Animal):\ndef speak(self):\nreturn \"Tweet!\"\ndef animal_sound(animal_type):\nanimals = {\n\"dog\": Dog,\n\"cat\": Cat,\n\"bird\": Bird\n}\nanimal_class = animals.get(animal_type, Animal)\nreturn animal_class().speak() if animal_class != Animal else \"Unknown animal\"\nprint(animal_sound(\"dog\"))\nprint(animal_sound(\"cat\"))\nprint(animal_sound(\"bird\"))\nprint(animal_sound(\"fish\"))\n```\n\n## Reducing nested logic\n\nDeeply nested structures can make the code hard to follow, making it difficult to modify or extend the logic of the code in future.\n\n### Example scenario\n\nThis Ruby code prints information about a user account based on three parameters. The use of nested `if...else`\n\nstatements makes the code unnecessarily complex.\n\n```\ndef determine_access(user_role, has_permission, is_active)\nif user_role == \"admin\"\nif has_permission\nif is_active\n\"Active admin account with full access.\"\nelse\n\"Inactive admin account.\"\nend\nelse\n\"Admin account lacks necessary permissions.\"\nend\nelse\n\"Access denied.\"\nend\nend\nputs determine_access(\"admin\", true, true)\nputs determine_access(\"admin\", true, false)\nputs determine_access(\"admin\", false, true)\nputs determine_access(\"user\", true, true)\n```\n\n### Example prompt\n\nRewrite this code to avoid the nested if/else statements\n\ndef determine_access(user_role, has_permission, is_active) if user_role == \"admin\" if has_permission if is_active \"Active admin account with full access.\" else \"Inactive admin account.\" end else \"Admin account lacks necessary permissions.\" end else \"Access denied.\" end end puts determine_access(\"admin\", true, true) puts determine_access(\"admin\", true, false) puts determine_access(\"admin\", false, true) puts determine_access(\"user\", true, true) Rewrite this code to avoid the nested if/else statements\n\n```\nRewrite this code to avoid the nested if/else statements\n```\n\n### Example response\n\nCopilot suggests using guard clauses to handle the conditions early and return the appropriate messages.\n\n```\ndef determine_access(user_role, has_permission, is_active)\nreturn \"Access denied.\" unless user_role == \"admin\"\nreturn \"Admin account lacks necessary permissions.\" unless has_permission\nreturn \"Inactive admin account.\" unless is_active\n\"Active admin account with full access.\"\nend\nputs determine_access(\"admin\", true, true)\nputs determine_access(\"admin\", true, false)\nputs determine_access(\"admin\", false, true)\nputs determine_access(\"user\", true, true)\n```\n\n## Splitting up large methods\n\nIt can be difficult to grasp exactly what a method or function does if it is too long, making it difficult to maintain. Methods or functions that perform multiple tasks may not be reusable in other contexts. It may also be difficult to test each task in isolation.\n\n### Example scenario\n\nThis Java method processes a customer order and prints a message. It performs multiple tasks in a single method.\n\n```\npublic void processOrder(Order order) {\nif (order == null || order.getItems().isEmpty()) {\nthrow new IllegalArgumentException(\"Order is invalid.\");\n}\ndouble totalPrice = 0.0;\nfor (Item item : order.getItems()) {\ntotalPrice += item.getPrice() * item.getQuantity();\n}\norder.setTotalPrice(totalPrice);\nif (totalPrice > 0) {\norder.setStatus(\"Processed\");\n} else {\norder.setStatus(\"Pending\");\n}\nSystem.out.println(\"Order for customer \" + order.getCustomerName() + \" has been processed. Total price: \" + totalPrice);\n}\n```\n\n### Example prompt\n\nHow could the processOrder method be refactored to be more useful and easier to maintain\n\npublic void processOrder(Order order) { if (order == null || order.getItems().isEmpty()) { throw new IllegalArgumentException(\"Order is invalid.\"); } double totalPrice = 0.0; for (Item item : order.getItems()) { totalPrice += item.getPrice() * item.getQuantity(); } order.setTotalPrice(totalPrice); if (totalPrice > 0) { order.setStatus(\"Processed\"); } else { order.setStatus(\"Pending\"); } System.out.println(\"Order for customer \" + order.getCustomerName() + \" has been processed. Total price: \" + totalPrice); } How could the processOrder method be refactored to be more useful and easier to maintain\n\n```\nHow could the processOrder method be refactored to be more useful and easier to maintain\n```\n\n### Example response\n\nCopilot suggests breaking this method down into smaller, more focused methods.\n\n```\npublic void processOrder(Order order) {\nvalidateOrder(order);\ndouble totalPrice = calculateTotalPrice(order);\nupdateOrderStatus(order, totalPrice);\nprintOrderSummary(order, totalPrice);\n}\nprivate void validateOrder(Order order) {\nif (order == null || order.getItems().isEmpty()) {\nthrow new IllegalArgumentException(\"Order is invalid.\");\n}\n}\nprivate double calculateTotalPrice(Order order) {\ndouble totalPrice = 0.0;\nfor (Item item : order.getItems()) {\ntotalPrice += item.getPrice() * item.getQuantity();\n}\norder.setTotalPrice(totalPrice);\nreturn totalPrice;\n}\nprivate void updateOrderStatus(Order order, double totalPrice) {\nif (totalPrice > 0) {\norder.setStatus(\"Processed\");\n} else {\norder.setStatus(\"Pending\");\n}\n}\nprivate void printOrderSummary(Order order, double totalPrice) {\nSystem.out.println(\"Order for customer \" + order.getCustomerName() + \" has been processed. Total price: \" + totalPrice);\n}\n```\n",
+  "metadata": {
+    "source_url": "https://docs.github.com/en/copilot/copilot-chat-cookbook/refactoring-code/improving-code-readability-and-maintainability",
+    "source_domain": "docs.github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:38:25.354225+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Improving code readability and maintainability",
+    "description": "Copilot Chat can suggest ways to make your code easier to understand and maintain.",
+    "language": "en",
+    "word_count": 1219,
+    "content_hash": "sha256:cb15acb12a07960e604eb8b5ed2d5f535f7ac9580c252cd587fcf7a381a13383",
+    "reading_time": 7,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.8003,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide on using GitHub Copilot Chat to improve code readability through variable naming, reducing conditionals, and simplifying logic.",
+    "entities": {
+      "primary": "code readability",
+      "aliases": [
+        "code maintainability",
+        "code quality",
+        "code documentation"
+      ]
+    },
+    "core_question": "How can you use AI tools to improve your code's readability and maintainability?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "variable naming",
+      "nested logic",
+      "code simplification",
+      "documentation",
+      "Copilot Chat"
+    ]
+  },
+  "structure": {
+    "section_count": 17,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Improving code readability and maintainability",
+        "section_type": "title",
+        "header_path": [
+          "Improving code readability and maintainability"
+        ],
+        "char_start": 0,
+        "char_end": 9004
+      },
+      {
+        "level": 2,
+        "title": "Improving variable names",
+        "section_type": "content",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Improving variable names"
+        ],
+        "char_start": 744,
+        "char_end": 1874
+      },
+      {
+        "level": 3,
+        "title": "Example scenario",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Improving variable names",
+          "Example scenario"
+        ],
+        "char_start": 865,
+        "char_end": 1213
+      },
+      {
+        "level": 3,
+        "title": "Example prompt",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Improving variable names",
+          "Example prompt"
+        ],
+        "char_start": 1213,
+        "char_end": 1612
+      },
+      {
+        "level": 3,
+        "title": "Example response",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Improving variable names",
+          "Example response"
+        ],
+        "char_start": 1612,
+        "char_end": 1874
+      },
+      {
+        "level": 2,
+        "title": "Avoiding sequential conditional checks",
+        "section_type": "content",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Avoiding sequential conditional checks"
+        ],
+        "char_start": 1874,
+        "char_end": 4181
+      },
+      {
+        "level": 3,
+        "title": "Example scenario",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Avoiding sequential conditional checks",
+          "Example scenario"
+        ],
+        "char_start": 1995,
+        "char_end": 2753
+      },
+      {
+        "level": 3,
+        "title": "Example prompt",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Avoiding sequential conditional checks",
+          "Example prompt"
+        ],
+        "char_start": 2753,
+        "char_end": 3548
+      },
+      {
+        "level": 3,
+        "title": "Example response",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Avoiding sequential conditional checks",
+          "Example response"
+        ],
+        "char_start": 3548,
+        "char_end": 4181
+      },
+      {
+        "level": 2,
+        "title": "Reducing nested logic",
+        "section_type": "content",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Reducing nested logic"
+        ],
+        "char_start": 4181,
+        "char_end": 6220
+      },
+      {
+        "level": 3,
+        "title": "Example scenario",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Reducing nested logic",
+          "Example scenario"
+        ],
+        "char_start": 4340,
+        "char_end": 4981
+      },
+      {
+        "level": 3,
+        "title": "Example prompt",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Reducing nested logic",
+          "Example prompt"
+        ],
+        "char_start": 4981,
+        "char_end": 5630
+      },
+      {
+        "level": 3,
+        "title": "Example response",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Reducing nested logic",
+          "Example response"
+        ],
+        "char_start": 5630,
+        "char_end": 6220
+      },
+      {
+        "level": 2,
+        "title": "Splitting up large methods",
+        "section_type": "content",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Splitting up large methods"
+        ],
+        "char_start": 6220,
+        "char_end": 9004
+      },
+      {
+        "level": 3,
+        "title": "Example scenario",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Splitting up large methods",
+          "Example scenario"
+        ],
+        "char_start": 6517,
+        "char_end": 7175
+      },
+      {
+        "level": 3,
+        "title": "Example prompt",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Splitting up large methods",
+          "Example prompt"
+        ],
+        "char_start": 7175,
+        "char_end": 7986
+      },
+      {
+        "level": 3,
+        "title": "Example response",
+        "section_type": "example",
+        "header_path": [
+          "Improving code readability and maintainability",
+          "Splitting up large methods",
+          "Example response"
+        ],
+        "char_start": 7986,
+        "char_end": 9004
+      }
+    ]
+  },
+  "links": [
+    "https://docs.github.com#improving-variable-names",
+    "https://docs.github.com#avoiding-sequential-conditional-checks",
+    "https://docs.github.com#reducing-nested-logic",
+    "https://docs.github.com#splitting-up-large-methods",
+    "https://docs.github.com/en/copilot/copilot-chat-cookbook/documenting-code",
+    "https://docs.github.com#example-scenario",
+    "https://docs.github.com#example-prompt",
+    "https://docs.github.com#example-response",
+    "https://docs.github.com#example-scenario-1",
+    "https://docs.github.com#example-prompt-1",
+    "https://docs.github.com#example-response-1",
+    "https://docs.github.com#example-scenario-2",
+    "https://docs.github.com#example-prompt-2",
+    "https://docs.github.com#example-response-2",
+    "https://docs.github.com#example-scenario-3",
+    "https://docs.github.com#example-prompt-3",
+    "https://docs.github.com#example-response-3"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,48 @@
+{
+  "markdown": "# Engineering Manager Resume Example\n\nOpens in a new windowOpens an external websiteOpens an external website in a new window\n\nThis website utilizes technologies such as cookies to enable essential site functionality, as well as for performance cookies, personalization, and targeted advertising. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies. Privacy Policy\n",
+  "metadata": {
+    "source_url": "https://www.scribd.com/document/791131013/Engineering-Manager-Resume-Example",
+    "source_domain": "scribd.com",
+    "topic": "executive-resume",
+    "fetched_at": "2026-05-25T06:48:33.140383+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Engineering Manager Resume Example",
+    "description": "Scribd is the world's largest social reading and publishing site.",
+    "language": "en",
+    "word_count": 68,
+    "content_hash": "sha256:5f566aef9286e7fd80a38c2dc957ba6e4e1232ddad48765881ab051073a1f348",
+    "reading_time": 1,
+    "author": null,
+    "published_date": "2026-05-23",
+    "og_title": null,
+    "signal_score": 0.5567,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Engineering Manager Resume Example",
+        "section_type": "title",
+        "header_path": [
+          "Engineering Manager Resume Example"
+        ],
+        "char_start": 0,
+        "char_end": 452
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

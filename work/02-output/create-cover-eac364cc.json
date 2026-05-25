@@ -1,0 +1,70 @@
+{
+  "markdown": "# Get started with your account.\n\nHired with Kickresume Premium\n\nJoseph Kearney, Social Media Officer at Romeo\n\nHired with Kickresume Premium\n\nSteve Dominguez, Graphic Designer at K-Brite\n\nHired with Kickresume Premium\n\nIbrahim Mahdi, Video Production Assistant at Disney\n\nHired with Kickresume Premium\n\nCarolina Herrera Monteza, Systems Administrator at Amazon\n\nHired with Kickresume Premium\n\nMichelle D'aquino. Account Executive at Google\n\nHired with Kickresume Premium\n\nIvan Llopis, Mechanical Engineer Internship at Volvo\n\nHired with Kickresume Premium\n\nJoseph Kearney, Social Media Officer at Romeo\n\nHired with Kickresume Premium\n\nSteve Dominguez, Graphic Designer at K-Brite\n\nHired with Kickresume Premium\n\nIbrahim Mahdi, Video Production Assistant at Disney\n\nHired with Kickresume Premium\n\nCarolina Herrera Monteza, Systems Administrator at Amazon\n\nHired with Kickresume Premium\n\nMichelle D'aquino. Account Executive at Google\n\nHired with Kickresume Premium\n\nIvan Llopis, Mechanical Engineer Internship at Volvo\n\nHired with Kickresume Premium\n\nJoseph Kearney, Social Media Officer at Romeo\n\n## Get started with your account.\n\nor\n\n## Let's get started.\n\nor\n",
+  "metadata": {
+    "source_url": "https://www.kickresume.com/dashboard/create-cover/",
+    "source_domain": "kickresume.com",
+    "topic": "remote-work-resume",
+    "fetched_at": "2026-05-25T06:45:45.618160+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Get started with your account.",
+    "description": "Create your best resume yet and score the job you’ve always wanted. Designed by typographers. Approved by HR experts. Professional templates for any profession.",
+    "language": "en",
+    "word_count": 157,
+    "content_hash": "sha256:25bd0876dca38baae5fb1eb5bda14ad02297155f3e9afc8f71c56af8f2328b18",
+    "reading_time": 1,
+    "author": null,
+    "published_date": "2000-01-01",
+    "og_title": null,
+    "signal_score": 0.4705,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 3,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Get started with your account.",
+        "section_type": "title",
+        "header_path": [
+          "Get started with your account."
+        ],
+        "char_start": 0,
+        "char_end": 1163
+      },
+      {
+        "level": 2,
+        "title": "Get started with your account.",
+        "section_type": "content",
+        "header_path": [
+          "Get started with your account.",
+          "Get started with your account."
+        ],
+        "char_start": 1098,
+        "char_end": 1137
+      },
+      {
+        "level": 2,
+        "title": "Let's get started.",
+        "section_type": "content",
+        "header_path": [
+          "Get started with your account.",
+          "Let's get started."
+        ],
+        "char_start": 1137,
+        "char_end": 1163
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

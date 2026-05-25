@@ -1,0 +1,157 @@
+{
+  "markdown": "# How to Make Your GitHub Profile Stand Out\n\nIf you have a Github profile, you might overlook the many ways you can customize it – and that's completely understandable. After all, at its core, GitHub is a home for your code.\n\nBut beyond repositories and commits, your profile can say *a lot* about you as a developer.\n\nWhen used intentionally, GitHub becomes more than a code hosting platform. It becomes your **CV for your codebase**. It tells your story, showcases your skills, and gives people a reason to trust your work.\n\nIn this article, we'll break down the different ways to make your GitHub profile stand out. From setting up your GitHub account to engaging storytelling for your repositories, there's lots you can do.\n\nLet's get started!\n\n## Table of Contents\n\n## Step 1: Sign Up for a Github Account\n\nTo begin, you'll need a GitHub account. If you don't have one, you can set one up here.\n\nOnce you have your account set up and you're logged in, we can move on to the next step.\n\n## Step 2: Add a Profile Image\n\nYour profile image is often the first thing people notice. It could be a professional photo of yourself, or an image or avatar that represents you or your interests\n\nAs long as it's appropriate, you're good to go.\n\nTo add a profile image, you'll need to:\n\nOpen your profile menu/dashboard\n\nClick on the image icon at the left\n\nClick on the edit text on the image icon\n\nSelect the image to set as your profile picture\n\nClick the \"Set new profile picture\" button\n\nSo, you should have something like this:\n\n**GitHub link to this page:** https://github.com/settings/profile\n\nAnd there you have it, your GitHub profile image is set.\n\nOn to the next one…\n\n## Step 3: Add Profile Details\n\nThis step is all about credibility and discoverability.\n\nAt the center of your profile settings you'll see fields like email, location, social media links and so on. We'll be adding those details so you can take advantage of the discoverability it lends to your profile.\n\n**GitHub link to this page:** https://github.com/settings/profile\n\nFor this step, you'll want to add as much detail as possible (apart from your home address – I think we both know why).\n\nFor the location, you can just put in your city or country so others have a general idea of where you are in the world.\n\n## Step 4: Add a Profile README File\n\nThis is where you introduce yourself properly and tell your story.\n\nA **Profile README** is a special repository named exactly the same as your GitHub username. Your README file appears directly on your profile page.\n\nThe READme should answer the following questions:\n\nWho are you?\n\nWhat are your project highlights?\n\nWhat are you currently working on or learning?\n\nYour hobbies or interests (optional)\n\nWhile answering these questions, you should aim to keep it minimal and yet interesting. You don't want to overwhelm the visitor.\n\nHere's how to create your README:\n\nClick New repository\n\nName the repository exactly the same as your GitHub username\n\nCheck \"Add a README file\"\n\nMake sure the repository is public\n\nClick Create repository\n\nProfile README file setup:\n\n**GitHub link to this page:** https://github.com/new\n\nSo if you answered the questions listed above, your README file should look something like this:\n\n**GitHub link to this page:** https://github.com/chinazachisom/chinazachisom\n\nIt should also be showing directly on your GitHub profile like below:\n\n**GitHub link to this page:** https://github.com/chinazachisom\n\n## Step 5: Tell a Story About Each Repository\n\nNow, this is where you can tell a story about each of your repositories using a README file.\n\n**NB: Each repository should have its own separate README file.**\n\nWhat to include in a repository README:\n\nProject title\n\nWhat the project is\n\nThe purpose (the \"why\")\n\nKey features\n\nChallenges you faced and how you solved them\n\nSetup or usage instructions (or a live link if hosted)\n\nTechnical concepts used (e.g., throttling, caching, lazy loading)\n\n*(optional)*Images or video demos\n\nYou may also include badges, charts, contribution graphs or other visual enhancements that help highlight project quality, activity and impact.\n\nWith the above structure, you can tell the stories behind your projects, show your problem-solving skills, and make your work easier to understand and evaluate.\n\n**Repository README File Sample:**\n\n**GitHub link to this page:** https://github.com/chinazachisom/Artsy\n\n## Conclusion\n\nYour Github Profile is more than just a storage space for your codebase. It's your developer Identity as well.\n\nFollowing these basic steps can help turn your Github into a portfolio infused with your personal brand. It makes your GitHub Profile stand out, which can help open doors for more opportunities.\n\nTreat it like a CV for your code and let your work speak for you.\n\n### About the Author\n\nHi there! I'm Chinaza Chukwunweike, a Software Engineer passionate about building robust, scalable systems that make a real world impact. I'm also an advocate for continuous learning and improvement.\n\nIf you found this useful, please share it! And follow me for more Software Engineering tips, AI learning strategies, and productivity frameworks.\n",
+  "metadata": {
+    "source_url": "https://www.freecodecamp.org/news/how-to-make-your-github-profile-stand-out/",
+    "source_domain": "freecodecamp.org",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:44:36.875239+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How to Make Your GitHub Profile Stand Out",
+    "description": "If you have a Github profile, you might overlook the many ways you can customize it – and that's completely understandable. After all, at its core, GitHub is a home for your code. But beyond repositor",
+    "language": "en",
+    "word_count": 842,
+    "content_hash": "sha256:d5e1726d3130748ec05217beae2113259fb185648f9bacdbe302e119d63f6060",
+    "reading_time": 5,
+    "author": "Chinaza Chukwunweike",
+    "published_date": "2026-04-18",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Customize your GitHub profile with profile image, details, README file, and repository storytelling to establish yourself as a developer and attract opportunities.",
+    "entities": {
+      "primary": "GitHub profile optimization",
+      "aliases": [
+        "GitHub portfolio",
+        "developer branding",
+        "GitHub customization"
+      ]
+    },
+    "core_question": "How can you make your GitHub profile stand out and function as a professional portfolio?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "GitHub profile image",
+      "profile README",
+      "repository README",
+      "developer CV",
+      "GitHub customization"
+    ]
+  },
+  "structure": {
+    "section_count": 9,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "How to Make Your GitHub Profile Stand Out",
+        "section_type": "title",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out"
+        ],
+        "char_start": 0,
+        "char_end": 5158
+      },
+      {
+        "level": 2,
+        "title": "Table of Contents",
+        "section_type": "content",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Table of Contents"
+        ],
+        "char_start": 749,
+        "char_end": 771
+      },
+      {
+        "level": 2,
+        "title": "Step 1: Sign Up for a Github Account",
+        "section_type": "step",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Step 1: Sign Up for a Github Account"
+        ],
+        "char_start": 771,
+        "char_end": 991
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Add a Profile Image",
+        "section_type": "step",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Step 2: Add a Profile Image"
+        ],
+        "char_start": 991,
+        "char_end": 1673
+      },
+      {
+        "level": 2,
+        "title": "Step 3: Add Profile Details",
+        "section_type": "step",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Step 3: Add Profile Details"
+        ],
+        "char_start": 1673,
+        "char_end": 2286
+      },
+      {
+        "level": 2,
+        "title": "Step 4: Add a Profile README File",
+        "section_type": "step",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Step 4: Add a Profile README File"
+        ],
+        "char_start": 2286,
+        "char_end": 3458
+      },
+      {
+        "level": 2,
+        "title": "Step 5: Tell a Story About Each Repository",
+        "section_type": "step",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Step 5: Tell a Story About Each Repository"
+        ],
+        "char_start": 3458,
+        "char_end": 4399
+      },
+      {
+        "level": 2,
+        "title": "Conclusion",
+        "section_type": "summary",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Conclusion"
+        ],
+        "char_start": 4399,
+        "char_end": 5158
+      },
+      {
+        "level": 3,
+        "title": "About the Author",
+        "section_type": "content",
+        "header_path": [
+          "How to Make Your GitHub Profile Stand Out",
+          "Conclusion",
+          "About the Author"
+        ],
+        "char_start": 4789,
+        "char_end": 5158
+      }
+    ]
+  },
+  "links": [
+    "http://GitHub.com",
+    "https://github.com/settings/profile",
+    "https://github.com/new",
+    "https://github.com/chinazachisom/chinazachisom",
+    "https://github.com/chinazachisom",
+    "https://github.com/chinazachisom/Artsy"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

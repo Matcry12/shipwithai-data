@@ -1,0 +1,114 @@
+{
+  "markdown": "# Billboards FAQ\n\n## What are billboards?\n\nBillboards are a feature of the Forem, the open source code that powers DEV.\n\nThey are flexible content units which we'll be using for a variety of purposes— ranging from encouraging visitors to create an account, to highlighting relevant quality content, to promoting campaigns and helping members discover our platform's features.\n\nWe're also making the use of billboards available to users of Forem Pro Tools.\n\n## Can I turn off billboards?\n\nYou are welcome to adjust your billboard settings.\n\nUsing these settings, you are able to prevent *sponsored* billboards from appearing as you browse the site and/or from appearing alongside content that you have authored.\n\nPlease note that there are multiple \"types\" of billboards, and only *sponsored* billboards will be impacted by this setting. You will continue to see billboards used for \"in house\" purposes (typically boosting relevant content and promoting campaigns), as well as billboards that accompany an author's own content.\n\n## Who can create billboards?\n\nBillboards on DEV are created by the Core Team, along with members of our Forem Pro Tools program.\n\nIf you're interested in creating Billboards and reaching DEV's global community of software developers, **please check out Forem Pro Tools**.\n\n## Affiliate Disclosure\n\nBillboards may contain affiliate links from partners of DEV. If you or another user clicks on these links and purchases something, it's possible DEV may receive a small commission on these purchases.\n",
+  "metadata": {
+    "source_url": "https://dev.to/billboards",
+    "source_domain": "dev.to",
+    "topic": "career-gap",
+    "fetched_at": "2026-05-25T06:37:56.472314+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Billboards FAQ",
+    "description": "Frequently Asked Questions (FAQ) about Billboards",
+    "language": "en",
+    "word_count": 237,
+    "content_hash": "sha256:6ff7c6eeacdd5417665cb38234707a0ca4ff2cb2864f6adc856339e7ba2e4db5",
+    "reading_time": 2,
+    "author": null,
+    "published_date": "2026-05-23",
+    "og_title": null,
+    "signal_score": 0.6975,
+    "text_to_link_ratio": 1.0,
+    "tldr": "FAQ about Forem billboards feature—flexible content units used for campaigns, feature promotion, and sponsored advertising on DEV platform.",
+    "entities": {
+      "primary": "Forem billboards",
+      "aliases": [
+        "DEV billboards",
+        "sponsored content",
+        "platform advertising"
+      ]
+    },
+    "core_question": "What are billboards on Forem/DEV and how can users control their visibility?",
+    "doc_type": "reference",
+    "key_topics": [
+      "billboards",
+      "sponsored content",
+      "affiliate disclosure",
+      "user settings",
+      "Forem Pro Tools"
+    ]
+  },
+  "structure": {
+    "section_count": 5,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Billboards FAQ",
+        "section_type": "title",
+        "header_path": [
+          "Billboards FAQ"
+        ],
+        "char_start": 0,
+        "char_end": 1527
+      },
+      {
+        "level": 2,
+        "title": "What are billboards?",
+        "section_type": "content",
+        "header_path": [
+          "Billboards FAQ",
+          "What are billboards?"
+        ],
+        "char_start": 18,
+        "char_end": 457
+      },
+      {
+        "level": 2,
+        "title": "Can I turn off billboards?",
+        "section_type": "content",
+        "header_path": [
+          "Billboards FAQ",
+          "Can I turn off billboards?"
+        ],
+        "char_start": 457,
+        "char_end": 1028
+      },
+      {
+        "level": 2,
+        "title": "Who can create billboards?",
+        "section_type": "content",
+        "header_path": [
+          "Billboards FAQ",
+          "Who can create billboards?"
+        ],
+        "char_start": 1028,
+        "char_end": 1302
+      },
+      {
+        "level": 2,
+        "title": "Affiliate Disclosure",
+        "section_type": "content",
+        "header_path": [
+          "Billboards FAQ",
+          "Affiliate Disclosure"
+        ],
+        "char_start": 1302,
+        "char_end": 1527
+      }
+    ]
+  },
+  "links": [
+    "https://dev.to#what-are-billboards",
+    "https://github.com/forem/forem",
+    "https://pro.forem.tools",
+    "https://dev.to#can-i-turn-off-billboards",
+    "https://dev.to/settings/customization#sponsors",
+    "https://dev.to#who-can-create-billboards",
+    "https://dev.to/devteam",
+    "https://dev.to#affiliate-disclosure"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

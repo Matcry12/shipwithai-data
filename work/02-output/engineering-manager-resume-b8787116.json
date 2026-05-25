@@ -1,0 +1,533 @@
+{
+  "markdown": "# Engineering Manager Resume: Examples & Template (2026)\n\n## What Hiring Managers Look For in an Engineering Manager Resume\n\nBefore you write a single bullet point, it helps to understand how your engineering manager resume will actually be read. In my experience reviewing hundreds of Engineering Manager applications, the process typically unfolds in three stages: a recruiter scan, a hiring manager deep-read, and a calibration discussion among the interview panel. Each stage filters for different things, and your resume needs to survive all three.\n\nDuring the initial recruiter scan - which lasts roughly six to ten seconds - the reader is looking for pattern matches. They want to see recognisable company names, a job title that maps to the open role, team sizes that suggest relevant scope, and keywords that align with the job description. If your resume for engineering manager roles does not surface these signals immediately, it risks being filtered out before a human ever reads the detail.\n\nThe hiring manager deep-read is where substance matters. At this stage, the reader is evaluating whether you can do *their* specific version of the job. They are looking for evidence that you have navigated challenges similar to the ones their team faces. Common themes they scan for include:\n\n**Team building and retention**- Have you grown a team from scratch, inherited an underperforming group, or maintained high retention in a competitive market? Hiring managers want proof that you can attract and keep strong engineers.**Delivery track record**- Can you point to shipped products, met deadlines, and roadmap execution? Ideally with enough context that the reader understands the complexity involved.**Technical credibility**- Even though you are applying for a management role, hiring managers want confidence that you can engage with architecture decisions, evaluate trade-offs, and earn the respect of senior individual contributors on the team.**Stakeholder management**- Evidence that you have worked across product, design, data, and executive leadership. Cross-functional collaboration is a non-negotiable skill for most Engineering Manager roles.**People development**- Have you promoted engineers, built career frameworks, or mentored people into senior roles? This signals that you invest in the growth of your team, not just delivery output.\n\nFinally, the calibration discussion is where your resume bullet points are compared against other candidates side by side. This is why specificity wins. A bullet that says \"Led a team of engineers\" tells the panel nothing. A bullet that says \"Grew the payments team from 4 to 12 engineers over 18 months, maintaining a voluntary attrition rate below 5%\" gives them something concrete to evaluate. If you are preparing to get hired as an engineering manager, this level of specificity is what separates shortlisted candidates from the rest.\n\n## Engineering Manager Resume Structure\n\nThe structure of your engineering manager CV matters more than most candidates realise. A well-organised resume reduces cognitive load for the reader and ensures your strongest signals are visible within the first few seconds. I recommend the following layout, which I have seen perform consistently well across startups, scale-ups, and large enterprises.\n\n### Header and Contact Information\n\nKeep this simple and professional. Include your full name, current location (city and country are sufficient), email address, LinkedIn URL, and optionally a link to a personal site or portfolio. Do not include a photo, date of birth, or full postal address - these are unnecessary for engineering manager roles in most markets and can introduce unconscious bias. If you are targeting roles in a specific region, consider mentioning your engineering manager salary expectations only when explicitly asked, not on the resume itself.\n\n### Professional Summary (3-4 Lines)\n\nThis is the single most important section on your engineering manager resume, yet it is frequently the weakest. Your summary should function as an elevator pitch - immediately telling the reader who you are, what scope you have operated at, and what makes you distinctive. Avoid generic statements like \"passionate engineering leader.\" Instead, be specific about your experience level, the types of teams and products you have managed, and one or two standout achievements.\n\nA strong summary might read: \"Engineering Manager with 8 years of experience leading platform and product teams of 6-15 engineers at Series B to Series D startups. Track record of reducing deployment frequency from weekly to multiple daily releases, building teams from scratch in new markets, and driving architectural migrations that reduced infrastructure costs by 40%.\"\n\n### Experience Section\n\nFor each role, include the company name, your title, the dates of employment, and 4-6 bullet points that follow a consistent format. I recommend the **Context-Action-Result (CAR)** framework for each bullet:\n\n**Context**- What was the situation or challenge? (\"Inherited a team with 50% attrition in the previous year...\")**Action**- What did you specifically do? (\"...redesigned the onboarding process, introduced weekly 1:1s, and established a clear promotion framework...\")**Result**- What was the measurable outcome? (\"...reducing attrition to 8% and improving team engagement scores by 35 points.\")\n\nList your most recent role first with the most detail, and progressively reduce the depth for older positions. If you transitioned from an individual contributor role into management, do not hide the IC experience - it demonstrates your technical foundation. However, for IC roles, shift the focus toward leadership and influence rather than purely technical output. Understanding the differences between the staff engineer vs engineering manager track can help you articulate why you chose the management path.\n\n### Skills Section\n\nKeep this focused and honest. Divide your skills into two groups: technical skills (languages, frameworks, cloud platforms, observability tools, CI/CD systems) and leadership skills (people management, stakeholder communication, agile methodologies, hiring and interviewing, performance management). Only list technologies you could confidently discuss in an interview. This section also helps with applicant tracking systems (ATS) that scan for keyword matches.\n\n### Education and Certifications\n\nInclude your degree, institution, and graduation year. If you hold relevant certifications - such as AWS Solutions Architect, Certified Scrum Master, or leadership programmes - list them here. For experienced engineering managers with 10+ years of experience, education should be a minor section near the bottom of the resume. Your professional achievements carry far more weight at this stage.\n\n## Leadership Signals to Include on Your Engineering Manager Resume\n\nThe biggest mistake I see on engineering manager resumes is an over-reliance on technical achievements at the expense of leadership signals. While technical credibility is important, the hiring committee is primarily trying to answer one question: \"Can this person lead a team effectively?\" Your resume needs to provide a clear, evidence-based answer.\n\nHere are the leadership signals that carry the most weight, along with how to surface them in your resume:\n\n### Team Growth and Organisational Design\n\nDescribe how you have shaped team structure. Did you grow a team, split a team that had become too large, or merge teams to improve efficiency? Include specific numbers: \"Scaled the backend platform group from one team of 6 to three squads totalling 18 engineers, each with a clear domain boundary and dedicated tech lead.\" This tells the reader you understand organisational design, not just people management.\n\n### Hiring and Talent Development\n\nHiring is one of the most impactful things an engineering manager does, yet many resumes barely mention it. Include details about your hiring velocity (\"Hired 10 engineers in 6 months across two time zones\"), the quality of your hires (\"90% of hires remained in the company after 18 months\"), and any improvements you made to the hiring process itself (\"Redesigned the technical interview loop, reducing time-to-offer from 4 weeks to 10 days while improving candidate satisfaction scores by 25%\").\n\nEqually important is talent development. Mention promotions you have supported, career frameworks you have built, and mentoring relationships that produced tangible results. For example: \"Promoted 4 engineers from mid-level to senior within 18 months through structured growth plans and regular career conversations.\"\n\n### Cross-Functional Leadership\n\nEngineering managers rarely operate in isolation. Your resume should demonstrate that you collaborate effectively with product managers, designers, data scientists, and senior leadership. Mention initiatives where you drove alignment across functions: \"Partnered with Product and Design to define the Q3 roadmap, balancing 60% feature delivery with 40% technical debt reduction, resulting in a 30% improvement in page load times while shipping two major customer-facing features on schedule.\"\n\n### Process and Culture Improvements\n\nEvidence of improving how a team works is a strong signal. This includes introducing or refining agile ceremonies, improving incident response processes, establishing engineering RFCs or architecture decision records, building on-call rotations, or improving developer experience. Be specific about what you changed and what improved as a result. \"Introduced blameless post-mortems and a structured incident severity framework, reducing repeat P1 incidents by 60% over two quarters\" is far more compelling than \"Improved engineering processes.\"\n\n### Strategic and Technical Vision\n\nHiring managers want to know that you can think beyond the sprint cycle. Include examples of technical strategy work: platform migrations, build-vs-buy decisions, architecture modernisation, or technology evaluations that influenced the company direction. \"Led the evaluation and migration from a monolithic Rails application to a microservices architecture on Kubernetes, reducing deployment lead time from 2 weeks to under 1 hour and enabling independent team deployments\" demonstrates both strategic thinking and execution capability.\n\n## Metrics That Strengthen an Engineering Manager Resume\n\nNumbers transform vague claims into credible evidence. In my experience, the strongest engineering manager resumes include at least two or three quantified outcomes per role. The challenge is knowing which metrics actually matter to hiring managers. Here is a breakdown of the categories that resonate most strongly, along with examples you can adapt.\n\n### Team and People Metrics\n\n- Team size and growth trajectory (e.g., \"Grew the team from 5 to 14 engineers\")\n- Retention and attrition rates (e.g., \"Maintained voluntary attrition below 5% over 2 years\")\n- Hiring velocity (e.g., \"Hired 8 engineers in Q1, filling all open roles within budget\")\n- Promotions facilitated (e.g., \"Supported 6 promotions to senior engineer within 18 months\")\n- Engagement or satisfaction scores (e.g., \"Improved team engagement score from 3.2 to 4.6 out of 5\")\n- Diversity improvements (e.g., \"Increased gender diversity on the team from 10% to 35%\")\n\n### Delivery and Velocity Metrics\n\n- Deployment frequency (e.g., \"Increased deployments from weekly to 15+ per day\")\n- Lead time for changes (e.g., \"Reduced lead time from commit to production from 5 days to 4 hours\")\n- Sprint velocity trends (e.g., \"Improved average sprint velocity by 40% over 3 quarters\")\n- On-time delivery rate (e.g., \"Delivered 12 of 13 quarterly OKRs on schedule\")\n- Cycle time (e.g., \"Reduced average ticket cycle time from 12 days to 4 days\")\n\n### Reliability and Quality Metrics\n\n- Uptime and SLA adherence (e.g., \"Maintained 99.95% uptime across all production services\")\n- Incident reduction (e.g., \"Reduced P1 incidents from 8 per quarter to 1\")\n- Mean time to recovery (e.g., \"Improved MTTR from 4 hours to 25 minutes\")\n- Bug escape rate (e.g., \"Reduced production bugs by 55% through improved testing practices\")\n- Change failure rate (e.g., \"Lowered change failure rate from 15% to 3%\")\n\n### Business Impact Metrics\n\n- Revenue influence (e.g., \"Team shipped features contributing to a 20% increase in conversion rate\")\n- Cost savings (e.g., \"Led infrastructure optimisation saving £320K annually\")\n- Customer impact (e.g., \"Reduced average API response time by 60%, improving NPS by 12 points\")\n- Time to market (e.g., \"Launched the new payments platform 3 weeks ahead of schedule\")\n\nWhen selecting metrics for your engineering manager CV, choose numbers that tell a story of improvement. The formula is simple: start state, your intervention, and the end state. If you do not have precise numbers, reasonable estimates are acceptable - just be prepared to discuss your methodology in the interview. My guide on engineering manager interview preparation covers how to present these metrics conversationally during behavioural rounds.\n\n## Common Engineering Manager Resume Mistakes\n\nI have reviewed thousands of Engineering Manager resumes over the years, and certain mistakes appear with frustrating regularity. The good news is that they are all easy to fix once you know what to watch for. Here are the most common pitfalls that weaken an otherwise strong engineering manager resume.\n\n### 1. Writing a Developer Resume With a Manager Title\n\nThis is by far the most frequent issue. The candidate has an engineering manager title, but every bullet point describes individual technical contributions: \"Built a REST API using Node.js,\" \"Implemented a caching layer in Redis.\" These are fine achievements, but they belong on a senior engineer resume. Your engineering manager resume needs to demonstrate that you operated at the team and organisational level. For each bullet, ask yourself: \"Does this show leadership, or does it show coding?\" If the answer is coding, either reframe it to show the leadership context or replace it with a more relevant achievement.\n\n### 2. Being Vague About Scope and Impact\n\n\"Managed a team of engineers\" tells the reader almost nothing. How many engineers? What did the team own? What was the business context? Similarly, \"Improved team performance\" is meaningless without a baseline, an intervention, and a measurable result. Every bullet should answer three implicit questions: how big was this, what did you do, and what changed as a result? Specificity is what separates a resume that lands interviews from one that disappears into the pile.\n\n### 3. Ignoring the Applicant Tracking System (ATS)\n\nMany companies use ATS software to filter resumes before a human sees them. If your resume uses creative formatting, columns, tables, headers/footers for key content, or unusual file formats, the ATS may not parse it correctly. Stick to a clean, single-column layout with standard section headings. Use plain text formatting for key information. Submit as a PDF unless the application explicitly requests a different format. And ensure that relevant keywords from the job description appear naturally in your resume - not stuffed artificially, but present where they genuinely apply.\n\n### 4. Omitting the Professional Summary\n\nSome candidates skip the summary section entirely, jumping straight into work experience. This is a missed opportunity. The summary is prime real estate - the first thing the recruiter reads. A strong three-line summary can frame your entire narrative: your level of experience, the type of teams you manage, your core strengths, and a headline achievement. Without it, the recruiter has to piece together your story from scattered bullet points, which means they are more likely to misunderstand your profile or move on.\n\n### 5. Listing Responsibilities Instead of Achievements\n\n\"Responsible for hiring, performance reviews, and sprint planning\" is a job description, not a resume. Every engineering manager does these things. What matters is how well you did them and what resulted from your approach. Transform responsibilities into achievements: instead of \"Responsible for hiring,\" write \"Designed and implemented a structured hiring process that reduced time-to-hire by 35% and improved new-hire 6-month retention to 95%.\"\n\n### 6. Neglecting the Visual Hierarchy\n\nA wall of text is a wall of rejection. Your engineering manager CV should use clear section headings, consistent bullet point formatting, adequate white space, and a readable font size (10-12pt for body text). Bold key metrics and outcomes within bullets so that a scanning reader can pick up the highlights. The visual structure of your resume is itself a signal - it shows whether you can communicate complex information clearly, which is a core Engineering Manager skill.\n\n### 7. Including Irrelevant Early-Career Roles\n\nIf you have been working for 15+ years, your internship or first junior developer role does not need four bullet points. Condense early roles into a single line or a brief \"Earlier Career\" section. The reader cares most about your last 7-10 years of experience. Give those roles the space they deserve by trimming the rest.\n\n## Engineering Manager Resume Examples\n\nTo make this concrete, I have put together example bullet points and summary sections that demonstrate the principles above. These Engineering Manager resume examples are drawn from real resumes (anonymised) that successfully landed interviews at well-known technology companies. Study the patterns and adapt them to your own experience.\n\n### Example Professional Summary - Mid-Level Engineering Manager\n\n*\"Engineering Manager with 6 years of experience in fintech, leading product and platform teams of 5-10 engineers. Built and scaled a real-time payments team from zero to a fully operational squad processing 2M+ transactions per month. Passionate about developer experience, delivery predictability, and growing engineers into technical leaders. Previously a Senior Software Engineer with deep expertise in distributed systems and event-driven architectures.\"*\n\nThis summary works because it immediately establishes domain (fintech), scope (5-10 engineers), a standout achievement (payments team from zero), core interests, and technical background. A hiring manager can assess fit within five seconds.\n\n### Example Professional Summary - Senior Engineering Manager / Director-Level\n\n*\"Senior Engineering Manager leading a group of 4 teams (35 engineers) across the core commerce platform at a publicly traded e-commerce company. Drove a 2-year platform modernisation initiative that reduced infrastructure costs by £1.7M annually and improved p99 API latency from 1.2s to 180ms. Track record of building high-performing engineering organisations, establishing engineering career frameworks, and partnering with C-level stakeholders to align technology strategy with business goals.\"*\n\nThis senior summary signals organisational scope (4 teams, 35 engineers), strategic impact (£1.7M cost reduction, performance improvements), and executive-level collaboration. It positions the candidate for director or Senior Engineering Manager roles with confidence.\n\n### Example Experience Bullets - Strong\n\n- \"Grew the search and discovery team from 3 to 11 engineers over 12 months, establishing a structured hiring loop that achieved a 78% offer acceptance rate and an average time-to-hire of 22 days.\"\n- \"Led a cross-functional initiative with Product, Design, and Data Science to rebuild the recommendation engine, resulting in a 15% increase in average order value and a 22% improvement in user engagement metrics.\"\n- \"Introduced DORA metrics tracking across all squads, driving deployment frequency from 2x per week to 4x per day and reducing change failure rate from 12% to 2.5% within two quarters.\"\n- \"Designed and rolled out an engineering career ladder spanning 6 levels, adopted across 3 departments (45 engineers), which improved promotion clarity and reduced flight-risk attrition by 40%.\"\n- \"Partnered with the VP of Engineering to define the annual technical strategy, identifying 3 key investment areas that informed £3.2M in headcount and infrastructure budget allocation.\"\n\n### Example Experience Bullets - Weak (Avoid These)\n\n*\"Managed a team of software engineers\"*- No scope, no outcome, no detail.*\"Participated in agile ceremonies and sprint planning\"*- This is an expectation, not an achievement.*\"Worked with product to deliver features\"*- What features? What impact? How did you lead?*\"Responsible for the technical direction of the team\"*- What direction? What decisions? What was the result?\n\nCompare each weak bullet with the strong examples above. The pattern is consistent: specificity, numbers, context, and outcomes. If you want detailed guidance on presenting these achievements in a conversational setting, my resource on how to get hired as an engineering manager walks through the full application-to-offer pipeline.\n\n## Engineering Manager Resume Template\n\nBelow is a ready-to-use template structure for your engineering manager resume. Copy this framework and replace the placeholder content with your own experience. The template follows every best practice I have covered in this guide - clean hierarchy, strong summary, quantified achievements, and a balanced mix of leadership and technical signals.\n\n### Section 1: Header\n\n**Your Full Name**\n\nCity, Country | email@example.com | linkedin.com/in/yourprofile | yoursite.com (optional)\n\n### Section 2: Professional Summary\n\n*Engineering Manager with [X] years of experience leading [type of teams - e.g., product, platform, infrastructure] teams of [size range] engineers at [company stage or type - e.g., Series B startups, publicly traded enterprises]. [Your standout achievement in one sentence, including a metric]. Known for [2-3 core strengths, e.g., building high-performing teams, driving technical modernisation, and improving delivery predictability]. Previously a [previous IC role] with deep experience in [key technical domains].*\n\n### Section 3: Experience\n\nFor each role, use this format:\n\n**Engineering Manager** - Company Name*Month Year - Present | Location (or Remote)*\n\n- [Context] + [Action] + [Quantified Result] - e.g., \"Inherited a team struggling with delivery consistency; introduced sprint retrospectives and a Definition of Done framework, improving on-time delivery from 55% to 92% within two quarters.\"\n- [Team growth / hiring achievement with numbers]\n- [Cross-functional initiative with business impact]\n- [Technical strategy or architecture decision with outcome]\n- [People development achievement - promotions, retention, mentoring]\n\nRepeat for previous roles, reducing bullet count for older positions (3-4 bullets for the second role, 2-3 for the third, and 1-2 lines for anything older than 10 years).\n\n### Section 4: Skills\n\n**Technical:** List 8-12 relevant technologies, languages, frameworks, and tools. Group them logically (e.g., Languages: TypeScript, Python, Go | Cloud: AWS, GCP | Observability: Datadog, PagerDuty | CI/CD: GitHub Actions, ArgoCD).\n\n**Leadership:** People management, hiring and interviewing, performance calibration, agile coaching, stakeholder communication, roadmap planning, incident management, engineering culture development.\n\n### Section 5: Education\n\n**Degree** in [Subject] - University Name, Graduation Year\n\n[Optional: Relevant certifications or leadership programmes]\n\nThis template intentionally keeps the format simple and ATS-friendly. Avoid multi-column layouts, graphics, skill bars, or rating scales. Let your achievements speak for themselves. When you are ready to tailor this template to specific roles, consider booking a 1:1 coaching session where I can review your resume with you, refine your positioning, and prepare you for the interviews that follow.\n\nWriting a strong engineering manager resume is one of the most impactful things you can do in your job search. Every hour you invest in refining your resume compounds across every application you submit. Use the structure, signals, metrics, and examples in this guide to build a resume that clearly communicates your leadership impact - and gets you into the rooms where hiring decisions are made. For a full walkthrough of the entire job search process, from resume through to offer negotiation, see my complete guide on engineering manager interview preparation.\n\n## Frequently Asked Questions\n\n- How long should an engineering manager resume be?\n- Most engineering manager resumes should be 1-2 pages. If you have fewer than 10 years of experience, stick to one page. Senior Engineering Managers with 15+ years and significant scope can justify two pages, but every line should earn its place. Recruiters typically spend 6-10 seconds on an initial scan, so density and relevance matter more than length.\n- What achievements should an engineering manager include on their resume?\n- Focus on outcomes that demonstrate leadership impact: team growth and retention metrics, delivery velocity improvements, successful product launches, cross-functional initiatives you led, cost savings from technical decisions, and improvements to engineering culture like reduced incident rates or faster onboarding times. Quantify everything you can.\n- Should an engineering manager resume include technical skills?\n- Yes, but keep it concise. List core technologies you have hands-on experience with, especially those relevant to the role. Engineering managers are expected to maintain technical credibility. Include languages, frameworks, infrastructure tools, and any architecture patterns you have led teams in adopting. Avoid listing every technology you have ever touched.\n\n## Get Expert Help With Your Engineering Manager Resume\n\nBook a 1:1 coaching session for personalised resume and CV review, LinkedIn optimisation, and interview preparation with an experienced engineering manager.\n\nLearn More\n",
+  "metadata": {
+    "source_url": "https://www.em-tools.io/engineering-manager-resume",
+    "source_domain": "em-tools.io",
+    "topic": "remote-work-resume",
+    "fetched_at": "2026-05-25T06:44:21.502131+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Engineering Manager Resume: Examples & Template (2026)",
+    "description": "Engineering manager resume examples, proven templates, and the metrics hiring managers actually look for. Updated for 2026 hiring trends. Free template included.",
+    "language": "en",
+    "word_count": 3837,
+    "content_hash": "sha256:7c584cd04a7f00b778a4b6c983b6aff1987242fb4e0a2fd9555a2fd460d7d9d0",
+    "reading_time": 20,
+    "author": "Stephane Moreau",
+    "published_date": "2026-03-06",
+    "og_title": null,
+    "signal_score": 0.9865,
+    "text_to_link_ratio": 1.0,
+    "tldr": "In-depth engineering manager resume guide covering what hiring managers look for, resume structure, context-action-result framework, and essential sections for 2026 hiring.",
+    "entities": {
+      "primary": "Engineering manager resume best practices",
+      "aliases": [
+        "EM hiring criteria",
+        "resume structure for managers"
+      ]
+    },
+    "core_question": "What do hiring managers look for in engineering manager resumes?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "engineering manager resume",
+      "hiring managers",
+      "team retention",
+      "delivery track record",
+      "stakeholder management"
+    ]
+  },
+  "structure": {
+    "section_count": 40,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Engineering Manager Resume: Examples & Template (2026)",
+        "section_type": "title",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)"
+        ],
+        "char_start": 0,
+        "char_end": 26010
+      },
+      {
+        "level": 2,
+        "title": "What Hiring Managers Look For in an Engineering Manager Resume",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "What Hiring Managers Look For in an Engineering Manager Resume"
+        ],
+        "char_start": 58,
+        "char_end": 2908
+      },
+      {
+        "level": 2,
+        "title": "Engineering Manager Resume Structure",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Structure"
+        ],
+        "char_start": 2908,
+        "char_end": 6818
+      },
+      {
+        "level": 3,
+        "title": "Header and Contact Information",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Structure",
+          "Header and Contact Information"
+        ],
+        "char_start": 3306,
+        "char_end": 3874
+      },
+      {
+        "level": 3,
+        "title": "Professional Summary (3-4 Lines)",
+        "section_type": "summary",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Structure",
+          "Professional Summary (3-4 Lines)"
+        ],
+        "char_start": 3874,
+        "char_end": 4762
+      },
+      {
+        "level": 3,
+        "title": "Experience Section",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Structure",
+          "Experience Section"
+        ],
+        "char_start": 4762,
+        "char_end": 5904
+      },
+      {
+        "level": 3,
+        "title": "Skills Section",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Structure",
+          "Skills Section"
+        ],
+        "char_start": 5904,
+        "char_end": 6388
+      },
+      {
+        "level": 3,
+        "title": "Education and Certifications",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Structure",
+          "Education and Certifications"
+        ],
+        "char_start": 6388,
+        "char_end": 6818
+      },
+      {
+        "level": 2,
+        "title": "Leadership Signals to Include on Your Engineering Manager Resume",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Leadership Signals to Include on Your Engineering Manager Resume"
+        ],
+        "char_start": 6818,
+        "char_end": 10343
+      },
+      {
+        "level": 3,
+        "title": "Team Growth and Organisational Design",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Leadership Signals to Include on Your Engineering Manager Resume",
+          "Team Growth and Organisational Design"
+        ],
+        "char_start": 7348,
+        "char_end": 7804
+      },
+      {
+        "level": 3,
+        "title": "Hiring and Talent Development",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Leadership Signals to Include on Your Engineering Manager Resume",
+          "Hiring and Talent Development"
+        ],
+        "char_start": 7804,
+        "char_end": 8657
+      },
+      {
+        "level": 3,
+        "title": "Cross-Functional Leadership",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Leadership Signals to Include on Your Engineering Manager Resume",
+          "Cross-Functional Leadership"
+        ],
+        "char_start": 8657,
+        "char_end": 9184
+      },
+      {
+        "level": 3,
+        "title": "Process and Culture Improvements",
+        "section_type": "step",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Leadership Signals to Include on Your Engineering Manager Resume",
+          "Process and Culture Improvements"
+        ],
+        "char_start": 9184,
+        "char_end": 9768
+      },
+      {
+        "level": 3,
+        "title": "Strategic and Technical Vision",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Leadership Signals to Include on Your Engineering Manager Resume",
+          "Strategic and Technical Vision"
+        ],
+        "char_start": 9768,
+        "char_end": 10343
+      },
+      {
+        "level": 2,
+        "title": "Metrics That Strengthen an Engineering Manager Resume",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Metrics That Strengthen an Engineering Manager Resume"
+        ],
+        "char_start": 10343,
+        "char_end": 13104
+      },
+      {
+        "level": 3,
+        "title": "Team and People Metrics",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Metrics That Strengthen an Engineering Manager Resume",
+          "Team and People Metrics"
+        ],
+        "char_start": 10754,
+        "char_end": 11336
+      },
+      {
+        "level": 3,
+        "title": "Delivery and Velocity Metrics",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Metrics That Strengthen an Engineering Manager Resume",
+          "Delivery and Velocity Metrics"
+        ],
+        "char_start": 11336,
+        "char_end": 11806
+      },
+      {
+        "level": 3,
+        "title": "Reliability and Quality Metrics",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Metrics That Strengthen an Engineering Manager Resume",
+          "Reliability and Quality Metrics"
+        ],
+        "char_start": 11806,
+        "char_end": 12257
+      },
+      {
+        "level": 3,
+        "title": "Business Impact Metrics",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Metrics That Strengthen an Engineering Manager Resume",
+          "Business Impact Metrics"
+        ],
+        "char_start": 12257,
+        "char_end": 13104
+      },
+      {
+        "level": 2,
+        "title": "Common Engineering Manager Resume Mistakes",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes"
+        ],
+        "char_start": 13104,
+        "char_end": 17248
+      },
+      {
+        "level": 3,
+        "title": "1. Writing a Developer Resume With a Manager Title",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes",
+          "1. Writing a Developer Resume With a Manager Title"
+        ],
+        "char_start": 13456,
+        "char_end": 14133
+      },
+      {
+        "level": 3,
+        "title": "2. Being Vague About Scope and Impact",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes",
+          "2. Being Vague About Scope and Impact"
+        ],
+        "char_start": 14133,
+        "char_end": 14649
+      },
+      {
+        "level": 3,
+        "title": "3. Ignoring the Applicant Tracking System (ATS)",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes",
+          "3. Ignoring the Applicant Tracking System (ATS)"
+        ],
+        "char_start": 14649,
+        "char_end": 15287
+      },
+      {
+        "level": 3,
+        "title": "4. Omitting the Professional Summary",
+        "section_type": "summary",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes",
+          "4. Omitting the Professional Summary"
+        ],
+        "char_start": 15287,
+        "char_end": 15852
+      },
+      {
+        "level": 3,
+        "title": "5. Listing Responsibilities Instead of Achievements",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes",
+          "5. Listing Responsibilities Instead of Achievements"
+        ],
+        "char_start": 15852,
+        "char_end": 16359
+      },
+      {
+        "level": 3,
+        "title": "6. Neglecting the Visual Hierarchy",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes",
+          "6. Neglecting the Visual Hierarchy"
+        ],
+        "char_start": 16359,
+        "char_end": 16875
+      },
+      {
+        "level": 3,
+        "title": "7. Including Irrelevant Early-Career Roles",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Common Engineering Manager Resume Mistakes",
+          "7. Including Irrelevant Early-Career Roles"
+        ],
+        "char_start": 16875,
+        "char_end": 17248
+      },
+      {
+        "level": 2,
+        "title": "Engineering Manager Resume Examples",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Examples"
+        ],
+        "char_start": 17248,
+        "char_end": 21039
+      },
+      {
+        "level": 3,
+        "title": "Example Professional Summary - Mid-Level Engineering Manager",
+        "section_type": "example",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Examples",
+          "Example Professional Summary - Mid-Level Engineering Manager"
+        ],
+        "char_start": 17627,
+        "char_end": 18397
+      },
+      {
+        "level": 3,
+        "title": "Example Professional Summary - Senior Engineering Manager / Director-Level",
+        "section_type": "example",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Examples",
+          "Example Professional Summary - Senior Engineering Manager / Director-Level"
+        ],
+        "char_start": 18397,
+        "char_end": 19249
+      },
+      {
+        "level": 3,
+        "title": "Example Experience Bullets - Strong",
+        "section_type": "example",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Examples",
+          "Example Experience Bullets - Strong"
+        ],
+        "char_start": 19249,
+        "char_end": 20276
+      },
+      {
+        "level": 3,
+        "title": "Example Experience Bullets - Weak (Avoid These)",
+        "section_type": "example",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Examples",
+          "Example Experience Bullets - Weak (Avoid These)"
+        ],
+        "char_start": 20276,
+        "char_end": 21039
+      },
+      {
+        "level": 2,
+        "title": "Engineering Manager Resume Template",
+        "section_type": "example",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Template"
+        ],
+        "char_start": 21039,
+        "char_end": 24485
+      },
+      {
+        "level": 3,
+        "title": "Section 1: Header",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Template",
+          "Section 1: Header"
+        ],
+        "char_start": 21428,
+        "char_end": 21562
+      },
+      {
+        "level": 3,
+        "title": "Section 2: Professional Summary",
+        "section_type": "summary",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Template",
+          "Section 2: Professional Summary"
+        ],
+        "char_start": 21562,
+        "char_end": 22120
+      },
+      {
+        "level": 3,
+        "title": "Section 3: Experience",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Template",
+          "Section 3: Experience"
+        ],
+        "char_start": 22120,
+        "char_end": 22915
+      },
+      {
+        "level": 3,
+        "title": "Section 4: Skills",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Template",
+          "Section 4: Skills"
+        ],
+        "char_start": 22915,
+        "char_end": 23372
+      },
+      {
+        "level": 3,
+        "title": "Section 5: Education",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Engineering Manager Resume Template",
+          "Section 5: Education"
+        ],
+        "char_start": 23372,
+        "char_end": 24485
+      },
+      {
+        "level": 2,
+        "title": "Frequently Asked Questions",
+        "section_type": "faq",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Frequently Asked Questions"
+        ],
+        "char_start": 24485,
+        "char_end": 25784
+      },
+      {
+        "level": 2,
+        "title": "Get Expert Help With Your Engineering Manager Resume",
+        "section_type": "content",
+        "header_path": [
+          "Engineering Manager Resume: Examples & Template (2026)",
+          "Get Expert Help With Your Engineering Manager Resume"
+        ],
+        "char_start": 25784,
+        "char_end": 26010
+      }
+    ]
+  },
+  "links": [
+    "https://www.em-tools.io/get-hired-engineering-manager",
+    "https://www.em-tools.io/engineering-manager-salary",
+    "https://www.em-tools.io/staff-engineer-vs-engineering-manager",
+    "https://www.em-tools.io/interview-prep",
+    "https://www.em-tools.io/engineering-manager-coaching",
+    "https://www.em-tools.io/interview-questions/leadership",
+    "https://www.em-tools.io/engineering-manager-responsibilities/team-growth",
+    "https://www.em-tools.io/managing-teams/senior-engineer-leaving",
+    "https://www.em-tools.io/engineering-metrics/engineering-velocity",
+    "https://www.em-tools.io/managing-teams/cross-team-collaboration",
+    "https://www.em-tools.io/engineering-manager-responsibilities/engineering-culture",
+    "https://www.em-tools.io/managing-teams/new-team-member-onboarding",
+    "https://www.em-tools.io/engineering-manager-responsibilities/architecture-decisions"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

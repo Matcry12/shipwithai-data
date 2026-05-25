@@ -1,0 +1,146 @@
+{
+  "markdown": "# How to highlight your remote work experience on your CV\n\nRemote work is no longer a bonus: it's a standard part of tech careers. If you've worked remotely, you've gained valuable skills in communication, time management, self-discipline, among others. The key is knowing how to highlight that experience clearly and professionally on your CV. Here's how to make your remote work experience stand out and give you an edge in your job search.\n\n## 1. Mention your remote work experience in job titles\n\nDon't bury the fact that you worked remotely – bring it upfront! Add \"(Remote)\" or \"Remote Position\" next to your job title or location. **Example:** **Frontend Developer (Remote)** | ABC Tech | Jan 2021 – Present\n\nThis makes it immediately clear to recruiters that you have remote experience.\n\n### 2. Emphasize remote-relevant skills\n\nRemote work builds soft and technical skills that are valuable even in hybrid or in-office roles. Highlight things like:\n\n**Asynchronous communication**(Slack, Notion)**Time and task management**(Trello, Jira, ClickUp)**Virtual collaboration**(Zoom, Microsoft Teams, GitHub)**Self-motivation and independence**\n\nYou can also show examples of how you used these skills to deliver results, especially across time zones or international teams.\n\n### 3. Tailor your summary and \"About\" section\n\nIn your CV summary or LinkedIn About section, include a line that reflects your remote experience: \"Tech professional with 5+ years of experience, including 3 years in fully remote roles across international teams.\"\n\nThis positions you as someone comfortable and productive in distributed work environments: a huge plus for today's hiring managers.\n\n### 4. Showcase outcomes, not just duties\n\nRemote work is results-driven. When describing your experience, focus on achievements:\n\n- \"Led remote frontend team of 4 across 3 time zones – delivered MVP in under 8 weeks.\"\n- \"Reduced customer support response time by 30% through automation, while working fully remotely.\"\n\nThis proves you can perform, regardless of location.\n\n### 5. Use a CV builder that clearly shows your remote work experience\n\nCluttered CVs can bury important info. Sprint CV helps you structure your experience – including remote roles – in a clear and clean way. Choose a template that highlights your skills, achievements, and locations. With just a few clicks, you can create a recruiter-friendly, remote-ready CV that stands out.\n\n### Bonus tip: Be ready to talk about it!\n\nIn interviews, be prepared to answer questions like:\n\n- \"How do you stay productive when working remotely?\"\n- \"How do you handle communication in distributed teams?\"\n\nYour CV opens the door — your answers seal the deal.\n\nThe truth is: many people want to work remotely. But do they have the skills to do it effectively? Prepare yourself before interviews.\n\n## Work remotely. Shine globally.\n\nRemote experience isn't just a checkbox, it's a competitive advantage. Show it clearly on your CV, and be ready to thrive, wherever you are!\n",
+  "metadata": {
+    "source_url": "https://www.sprintcv.com/blog/how-to-highlight-your-remote-work-experience-on-your-cv/",
+    "source_domain": "sprintcv.com",
+    "topic": "remote-work-resume",
+    "fetched_at": "2026-05-25T06:47:18.246372+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How to highlight your remote work experience on your CV",
+    "description": "Remote work = valuable skills. Here’s how to make your remote work experience stand out and give you an edge in your job search.",
+    "language": "en",
+    "word_count": 469,
+    "content_hash": "sha256:5829276710d67159d3a93a0e8787bca37a0ba7c97b1dca2b534d89a870b291fa",
+    "reading_time": 3,
+    "author": "Marco Pincho",
+    "published_date": "2025-07-15",
+    "og_title": null,
+    "signal_score": 0.8576,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide to highlighting remote work experience on CV through job title notation, emphasizing remote-relevant skills, and showcasing distributed team achievements.",
+    "entities": {
+      "primary": "Remote work CV highlighting",
+      "aliases": [
+        "remote experience documentation",
+        "distributed team skills",
+        "remote work positioning"
+      ]
+    },
+    "core_question": "How do you highlight your remote work experience on your CV?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "remote work experience",
+      "distributed team skills",
+      "asynchronous communication",
+      "remote outcomes",
+      "skill documentation"
+    ]
+  },
+  "structure": {
+    "section_count": 8,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "How to highlight your remote work experience on your CV",
+        "section_type": "title",
+        "header_path": [
+          "How to highlight your remote work experience on your CV"
+        ],
+        "char_start": 0,
+        "char_end": 3008
+      },
+      {
+        "level": 2,
+        "title": "1. Mention your remote work experience in job titles",
+        "section_type": "content",
+        "header_path": [
+          "How to highlight your remote work experience on your CV",
+          "1. Mention your remote work experience in job titles"
+        ],
+        "char_start": 444,
+        "char_end": 2832
+      },
+      {
+        "level": 3,
+        "title": "2. Emphasize remote-relevant skills",
+        "section_type": "content",
+        "header_path": [
+          "How to highlight your remote work experience on your CV",
+          "1. Mention your remote work experience in job titles",
+          "2. Emphasize remote-relevant skills"
+        ],
+        "char_start": 796,
+        "char_end": 1279
+      },
+      {
+        "level": 3,
+        "title": "3. Tailor your summary and \"About\" section",
+        "section_type": "summary",
+        "header_path": [
+          "How to highlight your remote work experience on your CV",
+          "1. Mention your remote work experience in job titles",
+          "3. Tailor your summary and \"About\" section"
+        ],
+        "char_start": 1279,
+        "char_end": 1677
+      },
+      {
+        "level": 3,
+        "title": "4. Showcase outcomes, not just duties",
+        "section_type": "content",
+        "header_path": [
+          "How to highlight your remote work experience on your CV",
+          "1. Mention your remote work experience in job titles",
+          "4. Showcase outcomes, not just duties"
+        ],
+        "char_start": 1677,
+        "char_end": 2051
+      },
+      {
+        "level": 3,
+        "title": "5. Use a CV builder that clearly shows your remote work experience",
+        "section_type": "content",
+        "header_path": [
+          "How to highlight your remote work experience on your CV",
+          "1. Mention your remote work experience in job titles",
+          "5. Use a CV builder that clearly shows your remote work experience"
+        ],
+        "char_start": 2051,
+        "char_end": 2432
+      },
+      {
+        "level": 3,
+        "title": "Bonus tip: Be ready to talk about it!",
+        "section_type": "tips",
+        "header_path": [
+          "How to highlight your remote work experience on your CV",
+          "1. Mention your remote work experience in job titles",
+          "Bonus tip: Be ready to talk about it!"
+        ],
+        "char_start": 2432,
+        "char_end": 2832
+      },
+      {
+        "level": 2,
+        "title": "Work remotely. Shine globally.",
+        "section_type": "content",
+        "header_path": [
+          "How to highlight your remote work experience on your CV",
+          "Work remotely. Shine globally."
+        ],
+        "char_start": 2832,
+        "char_end": 3008
+      }
+    ]
+  },
+  "links": [
+    "http://www.sprintcv.com",
+    "https://www.sprintcv.com/cv-templates/"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

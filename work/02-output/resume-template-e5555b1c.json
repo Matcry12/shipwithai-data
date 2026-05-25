@@ -1,0 +1,74 @@
+{
+  "markdown": "# Build software better, together\n\nResume builder for academics and engineers\n\nMay 1, 2026 - Python\n\nResume builder for academics and engineers\n\nOpenResume is a powerful open-source resume builder and resume parser. https://open-resume.com/\n\n🎓 Academic portfolio that boosts citations. AI generates pages, you own as Markdown. BibTeX auto-import, Jupyter, LaTeX, slides, visual block editor — free to host forever. 学术主页，AI 生成，Markdown 拥有 👇\n\n📄 Easily create your resume with Markdown on VSCode / Typora / Obsidian\n\nA minimal Jekyll Theme to host your resume (CV) on GitHub with a few clicks.\n\n👔 A collection of cv and resume templates written in LaTeX. Leave an issue if your language is not supported!\n\n个人中文简历 Latex 源码 https://hijiangtao.github.io/\n\nA modern static resume template and theme. Powered by Jekyll and GitHub pages.\n\n😎 A static blog using notion database\n\n木及简历，一款markdown的在线简历工具。 https://www.mujicv.com\n\n💼 🎨 A modern software developer resume built with React and JSONResume\n\nA boutique Jekyll theme for hackers, nerds, and academics\n\nHacknical, hacker & technical. A website for GitHub user to make a better resume.\n\na simple template to write your CV in a readable markdown file and use CSS to publish/print it.\n\nResumes as code in YAML, brought to you with ❤️ by PPResume.\n\n🚀 Resume Builder 在线简历生成工具\n\nBuild a standard and professional single page resume\n\nAdd a description, image, and links to the resume-template topic page so that developers can more easily learn about it.\n\nTo associate your repository with the resume-template topic, visit your repo's landing page and select \"manage topics.\"\n",
+  "metadata": {
+    "source_url": "https://github.com/topics/resume-template",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:35.500777+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Build software better, together",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "language": "en",
+    "word_count": 251,
+    "content_hash": "sha256:bfadf6acf1eafe834e60a08a75ee3899e3d807cb27de7df41c7a5720a1691127",
+    "reading_time": 2,
+    "author": null,
+    "published_date": "2026-05-01",
+    "og_title": null,
+    "signal_score": 0.7092,
+    "text_to_link_ratio": 1.0,
+    "tldr": "OpenResume open-source resume builder and parser allowing resume creation in Markdown with support for academic portfolios, BibTeX, and multiple output formats.",
+    "entities": {
+      "primary": "open-source resume builder",
+      "aliases": [
+        "resume builder tool",
+        "Markdown resume"
+      ]
+    },
+    "core_question": "What open-source tools are available for building resumes as code?",
+    "doc_type": "reference",
+    "key_topics": [
+      "resume builder",
+      "open source",
+      "Markdown",
+      "academic portfolio",
+      "resume parser"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Build software better, together",
+        "section_type": "title",
+        "header_path": [
+          "Build software better, together"
+        ],
+        "char_start": 0,
+        "char_end": 1613
+      }
+    ]
+  },
+  "links": [
+    "https://github.com/topics/python",
+    "https://github.com/topics/resume-template",
+    "https://github.com/topics/resume",
+    "https://github.com/topics/cv",
+    "https://github.com/topics/cv-generator",
+    "https://github.com/topics/cv-template",
+    "https://github.com/topics/resume-builder",
+    "https://github.com/topics/resume-generator",
+    "https://github.com/topics/cv-builder",
+    "https://github.com/topics/typst",
+    "https://open-resume.com/",
+    "https://hijiangtao.github.io/",
+    "https://www.mujicv.com"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

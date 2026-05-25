@@ -1,0 +1,232 @@
+{
+  "markdown": "# How to Write a Git Commit Message\n\n**Contents:** Introduction | The Seven Rules | Tips\n\n## Introduction: Why good commit messages matter\n\nIf you browse the log of any random Git repository, you will probably find its commit messages are more or less a mess. For example, take a look at these gems from my early days committing to Spring:\n\n```\n$ git log --oneline -5 --author cbeams --before \"Fri Mar 26 2009\"\ne5f4b49 Re-adding ConfigurationPostProcessorTests after its brief removal in r814. @Ignore-ing the testCglibClassesAreLoadedJustInTimeForEnhancement() method as it turns out this was one of the culprits in the recent build breakage. The classloader hacking causes subtle downstream effects, breaking unrelated tests. The test method is still useful, but should only be run on a manual basis to ensure CGLIB is not prematurely classloaded, and should not be run as part of the automated build.\n2db0f12 fixed two build-breaking issues: + reverted ClassMetadataReadingVisitor to revision 794 + eliminated ConfigurationPostProcessorTests until further investigation determines why it causes downstream tests to fail (such as the seemingly unrelated ClassPathXmlApplicationContextTests)\n147709f Tweaks to package-info.java files\n22b25e0 Consolidated Util and MutableAnnotationUtils classes into existing AsmUtils\n7f96f57 polishing\n```\n\nYikes. Compare that with these more recent commits from the same repository:\n\n```\n$ git log --oneline -5 --author pwebb --before \"Sat Aug 30 2014\"\n5ba3db6 Fix failing CompositePropertySourceTests\n84564a0 Rework @PropertySource early parsing logic\ne142fd1 Add tests for ImportSelector meta-data\n887815f Update docbook dependency and generate epub\nac8326d Polish mockito usage\n```\n\nWhich would you rather read?\n\nThe former varies in length and form; the latter is concise and consistent.\n\nThe former is what happens by default; the latter never happens by accident.\n\nWhile many repositories' logs look like the former, there are exceptions. The Linux kernel and Git itself are great examples. Look at Spring Boot, or any repository managed by Tim Pope.\n\nThe contributors to these repositories know that a well-crafted Git commit message is the best way to communicate *context* about a change to fellow developers (and indeed to their future selves). A diff will tell you *what* changed, but only the commit message can properly tell you *why*. Peter Hutterer makes this point well:\n\nRe-establishing the context of a piece of code is wasteful. We can't avoid it completely, so our efforts should go to reducing it [as much] as possible. Commit messages can do exactly that and as a result,a commit message shows whether a developer is a good collaborator.\n\nIf you haven't given much thought to what makes a great Git commit message, it may be the case that you haven't spent much time using `git log`\n\nand related tools. There is a vicious cycle here: because the commit history is unstructured and inconsistent, one doesn't spend much time using or taking care of it. And because it doesn't get used or taken care of, it remains unstructured and inconsistent.\n\nBut a well-cared for log is a beautiful and useful thing. `git blame`\n\n, `revert`\n\n, `rebase`\n\n, `log`\n\n, `shortlog`\n\nand other subcommands come to life. Reviewing others' commits and pull requests becomes something worth doing, and suddenly can be done independently. Understanding why something happened months or years ago becomes not only possible but efficient.\n\nA project's long-term success rests (among other things) on its maintainability, and a maintainer has few tools more powerful than his project's log. It's worth taking the time to learn how to care for one properly. What may be a hassle at first soon becomes habit, and eventually a source of pride and productivity for all involved.\n\nIn this post, I am addressing just the most basic element of keeping a healthy commit history: how to write an individual commit message. There are other important practices like commit squashing that I am not addressing here. Perhaps I'll do that in a subsequent post.\n\nMost programming languages have well-established conventions as to what constitutes idiomatic style, i.e. naming, formatting and so on. There are variations on these conventions, of course, but most developers agree that picking one and sticking to it is far better than the chaos that ensues when everybody does their own thing.\n\nA team's approach to its commit log should be no different. In order to create a useful revision history, teams should first agree on a commit message convention that defines at least the following three things:\n\n**Style.** Markup syntax, wrap margins, grammar, capitalization, punctuation. Spell these things out, remove the guesswork, and make it all as simple as possible. The end result will be a remarkably consistent log that's not only a pleasure to read but that actually *does get read* on a regular basis.\n\n**Content.** What kind of information should the body of the commit message (if any) contain? What should it *not* contain?\n\n**Metadata.** How should issue tracking IDs, pull request numbers, etc. be referenced?\n\nFortunately, there are well-established conventions as to what makes an idiomatic Git commit message. Indeed, many of them are assumed in the way certain Git commands function. There's nothing you need to re-invent. Just follow the seven rules below and you're on your way to committing like a pro.\n\n## The seven rules of a great Git commit message\n\nKeep in mind: This has all been said before.\n\n- Separate subject from body with a blank line\n- Limit the subject line to 50 characters\n- Capitalize the subject line\n- Do not end the subject line with a period\n- Use the imperative mood in the subject line\n- Wrap the body at 72 characters\n- Use the body to explain\n*what*and*why*vs.*how*\n\nFor example:\n\n```\nSummarize changes in around 50 characters or less\nMore detailed explanatory text, if necessary. Wrap it to about 72\ncharacters or so. In some contexts, the first line is treated as the\nsubject of the commit and the rest of the text as the body. The\nblank line separating the summary from the body is critical (unless\nyou omit the body entirely); various tools like `log`, `shortlog`\nand `rebase` can get confused if you run the two together.\nExplain the problem that this commit is solving. Focus on why you\nare making this change as opposed to how (the code explains that).\nAre there side effects or other unintuitive consequences of this\nchange? Here's the place to explain them.\nFurther paragraphs come after blank lines.\n- Bullet points are okay, too\n- Typically a hyphen or asterisk is used for the bullet, preceded\nby a single space, with blank lines in between, but conventions\nvary here\nIf you use an issue tracker, put references to them at the bottom,\nlike this:\nResolves: #123\nSee also: #456, #789\n```\n\n### 1. Separate subject from body with a blank line\n\nFrom the `git commit`\n\nmanpage:\n\nThough not required, it's a good idea to begin the commit message with a single short (less than 50 character) line summarizing the change, followed by a blank line and then a more thorough description. The text up to the first blank line in a commit message is treated as the commit title, and that title is used throughout Git. For example, Git-format-patch(1) turns a commit into email, and it uses the title on the Subject line and the rest of the commit in the body.\n\nFirstly, not every commit requires both a subject and a body. Sometimes a single line is fine, especially when the change is so simple that no further context is necessary. For example:\n\n```\nFix typo in introduction to user guide\n```\n\nNothing more need be said; if the reader wonders what the typo was, she can simply take a look at the change itself, i.e. use `git show`\n\nor `git diff`\n\nor `git log -p`\n\nIf you're committing something like this at the command line, it's easy to use the `-m`\n\noption to `git commit`\n\n:\n\n```\n$ git commit -m\"Fix typo in introduction to user guide\"\n```\n\nHowever, when a commit merits a bit of explanation and context, you need to write a body. For example:\n\n```\nDerezz the master control program\nMCP turned out to be evil and had become intent on world domination.\nThis commit throws Tron's disc into MCP (causing its deresolution)\nand turns it back into a chess game.\n```\n\nCommit messages with bodies are not so easy to write with the `-m`\n\noption. You're better off writing the message in a proper text editor. If you do not already have an editor set up for use with Git at the command line, read this section of Pro Git.\n\nIn any case, the separation of subject from body pays off when browsing the log. Here's the full log entry:\n\n```\n$ git log\ncommit 42e769bdf4894310333942ffc5a15151222a87be\nAuthor: Kevin Flynn <kevin@flynnsarcade.com>\nDate: Fri Jan 01 00:00:00 1982 -0200\nDerezz the master control program\nMCP turned out to be evil and had become intent on world domination.\nThis commit throws Tron's disc into MCP (causing its deresolution)\nand turns it back into a chess game.\n```\n\nAnd now `git log --oneline`\n\n, which prints out just the subject line:\n\n```\n$ git log --oneline\n42e769 Derezz the master control program\n```\n\nOr, `git shortlog`\n\n, which groups commits by user, again showing just the subject line for concision:\n\n```\n$ git shortlog\nKevin Flynn (1):\nDerezz the master control program\nAlan Bradley (1):\nIntroduce security program \"Tron\"\nEd Dillinger (3):\nRename chess program to \"MCP\"\nModify chess program\nUpgrade chess program\nWalter Gibbs (1):\nIntroduce protoype chess program\n```\n\nThere are a number of other contexts in Git where the distinction between subject line and body kicks in—but none of them work properly without the blank line in between.\n\n### 2. Limit the subject line to 50 characters\n\n50 characters is not a hard limit, just a rule of thumb. Keeping subject lines at this length ensures that they are readable, and forces the author to think for a moment about the most concise way to explain what's going on.\n\nTip: If you're having a hard time summarizing, you might be committing too many changes at once. Strive for atomic commits (a topic for a separate post).\n\nGitHub's UI is fully aware of these conventions. It will warn you if you go past the 50 character limit:\n\nAnd will truncate any subject line longer than 72 characters with an ellipsis:\n\nSo shoot for 50 characters, but consider 72 the hard limit.\n\n### 3. Capitalize the subject line\n\nThis is as simple as it sounds. Begin all subject lines with a capital letter.\n\nFor example:\n\n- Accelerate to 88 miles per hour\n\nInstead of:\n\n~~accelerate to 88 miles per hour~~\n\n### 4. Do not end the subject line with a period\n\nTrailing punctuation is unnecessary in subject lines. Besides, space is precious when you're trying to keep them to 50 chars or less.\n\nExample:\n\n- Open the pod bay doors\n\nInstead of:\n\n~~Open the pod bay doors.~~\n\n### 5. Use the imperative mood in the subject line\n\n*Imperative mood* just means \"spoken or written as if giving a command or instruction\". A few examples:\n\n- Clean your room\n- Close the door\n- Take out the trash\n\nEach of the seven rules you're reading about right now are written in the imperative (\"Wrap the body at 72 characters\", etc.).\n\nThe imperative can sound a little rude; that's why we don't often use it. But it's perfect for Git commit subject lines. One reason for this is that **Git itself uses the imperative whenever it creates a commit on your behalf**.\n\nFor example, the default message created when using `git merge`\n\nreads:\n\n```\nMerge branch 'myfeature'\n```\n\nAnd when using `git revert`\n\n:\n\n```\nRevert \"Add the thing with the stuff\"\nThis reverts commit cc87791524aedd593cff5a74532befe7ab69ce9d.\n```\n\nOr when clicking the \"Merge\" button on a GitHub pull request:\n\n```\nMerge pull request #123 from someuser/somebranch\n```\n\nSo when you write your commit messages in the imperative, you're following Git's own built-in conventions. For example:\n\n- Refactor subsystem X for readability\n- Update getting started documentation\n- Remove deprecated methods\n- Release version 1.0.0\n\nWriting this way can be a little awkward at first. We're more used to speaking in the *indicative mood*, which is all about reporting facts. That's why commit messages often end up reading like this:\n\n~~Fixed bug with Y~~~~Changing behavior of X~~\n\nAnd sometimes commit messages get written as a description of their contents:\n\n~~More fixes for broken stuff~~~~Sweet new API methods~~\n\nTo remove any confusion, here's a simple rule to get it right every time.\n\n**A properly formed Git commit subject line should always be able to complete the following sentence**:\n\n- If applied, this commit will\n__your subject line here__\n\nFor example:\n\n- If applied, this commit will\n*refactor subsystem X for readability* - If applied, this commit will\n*update getting started documentation* - If applied, this commit will\n*remove deprecated methods* - If applied, this commit will\n*release version 1.0.0* - If applied, this commit will\n*merge pull request #123 from user/branch*\n\nNotice how this doesn't work for the other non-imperative forms:\n\n- If applied, this commit will\n~~fixed bug with Y~~ - If applied, this commit will\n~~changing behavior of X~~ - If applied, this commit will\n~~more fixes for broken stuff~~ - If applied, this commit will\n~~sweet new API methods~~\n\nRemember: Use of the imperative is important only in the subject line. You can relax this restriction when you're writing the body.\n\n### 6. Wrap the body at 72 characters\n\nGit never wraps text automatically. When you write the body of a commit message, you must mind its right margin, and wrap text manually.\n\nThe recommendation is to do this at 72 characters, so that Git has plenty of room to indent text while still keeping everything under 80 characters overall.\n\nA good text editor can help here. It's easy to configure Vim, for example, to wrap text at 72 characters when you're writing a Git commit. Traditionally, however, IDEs have been terrible at providing smart support for text wrapping in commit messages (although in recent versions, IntelliJ IDEA has finally gotten better about this).\n\n### 7. Use the body to explain what and why vs. how\n\nThis commit from Bitcoin Core is a great example of explaining what changed and why:\n\n```\ncommit eb0b56b19017ab5c16c745e6da39c53126924ed6\nAuthor: Pieter Wuille <pieter.wuille@gmail.com>\nDate: Fri Aug 1 22:57:55 2014 +0200\nSimplify serialize.h's exception handling\nRemove the 'state' and 'exceptmask' from serialize.h's stream\nimplementations, as well as related methods.\nAs exceptmask always included 'failbit', and setstate was always\ncalled with bits = failbit, all it did was immediately raise an\nexception. Get rid of those variables, and replace the setstate\nwith direct exception throwing (which also removes some dead\ncode).\nAs a result, good() is never reached after a failure (there are\nonly 2 calls, one of which is in tests), and can just be replaced\nby !eof().\nfail(), clear(n) and exceptions() are just never called. Delete\nthem.\n```\n\nTake a look at the full diff and just think how much time the author is saving fellow and future committers by taking the time to provide this context here and now. If he didn't, it would probably be lost forever.\n\nIn most cases, you can leave out details about how a change has been made. Code is generally self-explanatory in this regard (and if the code is so complex that it needs to be explained in prose, that's what source comments are for). Just focus on making clear the reasons why you made the change in the first place—the way things worked before the change (and what was wrong with that), the way they work now, and why you decided to solve it the way you did.\n\nThe future maintainer that thanks you may be yourself!\n\n## Tips\n\n### Learn to love the command line. Leave the IDE behind.\n\nFor as many reasons as there are Git subcommands, it's wise to embrace the command line. Git is insanely powerful; IDEs are too, but each in different ways. I use an IDE every day (IntelliJ IDEA) and have used others extensively (Eclipse), but I have never seen IDE integration for Git that could begin to match the ease and power of the command line (once you know it).\n\nCertain Git-related IDE functions are invaluable, like calling `git rm`\n\nwhen you delete a file, and doing the right stuff with `git`\n\nwhen you rename one. Where everything falls apart is when you start trying to commit, merge, rebase, or do sophisticated history analysis through the IDE.\n\nWhen it comes to wielding the full power of Git, it's command-line all the way.\n\nRemember that whether you use Bash or Zsh or Powershell, there are tab completion scripts that take much of the pain out of remembering the subcommands and switches.\n\n### Read Pro Git\n\nThe Pro Git book is available online for free, and it's fantastic. Take advantage!\n\n*header image credit: xkcd*\n",
+  "metadata": {
+    "source_url": "https://cbea.ms/git-commit/",
+    "source_domain": "cbea.ms",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:37:35.899935+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How to Write a Git Commit Message",
+    "description": "Commit messages matter. Here's how to write them well.",
+    "language": "en",
+    "word_count": 2825,
+    "content_hash": "sha256:cb9d32dabc8e862026fe672f2d461bc59c5d80c6b6b64616843c0b0635634f13",
+    "reading_time": 15,
+    "author": "Cbeams",
+    "published_date": "2014-08-30",
+    "og_title": null,
+    "signal_score": 0.9941,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide on writing effective Git commit messages following seven rules including subject-body separation, imperative mood, and clear explanations of what and why.",
+    "entities": {
+      "primary": "Git commit messages",
+      "aliases": [
+        "commit conventions",
+        "commit best practices",
+        "Git message style"
+      ]
+    },
+    "core_question": "What are the rules for writing effective Git commit messages?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "commit message format",
+      "seven rules",
+      "imperative mood",
+      "message content",
+      "code review clarity"
+    ]
+  },
+  "structure": {
+    "section_count": 13,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "How to Write a Git Commit Message",
+        "section_type": "title",
+        "header_path": [
+          "How to Write a Git Commit Message"
+        ],
+        "char_start": 0,
+        "char_end": 16883
+      },
+      {
+        "level": 2,
+        "title": "Introduction: Why good commit messages matter",
+        "section_type": "intro",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "Introduction: Why good commit messages matter"
+        ],
+        "char_start": 90,
+        "char_end": 5437
+      },
+      {
+        "level": 2,
+        "title": "The seven rules of a great Git commit message",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message"
+        ],
+        "char_start": 5437,
+        "char_end": 15774
+      },
+      {
+        "level": 3,
+        "title": "1. Separate subject from body with a blank line",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message",
+          "1. Separate subject from body with a blank line"
+        ],
+        "char_start": 6857,
+        "char_end": 9726
+      },
+      {
+        "level": 3,
+        "title": "2. Limit the subject line to 50 characters",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message",
+          "2. Limit the subject line to 50 characters"
+        ],
+        "char_start": 9726,
+        "char_end": 10402
+      },
+      {
+        "level": 3,
+        "title": "3. Capitalize the subject line",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message",
+          "3. Capitalize the subject line"
+        ],
+        "char_start": 10402,
+        "char_end": 10617
+      },
+      {
+        "level": 3,
+        "title": "4. Do not end the subject line with a period",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message",
+          "4. Do not end the subject line with a period"
+        ],
+        "char_start": 10617,
+        "char_end": 10880
+      },
+      {
+        "level": 3,
+        "title": "5. Use the imperative mood in the subject line",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message",
+          "5. Use the imperative mood in the subject line"
+        ],
+        "char_start": 10880,
+        "char_end": 13471
+      },
+      {
+        "level": 3,
+        "title": "6. Wrap the body at 72 characters",
+        "section_type": "summary",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message",
+          "6. Wrap the body at 72 characters"
+        ],
+        "char_start": 13471,
+        "char_end": 14141
+      },
+      {
+        "level": 3,
+        "title": "7. Use the body to explain what and why vs. how",
+        "section_type": "intro",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "The seven rules of a great Git commit message",
+          "7. Use the body to explain what and why vs. how"
+        ],
+        "char_start": 14141,
+        "char_end": 15774
+      },
+      {
+        "level": 2,
+        "title": "Tips",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "Tips"
+        ],
+        "char_start": 15774,
+        "char_end": 16883
+      },
+      {
+        "level": 3,
+        "title": "Learn to love the command line. Leave the IDE behind.",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "Tips",
+          "Learn to love the command line. Leave the IDE behind."
+        ],
+        "char_start": 15783,
+        "char_end": 16753
+      },
+      {
+        "level": 3,
+        "title": "Read Pro Git",
+        "section_type": "content",
+        "header_path": [
+          "How to Write a Git Commit Message",
+          "Tips",
+          "Read Pro Git"
+        ],
+        "char_start": 16753,
+        "char_end": 16883
+      }
+    ]
+  },
+  "links": [
+    "https://cbea.ms#intro",
+    "https://cbea.ms#seven-rules",
+    "https://cbea.ms#tips",
+    "https://github.com/spring-projects/spring-framework/commits/e5f4b49?author=cbeams",
+    "https://github.com/spring-projects/spring-framework/commits/5ba3db?author=philwebb",
+    "https://github.com/torvalds/linux/commits/master",
+    "https://github.com/git/git/commits/main",
+    "https://github.com/spring-projects/spring-boot/commits/main",
+    "https://github.com/tpope/vim-pathogen/commits/master",
+    "http://who-t.blogspot.co.at/2009/12/on-commit-messages.html",
+    "https://cbea.ms#separate",
+    "https://cbea.ms#limit-50",
+    "https://cbea.ms#capitalize",
+    "https://cbea.ms#end",
+    "https://cbea.ms#imperative",
+    "https://cbea.ms#wrap-72",
+    "https://cbea.ms#why-not-how",
+    "https://www.kernel.org/pub/software/scm/git/docs/git-commit.html#_discussion",
+    "https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration",
+    "https://cbea.ms/posts/git-commit/#limit-50",
+    "https://youtrack.jetbrains.com/issue/IDEA-53615",
+    "https://youtrack.jetbrains.com/issue/IDEA-53615#comment=27-448299",
+    "https://youtrack.jetbrains.com/issue/IDEA-53615#comment=27-446912",
+    "https://github.com/bitcoin/bitcoin/commit/eb0b56b19017ab5c16c745e6da39c53126924ed6",
+    "https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash",
+    "https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh",
+    "https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell",
+    "https://git-scm.com/book/en/v2",
+    "https://xkcd.com/1296/"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

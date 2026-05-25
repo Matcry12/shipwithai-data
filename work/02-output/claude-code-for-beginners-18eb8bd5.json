@@ -1,0 +1,563 @@
+{
+  "markdown": "# Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding\n\nI don't write code by hand anymore. And no, I'm not exaggerating.\n\nFor the past few months, I've been using **Claude Code** as my primary coding companion, and it has fundamentally changed how I build software. Whether I'm scaffolding a new .NET Web API, debugging a tricky race condition, or refactoring a legacy codebase - Claude is right there in my terminal, reasoning through problems like a senior engineer sitting next to me.\n\nBut here's the thing: most developers I talk to either haven't heard of Claude Code, or they've tried it once and didn't realize its true potential. They treat it like a fancy autocomplete. It's not.\n\n**Claude Code is a full-fledged agentic coding assistant** that can read your entire codebase, understand your architecture, plan multi-step implementations, and execute them - all while respecting your coding standards.\n\nIn this guide, I'll show you how to get started with Claude Code in under 15 minutes. We'll cover installation, the magic of `CLAUDE.md`\n\n, Plan Mode, context management, and I'll give you an honest comparison with GitHub Copilot and Cursor.\n\nLet's get into it.\n\n## What is Claude Code? (2026 Overview)\n\nClaude Code is Anthropic's **terminal-native AI coding assistant** built on top of Claude (the same model powering claude.ai). Unlike traditional code completion tools that suggest snippets as you type, Claude Code operates as an **agentic system** - meaning it can:\n\n- Read and understand your entire project structure\n- Search through files, grep for patterns, and analyze dependencies\n- Plan complex implementations before writing any code\n- Execute multi-file changes while respecting your conventions\n- Run shell commands, tests, and build processes\n- Learn your project's rules through a\n`CLAUDE.md`\n\nfile\n\nThink of it as having a senior developer in your terminal who never gets tired, never forgets your coding standards, and can hold 200,000 tokens of context in memory.\n\nClaude Code launched in\n\nFebruary 2025and reached general availability inMay 2025. By November 2025, it hit $1 billion in annualized revenue - that's how fast developers are adopting it.\n\n## Claude Code vs GitHub Copilot vs ChatGPT vs Cursor - Quick Comparison\n\nBefore we dive in, let's address the elephant in the room. You've probably used GitHub Copilot, ChatGPT, or heard about Cursor. How does Claude Code stack up?\n\n| Feature | Claude Code | GitHub Copilot | ChatGPT/Codex | Cursor |\n|---|---|---|---|---|\nPrimary Interface | Terminal (CLI) | IDE Plugin | Web/API | Full IDE (VS Code fork) |\nContext Window | 200,000 tokens | ~8,000 tokens (practical) | 128,000 tokens | Project-aware |\nApproach | Agentic, multi-step reasoning | Autocomplete, snippets | Conversational, iterative | Multi-file refactoring |\nBest For | Architecture, debugging, explanations | Fast completions, boilerplate | Brainstorming, exploration | Large refactors, IDE comfort |\nLearning Curve | Medium | Low | Low | Low |\nPricing | $20-200/month (Claude subscription) | $0-39/month | $20-200/month (ChatGPT Plus/Pro) | $20-40/month |\n\n**My honest take:**\n\n**GitHub Copilot**is fantastic for autocomplete and writing boilerplate fast. It's the easiest to adopt and lives right in your IDE.**ChatGPT/Codex**excels at brainstorming, exploring ideas, and conversational problem-solving. When you need to think through an approach before touching code, it's a great sparring partner.**Cursor**shines when you're doing multi-file refactoring and want a familiar VS Code experience with AI baked in.**Claude Code**wins when you need**reasoning**. When you want the AI to understand*why*your code is structured a certain way, plan before executing, and explain its decisions.\n\nFor .NET developers working on complex architectures (Clean Architecture, microservices, domain-driven design) - Claude Code's ability to hold massive context and reason through dependencies is a game-changer.\n\nIf you're a .NET developer looking to level up your skills, these resources pair perfectly with Claude Code:\n\n### My Journey Through AI Coding Tools\n\nLet me share how I ended up here - and why I believe the future isn't about picking ONE tool.\n\nI started with **GitHub Copilot** like most developers. It's decent for basic code changes and generation - no complaints there. The autocomplete is snappy, and it genuinely speeds up boilerplate work. But as I used it for larger tasks, I wasn't happy with the context it maintained. It felt like explaining the same architectural decisions over and over. The AI would suggest patterns that contradicted what I'd just built two files ago. And the developer experience? Despite being integrated directly into the IDE, something about the back-and-forth never clicked for me when I needed deeper reasoning.\n\nThen came **Codex**. I'd had a ChatGPT subscription for a long time, but I never realized it included Codex access - pleasant surprise. When I discovered it, I went all in. For JavaScript and frontend work, I could see real success. The conversational interface made it easy to iterate on ideas. I even used it to improve FullStackHero - refactoring modules, cleaning up patterns, and it actually did a solid job understanding the .NET ecosystem.\n\nBut when I tested **Claude Code**, I was genuinely impressed.\n\nIt wasn't just about code generation. Claude understood my codebase structure, respected my workflow, and grasped my requirements in a way the others didn't. When I described a feature, it would ask clarifying questions about edge cases I hadn't considered. When I pointed it at a bug, it would trace through the call stack and identify the root cause - not just patch the symptom. The Blazor skills? Surprisingly strong. It could reason through component hierarchies, understand the render lifecycle, handle cascading parameters correctly, and suggest patterns that actually made sense for Blazor development. For complex .NET work - Clean Architecture, domain-driven design, multi-project solutions - Claude Code's ability to hold context across dozens of files is unmatched.\n\n### The Real Lesson: Use Every Tool for What It's Best At\n\nHere's what I've learned after months of experimentation: **the goal isn't to choose one tool and abandon the rest.** Each tool has its strengths, and the smartest developers use them together.\n\nHere's my current setup:\n\n**Claude Code**- My primary tool for complex implementations, debugging, architectural decisions, and anything that requires deep codebase understanding. When I need the AI to*think*before it acts, Claude is where I go.**GitHub Copilot**- Still in my workflow for quick autocomplete and commit message generation. It's fast, it's inline, and for small completions it's hard to beat.**ChatGPT**- My go-to for brainstorming ideas, exploring approaches before I write code, and rubber-ducking problems. Sometimes I just need to think out loud with an AI that isn't tied to my codebase.\n\nThe tools complement each other. Copilot for speed. ChatGPT for exploration. Claude Code for depth.\n\n**Don't fall into the trap of tribal loyalty to one tool.** The AI landscape is evolving fast, and the developers who win are the ones who adapt their toolkit to the task at hand.\n\nThat said, for the core work of building software - understanding requirements, planning implementations, writing production code, and debugging complex issues - Claude Code has become my daily driver. And trust me, there are a lot of ways to supercharge your Claude experience beyond the basics. I'll be covering advanced patterns, custom commands, and productivity hacks in upcoming articles.\n\nFor now, let's get you set up.\n\n## Claude Code Installation - Get Running in 5 Minutes\n\nLet's get Claude Code installed. You'll need:\n\n- A Claude subscription (Pro at $20/month minimum)\n- Node.js (for the npm installation method)\n- A terminal (Command Prompt, PowerShell, or your IDE's integrated terminal)\n\n### CLI vs Desktop vs Cloud - Pick Your Flavor\n\nHere's something most tutorials skip: Claude Code isn't just a CLI tool. You have **three ways** to access it:\n\n**CLI (Terminal)**- The original experience. Runs directly in your terminal alongside your code.**Desktop App**- A standalone application with a dedicated window and UI.**Cloud (claude.ai)**- Browser-based access, works anywhere including mobile.\n\n**I use all three.** And honestly, that's the productivity hack nobody talks about.\n\nHere's my setup:\n\n**CLI for intense coding sessions**- When I'm deep in backend work, implementing features, or debugging complex issues, I run Claude in my terminal. It's lightweight, fast, and stays out of the way. The CLI just feels more responsive when you're in the zone.**Desktop for general development**- The desktop app is convenient when I want Claude in a separate window. But fair warning - it's more memory intensive than the CLI. During really long sessions, I've noticed it can get sluggish or act a bit weird. If you're on a machine with limited RAM, stick with the CLI.**Cloud and mobile app for brainstorming**- This is my go-to when I'm away from my dev machine. Thinking through architecture during a commute? Sketching out an approach before I sit down to code? I use the**Claude Android app**on my phone - it's smoother than the browser and works great for quick back-and-forth conversations. The web version at claude.ai is there when I'm on a different machine without the CLI installed.\n\nThe beauty is they all share your Claude subscription. Same account, same usage limits, different interfaces for different contexts.\n\nFor this guide, we'll focus on the **CLI installation** - it's the most powerful option for developers and the one you'll use for serious coding work.\n\n### Windows Installation\n\nThe official PowerShell script can be finicky. Here's the reliable approach using npm:\n\n**Step 1: Install Node.js (if you don't have it)**\n\nHead to nodejs.org, download the LTS version, and run the installer.\n\nVerify the installation:\n\nYou should see a version number like `v22.x.x`\n\n**Step 2: Install Claude Code via npm**\n\n**Step 3: Launch Claude Code**\n\nOn first run, you'll:\n\n- Choose your theme (dark mode, obviously)\n- Connect your Anthropic account\n- Trust the current directory\n\n### macOS / Linux Installation\n\nYou have more options here:\n\nThen simply run `claude`\n\nin your terminal.\n\n## CLAUDE.md File - How to Configure Claude Code for Your Project\n\nHere's where Claude Code becomes truly powerful.\n\nThe `CLAUDE.md`\n\nfile is a Markdown file at the root of your project that **onboards Claude onto your codebase**. Every time you start a Claude session in that directory, the contents of this file are injected into context automatically.\n\nThink of it as writing instructions for a new developer joining your team - except this developer has perfect memory and follows instructions precisely.\n\n### What to Put in CLAUDE.md\n\nStructure your `CLAUDE.md`\n\naround three layers:\n\n**The What**- Your tech stack, project structure, key packages**The Why**- The purpose of each component, architectural decisions**The How**- How you want Claude to work with the project\n\nHere's an example for a .NET Web API project:\n\n### Creating CLAUDE.md Automatically\n\nYou can ask Claude to generate this file for you:\n\nClaude will scan your project, identify patterns, and create a comprehensive `CLAUDE.md`\n\n. You can then refine it based on your preferences.\n\nPro Tip:Treat`CLAUDE.md`\n\nas a living document. Commit it to version control so your entire team benefits. When coding standards evolve, update the file.\n\n### Does It Actually Work?\n\nLet me show you. After setting up `CLAUDE.md`\n\nwith a rule that says \"always create a git branch before making changes,\" I asked Claude to fix a bug:\n\nClaude found the bug in a TSX file, but before implementing the fix, **it asked to create a new branch first** - exactly as instructed in my `CLAUDE.md`\n\nThat's the power of this file. Claude respects your workflow.\n\n## Claude Code Plan Mode - Think Before You Code\n\nHere's a mistake I see developers make with AI coding tools: they jump straight into implementation without planning.\n\nClaude Code has a **Plan Mode** specifically designed to prevent this. When you're in Plan Mode, Claude can only:\n\n- Read files\n- Search and grep through code\n- Browse the web for documentation\n- Ask you clarifying questions\n\nIt **cannot** write, modify, or execute anything. It's forced to think first.\n\n### How to Enter Plan Mode\n\nPress `Shift + Tab`\n\ntwice to cycle to Plan Mode - you'll see the indicator in the bottom left corner of the prompt.\n\nWindows users:If`Shift + Tab`\n\nonly toggles between Edit and Auto-accept modes, try`Alt + M`\n\ninstead. There's a known issue on some Windows setups where Plan Mode is skipped in the cycle.\n\n### When to Use Plan Mode\n\nUse Plan Mode when:\n\n- Starting a new feature with multiple components\n- Making architectural changes\n- You're not 100% sure about the approach\n- Working on an unfamiliar codebase\n\n### A Real Example\n\nLet's say I want to build a chore management app. Instead of vibe-coding with a vague prompt like \"make me a chore app,\" I enter Plan Mode and write:\n\nClaude will now ask targeted questions:\n\n- \"Should this be React, Vue, or another framework?\"\n- \"Local storage or a backend database?\"\n- \"Do you need authentication?\"\n- \"Any specific UI library preferences?\"\n\nAfter I answer, Claude generates a detailed implementation plan:\n\n- Project structure\n- Data models\n- Component breakdown\n- Implementation phases\n- Key design decisions\n\n**This is like pair programming with a senior engineer.** You discuss the approach, agree on the plan, and only then do you execute.\n\nIf I see something I disagree with (like Claude choosing JavaScript instead of TypeScript), I can say:\n\nClaude regenerates the plan. Once I'm satisfied, I approve it and Claude starts implementing - now with a clear roadmap.\n\n## Claude Code Context Window - How It Understands Your Codebase\n\nOne thing that sets Claude Code apart is its **200,000-token context window**. For perspective:\n\n- GitHub Copilot practically uses around 8,000 tokens\n- GPT-4 Turbo supports 128,000 tokens\n- Claude Code can hold roughly\n**150,000 words**of code and conversation in memory\n\nThis means Claude can genuinely understand large codebases. I've used it on .NET solutions with 50+ projects, and it navigates them effectively.\n\n### How Context Works\n\nWhen you start a session, Claude doesn't load your entire codebase into memory immediately. Instead, it:\n\n- Reads your\n`CLAUDE.md`\n\nfile - Scans the project structure\n- Loads files on-demand as needed\n- Maintains conversation history\n\nIf you're working on a specific feature, Claude will read the relevant files, understand the dependencies, and keep that context as you iterate.\n\n### Managing Context\n\nContext can fill up during long sessions. Here are some tips:\n\n**Clear conversation history:**\nType `/clear`\n\nto reset the conversation while keeping your `CLAUDE.md`\n\ncontext.\n\n**Use subagents for isolated tasks:**\nWhen Claude spawns a subagent (a focused task), it gets its own context. This prevents bloating your main session.\n\n**Keep CLAUDE.md concise:**\nSince `CLAUDE.md`\n\nis loaded into every session, don't dump your entire documentation there. Keep it focused and link to external files for details.\n\n## Claude Code Hooks - Automate Your Workflow\n\nHooks let you run custom actions at specific points in Claude's workflow. They're event-driven:\n\n**PreToolUse**- Runs before Claude uses a tool (like before writing a file)**PostToolUse**- Runs after a tool completes**Stop**- Runs when Claude finishes a task\n\nFor example, you could set up a hook to automatically run your linter after every file edit, or validate a deployment script before execution.\n\nHooks are powerful for teams that want to enforce quality gates automatically. I'll cover them in depth in a follow-up article.\n\n## Claude Code Custom Commands - Create Your Own Shortcuts\n\nYou can create custom commands to streamline repetitive tasks. These live in the `.claude/commands/`\n\nfolder as Markdown files.\n\nFor example, create `.claude/commands/test.md`\n\n:\n\nNow you can type `/test`\n\nin Claude, and it executes your predefined prompt.\n\nSome ideas for custom commands:\n\n`/pr`\n\n- Create a pull request with a structured description`/review`\n\n- Review the current changes for code quality`/migrate`\n\n- Generate an EF Core migration\n\nI'll do a deep dive on custom commands in the next article. They're a productivity multiplier once you get the hang of them.\n\n## Claude Code Pricing 2026 - Plans and Rate Limits Explained\n\nClaude Code access comes with your Claude subscription. Here's the breakdown:\n\n| Plan | Price | Claude Code Access | Usage |\n|---|---|---|---|\nFree | $0 | No access | - |\nPro | $20/month | Yes | ~45 messages per 5-hour window |\nMax 5x | $100/month | Yes | ~225 messages per 5-hour window |\nMax 20x | $200/month | Yes | ~900 messages per 5-hour window |\n\n**My recommendation:** Start with the Pro plan at $20/month. It's enough for most individual developers. If you're using Claude Code all day for heavy development, consider Max 5x.\n\nFor teams, there's a Teams plan with centralized billing and admin dashboards - useful for tracking usage across developers.\n\nNo per-message overage fees- you get a fixed allocation per time window, and it resets. No surprise bills.\n\n### What Happens When You Hit the Rate Limit?\n\nThis is something every Claude Code user experiences eventually - you're in the zone, shipping features, and suddenly Claude says it needs to wait.\n\nHere's what actually happens:\n\n**You get a warning**- Claude will tell you that you're approaching your usage limit for the current window.**Requests slow down or pause**- Once you hit the limit, Claude won't process new prompts until the window resets.**The 5-hour window resets**- Your allocation refreshes every 5 hours. If you hit the limit at 2 PM, you'll get a fresh allocation around 7 PM.\n\n**How to manage this:**\n\n**Break work into sessions.**If you're on Pro, plan your heavy Claude Code sessions around the 5-hour windows. Don't burn through 45 messages on small tasks.**Use Plan Mode strategically.**Planning consumes fewer resources than execution. Do your thinking in Plan Mode, then execute efficiently.**Batch your requests.**Instead of asking Claude to fix one file, then another, then another - describe the full scope and let it handle multiple files in one go.**Know when to upgrade.**If you're consistently hitting limits before lunch, Max 5x at $100/month gives you 5x the headroom. For all-day coding, Max 20x is worth it.\n\nI've been on Max 5x for months, and I rarely hit the ceiling. But when I was on Pro, I learned to be strategic - mornings for heavy implementation, afternoons for review and planning.\n\n## 6 Claude Code Tips From a Power User\n\nAfter using Claude Code extensively, here are my top tips - lessons learned from real projects, not theory.\n\n### 1. Talk to Claude Like a Senior Engineer\n\nBe clear, specific, and direct. You don't need to be overly polite or use corporate speak - just state the facts.\n\n**Instead of:**\n\n**Try:**\n\nClaude responds better to specific, actionable instructions. Treat it like a capable colleague who needs clear requirements, not hand-holding.\n\n### 2. Commit Early, Commit Often\n\nThis one has saved me countless times. Before you pile on more prompts, **commit your working state**.\n\nAI can introduce regressions. Claude might fix one bug and accidentally break something else. If you've committed after each successful change, rolling back is trivial:\n\nI commit after every meaningful change Claude makes. It takes seconds and gives you a safety net.\n\n### 3. Review the Code - Always\n\nClaude is a teammate, not a replacement for code review. I've seen Claude:\n\n- Add dependencies I didn't ask for\n- Use patterns that don't match my architecture\n- Write code that works but isn't idiomatic\n\nCheck its work like you would any pull request. Read the diff, understand the changes, and push back if something doesn't look right.\n\n### 4. Use Plan Mode for Anything Non-Trivial\n\nIf a task touches more than 2-3 files or involves any architectural decisions, start in Plan Mode. The upfront planning saves hours of back-and-forth later.\n\nI've learned this the hard way - jumping straight into implementation with a vague prompt leads to Claude making assumptions. Those assumptions compound, and suddenly you're three files deep into an approach you don't want.\n\nPlan first. Execute with confidence.\n\n### 5. Invest in Your CLAUDE.md\n\nA well-crafted `CLAUDE.md`\n\npays dividends across every single session. Every minute you spend refining it saves you from repeating yourself later.\n\nThings worth adding:\n\n- Your naming conventions\n- Patterns you always use (Result pattern, MediatR, etc.)\n- Patterns you\n**never**want (no repository pattern, no AutoMapper, etc.) - How you structure commits and branches\n\nThe more specific your `CLAUDE.md`\n\n, the less you'll fight Claude on style decisions.\n\n### 6. Don't Be Afraid to Say \"No\"\n\nClaude will suggest approaches. Sometimes they're great. Sometimes they're not what you want.\n\nPush back. Say \"No, use X instead\" or \"I don't like this approach because Y.\" Claude is designed to iterate. It won't get offended, and it'll adapt to your preferences.\n\nThe best results come from a back-and-forth dialogue, not blind acceptance of the first suggestion.\n\n## Claude Code FAQ - Common Issues and Solutions\n\nHere are the questions I get asked most often about Claude Code.\n\n### How to Fix npm Install Permission Errors\n\nDon't use `sudo npm install -g`\n\n. Instead, fix npm's permissions:\n\nAdd that last line to your `.bashrc`\n\nor `.zshrc`\n\nto make it permanent. Then run the install again without sudo.\n\nOn Windows, run your terminal as Administrator for the initial install, or use the native installer instead of npm.\n\n### Why Doesn't Claude Code Understand My Project Structure?\n\nThis usually means Claude hasn't read enough context. Try:\n\n**Create a**- This is the single biggest improvement you can make.`CLAUDE.md`\n\nfile**Explicitly tell Claude to explore**- Say \"Read the project structure and understand the architecture before making changes.\"**Point Claude to key files**- \"Look at`src/Application/`\n\nto understand how we structure commands and handlers.\"\n\nClaude doesn't automatically read every file. It reads on-demand. Guide it to the important parts.\n\n### How to Prevent Claude Code From Making Unwanted Changes\n\nThis happens. Claude sometimes \"improves\" code while fixing something else. A few ways to prevent this:\n\n**Be explicit about scope**- \"Only modify the`UserService`\n\nclass. Don't touch anything else.\"**Add rules to**- \"Never refactor code unless explicitly asked.\"`CLAUDE.md`\n\n**Use Plan Mode**- Review the plan before Claude executes. If you see unrelated changes, tell it to remove them.\n\nAnd always: commit before asking Claude to make changes. Easy rollback.\n\n### What to Do When Claude Code Forgets Earlier Instructions\n\nLong sessions can exhaust context. When this happens:\n\n**Type**- This resets the conversation but keeps your`/clear`\n\n`CLAUDE.md`\n\nloaded.**Start a new session**- Close and reopen Claude Code. Fresh context.**Summarize before continuing**- After`/clear`\n\n, paste a brief summary: \"We're building X. We've completed Y. Next step is Z.\"\n\nFor very long tasks, I break them into multiple sessions intentionally. Each session has focused scope.\n\n### How to Stop Claude Code From Suggesting Unwanted Patterns\n\nPut your preferences in `CLAUDE.md`\n\n. Be explicit:\n\nClaude follows these rules reliably once they're documented.\n\n### Is My Code Sent to Anthropic's Servers?\n\nYes - Claude Code sends your code to Anthropic's API for processing. This is how it works.\n\nHowever, Anthropic has stated that data from Claude Pro/Max subscriptions is **not used to train models**. If you're working on sensitive code, check your company's AI usage policy and Anthropic's terms of service.\n\nFor enterprise needs, there's a Teams plan with additional compliance features.\n\n### Can I Use Claude Code Offline?\n\nNo. Claude Code requires an internet connection to communicate with Anthropic's API. There's no offline mode.\n\nIf you're working in an air-gapped environment, Claude Code isn't an option - you'll need to look at local LLM solutions.\n\n## What's Next? - The Complete Claude Code Series\n\nThis was just the beginning. I'm building a **complete Claude Code series** for .NET developers - taking you from beginner to mass productivity.\n\nHere's what's coming:\n\n### CLAUDE.md Mastery\n\n**The Perfect CLAUDE.md for .NET Developers**- My exact template for Clean Architecture, Minimal APIs, and enterprise .NET projects. Copy-paste ready.**Everything You Need to Know About CLAUDE.md**- Deep dive into progressive disclosure, team sharing, and advanced patterns.\n\n### Core Features\n\n**Understanding Plan Mode**- When to use it, when to skip it, and how to get the most out of planning sessions.**Understanding Subagents in Claude Code**- How Claude spawns focused tasks, context isolation, and multi-agent patterns.**Skills in Claude Code**- Build custom slash commands that 10x your workflow. I'll share my personal`/pr`\n\n,`/review`\n\n, and`/migrate`\n\ncommands.\n\n### Advanced (Coming Soon)\n\n**Hooks**- Automate linting, testing, and deployment validation**MCP (Model Context Protocol)**- Connect Claude to Jira, GitHub, databases, and Slack**YOLO Mode & Context Management**- When to go fast, and how to handle massive codebases\n\n**This series will be the most comprehensive Claude Code resource for .NET developers on the internet.** No fluff, just practical patterns you can use tomorrow.\n\n**What are your thoughts on AI coding assistants?** Are you using Copilot, Cursor, or something else? Let me know in the comments - I'm curious how other developers are integrating AI into their workflows.\n\nHappy Coding :)\n",
+  "metadata": {
+    "source_url": "https://codewithmukesh.com/blog/claude-code-for-beginners/",
+    "source_domain": "codewithmukesh.com",
+    "topic": "claude-code-workflow",
+    "fetched_at": "2026-05-25T06:37:42.024992+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+    "description": "Learn Claude Code from scratch in 15 minutes. Step-by-step installation, CLAUDE.md setup, Plan Mode mastery, and honest comparison with GitHub Copilot and Cursor. Includes practical tips from daily usage.",
+    "language": "en",
+    "word_count": 4087,
+    "content_hash": "sha256:02dc7853261bf3eeb5095e9dd2f216e0b671e927cc97bcecad5b03ec894aa237",
+    "reading_time": 21,
+    "author": "Mukesh Murugan",
+    "published_date": "2026-01-15",
+    "og_title": null,
+    "signal_score": 0.8647,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Beginner tutorial on Claude Code covering installation, features, comparison with GitHub Copilot and Cursor, CLAUDE.md setup, and workflow examples for .NET development.",
+    "entities": {
+      "primary": "Claude Code for beginners",
+      "aliases": [
+        "Claude Code tutorial",
+        "Claude Code introduction"
+      ]
+    },
+    "core_question": "How do I get started using Claude Code as a beginner?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "installation",
+      "agentic system",
+      "CLAUDE.md",
+      "Plan Mode",
+      "tool comparison",
+      ".NET development"
+    ]
+  },
+  "structure": {
+    "section_count": 43,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+        "section_type": "title",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding"
+        ],
+        "char_start": 0,
+        "char_end": 25924
+      },
+      {
+        "level": 2,
+        "title": "What is Claude Code? (2026 Overview)",
+        "section_type": "intro",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "What is Claude Code? (2026 Overview)"
+        ],
+        "char_start": 1193,
+        "char_end": 2203
+      },
+      {
+        "level": 2,
+        "title": "Claude Code vs GitHub Copilot vs ChatGPT vs Cursor - Quick Comparison",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code vs GitHub Copilot vs ChatGPT vs Cursor - Quick Comparison"
+        ],
+        "char_start": 2203,
+        "char_end": 7689
+      },
+      {
+        "level": 3,
+        "title": "My Journey Through AI Coding Tools",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code vs GitHub Copilot vs ChatGPT vs Cursor - Quick Comparison",
+          "My Journey Through AI Coding Tools"
+        ],
+        "char_start": 4084,
+        "char_end": 6115
+      },
+      {
+        "level": 3,
+        "title": "The Real Lesson: Use Every Tool for What It's Best At",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code vs GitHub Copilot vs ChatGPT vs Cursor - Quick Comparison",
+          "The Real Lesson: Use Every Tool for What It's Best At"
+        ],
+        "char_start": 6115,
+        "char_end": 7689
+      },
+      {
+        "level": 2,
+        "title": "Claude Code Installation - Get Running in 5 Minutes",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Installation - Get Running in 5 Minutes"
+        ],
+        "char_start": 7689,
+        "char_end": 10376
+      },
+      {
+        "level": 3,
+        "title": "CLI vs Desktop vs Cloud - Pick Your Flavor",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Installation - Get Running in 5 Minutes",
+          "CLI vs Desktop vs Cloud - Pick Your Flavor"
+        ],
+        "char_start": 7965,
+        "char_end": 9757
+      },
+      {
+        "level": 3,
+        "title": "Windows Installation",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Installation - Get Running in 5 Minutes",
+          "Windows Installation"
+        ],
+        "char_start": 9757,
+        "char_end": 10270
+      },
+      {
+        "level": 3,
+        "title": "macOS / Linux Installation",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Installation - Get Running in 5 Minutes",
+          "macOS / Linux Installation"
+        ],
+        "char_start": 10270,
+        "char_end": 10376
+      },
+      {
+        "level": 2,
+        "title": "CLAUDE.md File - How to Configure Claude Code for Your Project",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "CLAUDE.md File - How to Configure Claude Code for Your Project"
+        ],
+        "char_start": 10376,
+        "char_end": 11984
+      },
+      {
+        "level": 3,
+        "title": "What to Put in CLAUDE.md",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "CLAUDE.md File - How to Configure Claude Code for Your Project",
+          "What to Put in CLAUDE.md"
+        ],
+        "char_start": 10886,
+        "char_end": 11201
+      },
+      {
+        "level": 3,
+        "title": "Creating CLAUDE.md Automatically",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "CLAUDE.md File - How to Configure Claude Code for Your Project",
+          "Creating CLAUDE.md Automatically"
+        ],
+        "char_start": 11201,
+        "char_end": 11588
+      },
+      {
+        "level": 3,
+        "title": "Does It Actually Work?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "CLAUDE.md File - How to Configure Claude Code for Your Project",
+          "Does It Actually Work?"
+        ],
+        "char_start": 11588,
+        "char_end": 11984
+      },
+      {
+        "level": 2,
+        "title": "Claude Code Plan Mode - Think Before You Code",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Plan Mode - Think Before You Code"
+        ],
+        "char_start": 11984,
+        "char_end": 13912
+      },
+      {
+        "level": 3,
+        "title": "How to Enter Plan Mode",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Plan Mode - Think Before You Code",
+          "How to Enter Plan Mode"
+        ],
+        "char_start": 12458,
+        "char_end": 12794
+      },
+      {
+        "level": 3,
+        "title": "When to Use Plan Mode",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Plan Mode - Think Before You Code",
+          "When to Use Plan Mode"
+        ],
+        "char_start": 12794,
+        "char_end": 13002
+      },
+      {
+        "level": 3,
+        "title": "A Real Example",
+        "section_type": "example",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Plan Mode - Think Before You Code",
+          "A Real Example"
+        ],
+        "char_start": 13002,
+        "char_end": 13912
+      },
+      {
+        "level": 2,
+        "title": "Claude Code Context Window - How It Understands Your Codebase",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Context Window - How It Understands Your Codebase"
+        ],
+        "char_start": 13912,
+        "char_end": 15333
+      },
+      {
+        "level": 3,
+        "title": "How Context Works",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Context Window - How It Understands Your Codebase",
+          "How Context Works"
+        ],
+        "char_start": 14397,
+        "char_end": 14801
+      },
+      {
+        "level": 3,
+        "title": "Managing Context",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Context Window - How It Understands Your Codebase",
+          "Managing Context"
+        ],
+        "char_start": 14801,
+        "char_end": 15333
+      },
+      {
+        "level": 2,
+        "title": "Claude Code Hooks - Automate Your Workflow",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Hooks - Automate Your Workflow"
+        ],
+        "char_start": 15333,
+        "char_end": 15913
+      },
+      {
+        "level": 2,
+        "title": "Claude Code Custom Commands - Create Your Own Shortcuts",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Custom Commands - Create Your Own Shortcuts"
+        ],
+        "char_start": 15913,
+        "char_end": 16551
+      },
+      {
+        "level": 2,
+        "title": "Claude Code Pricing 2026 - Plans and Rate Limits Explained",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Pricing 2026 - Plans and Rate Limits Explained"
+        ],
+        "char_start": 16551,
+        "char_end": 18812
+      },
+      {
+        "level": 3,
+        "title": "What Happens When You Hit the Rate Limit?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code Pricing 2026 - Plans and Rate Limits Explained",
+          "What Happens When You Hit the Rate Limit?"
+        ],
+        "char_start": 17384,
+        "char_end": 18812
+      },
+      {
+        "level": 2,
+        "title": "6 Claude Code Tips From a Power User",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "6 Claude Code Tips From a Power User"
+        ],
+        "char_start": 18812,
+        "char_end": 21437
+      },
+      {
+        "level": 3,
+        "title": "1. Talk to Claude Like a Senior Engineer",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "6 Claude Code Tips From a Power User",
+          "1. Talk to Claude Like a Senior Engineer"
+        ],
+        "char_start": 18962,
+        "char_end": 19294
+      },
+      {
+        "level": 3,
+        "title": "2. Commit Early, Commit Often",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "6 Claude Code Tips From a Power User",
+          "2. Commit Early, Commit Often"
+        ],
+        "char_start": 19294,
+        "char_end": 19702
+      },
+      {
+        "level": 3,
+        "title": "3. Review the Code - Always",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "6 Claude Code Tips From a Power User",
+          "3. Review the Code - Always"
+        ],
+        "char_start": 19702,
+        "char_end": 20075
+      },
+      {
+        "level": 3,
+        "title": "4. Use Plan Mode for Anything Non-Trivial",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "6 Claude Code Tips From a Power User",
+          "4. Use Plan Mode for Anything Non-Trivial"
+        ],
+        "char_start": 20075,
+        "char_end": 20543
+      },
+      {
+        "level": 3,
+        "title": "5. Invest in Your CLAUDE.md",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "6 Claude Code Tips From a Power User",
+          "5. Invest in Your CLAUDE.md"
+        ],
+        "char_start": 20543,
+        "char_end": 21035
+      },
+      {
+        "level": 3,
+        "title": "6. Don't Be Afraid to Say \"No\"",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "6 Claude Code Tips From a Power User",
+          "6. Don't Be Afraid to Say \"No\""
+        ],
+        "char_start": 21035,
+        "char_end": 21437
+      },
+      {
+        "level": 2,
+        "title": "Claude Code FAQ - Common Issues and Solutions",
+        "section_type": "faq",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions"
+        ],
+        "char_start": 21437,
+        "char_end": 24354
+      },
+      {
+        "level": 3,
+        "title": "How to Fix npm Install Permission Errors",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions",
+          "How to Fix npm Install Permission Errors"
+        ],
+        "char_start": 21553,
+        "char_end": 21899
+      },
+      {
+        "level": 3,
+        "title": "Why Doesn't Claude Code Understand My Project Structure?",
+        "section_type": "intro",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions",
+          "Why Doesn't Claude Code Understand My Project Structure?"
+        ],
+        "char_start": 21899,
+        "char_end": 22445
+      },
+      {
+        "level": 3,
+        "title": "How to Prevent Claude Code From Making Unwanted Changes",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions",
+          "How to Prevent Claude Code From Making Unwanted Changes"
+        ],
+        "char_start": 22445,
+        "char_end": 22969
+      },
+      {
+        "level": 3,
+        "title": "What to Do When Claude Code Forgets Earlier Instructions",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions",
+          "What to Do When Claude Code Forgets Earlier Instructions"
+        ],
+        "char_start": 22969,
+        "char_end": 23472
+      },
+      {
+        "level": 3,
+        "title": "How to Stop Claude Code From Suggesting Unwanted Patterns",
+        "section_type": "step",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions",
+          "How to Stop Claude Code From Suggesting Unwanted Patterns"
+        ],
+        "char_start": 23472,
+        "char_end": 23650
+      },
+      {
+        "level": 3,
+        "title": "Is My Code Sent to Anthropic's Servers?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions",
+          "Is My Code Sent to Anthropic's Servers?"
+        ],
+        "char_start": 23650,
+        "char_end": 24084
+      },
+      {
+        "level": 3,
+        "title": "Can I Use Claude Code Offline?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "Claude Code FAQ - Common Issues and Solutions",
+          "Can I Use Claude Code Offline?"
+        ],
+        "char_start": 24084,
+        "char_end": 24354
+      },
+      {
+        "level": 2,
+        "title": "What's Next? - The Complete Claude Code Series",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "What's Next? - The Complete Claude Code Series"
+        ],
+        "char_start": 24354,
+        "char_end": 25924
+      },
+      {
+        "level": 3,
+        "title": "CLAUDE.md Mastery",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "What's Next? - The Complete Claude Code Series",
+          "CLAUDE.md Mastery"
+        ],
+        "char_start": 24574,
+        "char_end": 24873
+      },
+      {
+        "level": 3,
+        "title": "Core Features",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "What's Next? - The Complete Claude Code Series",
+          "Core Features"
+        ],
+        "char_start": 24873,
+        "char_end": 25272
+      },
+      {
+        "level": 3,
+        "title": "Advanced (Coming Soon)",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code Tutorial for Beginners - Complete 2026 Guide to AI Coding",
+          "What's Next? - The Complete Claude Code Series",
+          "Advanced (Coming Soon)"
+        ],
+        "char_start": 25272,
+        "char_end": 25924
+      }
+    ]
+  },
+  "links": [
+    "https://claude.ai/download",
+    "https://anthropic.com",
+    "https://claude.ai",
+    "https://github.com/features/copilot",
+    "https://chat.openai.com",
+    "https://cursor.com",
+    "https://fullstackhero.net/",
+    "https://play.google.com/store/apps/details?id=com.anthropic.claude",
+    "https://nodejs.org"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

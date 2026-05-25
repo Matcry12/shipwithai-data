@@ -1,0 +1,53 @@
+{
+  "markdown": "# GitHub - atmcq/resume: Resume for Andrew McQuillen - Senior Engineer / Tech Lead\n\nHi, I'm Andrew McQuillen (https://github.com/atmcq). I am a Senior Engineer and Tech Lead with 20+ years' experience delivering scalable enterprise SaaS systems. I also have experience in databases, backend systems, and client-facing technical roles.\n\nI like to build impactful software, talk to people and solve problems.\n\nMost of my code contributions are found in my employer's enterprise GitHub (it's here if you happen to be a Civican). However if you would like to know more about what I do, my resume is below.\n\nClick the image below to download the PDF:\n\nThis repository contains my CV in LaTeX format. The PDF is automatically built and deployed to GitHub Pages. It uses a slightly modified version of Ethan's Resume Template by necusjz.\n\n`main.tex`\n\n— LaTeX source for the CV`main.pdf`\n\n— Compiled PDF (auto-generated via GitHub Actions)`main_preview.png`\n\n— First-page preview of the PDF\n",
+  "metadata": {
+    "source_url": "https://github.com/atmcq/resume",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:04.603208+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "GitHub - atmcq/resume: Resume for Andrew McQuillen - Senior Engineer / Tech Lead",
+    "description": "Resume for Andrew McQuillen - Senior Engineer / Tech Lead - atmcq/resume",
+    "language": "en",
+    "word_count": 155,
+    "content_hash": "sha256:c4e65d735b1d0ab3e413b4ffba3e9f0594ad80bb31dc1407566e40ff120d7cdf",
+    "reading_time": 1,
+    "author": "Atmcq",
+    "published_date": "2025-09-19",
+    "og_title": null,
+    "signal_score": 0.6292,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "GitHub - atmcq/resume: Resume for Andrew McQuillen - Senior Engineer / Tech Lead",
+        "section_type": "title",
+        "header_path": [
+          "GitHub - atmcq/resume: Resume for Andrew McQuillen - Senior Engineer / Tech Lead"
+        ],
+        "char_start": 0,
+        "char_end": 983
+      }
+    ]
+  },
+  "links": [
+    "https://github.com/atmcq",
+    "https://github.com/Andrew-McQuillen_civica",
+    "https://github.com/necusjz/resume.tex",
+    "https://github.com/necusjz"
+  ],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

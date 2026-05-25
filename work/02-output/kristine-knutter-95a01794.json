@@ -1,0 +1,54 @@
+{
+  "markdown": "**Kristine Knutter**Yes, You Can Put a Career Break on Your Resume. Here's How.\n\n# Kristine Knutter\n\nKristine Knutter is a communication and career coach who works with 200+ job seekers and physicians annually to express themselves clearly, confidently, and persuasively to build trust and credibility with employers and achieve their career goals. She's the host of the popular *Express to Impress Podcast* and instructor of a five-hour online course for job seekers. TEFL-certified, she specializes in ESL job seekers and physicians and has a vast wealth of experience and knowledge regarding cultural differences that impact communication in the workplace. You can connect with her on LinkedIn, where she shares communication and career tips and stories.\n",
+  "metadata": {
+    "source_url": "https://www.themuse.com/author/kristine-knutter",
+    "source_domain": "themuse.com",
+    "topic": "career-gap",
+    "fetched_at": "2026-05-25T06:46:55.443008+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Kristine Knutter",
+    "description": "<p>Kristine Knutter is a communication and career coach who works with 200+ job seekers and physicians annually to express themselves clearly, confidently, and persuasively to build trust and credibility with employers and achieve their career goals. She’s the host of the popular <a href=\"https://www.express-to-impress.com/podcast/\" target=\"_blank\" rel=\"noreferrer noopener\"><em>Express to Impress Podcast</em></a> and instructor of a five-hour <a href=\"https://www.express-to-impress.com/courses/\" target=\"_blank\" rel=\"noreferrer noopener\">online course for job seekers</a>. TEFL-certified, she specializes in ESL job seekers and physicians and has a vast wealth of experience and knowledge regarding cultural differences that impact communication in the workplace. You can connect with her on <a href=\"https://www.linkedin.com/in/kristine-ceip/\" target=\"_blank\" rel=\"noreferrer noopener\">LinkedIn</a>, where she shares communication and career tips and stories.</p>",
+    "language": "en",
+    "word_count": 115,
+    "content_hash": "sha256:28b02a4883d9cf8f7ee37576189dbf088309ea38df31064b33ce7361a4f5eae9",
+    "reading_time": 1,
+    "author": "ARTICLES BY KRISTINE KNUTTER By Kristine Knutter Yes; You Can Put a Career Break",
+    "published_date": "2022-12-01",
+    "og_title": null,
+    "signal_score": 0.5958,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Kristine Knutter",
+        "section_type": "title",
+        "header_path": [
+          "Kristine Knutter"
+        ],
+        "char_start": 81,
+        "char_end": 758
+      }
+    ]
+  },
+  "links": [
+    "https://www.themuse.com/author/kristine-knutter",
+    "https://www.themuse.com/advice/career-break-resume-samples",
+    "https://www.express-to-impress.com/podcast/",
+    "https://www.express-to-impress.com/courses/",
+    "https://www.linkedin.com/in/kristine-ceip/"
+  ],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

@@ -1,0 +1,382 @@
+{
+  "markdown": "# GitHub Portfolio for Junior Developers: What to Include (and What to Remove))\n\nUpdated on February 11, 2026 11 minutes read\n\nYour GitHub profile can open doors fast or quietly close them because it's one of the first places hiring teams look for proof of real, hands-on skills.\n\nIf you're a junior developer or switching careers into tech, your GitHub portfolio often stands in for \"experience\" until you've had your first role.\n\nThe good news is you don't need dozens of repositories to look credible. You need a small set of projects that are easy to understand, easy to run, and clearly yours.\n\nThis article walks you through exactly what to include in a job-ready GitHub portfolio, what to remove (or hide), and how to shape your profile so it tells a clear story in under a minute.\n\n## Why your GitHub portfolio matters more than you think\n\nRecruiters and hiring managers are busy, so they scan for signals instead of reading every line. They want to know if you can ship features, explain decisions, and work like a teammate.\n\nA strong GitHub portfolio for junior developers reduces uncertainty. It shows that you don't just \"know concepts,\" you can build, debug, and document real software.\n\nIt also helps you stand out when your resume is light. When two candidates look similar on paper, the one with a polished GitHub often gets the interview.\n\n## How hiring teams review a junior GitHub profile\n\nMost reviewers follow the same pattern: profile page, pinned repositories, README quality, then a quick code skim. If something looks confusing or messy early, they usually move on.\n\nThey're not expecting enterprise-level architecture from a junior. They're looking for clear thinking, clean basics, and evidence you can keep improving.\n\nThat's why presentation matters as much as code. A simple project with excellent documentation often beats a complex project that nobody can run.\n\n## Pick a clear direction so your portfolio feels intentional\n\nBefore you polish anything, decide which kind of role you're aiming for right now. Your GitHub doesn't need to cover every interest, but your best work should point in one direction.\n\nIf you want frontend roles, emphasize UI, accessibility, performance, and testing. If you want backend or full-stack roles, emphasize APIs, databases, authentication, and deployment.\n\nIf you're still exploring, choose a \"default\" target for your next 8–12 weeks. You can always pivot later, but right now, you want your GitHub to look focused.\n\n## What to include in your GitHub portfolio\n\n### Start with a clean profile that reads like a landing page\n\nThink of your GitHub profile as the front desk of your personal brand. In a few seconds, someone should understand your target role, your stack, and how to contact you.\n\nAdd a short bio that includes your goal and core tools, like \"Junior Full-Stack Developer | React, Node, PostgreSQL.\" Include a link to LinkedIn or a portfolio site, and add a contact option that you actually check.\n\nAlso, pin your best work so it's impossible to miss. A reviewer shouldn't have to dig through a list of random repos to find your strongest projects.\n\n### Add a Profile README that guides the reader\n\nA Profile README is one of the highest-impact upgrades you can make. It helps you control the narrative instead of letting GitHub's default layout do the talking.\n\nUse it to highlight two to four featured projects, each with a one-line description and a demo link. Add a short \"What I'm learning now\" section to show momentum without oversharing.\n\nKeep it calm and simple. You're aiming for clarity and confidence, not a flashy wall of badges.\n\n### Choose 3–6 flagship repositories, not 30 experiments\n\nA common mistake is treating GitHub like a storage drive for every tutorial and practice file. That creates noise, and noise makes people assume your work is unfocused.\n\nA strong junior portfolio usually includes one bigger \"anchor\" project plus a few supporting projects. This combination proves you can handle both depth and polish.\n\nAs a practical mix, aim for one full-stack or end-to-end project, one smaller but beautifully finished app, and one repo that proves a specific skill like testing, TypeScript, or data analysis.\n\n### Include projects that resemble real problems, not only \"toy apps.s\"\n\nTutorial projects can help you learn, but portfolio projects should show ownership. Ownership means you made decisions, handled trade-offs, and improved the project beyond the walkthrough.\n\nIf you're applying for web development roles, build something with real flows like sign-up, search, filtering, and error states. If you're aiming for data roles, show a clean pipeline from raw data to insight, with reproducible steps.\n\nIf you're exploring cybersecurity, focus on defensive work like scripts, hardening checklists, and lab write-ups. You want to demonstrate responsible learning without sharing anything unsafe.\n\n### Write READMEs that make your work easy to evaluate\n\nA README is not decoration. It's your project's first interview, and it answers the reviewer's main question: \"What is this, and why should I care?\"\n\nStart with a one-sentence problem statement, then add a demo link and screenshots. Explain the core features in plain language before you list tools and setup steps.\n\nInclude installation steps that actually work, and mention any environment variables clearly. A reviewer who can run your project quickly is far more likely to remember you.\n\nHere's a simple README structure you can reuse:\n\n```\n# Project Name\nOne-line description of the problem this solves.\n## Demo\nLive: https://...\nScreenshots/GIF: (add image)\n## Features\nDescribe the 3–6 most important user-facing features.\n## Tech Stack\nFrontend:\nBackend:\nDatabase:\nTesting/CI:\n## Setup\n1) Clone\n2) Install\n3) Add environment variables (see .env.example)\n4) Run locally\n## What I learned\nA few bullets about decisions, trade-offs, and improvements.\n## Roadmap\n2–4 next steps that show product thinking.\n```\n\n### Show \"good engineering habits\" even at the beginner level\n\nYou don't need perfect architecture to impress a hiring team. You need signs that you work carefully and can contribute to a team process.\n\nAdd linting and formatting so your code looks consistent. Include a `.gitignore`\n\n, and never commit `node_modules`\n\nor secrets.\n\nIf your project uses environment variables, add an `.env.example`\n\nwith placeholder values. This tiny detail often separates \"beginner practice\" from \"job-ready project.\"\n\n### Add basic tests where they matter most\n\nTesting is a strong differentiator for juniors because many applicants skip it. Even a few high-value tests can signal professionalism and reduce reviewer anxiety.\n\nFor a web app, test your most important user flows like login, form validation, and API error handling. For an API, test key endpoints and authorization rules.\n\nBe honest in your README about what you tested. \"Basic tests added for auth and main endpoints\" is credible and useful.\n\n### Add simple CI so your repo looks active and reliable\n\nContinuous integration sounds advanced, but the basic version is straightforward. A simple GitHub Actions workflow that runs lint and tests on push makes your repo feel real.\n\nIt also helps reviewers trust that your project won't break the second they clone it. That kind of trust matters more than most people realize.\n\nA minimal workflow might look like this:\n\n```\nname: CI\non: [push, pull_request]\njobs:\nchecks:\nruns-on: ubuntu-latest\nsteps:\n- uses: actions/checkout@v4\n- uses: actions/setup-node@v4\nwith:\nnode-version: 20\n- run: npm ci\n- run: npm run lint\n- run: npm test\n```\n\n### Include a live demo when it makes sense\n\nA live demo reduces friction because someone can see results instantly. It's especially powerful for frontend and full-stack projects.\n\nIf your app requires authentication, add a safe demo user or a guided walkthrough in the README. If a live demo isn't practical, include a short GIF showing the main features.\n\nJust make sure the demo is stable. A broken demo link hurts more than no demo at all.\n\n## What to remove (or make private) from your GitHub\n\n### Remove clutter that hides your best work\n\nMany juniors have ten versions of a \"to-do app\" or a \"weather app.\" That's normal learning, but it creates a messy first impression.\n\nIf a repo doesn't support your current job target, consider archiving it or making it private. Your goal is not to erase your journey, but to curate what strangers see first.\n\nKeep one or two learning repos only if you improved them significantly and can explain what you changed and why.\n\n### Hide unfinished repos that don't run\n\nUnfinished isn't always bad, but \"doesn't work\" is a problem. If a reviewer can't install or run your project, they can't trust what it demonstrates.\n\nIf you want to keep an unfinished project public, add a short note in the README. Explain what works, what doesn't, and what you would build next.\n\nThat turns an incomplete repo into a signal of honesty and planning, rather than a signal of abandonment.\n\n### Remove anything that contains secrets or sensitive data\n\nThis is the fastest way to lose trust. If you accidentally committed API keys, tokens, passwords, or `.env`\n\nfiles, fix it immediately.\n\nRotate the keys, remove them from the repository, and clean up your Git history if needed. Simply deleting a line in the latest commit may not be enough.\n\nA \"clean security baseline\" is especially important if you're targeting full-stack or cybersecurity roles, because employers will notice.\n\n### Reduce repos with messy commit history in your flagship work\n\nNobody expects perfect commit messages from a junior. What hiring teams do notice is carelessness that looks ongoing.\n\nIf your main portfolio repos are full of messages like \"final final\" or \"stuff,\" it can make your work feel rushed. Start using clear commit messages today, even if your older repos are messy.\n\nFor flagship repos you plan to share widely, consider cleaning history only if you understand the process. It's better to be consistent going forward than to break a repo trying to rewrite the past.\n\n### Avoid huge binary files and random uploads\n\nGitHub is great for code, not for storing massive files. Large videos, zip exports, and random assets make a repo feel disorganized.\n\nIf you need to include images, keep them optimized and relevant to the README. If you need datasets, link to the source and document how you used them.\n\nA clean repository structure helps reviewers find your best code quickly, which increases your chances of a positive evaluation.\n\n## How to choose what to pin on GitHub\n\nPinned repositories are your storefront window. Most reviewers will look at those first, so choose them like you're choosing what to place at eye level.\n\nPin projects that show range while staying relevant to your target role. You want a mix that proves you can build, not just experiment.\n\nA strong set often includes one \"big\" project that shows end-to-end ability, plus two or three smaller projects that show quality habits like testing, documentation, or UI polish.\n\n## Make your GitHub understandable to non-technical reviewers\n\nNot everyone who opens your GitHub is an engineer. Sometimes it's a recruiter doing an early screen, or a manager who codes less day-to-day.\n\nHelp them by adding a short \"Why this matters\" section in each README. Explain what problem the project solves and what outcome it delivers.\n\nAlso, add a \"What I learned\" section that focuses on real decisions. Mention trade-offs like performance, validation, deployment issues, or accessibility, because those sound like real work.\n\n## Add collaboration signals, even if you worked solo\n\nHiring teams care about teamwork because most jobs are collaborative. If your GitHub looks like you've never worked with review or feedback, it can raise questions.\n\nYou can add collaboration signals by using Issues to plan tasks, writing good PR descriptions, or opening PRs against your own repo for major changes.\n\nEven small open-source contributions count, especially documentation improvements. The key is demonstrating that you understand the workflow used in real teams.\n\nIf you want support building these habits, a program with mentoring and structured feedback can help. Many learners also benefit from career guidance like portfolio reviews and interview prep through **Code Labs Academy Career Services**.\n\n## A realistic weekend plan to clean up your GitHub portfolio\n\nStart by auditing your profile like a stranger. Pretend you're a recruiter who only has 60 seconds,s and ask what stands out and what confuses you.\n\nNext, sort your repositories into three groups: keep and polish, archive or private, and delete. This quick triage immediately improves your profile's signal-to-noise ratio.\n\nThen polish your flagship projects one by one. Add a clear README, screenshots, setup steps, and an `.env.example`\n\nif needed, and verify everything runs from a clean install.\n\nFinally, pin your best work and reorder it so the most relevant project appears first. If you're applying for frontend roles, put your best UI project at the top.\n\nIf you'd like a guided approach, explore the bootcamps overview or schedule a call with an advisor to get clarity on the best learning path for your goals.\n\n## A portfolio checklist you can use before you apply\n\nYour profile should clearly state your target role and core tech stack. It should also include a contact method and a link to LinkedIn or a portfolio site.\n\nYour pinned repositories should match the jobs you want, and each pinned repo should have a strong README with screenshots or a demo. The setup steps should work, and the project should run locally from a clean install.\n\nYour flagship repos should avoid secrets, include an `.env.example`\n\nwhere relevant, and show basic quality habits like linting, formatting, and at least a few meaningful tests.\n\nYour repository list should feel curated, not chaotic. If older tutorial work is burying your best projects, archive or hide it so reviewers see your strongest work immediately.\n\nIf you want extra practice materials while polishing your projects, you can also check the free resources in the Code Labs Academy Learning Hub.\n\n## Conclusion: Build a GitHub that earns trust in under a minute\n\nA great GitHub portfolio for junior developers is not about showing everything you've ever coded. It's about presenting a focused set of projects that prove you can build, explain, and improve software.\n\nPrioritize a clean profile, 3–6 polished repositories, strong READMEs, and basic engineering habits like testing and safe configuration. Remove clutter, hide broken work, and eliminate anything that risks security or trust.\n\nIf you want a faster, mentored path to job-ready skills and a portfolio that aligns with real roles, explore **Code Labs Academy bootcamps**. When you're ready, you can also **apply here** and take the next step toward your tech career.\n",
+  "metadata": {
+    "source_url": "https://codelabsacademy.com/en/blog/github-portfolio-junior-developers-what-to-include-remove/",
+    "source_domain": "codelabsacademy.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:37:43.861412+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "GitHub Portfolio for Junior Developers | What to Include",
+    "description": "Build a GitHub portfolio for junior developers: what to include, what to remove, and a practical checklist to get interviews. Explore Code Labs Academy.",
+    "language": "en",
+    "word_count": 2420,
+    "content_hash": "sha256:9d974b7a815560287c34b0dcd036fb7f6bed3bc3dc30ed83ae35938abd1c4bc5",
+    "reading_time": 13,
+    "author": null,
+    "published_date": "2026-02-11",
+    "og_title": null,
+    "signal_score": 0.9967,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Strategic guide for junior developers on curating GitHub portfolios with focus on what to include for jobs, what to remove, and README best practices.",
+    "entities": {
+      "primary": "Junior developer GitHub portfolio",
+      "aliases": [
+        "entry-level portfolio curation",
+        "junior dev profile optimization"
+      ]
+    },
+    "core_question": "What should junior developers include and exclude from GitHub to create effective job-search portfolios?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "GitHub portfolio",
+      "junior developers",
+      "README documentation",
+      "project selection",
+      "hiring teams",
+      "portfolio strategy"
+    ]
+  },
+  "structure": {
+    "section_count": 26,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+        "section_type": "title",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))"
+        ],
+        "char_start": 0,
+        "char_end": 14946
+      },
+      {
+        "level": 2,
+        "title": "Why your GitHub portfolio matters more than you think",
+        "section_type": "intro",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "Why your GitHub portfolio matters more than you think"
+        ],
+        "char_start": 790,
+        "char_end": 1357
+      },
+      {
+        "level": 2,
+        "title": "How hiring teams review a junior GitHub profile",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "How hiring teams review a junior GitHub profile"
+        ],
+        "char_start": 1357,
+        "char_end": 1894
+      },
+      {
+        "level": 2,
+        "title": "Pick a clear direction so your portfolio feels intentional",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "Pick a clear direction so your portfolio feels intentional"
+        ],
+        "char_start": 1894,
+        "char_end": 2486
+      },
+      {
+        "level": 2,
+        "title": "What to include in your GitHub portfolio",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio"
+        ],
+        "char_start": 2486,
+        "char_end": 8058
+      },
+      {
+        "level": 3,
+        "title": "Start with a clean profile that reads like a landing page",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Start with a clean profile that reads like a landing page"
+        ],
+        "char_start": 2531,
+        "char_end": 3132
+      },
+      {
+        "level": 3,
+        "title": "Add a Profile README that guides the reader",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Add a Profile README that guides the reader"
+        ],
+        "char_start": 3132,
+        "char_end": 3626
+      },
+      {
+        "level": 3,
+        "title": "Choose 3–6 flagship repositories, not 30 experiments",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Choose 3–6 flagship repositories, not 30 experiments"
+        ],
+        "char_start": 3626,
+        "char_end": 4215
+      },
+      {
+        "level": 3,
+        "title": "Include projects that resemble real problems, not only \"toy apps.s\"",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Include projects that resemble real problems, not only \"toy apps.s\""
+        ],
+        "char_start": 4215,
+        "char_end": 4907
+      },
+      {
+        "level": 3,
+        "title": "Write READMEs that make your work easy to evaluate",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Write READMEs that make your work easy to evaluate"
+        ],
+        "char_start": 4907,
+        "char_end": 5978
+      },
+      {
+        "level": 3,
+        "title": "Show \"good engineering habits\" even at the beginner level",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Show \"good engineering habits\" even at the beginner level"
+        ],
+        "char_start": 5978,
+        "char_end": 6483
+      },
+      {
+        "level": 3,
+        "title": "Add basic tests where they matter most",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Add basic tests where they matter most"
+        ],
+        "char_start": 6483,
+        "char_end": 6974
+      },
+      {
+        "level": 3,
+        "title": "Add simple CI so your repo looks active and reliable",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Add simple CI so your repo looks active and reliable"
+        ],
+        "char_start": 6974,
+        "char_end": 7613
+      },
+      {
+        "level": 3,
+        "title": "Include a live demo when it makes sense",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to include in your GitHub portfolio",
+          "Include a live demo when it makes sense"
+        ],
+        "char_start": 7613,
+        "char_end": 8058
+      },
+      {
+        "level": 2,
+        "title": "What to remove (or make private) from your GitHub",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to remove (or make private) from your GitHub"
+        ],
+        "char_start": 8058,
+        "char_end": 10566
+      },
+      {
+        "level": 3,
+        "title": "Remove clutter that hides your best work",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to remove (or make private) from your GitHub",
+          "Remove clutter that hides your best work"
+        ],
+        "char_start": 8112,
+        "char_end": 8582
+      },
+      {
+        "level": 3,
+        "title": "Hide unfinished repos that don't run",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to remove (or make private) from your GitHub",
+          "Hide unfinished repos that don't run"
+        ],
+        "char_start": 8582,
+        "char_end": 9030
+      },
+      {
+        "level": 3,
+        "title": "Remove anything that contains secrets or sensitive data",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to remove (or make private) from your GitHub",
+          "Remove anything that contains secrets or sensitive data"
+        ],
+        "char_start": 9030,
+        "char_end": 9522
+      },
+      {
+        "level": 3,
+        "title": "Reduce repos with messy commit history in your flagship work",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to remove (or make private) from your GitHub",
+          "Reduce repos with messy commit history in your flagship work"
+        ],
+        "char_start": 9522,
+        "char_end": 10101
+      },
+      {
+        "level": 3,
+        "title": "Avoid huge binary files and random uploads",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "What to remove (or make private) from your GitHub",
+          "Avoid huge binary files and random uploads"
+        ],
+        "char_start": 10101,
+        "char_end": 10566
+      },
+      {
+        "level": 2,
+        "title": "How to choose what to pin on GitHub",
+        "section_type": "step",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "How to choose what to pin on GitHub"
+        ],
+        "char_start": 10566,
+        "char_end": 11078
+      },
+      {
+        "level": 2,
+        "title": "Make your GitHub understandable to non-technical reviewers",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "Make your GitHub understandable to non-technical reviewers"
+        ],
+        "char_start": 11078,
+        "char_end": 11617
+      },
+      {
+        "level": 2,
+        "title": "Add collaboration signals, even if you worked solo",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "Add collaboration signals, even if you worked solo"
+        ],
+        "char_start": 11617,
+        "char_end": 12392
+      },
+      {
+        "level": 2,
+        "title": "A realistic weekend plan to clean up your GitHub portfolio",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "A realistic weekend plan to clean up your GitHub portfolio"
+        ],
+        "char_start": 12392,
+        "char_end": 13277
+      },
+      {
+        "level": 2,
+        "title": "A portfolio checklist you can use before you apply",
+        "section_type": "content",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "A portfolio checklist you can use before you apply"
+        ],
+        "char_start": 13277,
+        "char_end": 14214
+      },
+      {
+        "level": 2,
+        "title": "Conclusion: Build a GitHub that earns trust in under a minute",
+        "section_type": "summary",
+        "header_path": [
+          "GitHub Portfolio for Junior Developers: What to Include (and What to Remove))",
+          "Conclusion: Build a GitHub that earns trust in under a minute"
+        ],
+        "char_start": 14214,
+        "char_end": 14946
+      }
+    ]
+  },
+  "links": [
+    "https://codelabsacademy.com/en/blog/",
+    "https://codelabsacademy.com#why-your-github-portfolio-matters-more-than-you-think",
+    "https://codelabsacademy.com#how-hiring-teams-review-a-junior-github-profile",
+    "https://codelabsacademy.com#pick-a-clear-direction-so-your-portfolio-feels-intentional",
+    "https://codelabsacademy.com#what-to-include-in-your-github-portfolio",
+    "https://codelabsacademy.com#start-with-a-clean-profile-that-reads-like-a-landing-page",
+    "https://codelabsacademy.com#add-a-profile-readme-that-guides-the-reader",
+    "https://codelabsacademy.com#choose-36-flagship-repositories-not-30-experiments",
+    "https://codelabsacademy.com#include-projects-that-resemble-real-problems-not-only-toy-appss",
+    "https://codelabsacademy.com#write-readmes-that-make-your-work-easy-to-evaluate",
+    "https://codelabsacademy.com#show-good-engineering-habits-even-at-the-beginner-level",
+    "https://codelabsacademy.com#add-basic-tests-where-they-matter-most",
+    "https://codelabsacademy.com#add-simple-ci-so-your-repo-looks-active-and-reliable",
+    "https://codelabsacademy.com#include-a-live-demo-when-it-makes-sense",
+    "https://codelabsacademy.com#what-to-remove-or-make-private-from-your-github",
+    "https://codelabsacademy.com#remove-clutter-that-hides-your-best-work",
+    "https://codelabsacademy.com#hide-unfinished-repos-that-dont-run",
+    "https://codelabsacademy.com#remove-anything-that-contains-secrets-or-sensitive-data",
+    "https://codelabsacademy.com#reduce-repos-with-messy-commit-history-in-your-flagship-work",
+    "https://codelabsacademy.com#avoid-huge-binary-files-and-random-uploads",
+    "https://codelabsacademy.com#how-to-choose-what-to-pin-on-github",
+    "https://codelabsacademy.com#make-your-github-understandable-to-non-technical-reviewers",
+    "https://codelabsacademy.com#add-collaboration-signals-even-if-you-worked-solo",
+    "https://codelabsacademy.com/en/career-services/",
+    "https://codelabsacademy.com#a-realistic-weekend-plan-to-clean-up-your-github-portfolio",
+    "https://codelabsacademy.com/en/courses/",
+    "https://codelabsacademy.com/en/application/schedule/",
+    "https://codelabsacademy.com#a-portfolio-checklist-you-can-use-before-you-apply",
+    "https://codelabsacademy.com/en/learning-hub/",
+    "https://codelabsacademy.com#conclusion-build-a-github-that-earns-trust-in-under-a-minute",
+    "https://codelabsacademy.com/en/application/"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,62 @@
+{
+  "markdown": "# Similar Articles\n\n## Get Paid to Share Your Expertise\n\nHelp shape the future of business through market research studies.\n\nSee Research StudiesRead on by signing up for a free Ivy Exec membership! You'll enjoy curated premium content, like this, plus access to our job board, special promotions, and more.\n\nHelp shape the future of business through market research studies.\n\nSee Research StudiesThis website uses cookies to ensure you get the best experience. Cookie Policy\n",
+  "metadata": {
+    "source_url": "https://ivyexec.com/career-advice/2020/explaining-resume-gap-career-break/",
+    "source_domain": "ivyexec.com",
+    "topic": "career-gap",
+    "fetched_at": "2026-05-25T06:40:05.343511+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Similar Articles",
+    "description": "Ivy exec desc",
+    "language": "en",
+    "word_count": 75,
+    "content_hash": "sha256:81f6128846a11c77666149dc7aae3adc131bca83cabbd5edf06de2fc7db071d3",
+    "reading_time": 1,
+    "author": null,
+    "published_date": "2026-05-25",
+    "og_title": null,
+    "signal_score": 0.4625,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Similar Articles",
+        "section_type": "title",
+        "header_path": [
+          "Similar Articles"
+        ],
+        "char_start": 0,
+        "char_end": 476
+      },
+      {
+        "level": 2,
+        "title": "Get Paid to Share Your Expertise",
+        "section_type": "content",
+        "header_path": [
+          "Similar Articles",
+          "Get Paid to Share Your Expertise"
+        ],
+        "char_start": 20,
+        "char_end": 476
+      }
+    ]
+  },
+  "links": [
+    "https://ivyexec.com/jobs-and-research-studies-search?type=study&ref=homepage_mi&promo=welcome",
+    "https://ivyexec.com/cookie-policy"
+  ],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

@@ -1,0 +1,547 @@
+{
+  "markdown": "# Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation\n\n- Youngju Kim\n- @fjvbn20031\n\n- The Cost of Not Negotiating\n- Understanding Total Compensation\n- Pre-Negotiation Research: Know Your Market Rate\n- BATNA: Your Negotiation Superpower\n- First Job Offer: Entry-Level Negotiation\n- Mid-Career: The Raise Negotiation\n- Job Change: The Offer Negotiation\n- Negotiating Equity: RSU and Stock Options\n- Five Common Negotiation Mistakes\n- Negotiating in Risk-Averse Cultures\n- Conclusion: Negotiation is Your Right\n- References\n\n## The Cost of Not Negotiating\n\nImagine you receive a 3% raise every year for 5 years. Now imagine you negotiate just 10% higher on your first offer instead.\n\n**On a base salary of 100,000 units:**\n\n- With 3% yearly raises: 116,000 after 5 years\n- With 10% initial negotiation: 128,000 after 5 years\n**Difference: 12,000 units over 5 years**\n\nBut this only counts base salary. When you include bonuses, equity, and benefits, the difference multiplies several times over.\n\nWhy do developers avoid negotiation?\n\n- \"The company has set this amount\"\n- \"They might rescind the offer if I ask\"\n- \"I'm not good at negotiating\"\n- \"It feels uncomfortable to discuss money\"\n\nNone of these are true. Salary negotiation is a **learned skill**. You can master it.\n\n## Understanding Total Compensation\n\nThe \"salary\" a company offers is incomplete. It's not lying—just incomplete.\n\n### The Components of Total Compensation\n\n```\nTotal Compensation = Base + Bonus + Equity + Benefits\n```\n\nReal example (Silicon Valley tech company):\n\n| Component | Amount |\n|---|---|\n| Base Salary | 200,000 |\n| Annual Bonus | 10-20% of base (20,000-40,000) |\n| RSU (Stock) | 4-year vest (80,000/year) |\n| Benefits | Health, 401k match, PTO |\nTotal Comp | Roughly 480,000-500,000 |\n\nMany engineers only see the base salary of 200,000 and miss the other 300,000.\n\n### Detailed Breakdown of Each Component\n\n**Base Salary**\n\n- Guaranteed minimum amount\n- Strongly correlated with job level (L3, L4, L5, etc.)\n- Hardest to negotiate\n\n**Sign-on Bonus & Annual Bonus**\n\n- Sign-on: One-time payment, immediate cash\n- Annual: Performance-based, typically 10-20%\n- Easiest to negotiate\n\n**Equity (Stock Options or RSU)**\n\n- RSU (Restricted Stock Units) = vests over 4 years\n- Example: 300,000 RSU = 75,000/year for 4 years\n- Value depends on company growth\n- Early stage: high risk/high reward; public companies: stable\n\n**Benefits**\n\n- Health, dental, vision insurance\n- 401(k) match: 3-5% of base\n- Paid time off, parental leave, education budget\n- Company car, commuter benefits, wellness programs\n\n## Pre-Negotiation Research: Know Your Market Rate\n\n### Step 1: Find Your Market Value\n\n**Best Research Tools:**\n\n**Levels.fyi**- Most reliable tech salary database- Detailed by company, level, experience\n- Data from real submissions\n- Includes bonuses and RSU details\n\n**Blind**- Anonymous tech community- Search \"Google L5 salary\" for anonymized data\n- 100+ responses per query\n- Highly accurate\n\n**Glassdoor**- Salary reports with reviews- Lower accuracy, but useful reference\n\n**Payscale**- Detailed by job level- Good for comparing tech stacks\n\n### Step 2: Define Your Market Position\n\n```\nYour Market Rate = Average salary for your tech, experience, level\n```\n\nExample:\n\n- Full-stack Python engineer\n- 5 years experience\n- Remote (or San Francisco)\n- Market range: 180,000-280,000\n\nIf an offer is 40%+ below this range, it's below market. If it's 40%+ above, you're lucky.\n\n### Step 3: Share Information Safely\n\n**Information is leverage.** The company knows your market rate, so should you.\n\n**Blind**: Completely anonymous**Former colleagues**: What they made at your last company**Developer communities**: Specific company intel**Reddit /r/cscareerquestions**: Real experiences\n\n## BATNA: Your Negotiation Superpower\n\nBATNA = \"Best Alternative to Negotiated Agreement\" (your plan if this deal fails).\n\n### BATNA Examples\n\n**Scenario**: Company offers 150,000 base.\n\nYour alternatives:\n\n- Another company offer: 180,000 base\n- Stay at current job: 120,000\n- Start freelancing: 4,500/month\n\n**Your strongest BATNA**: The other offer letter\n\nHaving another company offer fundamentally changes the negotiation power dynamic.\n\n### How to Strengthen Your BATNA\n\n**Interview simultaneously**- While negotiating with one company, interview with others\n- With 2+ offers, negotiation becomes much easier\n- This is standard practice, not cheating\n\n**Demonstrate you're valued**- Signal that you enjoy your current role\n- \"I like my team, but market rates suggest...\"\n- Most powerful BATNA: staying\n\n**Build skills that command higher pay**- AI/ML expertise: 30-50% premium\n- Leadership: senior roles pay 60%+ more\n- Specialized cloud (GCP, Lambda): 15-25% premium\n\n## First Job Offer: Entry-Level Negotiation\n\n### The Mistake Most Juniors Make\n\n```\nCompany: \"We can offer 120,000. How does that sound?\"\nYou: \"That's great! Thank you so much!!\"\n```\n\n**Negotiation opportunity: Lost.**\n\n### The Right Response\n\n```\nCompany: \"We can offer 120,000. How does that sound?\"\nYou: \"I appreciate the offer. I've researched this role\nand the market average for my background is 140,000-160,000.\nCan we adjust to 150,000 base and include a 25,000 sign-on bonus?\"\n```\n\n### Entry-Level Negotiation Tactics\n\n| Item | Difficulty | Strategy |\n|---|---|---|\n| Base Salary | Hard | Show market data, ask 10-15% higher |\n| Sign-on Bonus | Easy | Ask for 3-6 months (covers relocation) |\n| RSU | Medium | Check cliff, ask for refresh grant |\n| PTO | Easy | Request 25-30 days |\n\n## Mid-Career: The Raise Negotiation\n\nGetting a raise while employed requires more strategy.\n\n### Step 1: Pick the Right Timing\n\n**Good times to ask:**\n\n- Company had strong quarter/annual results\n- Right after you shipped something significant\n- After a promotion\n- During annual review season\n\n**Bad times:**\n\n- Company is struggling (layoffs, restructuring)\n- Right after a project failure\n- Just weeks after your manager changed\n\n### Step 2: Document Your Impact\n\n\"I worked hard\" is not a negotiation argument.\n\n**Good argument:**\n\n```\n- Over the past year, I led 3 microservices migrations,\ncontributing to 30% revenue growth\n- I onboarded and mentored 3 new developers\n- Market research shows average salary for my level is 160,000\n- I currently earn 130,000\n```\n\n### Step 3: Have the Conversation\n\n```\nYou: \"I'd like to discuss my compensation based on\nthe past year's work. Do you have 20 minutes?\"\nManager: \"Sure, what's on your mind?\"\nYou: \"Over the past year, I accomplished [specific achievements].\nI believe I've reached the top of my current level's band.\nI'd like my salary adjusted to 150,000.\"\nManager: \"Our policy only allows 5% raises.\"\nYou: \"That would be 6,500. I understand your constraints.\nWhat options exist to reach 150,000? Could we adjust bonus,\nadd equity, or create a plan to reach it by next review?\"\n```\n\n### When a Raise Isn't Possible\n\nIf they can't raise base, ask for:\n\n- Bonus increase: 10% → 15%\n- Additional RSU/equity: New 2-year grant\n- Increased benefits budget\n- Extra PTO\n- Work flexibility (remote = higher quality of life)\n- Education budget: 20,000+/year\n\n## Job Change: The Offer Negotiation\n\nWhen you get an offer from a new company, this is **prime negotiation time**.\n\n### Consider the Counter-Offer\n\nYour current employer may offer to match the new offer.\n\n```\nNew company: 180,000 base\nCurrent company counter: 160,000 base (30,000 raise)\n```\n\n### How to Evaluate\n\n| Factor | New Company | Current |\n|---|---|---|\n| Base | 180,000 | 160,000 |\n| Bonus | 15% | 10% |\n| RSU | Fresh start | Continue vesting |\n| Career | New tech stack | Depth in familiar tools |\n| Growth | Mid-stage startup | Stable large company |\n\n### Important: Don't Automatically Say Yes to Counter-Offers\n\nWhy rejecting a counter-offer is usually right:\n\n**They could have paid this all along**- You're only getting it because you're leaving**Retaliation risk**- 50% of people who accept counters leave within 18 months anyway (retaliatory actions, culture change)**Trust is broken**- Company now sees you as someone trying to leave\n\nUnless the counter-offer represents a **fundamental change** in your trajectory, stick with your plan to move.\n\n## Negotiating Equity: RSU and Stock Options\n\nThis confuses most engineers.\n\n### RSU Basics\n\n```\nCompany grants you 400,000 RSU\n4-year vest = 100,000 per year\nYear 1: vest 100,000\nYear 2: vest 100,000\nYear 3: vest 100,000\nYear 4: vest 100,000\n```\n\n### The Cliff (Critical!)\n\n```\nIf you leave after 1 year: You get 100,000 only\nIf you leave on day 364 of year 1: You get ZERO\n```\n\nThis is the \"cliff.\" Always understand this.\n\n### RSU Negotiation Points\n\n**Negotiate the total amount**- Ask to increase 350,000 → 450,000\n- Usually approved if competitive\n\n**Negotiate the vesting schedule**- Standard: 4 years (25% per year)\n- Sometimes possible: 3 years (33% per year)\n- Cliff can sometimes be reduced to 6 months (from 1 year)\n\n**Ask for refresh grants**- After 2 years, new RSU grant\n- Prevents your compensation from dropping\n\n### Stock Options vs RSU\n\n| Feature | Stock Options | RSU |\n|---|---|---|\n| Risk | High | Low |\n| Upside | Massive | Moderate |\n| Early startups | Common | Rare |\n| Public companies | Rare | Common |\n\n**When reviewing stock options, check:**\n\n**Strike price**: What do you pay per share?**Vesting schedule**: When do you own them?**Dilution**: Will future funding rounds dilute your ownership?\n\n## Five Common Negotiation Mistakes\n\n### 1. Saying \"Thank You!\" Too Fast\n\n```\n❌ Wrong:\nCompany: \"We're offering 150,000 base and 300,000 RSU\"\nYou: \"Amazing! Yes, thank you!\"\n✅ Right:\nCompany: \"We're offering 150,000 base and 300,000 RSU\"\nYou: \"Thank you for the offer. I'd like to review this\nand get back to you within 48 hours.\"\n```\n\n### 2. Fearing Negotiation Will Rescind the Offer\n\nReality:\n\n- Companies build in 20-30% negotiation buffer\n- Most offers have room to move\n- Rescinded offers happen <1% of the time\n- If they rescind, you didn't want to work there anyway\n\n### 3. Only Focusing on Base Salary\n\n```\n❌ \"Base is what matters\"\n✅ \"Total compensation is what matters\"\n```\n\nCompanies often freeze base but increase bonuses/equity easily.\n\n### 4. Arguing Emotionally\n\n```\n❌ \"This feels low for what I can do!\"\n✅ \"Market data shows this range is...\"\n```\n\nData beats emotion. Always.\n\n### 5. Not Confirming the Agreement\n\nAfter negotiation:\n\n- Send a recap email: \"As discussed, my offer is...\"\n- Request written confirmation\n- Prevents \"we didn't say that\" disputes later\n\n## Negotiating in Risk-Averse Cultures\n\nSome companies (especially in Asia-Pacific regions) have strong \"take it or leave it\" cultures.\n\n### Tactics for Conservative Environments\n\n**Use soft language**- \"Would it be possible to...\" vs \"I want...\"\n- Questions rather than demands\n\n**Frame as fairness**- \"To align with market rates...\"\n- \"Similar roles in similar companies...\"\n\n**Provide data**- Emotion is weak; data is strong\n- Cite Levels.fyi, Glassdoor, industry reports\n\n**Buy time**- \"Let me think this over\"\n- Never say yes immediately\n\n**Use the right moment**- During offer discussion, not weekly 1-on-1\n- Show respect for process\n\n## Conclusion: Negotiation is Your Right\n\nFinal thoughts:\n\n- Negotiation is NOT confrontational\n- Companies expect it\n- Companies know your market rate\n- Not negotiating means you accept less than you deserve\n- In 5 years, your negotiation skill will have enormous financial impact\n\n**This week:**\n\n- Find your market rate on Levels.fyi\n- Document this year's achievements\n- If a negotiation opportunity arises, be ready\n\nYou deserve fair compensation. Negotiate for it.\n",
+  "metadata": {
+    "source_url": "https://www.youngju.dev/blog/culture/2026-03-16-salary-negotiation-software-engineers.en",
+    "source_domain": "youngju.dev",
+    "topic": "salary-negotiation",
+    "fetched_at": "2026-05-25T06:48:05.233511+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+    "description": "Master salary negotiation as a software engineer. Learn about total compensation, research methods like Levels.fyi and Blind, BATNA strategy, and how to negotiate offers, raises, and equity.",
+    "language": "en",
+    "word_count": 1873,
+    "content_hash": "sha256:d450f88dc83e8b87561ebe9391f40ab94222005603a331b805c1a4ec47683c87",
+    "reading_time": 10,
+    "author": "Youngju Kim",
+    "published_date": "2026-03-16",
+    "og_title": null,
+    "signal_score": 0.4454,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Comprehensive guide to salary negotiation for software engineers covering market research, BATNA strategy, total compensation, entry-level and mid-career negotiation tactics, equity negotiation.",
+    "entities": {
+      "primary": "Salary negotiation for engineers",
+      "aliases": [
+        "compensation negotiation",
+        "offer negotiation",
+        "pay equity"
+      ]
+    },
+    "core_question": "How should software engineers research and negotiate their compensation package?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "salary negotiation",
+      "total compensation",
+      "equity",
+      "market rates",
+      "BATNA"
+    ]
+  },
+  "structure": {
+    "section_count": 39,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+        "section_type": "title",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation"
+        ],
+        "char_start": 0,
+        "char_end": 11666
+      },
+      {
+        "level": 2,
+        "title": "The Cost of Not Negotiating",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "The Cost of Not Negotiating"
+        ],
+        "char_start": 562,
+        "char_end": 1314
+      },
+      {
+        "level": 2,
+        "title": "Understanding Total Compensation",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Understanding Total Compensation"
+        ],
+        "char_start": 1314,
+        "char_end": 2621
+      },
+      {
+        "level": 3,
+        "title": "The Components of Total Compensation",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Understanding Total Compensation",
+          "The Components of Total Compensation"
+        ],
+        "char_start": 1429,
+        "char_end": 1891
+      },
+      {
+        "level": 3,
+        "title": "Detailed Breakdown of Each Component",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Understanding Total Compensation",
+          "Detailed Breakdown of Each Component"
+        ],
+        "char_start": 1891,
+        "char_end": 2621
+      },
+      {
+        "level": 2,
+        "title": "Pre-Negotiation Research: Know Your Market Rate",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Pre-Negotiation Research: Know Your Market Rate"
+        ],
+        "char_start": 2621,
+        "char_end": 3809
+      },
+      {
+        "level": 3,
+        "title": "Step 1: Find Your Market Value",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Pre-Negotiation Research: Know Your Market Rate",
+          "Step 1: Find Your Market Value"
+        ],
+        "char_start": 2673,
+        "char_end": 3171
+      },
+      {
+        "level": 3,
+        "title": "Step 2: Define Your Market Position",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Pre-Negotiation Research: Know Your Market Rate",
+          "Step 2: Define Your Market Position"
+        ],
+        "char_start": 3171,
+        "char_end": 3501
+      },
+      {
+        "level": 3,
+        "title": "Step 3: Share Information Safely",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Pre-Negotiation Research: Know Your Market Rate",
+          "Step 3: Share Information Safely"
+        ],
+        "char_start": 3501,
+        "char_end": 3809
+      },
+      {
+        "level": 2,
+        "title": "BATNA: Your Negotiation Superpower",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "BATNA: Your Negotiation Superpower"
+        ],
+        "char_start": 3809,
+        "char_end": 4784
+      },
+      {
+        "level": 3,
+        "title": "BATNA Examples",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "BATNA: Your Negotiation Superpower",
+          "BATNA Examples"
+        ],
+        "char_start": 3932,
+        "char_end": 4252
+      },
+      {
+        "level": 3,
+        "title": "How to Strengthen Your BATNA",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "BATNA: Your Negotiation Superpower",
+          "How to Strengthen Your BATNA"
+        ],
+        "char_start": 4252,
+        "char_end": 4784
+      },
+      {
+        "level": 2,
+        "title": "First Job Offer: Entry-Level Negotiation",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "First Job Offer: Entry-Level Negotiation"
+        ],
+        "char_start": 4784,
+        "char_end": 5577
+      },
+      {
+        "level": 3,
+        "title": "The Mistake Most Juniors Make",
+        "section_type": "tips",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "First Job Offer: Entry-Level Negotiation",
+          "The Mistake Most Juniors Make"
+        ],
+        "char_start": 4829,
+        "char_end": 5004
+      },
+      {
+        "level": 3,
+        "title": "The Right Response",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "First Job Offer: Entry-Level Negotiation",
+          "The Right Response"
+        ],
+        "char_start": 5004,
+        "char_end": 5275
+      },
+      {
+        "level": 3,
+        "title": "Entry-Level Negotiation Tactics",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "First Job Offer: Entry-Level Negotiation",
+          "Entry-Level Negotiation Tactics"
+        ],
+        "char_start": 5275,
+        "char_end": 5577
+      },
+      {
+        "level": 2,
+        "title": "Mid-Career: The Raise Negotiation",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Mid-Career: The Raise Negotiation"
+        ],
+        "char_start": 5577,
+        "char_end": 7180
+      },
+      {
+        "level": 3,
+        "title": "Step 1: Pick the Right Timing",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Mid-Career: The Raise Negotiation",
+          "Step 1: Pick the Right Timing"
+        ],
+        "char_start": 5671,
+        "char_end": 6011
+      },
+      {
+        "level": 3,
+        "title": "Step 2: Document Your Impact",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Mid-Career: The Raise Negotiation",
+          "Step 2: Document Your Impact"
+        ],
+        "char_start": 6011,
+        "char_end": 6347
+      },
+      {
+        "level": 3,
+        "title": "Step 3: Have the Conversation",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Mid-Career: The Raise Negotiation",
+          "Step 3: Have the Conversation"
+        ],
+        "char_start": 6347,
+        "char_end": 6914
+      },
+      {
+        "level": 3,
+        "title": "When a Raise Isn't Possible",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Mid-Career: The Raise Negotiation",
+          "When a Raise Isn't Possible"
+        ],
+        "char_start": 6914,
+        "char_end": 7180
+      },
+      {
+        "level": 2,
+        "title": "Job Change: The Offer Negotiation",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Job Change: The Offer Negotiation"
+        ],
+        "char_start": 7180,
+        "char_end": 8247
+      },
+      {
+        "level": 3,
+        "title": "Consider the Counter-Offer",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Job Change: The Offer Negotiation",
+          "Consider the Counter-Offer"
+        ],
+        "char_start": 7297,
+        "char_end": 7474
+      },
+      {
+        "level": 3,
+        "title": "How to Evaluate",
+        "section_type": "step",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Job Change: The Offer Negotiation",
+          "How to Evaluate"
+        ],
+        "char_start": 7474,
+        "char_end": 7745
+      },
+      {
+        "level": 3,
+        "title": "Important: Don't Automatically Say Yes to Counter-Offers",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Job Change: The Offer Negotiation",
+          "Important: Don't Automatically Say Yes to Counter-Offers"
+        ],
+        "char_start": 7745,
+        "char_end": 8247
+      },
+      {
+        "level": 2,
+        "title": "Negotiating Equity: RSU and Stock Options",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Negotiating Equity: RSU and Stock Options"
+        ],
+        "char_start": 8247,
+        "char_end": 9472
+      },
+      {
+        "level": 3,
+        "title": "RSU Basics",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Negotiating Equity: RSU and Stock Options",
+          "RSU Basics"
+        ],
+        "char_start": 8324,
+        "char_end": 8495
+      },
+      {
+        "level": 3,
+        "title": "The Cliff (Critical!)",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Negotiating Equity: RSU and Stock Options",
+          "The Cliff (Critical!)"
+        ],
+        "char_start": 8495,
+        "char_end": 8673
+      },
+      {
+        "level": 3,
+        "title": "RSU Negotiation Points",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Negotiating Equity: RSU and Stock Options",
+          "RSU Negotiation Points"
+        ],
+        "char_start": 8673,
+        "char_end": 9077
+      },
+      {
+        "level": 3,
+        "title": "Stock Options vs RSU",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Negotiating Equity: RSU and Stock Options",
+          "Stock Options vs RSU"
+        ],
+        "char_start": 9077,
+        "char_end": 9472
+      },
+      {
+        "level": 2,
+        "title": "Five Common Negotiation Mistakes",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Five Common Negotiation Mistakes"
+        ],
+        "char_start": 9472,
+        "char_end": 10554
+      },
+      {
+        "level": 3,
+        "title": "1. Saying \"Thank You!\" Too Fast",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Five Common Negotiation Mistakes",
+          "1. Saying \"Thank You!\" Too Fast"
+        ],
+        "char_start": 9509,
+        "char_end": 9808
+      },
+      {
+        "level": 3,
+        "title": "2. Fearing Negotiation Will Rescind the Offer",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Five Common Negotiation Mistakes",
+          "2. Fearing Negotiation Will Rescind the Offer"
+        ],
+        "char_start": 9808,
+        "char_end": 10047
+      },
+      {
+        "level": 3,
+        "title": "3. Only Focusing on Base Salary",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Five Common Negotiation Mistakes",
+          "3. Only Focusing on Base Salary"
+        ],
+        "char_start": 10047,
+        "char_end": 10222
+      },
+      {
+        "level": 3,
+        "title": "4. Arguing Emotionally",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Five Common Negotiation Mistakes",
+          "4. Arguing Emotionally"
+        ],
+        "char_start": 10222,
+        "char_end": 10365
+      },
+      {
+        "level": 3,
+        "title": "5. Not Confirming the Agreement",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Five Common Negotiation Mistakes",
+          "5. Not Confirming the Agreement"
+        ],
+        "char_start": 10365,
+        "char_end": 10554
+      },
+      {
+        "level": 2,
+        "title": "Negotiating in Risk-Averse Cultures",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Negotiating in Risk-Averse Cultures"
+        ],
+        "char_start": 10554,
+        "char_end": 11195
+      },
+      {
+        "level": 3,
+        "title": "Tactics for Conservative Environments",
+        "section_type": "content",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Negotiating in Risk-Averse Cultures",
+          "Tactics for Conservative Environments"
+        ],
+        "char_start": 10691,
+        "char_end": 11195
+      },
+      {
+        "level": 2,
+        "title": "Conclusion: Negotiation is Your Right",
+        "section_type": "summary",
+        "header_path": [
+          "Salary Negotiation Strategy for Software Engineers: From Offer Review to Equity Negotiation",
+          "Conclusion: Negotiation is Your Right"
+        ],
+        "char_start": 11195,
+        "char_end": 11666
+      }
+    ]
+  },
+  "links": [
+    "https://twitter.com/fjvbn20031",
+    "https://www.youngju.dev#the-cost-of-not-negotiating",
+    "https://www.youngju.dev#understanding-total-compensation",
+    "https://www.youngju.dev#pre-negotiation-research-know-your-market-rate",
+    "https://www.youngju.dev#batna-your-negotiation-superpower",
+    "https://www.youngju.dev#first-job-offer-entry-level-negotiation",
+    "https://www.youngju.dev#mid-career-the-raise-negotiation",
+    "https://www.youngju.dev#job-change-the-offer-negotiation",
+    "https://www.youngju.dev#negotiating-equity-rsu-and-stock-options",
+    "https://www.youngju.dev#five-common-negotiation-mistakes",
+    "https://www.youngju.dev#negotiating-in-risk-averse-cultures",
+    "https://www.youngju.dev#conclusion-negotiation-is-your-right",
+    "https://www.youngju.dev#references",
+    "https://www.youngju.dev#the-components-of-total-compensation",
+    "https://www.youngju.dev#detailed-breakdown-of-each-component",
+    "https://www.youngju.dev#step-1-find-your-market-value",
+    "https://www.youngju.dev#step-2-define-your-market-position",
+    "https://www.youngju.dev#step-3-share-information-safely",
+    "https://www.youngju.dev#batna-examples",
+    "https://www.youngju.dev#how-to-strengthen-your-batna",
+    "https://www.youngju.dev#the-mistake-most-juniors-make",
+    "https://www.youngju.dev#the-right-response",
+    "https://www.youngju.dev#entry-level-negotiation-tactics",
+    "https://www.youngju.dev#step-1-pick-the-right-timing",
+    "https://www.youngju.dev#step-2-document-your-impact",
+    "https://www.youngju.dev#step-3-have-the-conversation",
+    "https://www.youngju.dev#when-a-raise-isnt-possible",
+    "https://www.youngju.dev#consider-the-counter-offer",
+    "https://www.youngju.dev#how-to-evaluate",
+    "https://www.youngju.dev#important-dont-automatically-say-yes-to-counter-offers",
+    "https://www.youngju.dev#rsu-basics",
+    "https://www.youngju.dev#the-cliff-critical",
+    "https://www.youngju.dev#rsu-negotiation-points",
+    "https://www.youngju.dev#stock-options-vs-rsu",
+    "https://www.youngju.dev#1-saying-thank-you-too-fast",
+    "https://www.youngju.dev#2-fearing-negotiation-will-rescind-the-offer",
+    "https://www.youngju.dev#3-only-focusing-on-base-salary",
+    "https://www.youngju.dev#4-arguing-emotionally",
+    "https://www.youngju.dev#5-not-confirming-the-agreement",
+    "https://www.youngju.dev#tactics-for-conservative-environments"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,609 @@
+{
+  "markdown": "# Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)\n\nMost software engineers don't get rejected because they're underqualified. They get rejected because their resume never makes it past the first filter—an ATS system or a recruiter skimming 200+ resumes in an hour.\n\nIf you're searching for the best resume format for software engineers in 2026 that is both ATS-friendly and recruiter-friendly, you're really asking two questions:\n\n- How do I structure my resume so machines can parse it correctly?\n- How do I present my work so a human engineer or hiring manager immediately sees signal?\n\nThis guide answers both, with specific templates, patterns, and examples you can apply directly.\n\n## What \"Best Resume Format 2026\" Actually Means for Software Engineers\n\nWhen people say \"best resume format 2026,\" they usually mean:\n\n**ATS-friendly resume**: Parsed correctly by modern Applicant Tracking Systems (Greenhouse, Lever, Workday, etc.).**Recruiter-friendly**: Easy to skim in 10–20 seconds; key signals pop out.**Engineer-friendly**: A senior engineer can quickly understand your impact, tech depth, and fit.\n\nIn 2026, that translates into a few non-negotiables:\n\n- Single-column layout\n- Clean section headings\n- Minimal styling (no tables for core content, no text inside images)\n- Strong, quantified bullet points\n- Skills and tech stack clearly mapped to each role\n\nWe'll walk through the structure first, then go deeper on each section with examples and pitfalls.\n\n## High-Level Structure: The Canonical Software Engineer Resume Format\n\nThis is the layout that works best for both ATS and humans in 2026:\n\n**Header****Professional Summary**(or \"Profile\") – optional but recommended**Skills & Technologies****Experience****Projects**(especially important for students / career switchers)**Education****Additional**(open source, publications, patents, speaking, etc.)\n\nOne page if you have <10–12 years of experience; two pages only if you have substantial, relevant history.\n\n## 1. Header: Machine-Readable, Signal-Rich\n\n### What to include\n\n- Full name (no nicknames)\n- Email (professional handle, e.g., firstname.lastname@…)\n- Location (City, Country or \"City, Country · Open to remote\")\n- GitHub / GitLab\n- Portfolio / personal site (if it has real content)\n- Optional: phone number (still common in many markets)\n\n**Format example:**\n\nTEXT Loading editor...\n\n### What to avoid\n\n- Putting your name in a text box or image (ATS can fail to read it)\n- Icons\n*only*without text (ATS can't parse icons) - Full mailing address (street, zip) — not needed\n\n## 2. Professional Summary: 3–4 Lines That Set Context\n\nIn 2026, a short, targeted summary is more useful than the old \"Objective\" section. Think of it as a commit message for your resume: concise, specific, and contextual.\n\n### Good pattern\n\n- Who you are (role + level)\n- Years of experience\n- Core domains / tech focus\n- 1–2 proof points (impact, scale, outcomes)\n- Target direction (what kinds of roles)\n\n**Example (mid-level backend engineer):**\n\nBackend software engineer (5+ years) specializing in distributed systems and high-throughput APIs in Go and Java. Designed and scaled services handling 50K+ RPS and terabyte-scale data pipelines on AWS. Strong focus on reliability (SLOs, observability) and performance optimization. Looking for backend / platform roles in high-scale product teams.\n\n### Avoid\n\n- Vague buzzwords: \"results-driven, hardworking, passionate\"\n- Obvious statements: \"seeking a challenging position where I can utilize my skills\"\n\n## 3. Skills & Technologies: Structured for ATS and Humans\n\nThis is where many tech resumes either turn into keyword soup or under-sell real strengths.\n\n### Structure for an ATS-friendly resume\n\nUse simple headings and comma-separated lists. Avoid tables for core content.\n\n**Recommended grouping:**\n\n- Languages\n- Frameworks / Libraries\n- Platforms / Cloud\n- Databases\n- Tools & DevOps\n- Data / ML (if relevant)\n\n**Example:**\n\nTEXT Loading editor...\n\n### 2026 nuance: signal over noise\n\n- Prioritize what you've used\n**in production**over what you've just \"touched.\" - Order by strength or relevance, not alphabetically.\n- Don't list 20 languages; list the 3–6 you can defend in an interview.\n\n## 4. Experience: The Core of Your Software Engineer Resume Format\n\nThis is where the best resumes differentiate themselves.\n\n### Ordering and labeling\n\nFor each role:\n\n- Job title\n- Company\n- Location (or \"Remote\")\n- Date range (Month Year – Month Year; avoid only years)\n- 3–7 bullet points (most recent role: 5–7; older roles: 3–4)\n\n**Example header:**\n\nTEXT Loading editor...\n\n### Bullet point formula that works in 2026\n\nUse a consistent pattern:\n\nAction verb+what you built/changed+how(tech, approach) +measurable impact\n\nThink: *designed X, using Y, resulting in Z*.\n\n**Weak bullet:**\n\n- Worked on microservices and improved performance.\n\n**Strong, ATS + recruiter-friendly bullet:**\n\n- Designed and implemented a rate-limiting microservice in Go backed by Redis, reducing API 429 errors by 63% and stabilizing p95 latency under 150ms at 20K RPS.\n\n### Examples by domain\n\n**Backend / distributed systems:**\n\n- Led migration of a monolithic billing system to 8 Spring Boot microservices, introducing idempotent APIs and saga-based workflows, cutting payment failure retries by 40% and improving deployment frequency from monthly to daily.\n- Implemented end-to-end tracing with OpenTelemetry and Jaeger across 12 services, reducing mean time to identify root cause (MTTI) from ~2 hours to 15 minutes.\n\n**Frontend / web:**\n\n- Rebuilt a legacy React dashboard into a modular Next.js app with code-splitting and client-side caching, improving first contentful paint by 45% and increasing user task completion rate by 18%.\n- Developed an internal component library in TypeScript with Storybook and automated visual regression tests, reducing UI bugs reported by QA by 30%.\n\n**Data / ML:**\n\n- Built a real-time feature store on top of Kafka and Redis for a recommendation system, reducing feature latency from 3 minutes to under 5 seconds and improving CTR by 8.2%.\n- Productionized an XGBoost-based churn prediction model with a Kubeflow pipeline, enabling weekly retrains and improving recall@0.8 precision from 0.61 to 0.74.\n\n### Mapping skills to experience\n\nTo make your tech stack credible, mention key technologies **inside** bullets:\n\n- \"…using\n**Kubernetes**,**Helm**, and**ArgoCD**…\" - \"…migrated from\n**MySQL**to**PostgreSQL**with zero downtime…\"\n\nThis is both ATS-friendly (keywords in context) and convincing to humans.\n\n## 5. Projects: Critical for Juniors, Still Useful for Seniors\n\nIn 2026, strong projects are still one of the fastest ways to show capability, especially if:\n\n- You're early-career\n- You're switching domains (e.g., web → ML)\n- Your current job doesn't reflect what you want next\n\n### How to format projects\n\nFor each project:\n\n- Name + short tag (personal / open source / hackathon)\n- Tech stack\n- 2–4 bullets with the same action–how–impact pattern\n\n**Example:**\n\nTEXT Loading editor...\n\nIf you're using a platform like Thita's Beginner to Advanced DSA Roadmap for Software Engineers in 2026 to prep, your project bullets should be detailed enough that you could walk an interviewer through design, tradeoffs, and failure modes.\n\n## 6. Education: Straightforward, No Fluff\n\nInclude:\n\n- Degree\n- Major\n- Institution\n- Graduation date (or expected)\n- Relevant honors (Dean's list, GPA if strong and recent)\n- Selected relevant coursework (for students)\n\n**Example:**\n\nTEXT Loading editor...\n\nIf you're >3–5 years into your career, keep this section compact and move it below Experience and Projects.\n\n## 7. Additional Sections That Matter in 2026\n\nUse these only if they add real signal:\n\n**Open Source**- \"Contributor to Kubernetes: Implemented XYZ feature (PR #12345), used by …\"\n\n**Publications / Patents****Speaking / Teaching****Certifications**- Only if relevant (e.g., AWS SA Professional) and not a substitute for real experience.\n\n## ATS-Friendly Resume: Concrete Do's and Don'ts for 2026\n\nATS systems in 2026 are better than in 2016, but they still break on certain patterns.\n\n### Do\n\n- Use\n**standard section headings**: \"Experience\", \"Education\", \"Skills\", \"Projects\". - Use a\n**single-column layout**. - Use\n**.pdf**unless the job description explicitly asks for .docx. - Use\n**simple bullet characters**(•, -, or standard list bullets). - Keep fonts common: Arial, Calibri, Helvetica, Times New Roman.\n\n### Don't\n\n- Don't put core content (experience, skills) inside tables or multi-column layouts.\n- Don't embed text inside images or diagrams.\n- Don't use headers/footers for important info (some ATS ignore them).\n- Don't use overly stylized fonts or heavy graphics.\n\n## Recruiter-Friendly: Optimizing for a 15-Second Scan\n\nRecruiters and hiring managers scan for a few things very quickly:\n\n**Current role and level****Years of experience****Core tech stack****Companies / products they recognize****Evidence of impact**\n\n### Make these elements pop\n\n- Put your\n**current title**and**company**prominently near the top of Experience. - Make your\n**skills section**concise and near the top third of the page. - Use\n**bold**selectively inside bullets for key numbers or tech:- \"reduced\n**p95 latency by 47%**\" - \"migrated from\n**MongoDB**to**PostgreSQL**\"\n\n- \"reduced\n\n### Use consistent visual patterns\n\nHumans are fast at pattern recognition. Use that:\n\n- Same format for each job entry\n- Same tense (past tense for past roles, present for current)\n- Same bullet structure\n\n## Examples: Before and After Bullet Rewrites\n\n### Example 1: Backend engineer\n\n**Before:**\n\n- Worked on improving the performance of our APIs using caching and database optimization.\n\n**After:**\n\n- Reduced p95 API latency from 480ms to 190ms by introducing Redis-based response caching and optimizing PostgreSQL indexes on high-traffic endpoints (~15K RPS).\n\n### Example 2: Frontend engineer\n\n**Before:**\n\n- Responsible for developing UI components and fixing bugs.\n\n**After:**\n\n- Built reusable React component library with TypeScript and Storybook, cutting new feature UI build time by ~30% and reducing UI-related bugs reported by QA by 25%.\n\n### Example 3: Data engineer\n\n**Before:**\n\n- Created ETL pipelines and reports for stakeholders.\n\n**After:**\n\n- Designed and deployed a Spark-based ETL pipeline on AWS EMR that ingested and transformed 500GB/day of clickstream data, reducing data availability latency from 24 hours to 2 hours for analytics teams.\n\n## Common Mistakes in Tech Resumes (and How to Fix Them)\n\n### 1. Listing responsibilities instead of impact\n\n**Symptom:**\n\n- \"Responsible for maintaining microservices.\"\n- \"Involved in design discussions.\"\n\n**Fix:**\n\n- Replace \"responsible for\" with\n**what changed**because you were there. - Ask:\n*If I removed my name, would anything measurable change?*\n\n### 2. Overloading with irrelevant tech\n\n**Symptom:**\n\n- Skills list with 25+ items, including HTML, CSS, Excel, Word, etc.\n\n**Fix:**\n\n- Keep the list curated. If you wouldn't want to be asked deep questions about it in an interview, don't list it as a primary skill.\n\n### 3. Too much academic / course content for experienced engineers\n\n**Symptom:**\n\n- Senior engineer resume with half a page of coursework and GPA.\n\n**Fix:**\n\n- After ~3–5 years, compress Education to 2–3 lines. Use the space for impact at work or open source.\n\n### 4. Dense paragraphs instead of bullets\n\n**Symptom:**\n\n- A full paragraph describing a role.\n\n**Fix:**\n\n- Break into bullets, each focused on one project or outcome.\n\n### 5. Ignoring the job description\n\n**Symptom:**\n\n- Same generic resume for backend, ML, and DevOps roles.\n\n**Fix (2026 reality):**\n\n- Maintain a\n**base resume**and 1–2**variants**:- Backend-focused\n- Data/ML-focused\n- Frontend-focused\n\nAdjust summary, skills ordering, and which bullets you emphasize.\n\n## Tailoring Your Resume to the Role (Without Keyword Stuffing)\n\nATS systems often score resumes based on how well they match the job description. You don't need to game this with keyword stuffing; instead, align honestly.\n\n### Step-by-step approach\n\n**Read the JD once as an engineer**, not as a job hunter.- What problems are they solving?\n- What systems are they building?\n\n**Highlight 5–10 core keywords**:- Tech: \"Kubernetes\", \"Kafka\", \"React\", \"AWS Lambda\"\n- Responsibilities: \"design distributed systems\", \"build data pipelines\", \"optimize performance\"\n\n**Map those to your real experience**:- If you've done similar work, ensure the same words appear in your bullets.\n- If you haven't, don't fabricate; instead, highlight adjacent strengths.\n\n**Update your summary and skills ordering**:- Front-load matching tech and domains.\n\n## 2026-Specific Considerations: AI, GitHub, and Portfolios\n\n### AI-generated content\n\nBy 2026, many candidates are using AI to draft resumes. Recruiters and engineers can tell when:\n\n- Bullets are overly generic\n- Every sentence has the same structure and tone\n- The resume doesn't line up with how you talk about your work\n\n**Use AI as a drafting tool, then edit heavily**:\n\n- Replace generic metrics with your real numbers.\n- Inject domain-specific details (e.g., \"idempotent payment retries\", \"exactly-once semantics in Kafka consumers\").\n\n### GitHub and code samples\n\nFor software engineers, GitHub is often more credible than a portfolio site full of templates.\n\n- Pin 3–6 repos that reflect\n**production-like**work:- Tests\n- CI\n- Docs\n- Non-trivial design\n\nIf you're practicing on a platform like Thita's Beginner to Advanced DSA Roadmap for Software Engineers in 2026, that doesn't need to be on the resume, but solving those problems should show up indirectly: clearer thinking, better explanations, and more robust project design.\n\n## Formatting Details That Matter More Than You Think\n\n### Length and density\n\n- 0–5 years:\n**1 page** - 6–12 years:\n**1–2 pages**(lean toward 1.5; don't pad) -\n12 years:\n\n**2 pages**is fine, but still prioritize recent, relevant work.\n\nWhite space is not wasted space. Dense walls of text reduce readability and hurt you.\n\n### Fonts and sizes\n\n- Name: 18–24 pt\n- Section headings: 12–14 pt, bold\n- Body text: 10–11 pt\n\nUse a single font family. Avoid mixing more than two text colors (black/very dark gray for body, one accent color for headings if desired).\n\n### File naming\n\n- Use a clear filename:\n`FirstName_LastName_Software_Engineer_2026.pdf`\n\n- Avoid spaces and special characters.\n\n## Putting It All Together: A Minimal, Modern Tech Resume Template (Text-Only)\n\nHere's a condensed, ATS-friendly structure you can adapt:\n\nTEXT Loading editor...\n\n## Key Takeaways: Best Software Engineer Resume Format for 2026\n\n- Use a\n**single-column, ATS-friendly layout**with clear section headings. - Lead with a\n**concise professional summary**that sets your level, domain, and impact. - Keep your\n**skills section curated**, grouped, and aligned with the roles you want. - In Experience and Projects, use\n**action–how–impact bullets**with real numbers and tech details. - Optimize for\n**15-second scans**: consistent formatting, selective bolding, and clear structure. - Tailor to each role by aligning to the\n**job description**without fabricating experience. - Use AI tools as drafting assistants, but ensure your resume reflects how you actually think and work.\n\nIf you structure your resume this way, you're doing two things at once: helping the ATS parse your profile correctly, and making it easy for a senior engineer or hiring manager to see why you're worth interviewing.\n",
+  "metadata": {
+    "source_url": "https://thita.ai/blog/resume/best-resume-format-for-software-engineers-in-2026-ats-recruiter-friendly",
+    "source_domain": "thita.ai",
+    "topic": "ats-optimization",
+    "fetched_at": "2026-05-25T06:42:41.809432+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+    "description": "Most software engineers don’t get rejected because they’re underqualified. They get rejected because their resume never makes it past the first filter—an ATS...",
+    "language": "en",
+    "word_count": 2341,
+    "content_hash": "sha256:7532fb308f6e6fefe6d2625ede59014d434d825714954af92b73acebc0047e79",
+    "reading_time": 12,
+    "author": "Thita ai Team; Thita ai",
+    "published_date": "2026-02-24",
+    "og_title": null,
+    "signal_score": 0.9008,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide for creating ATS-friendly and recruiter-friendly software engineer resumes in 2026 with specific structure, formatting, and impact-focused bullet points.",
+    "entities": {
+      "primary": "Software engineer resume format 2026",
+      "aliases": [
+        "ATS-optimized resume",
+        "tech resume structure",
+        "engineer CV format"
+      ]
+    },
+    "core_question": "How should software engineers structure their resumes to pass ATS systems and impress recruiters in 2026?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "ATS optimization",
+      "resume structure",
+      "bullet point formula",
+      "quantified achievements",
+      "tech skills section"
+    ]
+  },
+  "structure": {
+    "section_count": 48,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+        "section_type": "title",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)"
+        ],
+        "char_start": 0,
+        "char_end": 15545
+      },
+      {
+        "level": 2,
+        "title": "What \"Best Resume Format 2026\" Actually Means for Software Engineers",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "What \"Best Resume Format 2026\" Actually Means for Software Engineers"
+        ],
+        "char_start": 716,
+        "char_end": 1500
+      },
+      {
+        "level": 2,
+        "title": "High-Level Structure: The Canonical Software Engineer Resume Format",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "High-Level Structure: The Canonical Software Engineer Resume Format"
+        ],
+        "char_start": 1500,
+        "char_end": 2010
+      },
+      {
+        "level": 2,
+        "title": "1. Header: Machine-Readable, Signal-Rich",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "1. Header: Machine-Readable, Signal-Rich"
+        ],
+        "char_start": 2010,
+        "char_end": 2587
+      },
+      {
+        "level": 3,
+        "title": "What to include",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "1. Header: Machine-Readable, Signal-Rich",
+          "What to include"
+        ],
+        "char_start": 2055,
+        "char_end": 2397
+      },
+      {
+        "level": 3,
+        "title": "What to avoid",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "1. Header: Machine-Readable, Signal-Rich",
+          "What to avoid"
+        ],
+        "char_start": 2397,
+        "char_end": 2587
+      },
+      {
+        "level": 2,
+        "title": "2. Professional Summary: 3–4 Lines That Set Context",
+        "section_type": "summary",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "2. Professional Summary: 3–4 Lines That Set Context"
+        ],
+        "char_start": 2587,
+        "char_end": 3547
+      },
+      {
+        "level": 3,
+        "title": "Good pattern",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "2. Professional Summary: 3–4 Lines That Set Context",
+          "Good pattern"
+        ],
+        "char_start": 2812,
+        "char_end": 3389
+      },
+      {
+        "level": 3,
+        "title": "Avoid",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "2. Professional Summary: 3–4 Lines That Set Context",
+          "Avoid"
+        ],
+        "char_start": 3389,
+        "char_end": 3547
+      },
+      {
+        "level": 2,
+        "title": "3. Skills & Technologies: Structured for ATS and Humans",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "3. Skills & Technologies: Structured for ATS and Humans"
+        ],
+        "char_start": 3547,
+        "char_end": 4242
+      },
+      {
+        "level": 3,
+        "title": "Structure for an ATS-friendly resume",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "3. Skills & Technologies: Structured for ATS and Humans",
+          "Structure for an ATS-friendly resume"
+        ],
+        "char_start": 3700,
+        "char_end": 3999
+      },
+      {
+        "level": 3,
+        "title": "2026 nuance: signal over noise",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "3. Skills & Technologies: Structured for ATS and Humans",
+          "2026 nuance: signal over noise"
+        ],
+        "char_start": 3999,
+        "char_end": 4242
+      },
+      {
+        "level": 2,
+        "title": "4. Experience: The Core of Your Software Engineer Resume Format",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "4. Experience: The Core of Your Software Engineer Resume Format"
+        ],
+        "char_start": 4242,
+        "char_end": 6576
+      },
+      {
+        "level": 3,
+        "title": "Ordering and labeling",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "4. Experience: The Core of Your Software Engineer Resume Format",
+          "Ordering and labeling"
+        ],
+        "char_start": 4368,
+        "char_end": 4623
+      },
+      {
+        "level": 3,
+        "title": "Bullet point formula that works in 2026",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "4. Experience: The Core of Your Software Engineer Resume Format",
+          "Bullet point formula that works in 2026"
+        ],
+        "char_start": 4623,
+        "char_end": 5097
+      },
+      {
+        "level": 3,
+        "title": "Examples by domain",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "4. Experience: The Core of Your Software Engineer Resume Format",
+          "Examples by domain"
+        ],
+        "char_start": 5097,
+        "char_end": 6271
+      },
+      {
+        "level": 3,
+        "title": "Mapping skills to experience",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "4. Experience: The Core of Your Software Engineer Resume Format",
+          "Mapping skills to experience"
+        ],
+        "char_start": 6271,
+        "char_end": 6576
+      },
+      {
+        "level": 2,
+        "title": "5. Projects: Critical for Juniors, Still Useful for Seniors",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "5. Projects: Critical for Juniors, Still Useful for Seniors"
+        ],
+        "char_start": 6576,
+        "char_end": 7307
+      },
+      {
+        "level": 3,
+        "title": "How to format projects",
+        "section_type": "step",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "5. Projects: Critical for Juniors, Still Useful for Seniors",
+          "How to format projects"
+        ],
+        "char_start": 6856,
+        "char_end": 7307
+      },
+      {
+        "level": 2,
+        "title": "6. Education: Straightforward, No Fluff",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "6. Education: Straightforward, No Fluff"
+        ],
+        "char_start": 7307,
+        "char_end": 7676
+      },
+      {
+        "level": 2,
+        "title": "7. Additional Sections That Matter in 2026",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "7. Additional Sections That Matter in 2026"
+        ],
+        "char_start": 7676,
+        "char_end": 8015
+      },
+      {
+        "level": 2,
+        "title": "ATS-Friendly Resume: Concrete Do's and Don'ts for 2026",
+        "section_type": "tips",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "ATS-Friendly Resume: Concrete Do's and Don'ts for 2026"
+        ],
+        "char_start": 8015,
+        "char_end": 8759
+      },
+      {
+        "level": 3,
+        "title": "Do",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "ATS-Friendly Resume: Concrete Do's and Don'ts for 2026",
+          "Do"
+        ],
+        "char_start": 8162,
+        "char_end": 8492
+      },
+      {
+        "level": 3,
+        "title": "Don't",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "ATS-Friendly Resume: Concrete Do's and Don'ts for 2026",
+          "Don't"
+        ],
+        "char_start": 8492,
+        "char_end": 8759
+      },
+      {
+        "level": 2,
+        "title": "Recruiter-Friendly: Optimizing for a 15-Second Scan",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Recruiter-Friendly: Optimizing for a 15-Second Scan"
+        ],
+        "char_start": 8759,
+        "char_end": 9565
+      },
+      {
+        "level": 3,
+        "title": "Make these elements pop",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Recruiter-Friendly: Optimizing for a 15-Second Scan",
+          "Make these elements pop"
+        ],
+        "char_start": 9014,
+        "char_end": 9358
+      },
+      {
+        "level": 3,
+        "title": "Use consistent visual patterns",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Recruiter-Friendly: Optimizing for a 15-Second Scan",
+          "Use consistent visual patterns"
+        ],
+        "char_start": 9358,
+        "char_end": 9565
+      },
+      {
+        "level": 2,
+        "title": "Examples: Before and After Bullet Rewrites",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Examples: Before and After Bullet Rewrites"
+        ],
+        "char_start": 9565,
+        "char_end": 10527
+      },
+      {
+        "level": 3,
+        "title": "Example 1: Backend engineer",
+        "section_type": "example",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Examples: Before and After Bullet Rewrites",
+          "Example 1: Backend engineer"
+        ],
+        "char_start": 9612,
+        "char_end": 9925
+      },
+      {
+        "level": 3,
+        "title": "Example 2: Frontend engineer",
+        "section_type": "example",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Examples: Before and After Bullet Rewrites",
+          "Example 2: Frontend engineer"
+        ],
+        "char_start": 9925,
+        "char_end": 10212
+      },
+      {
+        "level": 3,
+        "title": "Example 3: Data engineer",
+        "section_type": "example",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Examples: Before and After Bullet Rewrites",
+          "Example 3: Data engineer"
+        ],
+        "char_start": 10212,
+        "char_end": 10527
+      },
+      {
+        "level": 2,
+        "title": "Common Mistakes in Tech Resumes (and How to Fix Them)",
+        "section_type": "step",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Common Mistakes in Tech Resumes (and How to Fix Them)"
+        ],
+        "char_start": 10527,
+        "char_end": 11889
+      },
+      {
+        "level": 3,
+        "title": "1. Listing responsibilities instead of impact",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Common Mistakes in Tech Resumes (and How to Fix Them)",
+          "1. Listing responsibilities instead of impact"
+        ],
+        "char_start": 10585,
+        "char_end": 10883
+      },
+      {
+        "level": 3,
+        "title": "2. Overloading with irrelevant tech",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Common Mistakes in Tech Resumes (and How to Fix Them)",
+          "2. Overloading with irrelevant tech"
+        ],
+        "char_start": 10883,
+        "char_end": 11152
+      },
+      {
+        "level": 3,
+        "title": "3. Too much academic / course content for experienced engineers",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Common Mistakes in Tech Resumes (and How to Fix Them)",
+          "3. Too much academic / course content for experienced engineers"
+        ],
+        "char_start": 11152,
+        "char_end": 11414
+      },
+      {
+        "level": 3,
+        "title": "4. Dense paragraphs instead of bullets",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Common Mistakes in Tech Resumes (and How to Fix Them)",
+          "4. Dense paragraphs instead of bullets"
+        ],
+        "char_start": 11414,
+        "char_end": 11584
+      },
+      {
+        "level": 3,
+        "title": "5. Ignoring the job description",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Common Mistakes in Tech Resumes (and How to Fix Them)",
+          "5. Ignoring the job description"
+        ],
+        "char_start": 11584,
+        "char_end": 11889
+      },
+      {
+        "level": 2,
+        "title": "Tailoring Your Resume to the Role (Without Keyword Stuffing)",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Tailoring Your Resume to the Role (Without Keyword Stuffing)"
+        ],
+        "char_start": 11889,
+        "char_end": 12725
+      },
+      {
+        "level": 3,
+        "title": "Step-by-step approach",
+        "section_type": "step",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Tailoring Your Resume to the Role (Without Keyword Stuffing)",
+          "Step-by-step approach"
+        ],
+        "char_start": 12113,
+        "char_end": 12725
+      },
+      {
+        "level": 2,
+        "title": "2026-Specific Considerations: AI, GitHub, and Portfolios",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "2026-Specific Considerations: AI, GitHub, and Portfolios"
+        ],
+        "char_start": 12725,
+        "char_end": 13767
+      },
+      {
+        "level": 3,
+        "title": "AI-generated content",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "2026-Specific Considerations: AI, GitHub, and Portfolios",
+          "AI-generated content"
+        ],
+        "char_start": 12786,
+        "char_end": 13269
+      },
+      {
+        "level": 3,
+        "title": "GitHub and code samples",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "2026-Specific Considerations: AI, GitHub, and Portfolios",
+          "GitHub and code samples"
+        ],
+        "char_start": 13269,
+        "char_end": 13767
+      },
+      {
+        "level": 2,
+        "title": "Formatting Details That Matter More Than You Think",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Formatting Details That Matter More Than You Think"
+        ],
+        "char_start": 13767,
+        "char_end": 14458
+      },
+      {
+        "level": 3,
+        "title": "Length and density",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Formatting Details That Matter More Than You Think",
+          "Length and density"
+        ],
+        "char_start": 13822,
+        "char_end": 14091
+      },
+      {
+        "level": 3,
+        "title": "Fonts and sizes",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Formatting Details That Matter More Than You Think",
+          "Fonts and sizes"
+        ],
+        "char_start": 14091,
+        "char_end": 14328
+      },
+      {
+        "level": 3,
+        "title": "File naming",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Formatting Details That Matter More Than You Think",
+          "File naming"
+        ],
+        "char_start": 14328,
+        "char_end": 14458
+      },
+      {
+        "level": 2,
+        "title": "Putting It All Together: A Minimal, Modern Tech Resume Template (Text-Only)",
+        "section_type": "example",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Putting It All Together: A Minimal, Modern Tech Resume Template (Text-Only)"
+        ],
+        "char_start": 14458,
+        "char_end": 14621
+      },
+      {
+        "level": 2,
+        "title": "Key Takeaways: Best Software Engineer Resume Format for 2026",
+        "section_type": "content",
+        "header_path": [
+          "Best Resume Format for Software Engineers in 2026 (ATS + Recruiter Friendly)",
+          "Key Takeaways: Best Software Engineer Resume Format for 2026"
+        ],
+        "char_start": 14621,
+        "char_end": 15545
+      }
+    ]
+  },
+  "links": [
+    "https://thita.ai/blog/dsa/beginner-to-advanced-dsa-roadmap-for-software-engineers-in-2026"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

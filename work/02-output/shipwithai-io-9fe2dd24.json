@@ -1,0 +1,48 @@
+{
+  "markdown": "# ShipWithAI\n\nClaude Code Mastery\n\nThe most comprehensive course on Claude Code CLI. 16 phases, 64 modules — from installation to full-auto multi-agent workflows. The complete playbook.\n\nYou're using AI coding tools — Copilot, Cursor, Claude — but you're barely scratching the surface. Copy-pasting prompts from Twitter. Getting hallucinated code. Wasting tokens on bad context. **You know AI should make you faster, but it doesn't feel 10x yet.**\n\n**ShipWithAI** is where developers learn to actually ship with AI. Not theory. Not hype. Real workflows from engineers who build products every day.\n\nClaude Code Mastery\n\nThe most comprehensive course on Claude Code CLI. 16 phases, 64 modules — from installation to full-auto multi-agent workflows. The complete playbook.\n\nBattle-Tested\n\nEvery command verified. Every workflow production-tested. Written by a 12-year engineer who ships real products — not by someone who just read the docs.\n\nBilingual EN/VI\n\nFull content in English and Vietnamese. The only comprehensive AI coding resource for 500K+ Vietnamese developers.\n\nBeyond One Tool\n\nStarting with Claude Code. Expanding to Cursor, Gemini, GitHub Copilot, and more. One place for all AI developer tools.\n\n| Part | Phases | What You Learn |\n|---|---|---|\nFoundation | 1-3 | Installation, security, core workflows — the bedrock |\nIntermediate | 4-8 | Prompt engineering, context mastery, thinking modes, debugging AI |\nAdvanced | 9-12 | Legacy code strategies, team collaboration, automation, n8n workflows |\nMastery | 13-16 | Data analysis, optimization, templates, real-world case studies |\n\n16 Phases · 64 Modules · 200+ Topics— Each module includes hands-on exercises, cheat sheets, pitfall guides, and production war stories.\n\nFounded by engineers with 12+ years of experience building products used by millions. We dogfood everything we ship — if it doesn't save us time, we don't sell it.\n\nStarting with the Claude Code ecosystem. Expanding to every AI tool that helps developers ship faster — OpenClaw, GoClaw, and beyond. Plugins, solutions, and battle-tested workflows.\n\n*\"Don't just code. Ship.\"*\n",
+  "metadata": {
+    "source_url": "https://shipwithai.io",
+    "source_domain": "shipwithai.io",
+    "topic": "claude-code-workflow",
+    "fetched_at": "2026-05-25T06:42:15.574348+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "ShipWithAI",
+    "description": "Courses, tools, and battle-tested tips for developers who want to 10x their productivity with AI coding tools.",
+    "language": "en",
+    "word_count": 321,
+    "content_hash": "sha256:079c597d65199a8cdab3604e8ad5af40c7d738984d19303ca8ecaa47994c61da",
+    "reading_time": 2,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.1369,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "ShipWithAI",
+        "section_type": "title",
+        "header_path": [
+          "ShipWithAI"
+        ],
+        "char_start": 0,
+        "char_end": 2113
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "low-signal",
+  "enrichment_status": "skipped-quarantined"
+}

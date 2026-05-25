@@ -1,0 +1,102 @@
+{
+  "markdown": "# Note-driven agentic coding workflow using Claude Code and Inkdrop\n\nHey, what's up? It's Takuya. I came up with another AI coding workflow that is note-driven, using Claude Code and Inkdrop. When I was using Claude Code's plan mode, I found the generated plans hard to read on the terminal because the CLI is not optimal for viewing Markdown documents. So, I tried using Inkdrop as a backend store through its MCP server for Claude Code to store its plans to solve this issue.\n\nI shared a demo on YouTube, so please check it out:\n\nAnd here are the config files:\n\nThis repository is based on Affaan's one. You can copy and paste the md files into your `.claude`\n\nfolder.\n\n## Why Note-Driven?\n\nOf course, it can be done by simply opening local md files on VSCode. But, by storing plans in Inkdrop, you get:\n\n**Beautiful markdown rendering**- Plans are much easier to read with proper formatting, syntax highlighting, Mermaid diagrams, and LaTeX math blocks**Easy to edit**- Modify the plan before confirming, add notes, or adjust steps directly with the robust Markdown editor in Inkdrop**Multi-device review**- With data sync across platforms, review and edit plans from any device, including your phone**Revision history**- Track exactly when work started, what changed, and when it completed, with Inkdrop's revision history**Progress tracking**- Watch checkboxes get ticked off and note status updates appear in real-time\n\n## How It Works\n\n**Request a plan**- Run the`/plan`\n\ncommand with your task description**Plan is created**- Claude Code analyzes the codebase and generates a detailed implementation plan**Saved to Inkdrop**- The plan is automatically saved as a note with status`none`\n\n**Review and confirm**- Read the plan in Inkdrop's markdown renderer, then confirm to proceed**Execution begins**- Status changes to`active`\n\n, work starts**Progress updates**- Checkboxes are checked off, deviations annotated, blockers noted**Completion**- Status changes to`completed`\n\n, outcome section appended\n\nCheck out the repository for more detailed instructions.\n\n## Idea: Creating a CLI tool like Beads?\n\nThis workflow makes me think of creating a CLI tool like Beads:\n\nThis tool helps AI agents remember context by providing a simple issue tracker designed for them. Beads uses SQLite as a backend store, but I think it is also possible to use Inkdrop as a database, as demonstrated in the above video. It lets you focus on writing concepts, ideas, specifications, designs, and so on. In other words, it means AI agents take notes for *themselves* because they forget things due to the context window size, just like us. What do you think?\n",
+  "metadata": {
+    "source_url": "https://www.devas.life/note-driven-agentic-coding-workflow-using-claude-code-and-inkdrop/",
+    "source_domain": "devas.life",
+    "topic": "claude-code-workflow",
+    "fetched_at": "2026-05-25T06:44:11.155894+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Note-driven agentic coding workflow using Claude Code and Inkdrop",
+    "description": "Hey, what's up? It's Takuya. I came up with another AI coding workflow that is note-driven, using Claude Code and Inkdrop. When I was using Claude Code's plan mode, I found the generated plans hard to read on the terminal because the CLI is not optimal for viewing Markdown documents.",
+    "language": "en",
+    "word_count": 417,
+    "content_hash": "sha256:54da934f071c546f2ac3537ee787fd2ab5d6f6ed6ddf1b60b79dea5730a928c5",
+    "reading_time": 3,
+    "author": "Takuya Matsuyama",
+    "published_date": "2026-01-29",
+    "og_title": null,
+    "signal_score": 0.8475,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Note-driven coding workflow using Claude Code and Inkdrop for storing and tracking AI-generated plans with beautiful markdown rendering and revision history.",
+    "entities": {
+      "primary": "Note-driven AI coding workflow",
+      "aliases": [
+        "Claude Code Inkdrop integration",
+        "AI-assisted development",
+        "plan management system"
+      ]
+    },
+    "core_question": "How can developers use Inkdrop as a backend for Claude Code planning to improve readability and tracking?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Claude Code",
+      "Inkdrop",
+      "workflow",
+      "MCP",
+      "planning",
+      "notes",
+      "AI coding"
+    ]
+  },
+  "structure": {
+    "section_count": 4,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Note-driven agentic coding workflow using Claude Code and Inkdrop",
+        "section_type": "title",
+        "header_path": [
+          "Note-driven agentic coding workflow using Claude Code and Inkdrop"
+        ],
+        "char_start": 0,
+        "char_end": 2646
+      },
+      {
+        "level": 2,
+        "title": "Why Note-Driven?",
+        "section_type": "intro",
+        "header_path": [
+          "Note-driven agentic coding workflow using Claude Code and Inkdrop",
+          "Why Note-Driven?"
+        ],
+        "char_start": 672,
+        "char_end": 1426
+      },
+      {
+        "level": 2,
+        "title": "How It Works",
+        "section_type": "content",
+        "header_path": [
+          "Note-driven agentic coding workflow using Claude Code and Inkdrop",
+          "How It Works"
+        ],
+        "char_start": 1426,
+        "char_end": 2068
+      },
+      {
+        "level": 2,
+        "title": "Idea: Creating a CLI tool like Beads?",
+        "section_type": "content",
+        "header_path": [
+          "Note-driven agentic coding workflow using Claude Code and Inkdrop",
+          "Idea: Creating a CLI tool like Beads?"
+        ],
+        "char_start": 2068,
+        "char_end": 2646
+      }
+    ]
+  },
+  "links": [
+    "https://www.devas.life/tag/tips/",
+    "https://www.inkdrop.app/?utm_source=devas.life&utm_medium=web&utm_campaign=blog&utm_content=note-driven-agentic-coding-workflow-using-claude-code-and-inkdrop",
+    "https://github.com/inkdropapp/mcp-server?ref=devas.life",
+    "https://github.com/affaan-m/everything-claude-code?ref=devas.life",
+    "https://docs.inkdrop.app/reference/revision-history?ref=devas.life"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

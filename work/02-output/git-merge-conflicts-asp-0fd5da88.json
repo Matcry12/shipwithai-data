@@ -1,0 +1,324 @@
+{
+  "markdown": "# Git Merge Conflicts\n\n## What is a Merge Conflict?\n\nA **merge conflict** happens when two branches change the same part of a file.\n\nGit can't decide which change to keep, so you have to choose.\n\nYou must resolve the conflict before you can finish the merge.\n\n## Why Do Merge Conflicts Happen?\n\nMerge conflicts usually happen when you merge branches that changed the same lines in a file.\n\nThis is common in collaborative projects or when working on long-lived branches.\n\n## How to See and Resolve Merge Conflicts\n\nWhen you merge a branch and there are conflicting changes, Git will pause and mark the files with conflicts.\n\n### Example: Merge a Branch\n\n`git merge feature-branch`\n\nIf there are conflicts, Git will tell you which files are affected.\n\n## See Which Files Have Conflicts\n\nUse `git status`\n\nto see which files need your attention:\n\n### Example: Check Status\n\n`git status`\n\n## See the Differences\n\nUse `git diff`\n\nto see what changed and help you decide how to resolve the conflict:\n\n### Example: See Differences\n\n`git diff`\n\n## Edit the Conflict Markers\n\nOpen the conflicted file. You'll see sections like this:\n\n### Conflict Markers\n\n```\n<<<<<<< HEAD\nYour changes here\n=======\nOther branch's changes\n>>>>>>> feature-branch\n```\n\nEdit the file to keep what you want, then remove the conflict markers (`<<<<<<<`\n\n, `=======`\n\n, `>>>>>>>`\n\n).\n\n## Mark as Resolved\n\nAfter fixing the file, mark it as resolved:\n\n### Example: Mark Resolved\n\n`git add filename.txt`\n\n## Complete the Merge\n\nFinish the merge with a commit (if Git doesn't do it automatically):\n\n### Example: Finish Merge\n\n`git commit`\n\n## Cancel the Merge\n\nIf you want to stop and undo the merge:\n\n### Example: Abort Merge\n\n`git merge --abort`\n\n## Use a Visual Merge Tool\n\nIf you prefer, you can use a visual tool to resolve conflicts:\n\n### Example: Use Mergetool\n\n`git mergetool`\n\n## Pick One Side's Changes\n\nIf you want to keep only your changes or only the other branch's changes:\n\n### Example: Keep Our Changes\n\n`git checkout --ours filename.txt`\n\n### Example: Keep Their Changes\n\n`git checkout --theirs filename.txt`\n\n## Troubleshooting & Best Practices\n\n- If you're stuck, you can always use\n`git merge --abort`\n\nto start over. - Make sure you remove all conflict markers before marking as resolved.\n- If you use\n`git mergetool`\n\nand don't like the result, you can still edit the files by hand.\n\n## Exercise?**What is this?**\n\nTest your skills by answering a few questions about the topics of this page\n\n`git checkout filename.txt`\n",
+  "metadata": {
+    "source_url": "https://www.w3schools.com/git/git_merge_conflicts.asp?remote=github",
+    "source_domain": "w3schools.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:47:07.114504+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "W3Schools.com",
+    "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+    "language": "en",
+    "word_count": 418,
+    "content_hash": "sha256:5793a44e2fd5d262e56c0028177645c57beb45db739b9f10fe8338d58f28d11c",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.8483,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide on understanding and resolving Git merge conflicts, covering conflict markers, resolution strategies, visual merge tools, and best practices for handling conflicting changes.",
+    "entities": {
+      "primary": "Git merge conflicts",
+      "aliases": [
+        "merge conflict resolution",
+        "Git conflict handling",
+        "merge strategies"
+      ]
+    },
+    "core_question": "How do you resolve Git merge conflicts?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "merge conflicts",
+      "conflict markers",
+      "resolution strategies",
+      "merge tools",
+      "status checking"
+    ]
+  },
+  "structure": {
+    "section_count": 24,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Git Merge Conflicts",
+        "section_type": "title",
+        "header_path": [
+          "Git Merge Conflicts"
+        ],
+        "char_start": 0,
+        "char_end": 2508
+      },
+      {
+        "level": 2,
+        "title": "What is a Merge Conflict?",
+        "section_type": "intro",
+        "header_path": [
+          "Git Merge Conflicts",
+          "What is a Merge Conflict?"
+        ],
+        "char_start": 23,
+        "char_end": 260
+      },
+      {
+        "level": 2,
+        "title": "Why Do Merge Conflicts Happen?",
+        "section_type": "intro",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Why Do Merge Conflicts Happen?"
+        ],
+        "char_start": 260,
+        "char_end": 472
+      },
+      {
+        "level": 2,
+        "title": "How to See and Resolve Merge Conflicts",
+        "section_type": "step",
+        "header_path": [
+          "Git Merge Conflicts",
+          "How to See and Resolve Merge Conflicts"
+        ],
+        "char_start": 472,
+        "char_end": 751
+      },
+      {
+        "level": 3,
+        "title": "Example: Merge a Branch",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "How to See and Resolve Merge Conflicts",
+          "Example: Merge a Branch"
+        ],
+        "char_start": 625,
+        "char_end": 751
+      },
+      {
+        "level": 2,
+        "title": "See Which Files Have Conflicts",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "See Which Files Have Conflicts"
+        ],
+        "char_start": 751,
+        "char_end": 886
+      },
+      {
+        "level": 3,
+        "title": "Example: Check Status",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "See Which Files Have Conflicts",
+          "Example: Check Status"
+        ],
+        "char_start": 845,
+        "char_end": 886
+      },
+      {
+        "level": 2,
+        "title": "See the Differences",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "See the Differences"
+        ],
+        "char_start": 886,
+        "char_end": 1038
+      },
+      {
+        "level": 3,
+        "title": "Example: See Differences",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "See the Differences",
+          "Example: See Differences"
+        ],
+        "char_start": 996,
+        "char_end": 1038
+      },
+      {
+        "level": 2,
+        "title": "Edit the Conflict Markers",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Edit the Conflict Markers"
+        ],
+        "char_start": 1038,
+        "char_end": 1354
+      },
+      {
+        "level": 3,
+        "title": "Conflict Markers",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Edit the Conflict Markers",
+          "Conflict Markers"
+        ],
+        "char_start": 1126,
+        "char_end": 1354
+      },
+      {
+        "level": 2,
+        "title": "Mark as Resolved",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Mark as Resolved"
+        ],
+        "char_start": 1354,
+        "char_end": 1472
+      },
+      {
+        "level": 3,
+        "title": "Example: Mark Resolved",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Mark as Resolved",
+          "Example: Mark Resolved"
+        ],
+        "char_start": 1420,
+        "char_end": 1472
+      },
+      {
+        "level": 2,
+        "title": "Complete the Merge",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Complete the Merge"
+        ],
+        "char_start": 1472,
+        "char_end": 1606
+      },
+      {
+        "level": 3,
+        "title": "Example: Finish Merge",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Complete the Merge",
+          "Example: Finish Merge"
+        ],
+        "char_start": 1565,
+        "char_end": 1606
+      },
+      {
+        "level": 2,
+        "title": "Cancel the Merge",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Cancel the Merge"
+        ],
+        "char_start": 1606,
+        "char_end": 1715
+      },
+      {
+        "level": 3,
+        "title": "Example: Abort Merge",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Cancel the Merge",
+          "Example: Abort Merge"
+        ],
+        "char_start": 1668,
+        "char_end": 1715
+      },
+      {
+        "level": 2,
+        "title": "Use a Visual Merge Tool",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Use a Visual Merge Tool"
+        ],
+        "char_start": 1715,
+        "char_end": 1852
+      },
+      {
+        "level": 3,
+        "title": "Example: Use Mergetool",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Use a Visual Merge Tool",
+          "Example: Use Mergetool"
+        ],
+        "char_start": 1807,
+        "char_end": 1852
+      },
+      {
+        "level": 2,
+        "title": "Pick One Side's Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Pick One Side's Changes"
+        ],
+        "char_start": 1852,
+        "char_end": 2093
+      },
+      {
+        "level": 3,
+        "title": "Example: Keep Our Changes",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Pick One Side's Changes",
+          "Example: Keep Our Changes"
+        ],
+        "char_start": 1955,
+        "char_end": 2022
+      },
+      {
+        "level": 3,
+        "title": "Example: Keep Their Changes",
+        "section_type": "example",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Pick One Side's Changes",
+          "Example: Keep Their Changes"
+        ],
+        "char_start": 2022,
+        "char_end": 2093
+      },
+      {
+        "level": 2,
+        "title": "Troubleshooting & Best Practices",
+        "section_type": "content",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Troubleshooting & Best Practices"
+        ],
+        "char_start": 2093,
+        "char_end": 2372
+      },
+      {
+        "level": 2,
+        "title": "Exercise?**What is this?**",
+        "section_type": "intro",
+        "header_path": [
+          "Git Merge Conflicts",
+          "Exercise?**What is this?**"
+        ],
+        "char_start": 2372,
+        "char_end": 2508
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

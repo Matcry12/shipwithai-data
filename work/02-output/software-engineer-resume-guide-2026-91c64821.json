@@ -1,0 +1,218 @@
+{
+  "markdown": "# Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format\n\nThe software engineering job market has changed significantly in the past two years. Hiring volume is lower than the 2021-2022 peak. Application volume is higher. ATS filters are tighter. And the bar for what a strong technical resume looks like has risen — hiring managers are reading more carefully because they have the luxury of being selective.\n\nThis guide covers exactly what a software engineer resume needs to pass ATS and land interviews at top companies in 2026.\n\n## The Core Structure of a Software Engineer Resume\n\nA strong SWE resume in 2026 follows this structure, in this order:\n\n- Contact information (name, email, phone, LinkedIn, GitHub, portfolio)\n- Professional summary (3-4 sentences, optional for engineers with strong experience)\n- Work experience (most recent first, 3-5 bullets per role)\n- Skills (grouped by category, 15-20 items)\n- Education\n- Projects (optional but valuable, especially for engineers with fewer than 5 years of experience)\n\nOne page for engineers with under 10 years of experience. Two pages is acceptable for senior/staff engineers. Nothing gets gained by padding to two pages early in a career.\n\n## Contact Information Section\n\nInclude: full name, professional email (firstname.lastname@gmail.com format), phone number, LinkedIn URL (custom vanity URL, not the default string of characters), GitHub URL, and optionally a personal portfolio or technical blog.\n\nDo not include: photo, home address (city + state is sufficient), age, or any information that invites bias. Do not put any of this in a document header or footer — it will not be parsed by ATS.\n\n## Professional Summary for Software Engineers\n\nThe professional summary is optional for experienced engineers, but it is valuable if done right. A strong SWE summary contains: your role category, years of experience, the 2-3 technical areas you are strongest in, your current scope (startup/enterprise, scale, domain), and one concrete outcome.\n\nStrong example:\n\n\"Senior Software Engineer with 7 years of experience building distributed systems and cloud-native applications. Specializes in Python, Go, and AWS. Most recently led a 6-person backend team at [Company] scaling a real-time events platform from 50K to 8M events/day. Open to senior and staff-level backend engineering roles.\"\n\nWeak example (do not do this):\n\n\"Motivated and detail-oriented software engineer with a passion for technology and a proven track record of success in fast-paced environments.\" This contains zero technical signal and every keyword is generic.\n\n## Work Experience: The Most Important Section\n\nYour work experience section is where ATS semantic scoring, keyword matching, and human evaluation all focus. Three rules govern this section:\n\n### Rule 1: Every Bullet Needs a Number\n\nQuantified achievements dramatically outperform unquantified ones in both ATS scoring and human evaluation. Every bullet should answer: what did you build or do, at what scale, and with what outcome?\n\nThe formula: Action verb + what you built/did + technology/method + scale/scope + measurable result.\n\nStrong bullets:\n\n- Architected and deployed event-driven microservices platform on AWS (Lambda, SQS, DynamoDB) serving 2M+ daily users, reducing infrastructure cost by $340K/year.\n- Led migration of monolithic Django application to React + FastAPI, cutting average page load from 4.2s to 0.8s and increasing user session length by 34%.\n- Built CI/CD pipeline with GitHub Actions and Docker, reducing deployment time from 3.5 hours to 8 minutes and enabling daily release cadence.\n- Designed and implemented distributed caching layer using Redis, handling 40K req/sec and eliminating 95% of database queries on hot paths.\n\nWeak bullets (rewrite these if they appear on your resume):\n\n- \"Worked on backend services\" — no scope, no technology, no outcome\n- \"Responsible for maintaining CI/CD pipeline\" — passive language, no impact\n- \"Helped team with various projects\" — no ownership, no specifics\n- \"Developed features for the main product\" — too vague to pass ATS or impress a reader\n\n### Rule 2: Use Both the Technology Name and What You Did With It\n\n\"Python\" in a bullet scores differently than \"Built data ingestion pipeline in Python processing 50M records/day.\" Both mention Python, but the second demonstrates actual application and scale. ATS semantic matching in 2026 rewards demonstrated application over mere mention.\n\nUse the full name of every technology, framework, and tool. Do not abbreviate: write PostgreSQL not Postgres, Kubernetes not K8s (you can add the abbreviation in parentheses, but lead with the full name for ATS matching).\n\n### Rule 3: Show Scope and Impact at Both Technical and Business Levels\n\nStrong engineering resumes connect technical decisions to business outcomes. Reducing latency is a technical achievement. \"Reducing API latency from 2.1s to 190ms, which increased checkout completion rate by 12% ($890K additional annual revenue)\" is a business impact. This translation from technical to business outcome is what distinguishes senior engineers from mid-level in how they write and think.\n\n## Skills Section for Software Engineers\n\nGroup your skills into clear categories. This helps both ATS classification and human readability:\n\n**Languages:** Python, Go, JavaScript, TypeScript, Java, Rust, SQL\n\n**Frameworks & Libraries:** React, Node.js, FastAPI, Django, Spring Boot, GraphQL\n\n**Cloud & Infrastructure:** AWS (EC2, Lambda, RDS, SQS, S3), GCP, Docker, Kubernetes, Terraform\n\n**Databases:** PostgreSQL, MongoDB, Redis, Elasticsearch, DynamoDB\n\n**Tools & Practices:** Git, GitHub Actions, CI/CD, Agile, System Design, REST APIs\n\nKeep the list to 15-20 items and omit anything you cannot competently discuss in an interview. ATS keyword density is not worth claiming skills you cannot back up in a technical screen.\n\n## ATS Keywords That Matter Most for Software Engineers in 2026\n\nThe keywords ATS systems screen for most heavily in software engineering job descriptions:\n\n**Programming languages** (list only what you actually use): Python, JavaScript, TypeScript, Java, Go, Rust, C++, C#, Ruby, Kotlin, Swift\n\n**Web frameworks**: React, Vue, Angular, Next.js, Node.js, Django, FastAPI, Flask, Spring Boot, Rails, Laravel\n\n**Cloud platforms**: AWS, Azure, GCP — ATS searches both the acronym and the full name. Write \"Amazon Web Services (AWS)\" in your summary and then use AWS in bullets.\n\n**Infrastructure and DevOps**: Docker, Kubernetes, Terraform, CI/CD, GitOps, Infrastructure as Code, Helm, Prometheus, Grafana\n\n**Databases**: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, DynamoDB, Cassandra, Snowflake, BigQuery\n\n**Engineering practices**: Agile, Scrum, code review, system design, distributed systems, microservices, event-driven architecture, REST API, gRPC\n\n**Soft skills that ATS screens for at senior levels**: cross-functional collaboration, technical leadership, mentoring, on-call, incident response, architecture design\n\n## Education Section\n\nList your degree, institution, graduation year. If your GPA was 3.7+, include it. If you have relevant coursework (distributed systems, algorithms, machine learning), a brief list is worth one line for entry-level roles.\n\nCertifications belong either in the Education section or in a dedicated Certifications section: AWS Certified Solutions Architect, Google Cloud Professional, Kubernetes (CKA/CKAD), HashiCorp Terraform Associate. Include the certification name, issuing body, and year. Do not list expired certifications unless they are still relevant context.\n\n## Projects Section (Entry to Mid-Level)\n\nIf you have fewer than 5 years of full-time experience, a projects section is valuable. Include: project name, link to GitHub (if public), technologies used, and a 1-2 line description with an outcome metric.\n\nStrong project bullet: \"Built open-source CLI tool in Go for monitoring Kubernetes pod resources (GitHub: 2,400+ stars). Supports all major cloud providers. Used by 300+ teams.\"\n\nWhat makes a project worth including: real usage (even 100 users is real usage), a solved problem you can articulate clearly, a specific technology stack, and a measurable outcome (stars, users, performance benchmark).\n\n## The Most Common Software Engineer Resume Mistakes\n\n**Using a two-column template.** Multi-column layouts fail ATS parsers. Single column, always.\n\n**Listing every technology you have ever touched.** A 50-item skills list signals lack of focus. Keep it tight and current.\n\n**No GitHub link.** For software engineers, a GitHub profile is expected. If yours is empty or private, spend a weekend making one public project presentable before your job search.\n\n**Bullets that describe responsibilities instead of achievements.** \"Maintained frontend codebase\" describes a duty. \"Reduced JavaScript bundle size 58% through code splitting and tree shaking, improving Lighthouse performance score from 41 to 89\" describes an achievement.\n\n**Applying to senior roles with a mid-level resume.** Senior and staff-level roles have different ATS and human filters. Scope language matters: \"led,\" \"architected,\" \"defined\" versus \"built,\" \"implemented,\" \"contributed to.\" Match your language to the level you are targeting.\n\n## Tailoring Your Resume for Each Application\n\nA software engineer applying broadly should maintain a base resume with all skills and experience, then customize a copy for each application. The customization takes 10-15 minutes with the right tools:\n\n- Paste the JD into ResumeVera's keyword analyzer\n- See which keywords are missing from your resume\n- Add 3-5 missing keywords in context in your experience bullets or summary\n- Check your ATS score — aim for 70%+\n- Export and submit\n\nEngineers who tailor consistently report 2-3x higher interview rates compared to submitting the same resume everywhere. The math is simple: if your baseline resume gets a 10% interview rate and a tailored version gets 25%, you need 2.5x fewer applications for the same number of interviews.\n\n## Final Checklist Before Submitting\n\n- Single-column layout\n- Contact info in main body (not header/footer)\n- GitHub URL included\n- Every bullet has a number or scale indicator\n- Skills section has 15-20 items, grouped by category\n- All major technologies spelled out fully on first use\n- ATS score checked against the target JD (aim for 70%+)\n- Copy-paste test passed (text reads correctly in plain text)\n- No tables, text boxes, or graphics\n- File saved as PDF\n",
+  "metadata": {
+    "source_url": "https://resumevera.com/blogs/software-engineer-resume-guide-2026",
+    "source_domain": "resumevera.com",
+    "topic": "ats-optimization",
+    "fetched_at": "2026-05-25T06:41:19.962756+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Software Engineer Resume Guide 2026: Keywords, Examples & ATS Format",
+    "description": "Complete guide to a software engineer resume that passes ATS in 2026. Must-have keywords, bullet examples, skills format, and common mistakes to fix.",
+    "language": "en",
+    "word_count": 1570,
+    "content_hash": "sha256:0b2551fa7cc2944ab2ea846337193202248383a768b62aa92ddbac42bae3f29a",
+    "reading_time": 8,
+    "author": "ResumeVera Team; ResumeVera",
+    "published_date": "2026-05-03",
+    "og_title": null,
+    "signal_score": 0.9437,
+    "text_to_link_ratio": 1.0,
+    "tldr": "2026 software engineer resume guide covering ATS keywords, quantification, professional summary, work experience bullets, and skills section best practices.",
+    "entities": {
+      "primary": "Software engineer resume 2026",
+      "aliases": [
+        "ATS resume guide",
+        "resume optimization",
+        "technical resume"
+      ]
+    },
+    "core_question": "What does a 2026 software engineer resume need to pass ATS and land interviews?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "ATS keywords",
+      "quantified results",
+      "professional summary",
+      "skills section",
+      "work experience"
+    ]
+  },
+  "structure": {
+    "section_count": 15,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+        "section_type": "title",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format"
+        ],
+        "char_start": 0,
+        "char_end": 10539
+      },
+      {
+        "level": 2,
+        "title": "The Core Structure of a Software Engineer Resume",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "The Core Structure of a Software Engineer Resume"
+        ],
+        "char_start": 559,
+        "char_end": 1228
+      },
+      {
+        "level": 2,
+        "title": "Contact Information Section",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Contact Information Section"
+        ],
+        "char_start": 1228,
+        "char_end": 1688
+      },
+      {
+        "level": 2,
+        "title": "Professional Summary for Software Engineers",
+        "section_type": "summary",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Professional Summary for Software Engineers"
+        ],
+        "char_start": 1688,
+        "char_end": 2623
+      },
+      {
+        "level": 2,
+        "title": "Work Experience: The Most Important Section",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Work Experience: The Most Important Section"
+        ],
+        "char_start": 2623,
+        "char_end": 5189
+      },
+      {
+        "level": 3,
+        "title": "Rule 1: Every Bullet Needs a Number",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Work Experience: The Most Important Section",
+          "Rule 1: Every Bullet Needs a Number"
+        ],
+        "char_start": 2815,
+        "char_end": 4144
+      },
+      {
+        "level": 3,
+        "title": "Rule 2: Use Both the Technology Name and What You Did With It",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Work Experience: The Most Important Section",
+          "Rule 2: Use Both the Technology Name and What You Did With It"
+        ],
+        "char_start": 4144,
+        "char_end": 4711
+      },
+      {
+        "level": 3,
+        "title": "Rule 3: Show Scope and Impact at Both Technical and Business Levels",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Work Experience: The Most Important Section",
+          "Rule 3: Show Scope and Impact at Both Technical and Business Levels"
+        ],
+        "char_start": 4711,
+        "char_end": 5189
+      },
+      {
+        "level": 2,
+        "title": "Skills Section for Software Engineers",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Skills Section for Software Engineers"
+        ],
+        "char_start": 5189,
+        "char_end": 5918
+      },
+      {
+        "level": 2,
+        "title": "ATS Keywords That Matter Most for Software Engineers in 2026",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "ATS Keywords That Matter Most for Software Engineers in 2026"
+        ],
+        "char_start": 5918,
+        "char_end": 7046
+      },
+      {
+        "level": 2,
+        "title": "Education Section",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Education Section"
+        ],
+        "char_start": 7046,
+        "char_end": 7634
+      },
+      {
+        "level": 2,
+        "title": "Projects Section (Entry to Mid-Level)",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Projects Section (Entry to Mid-Level)"
+        ],
+        "char_start": 7634,
+        "char_end": 8285
+      },
+      {
+        "level": 2,
+        "title": "The Most Common Software Engineer Resume Mistakes",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "The Most Common Software Engineer Resume Mistakes"
+        ],
+        "char_start": 8285,
+        "char_end": 9297
+      },
+      {
+        "level": 2,
+        "title": "Tailoring Your Resume for Each Application",
+        "section_type": "content",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Tailoring Your Resume for Each Application"
+        ],
+        "char_start": 9297,
+        "char_end": 10075
+      },
+      {
+        "level": 2,
+        "title": "Final Checklist Before Submitting",
+        "section_type": "summary",
+        "header_path": [
+          "Software Engineer Resume Guide 2026: ATS Keywords, Bullet Point Examples & Format",
+          "Final Checklist Before Submitting"
+        ],
+        "char_start": 10075,
+        "char_end": 10539
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

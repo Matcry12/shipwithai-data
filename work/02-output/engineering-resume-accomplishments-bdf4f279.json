@@ -1,0 +1,87 @@
+{
+  "markdown": "# What accomplishments sound like on software engineering resumes\n\nEffective resumes need to contain two things: responsibilities and\naccomplishments. The first tells the read what your job was; the second,\nwhat your results were. Unfortunately, most people fail at the second\npart. I've seen thousands — maybe tens of thousands — of resumes, and\nmost don't contain accomplishments. This makes it difficult for a hiring\nmanager to get excited about your resume: knowing what you were\n*supposed* to do doesn't tell a reader *how well* you did that thing.\n\nFor example, I'll often see results with lines like: \"Lead developer for\n{Company's} mobile application, written in React Native.\" This is… not\ngreat. It tells me that the person knows a specific technology, but\nthat's it. It doesn't tell me how *well* they know React Native; it\ndoesn't tell me whether the app shipped on time — or at all! — or if\nthe app performed to expectations. Probably this is because the person\ndoesn't know how to articulate specific accomplishments, but possible\nit's because the project was an abject failure and they *were no\naccomplishments*. As a hiring manager, I'm considering both\npossibilities. I'm likely to pass on this resume if it's put against one\nwith specific accomplishments.\n\nThis advice is fairly common. Most guidance on writing strong resumes will tell you to focus on specific outcomes and achievements. But, I've noticed software engineers, in particular, really struggle here. Our work is often complex and hard to measure; we typically work as teams where individual contributes are hard to tease out; and we tend, as a community, to focus on knowledge of tools and technologies over business results.\n\nSo, to help those of you looking for a new job in these uncertain times, here are some examples of what accomplishments look like for software engineers. These are oriented towards individual contributors (perhaps I'll do an engineering managers version next). With the exception of a couple I've taken from _my_resume, all are made up (though some are inspired by patterns/themes I've seen). If any of these apply to your work, feel free to use them as a starting point. But please don't just copy/paste without making them specific to your accomplishments.\n\n## Examples for Engineering Roles\n\n- Led development of CompanyApp, written in React Native. Wrote 80% of\ncode, reviewed the other 20%. Shipped three weeks ahead of schedule.\nAchieved excellent stability (<10 crashes per 10,000 users), and\nmet our performance budget of <100ms per repaint.\n*[This is the example above, rewritten to include specific outcomes.]* - Led development of CompanyApp, written in React Native. The app was\n#3 in the Tea Consumption category in the iOS App Store in 2019.\n*[Or, another way of talking about results. Maybe not quite as strong, but still good.]* - Wrote the backend (Python/Django/PostgreSQL) for example.com, which analyzes teapot construction for the food safety field. Delivered a working version in four weeks, which led to Company's first food safety contract with a US state health agency.\n- Primary developer (wrote 90% of code) for example.com, created on contract with the US Department of Teapot Administration (USDTA). Delivered on time and under budget, to positive marks from our contracting officer.\n- Refactored the infrastructure for example.com, an online chat service. Moved from colocated servers to AWS, which reduced costs by 70% and increased yearly uptime from 88% to 99.7%.\n- Created an automated CI/CD pipeline (using Travis CI and Azure). This allowed us to move to a continuous delivery model, shipping to production many times per week (previously, we'd deployed only twice a month).\n- Created a business intelligence dashboard using Gatsby and Flask to give the front office real-time visibility into stock and sales. Received highly positive feedback from the COO and CFO.\n- Developed (as part of a 3-person engineering team) store.example.com, an e-commerce platform. Our platform handled sales of $10m in 2018, with a peak of $1.5m on Black Friday.\n- Created PyTeapots, a library for controlling Internet-connected teapots. PyTeapots was the first Python library using the Tea-over-IP protocol, and is still the leading Python ToIP library.\n- Developed a data analysis pipeline (AWS EMR and PySpark) for our Teapot Scientists. Research that used this pipeline has been published in The British Journal of Tea Research, Teapot Design Quarterly, and Popular Beverages.\n\n### Operational roles (Ops, SRE, DFIR, etc)\n\nWhen I first posted this, a few folks rightfully pointed out that this advice can be difficult to follow for folks in operational roles (Systems Administrators, SREs, Incident Response, etc). These roles tend to be more responsive, and don't \"ship\" in the traditional sense. These roles are critical to healthy organizations, but the specific accomplishments can be harder to articulate. I've hired for these roles, too, and once again great resumes are able to point out the outcomes and results that the person delivered. Here are some examples of what that could look like:\n\n- Part of the on-call rotation for System X. Responded to an average of 15 incidents / month with a 30 minute SLA, which I never missed.\n- Wrote operational guides and incident playbooks for System X. These guides helped reduce our average outage length from 2 hours to 30 minutes.\n- Responded to 64 security incidents in 2018–2019. Our team met established SLAs for remediation (2 / 10 / 30 days for Sev1 / Sev2 / Sev3) on 80% of incidents.\n- Conducted tabletop exercises to help prepare cross-functional teams (engineering, IT, legal, business) prepare for security incidents. Feedback was positive: attendees reported feeling more prepared and less nervous about potential incidents.\n- First-line triage for Teapot LLCs bug bounty. Reviewed 75 potential vulnerability reports per month. Accuracy rate of 98%, the highest on my team.\n- Maintained SystemZ, a mainframe finance program developed in the 1980s by a company that went out of business in 1995. My interventions and bug fixes ensured that we successfully processed payouts on time in 10/12 months (prior to my involvement, it was 6/12).\n- As a first-line IT Helpdesk Tech, I had the highest CSAT ratings in the department. Promoted to second level support in 9 months.\n\nHelp me make this better! If you've got examples of accomplishments on\nyour resume that you're willing to share, send them to *jacob @ this\ndomain*, and put \"accomplishments\" in the subject line. I'll add them\n(with redactions and tea jokes as needed) to the list.\n",
+  "metadata": {
+    "source_url": "https://jacobian.org/2020/may/8/engineering-resume-accomplishments/",
+    "source_domain": "jacobian.org",
+    "topic": "senior-level-resume",
+    "fetched_at": "2026-05-25T06:40:06.789687+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "What accomplishments sound like on software engineering resumes - Jacob Kaplan-Moss",
+    "description": "<p>Effective resumes need to contain two things: responsibilities and accomplishments. The first tells the read what your job was; the second, what your results were. Unfortunately, most people fail at the second part. I’ve seen thousands — maybe tens of thousands — of resumes, and most don’t contain accomplishments. This makes it difficult for a hiring manager to get excited about your resume: knowing what you were <em>supposed</em> to do doesn’t tell a reader <em>how well</em> you did that thing.</p>…",
+    "language": "en",
+    "word_count": 1072,
+    "content_hash": "sha256:a96a6f6c52ce332200adce35adc1bfe9fdf6c82f43fb54bd51087c6db15875aa",
+    "reading_time": 6,
+    "author": null,
+    "published_date": "2020-05-08",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide explaining how to articulate accomplishments on software engineering resumes with real examples demonstrating specific outcomes, metrics, and business impact for different roles.",
+    "entities": {
+      "primary": "Engineering resume accomplishments",
+      "aliases": [
+        "technical accomplishments",
+        "engineering achievements",
+        "resume results"
+      ]
+    },
+    "core_question": "How should engineers describe accomplishments and results on their resumes?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "resume accomplishments",
+      "technical achievements",
+      "measurable outcomes",
+      "engineering roles",
+      "operational roles"
+    ]
+  },
+  "structure": {
+    "section_count": 3,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "What accomplishments sound like on software engineering resumes",
+        "section_type": "title",
+        "header_path": [
+          "What accomplishments sound like on software engineering resumes"
+        ],
+        "char_start": 0,
+        "char_end": 6628
+      },
+      {
+        "level": 2,
+        "title": "Examples for Engineering Roles",
+        "section_type": "content",
+        "header_path": [
+          "What accomplishments sound like on software engineering resumes",
+          "Examples for Engineering Roles"
+        ],
+        "char_start": 2269,
+        "char_end": 6628
+      },
+      {
+        "level": 3,
+        "title": "Operational roles (Ops, SRE, DFIR, etc)",
+        "section_type": "content",
+        "header_path": [
+          "What accomplishments sound like on software engineering resumes",
+          "Examples for Engineering Roles",
+          "Operational roles (Ops, SRE, DFIR, etc)"
+        ],
+        "char_start": 4508,
+        "char_end": 6628
+      }
+    ]
+  },
+  "links": [
+    "https://jacobian.org#examples-for-engineering-roles",
+    "https://jacobian.org#operational-roles-ops-sre-dfir-etc"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

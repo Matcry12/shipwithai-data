@@ -1,0 +1,280 @@
+{
+  "markdown": "# Advanced Git Commands & Workflows for Senior Developers\n\nAdvanced Git Commands & Workflows for Senior Developers\n\n## Introduction: Git in the Real World\n\nIn mature engineering teams, Git isn't just about committing code—it's about **safely coordinating dozens of developers**, **shipping reliably**, **debugging regressions**, and **maintaining velocity at scale**.\n\nThis guide goes beyond basics to cover **Git internals**, **advanced commands**, and **battle-tested workflows** used in real production systems.\n\n- Many commands below can rewrite history or delete data.\n- Always make sure your work is committed or backed up before using\n`reset --hard`\n\n,`clean`\n\n, or rebasing shared branches.\n\n## 1. Advanced Git Concepts\n\n### Git Internals: HEAD, Index, Objects\n\nGit is a **content-addressable filesystem**.\n\n**HEAD**→ Pointer to the current commit (usually a branch) -\n**Index (Staging Area)**→ Snapshot of what will go into the next commit -\n**Objects****Blob**→ File content**Tree**→ Directory structure**Commit**→ Snapshot + metadata**Tag**→ Named pointer to a commit\n\nReminder flow:\n\n```\nWorking Directory → Index → Commit\n```\n\n### Detached HEAD\n\nOccurs when HEAD points directly to a commit instead of a branch.\n\n```\ngit checkout <commit-hash>\n```\n\n**Use case**: Debugging old releases\n\nIf you make commits here, they can be lost unless you create a branch.\n\n**Recovery / make it safe:**\n\n```\ngit switch -c debug-old-state\n```\n\nThis creates a new branch from the detached state so your commits are preserved.\n\n### Fast-Forward vs Recursive Merge\n\n```\ngit merge feature-x\n```\n\n**Fast-forward**: linear history, no merge commit**Recursive merge**: creates a merge commit\n\nRule of thumb:\n\n- Small/simple history → fast-forward\n- Large teams/auditing needed → merge commits for traceability\n\n### Rebase vs Merge\n\n| Rebase | Merge |\n|---|---|\n| Rewrites history | Preserves history |\n| Cleaner, linear log | Explicit branch structure |\nNever use on shared/public branches |\nSafe for shared branches |\n\nUse rebase to clean your **own** feature branch before sharing it.\n\n### Interactive Rebase (history cleanup)\n\n```\ngit rebase -i HEAD~5\n```\n\nLets you:\n\n- squash commits\n- reorder commits\n- edit commit messages\n\nVery useful before opening a pull request.\n\n## 2. Advanced Git Commands (Deep Dive)\n\n`git branch`\n\n```\ngit branch feature/login\ngit branch -d feature/login\n```\n\nCreate and delete branches.\n\nBest practice: delete merged branches to reduce clutter.\n\n`git switch`\n\n(modern branch switching)\n\n```\ngit switch main\ngit switch -c feature/api\n```\n\nPrefer this over `checkout`\n\nfor changing branches.\n\n**Example**:\n\nIf you are currently on some other branch (for example `feature/login`\n\n) and run:\n\n```\ngit switch main\n```\n\nGit will:\n\n- stop showing the files from\n`feature/login`\n\n- load the files and history from the\n`main`\n\nbranch\n\nYou are now \"back on the main line of development\".\n\n```\ngit switch -c feature/api\n```\n\nThis does two things in one step:\n\n- Creates a new branch named\n`feature/api`\n\n- Immediately switches you to that new branch\n\nIt is the same as writing:\n\n```\ngit branch feature/api\ngit switch feature/api\n```\n\n`git merge`\n\n```\ngit merge feature/payment\n```\n\nIntegrates completed work.\n\nIf conflicts appear, resolve them (see conflict section below).\n\n`git rebase`\n\n```\ngit rebase main\n```\n\nReplays your commits on top of `main`\n\nIf conflicts happen:\n\n```\n# fix files manually\ngit add .\ngit rebase --continue\n# or cancel completely\ngit rebase --abort\n```\n\nGolden rule: never rebase already shared branches.\n\n`git cherry-pick`\n\n```\ngit cherry-pick a1b2c3d\n```\n\nApply one specific commit onto current branch\n\n(useful for hotfixes).\n\nOn conflict:\n\n```\ngit add .\ngit cherry-pick --continue\n# or\ngit cherry-pick --abort\n```\n\n`git stash`\n\n```\ngit stash push -m \"WIP auth fix\"\ngit stash list\ngit stash apply stash@{1}\ngit stash pop\ngit stash drop stash@{0}\n```\n\nTemporarily store uncommitted work and restore later.\n\n`git reflog`\n\n(your safety net)\n\n```\ngit reflog\n```\n\nShows every HEAD movement.\n\nRecover a lost commit:\n\n```\ngit switch -c rescue <commit-hash>\n```\n\n`git revert`\n\n(safe undo)\n\n```\ngit revert HEAD\n```\n\nCreates a new commit that undoes changes\n\n(keeps history intact, safe for production).\n\n`git reset`\n\n(dangerous but powerful)\n\n```\ngit reset --soft HEAD~1 # keep staged\ngit reset --mixed HEAD~1 # keep unstaged\ngit reset --hard HEAD~1 # destroy changes\n```\n\n`--hard`\n\nis destructive.\n\nUse only on local/unshared work.\n\n`git tag`\n\n(releases)\n\n```\ngit tag -a v2.1.0 -m \"Stable release\"\ngit push --tags\n```\n\nMark and publish release points.\n\n`git blame`\n\n```\ngit blame auth.service.ts\n```\n\nShows who last changed each line.\n\nGreat for debugging regressions.\n\n## 3. Git Workflow Models\n\n### Git Flow\n\n`main`\n\n+`develop`\n\n- feature, release, hotfix branches\n\nBest for scheduled/enterprise releases.\n\n### GitHub Flow\n\n- short feature branches from\n`main`\n\n- pull request → deploy\n\nBest for CI/CD and SaaS.\n\n### Trunk-Based Development\n\n- very short-lived branches\n- frequent integration\n\nBest for high-performing DevOps teams.\n\n### Typical Feature Workflow (practical)\n\n```\ngit switch -c feature/login\n# work + commits\ngit fetch origin\ngit rebase origin/main\ngit push --force-with-lease\n# open pull request\n```\n\n`--force-with-lease`\n\nis safer than `--force`\n\n(it won't overwrite others' work accidentally).\n\n## 4. Handling Merge Conflicts\n\nGit marks conflicts like this:\n\n```\n<<<<<<< HEAD\ncurrent branch code\n=======\nincoming branch code\n>>>>>>> feature-x\n```\n\nSteps:\n\n- Edit file to final desired version\n- Remove the markers\n- Stage and finish\n\n```\ngit add .\ngit commit\n```\n\nTip: use visual tools\n\n```\ngit mergetool\n```\n\n## 5. Performance for Large Repositories\n\nShallow clone:\n\n```\ngit clone --depth=1 <repo>\n```\n\nClean old refs:\n\n```\ngit fetch --prune\n```\n\nGarbage collection:\n\n```\ngit gc\ngit gc --aggressive # heavy cleanup\n```\n\nLarge binaries → use Git LFS:\n\n```\ngit lfs track \"*.psd\"\n```\n\n## 6. Best Practices from Senior Developers\n\n- Atomic commits\n- Clear, meaningful commit messages\n- Rebase your feature branch before PR\n- Protect the\n`main`\n\nbranch - Tag every release\n- Never rewrite shared history\n- Use CI/CD automation\n- Use pre-commit hooks to run lint/tests before committing\n\n## 7. Interview-Level Git Q&A\n\n**Q: reset vs revert?**\n\nA: Reset rewrites history; revert adds a new undo commit.\n\n**Q: When to use rebase?**\n\nA: To clean up your private feature branch before sharing.\n\n**Q: How to recover a deleted commit?**\n\nA: `git reflog`\n\nthen create a new branch from the hash.\n\n**Q: What causes detached HEAD?**\n\nA: Checking out a commit instead of a branch.\n\n## 8. Quick Recovery Guide (when things go wrong)\n\nFind lost work:\n\n```\ngit reflog\ngit switch -c rescue <hash>\n```\n\nAbort bad rebase:\n\n```\ngit rebase --abort\n```\n\nUndo last commit safely on shared branch:\n\n```\ngit revert HEAD\n```\n\n## Conclusion\n\nAdvanced Git mastery is about **confidence, safety, and scalability**.\n\nBy understanding internals, choosing the right workflows, and using powerful commands carefully, you can:\n\n- debug faster\n- collaborate safely\n- ship reliably at scale\n\nThat's the real difference between basic Git usage and senior-level Git expertise.\n",
+  "metadata": {
+    "source_url": "https://rkyash.com/blog/advanced-git-commands-workflows-for-senior-developers",
+    "source_domain": "rkyash.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:42:02.717730+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Advanced Git Commands & Workflows for Senior Developers",
+    "description": "Master advanced Git commands and workflows with real-world examples, internals, and best practices used by senior developers in production environments.",
+    "language": "en",
+    "word_count": 1124,
+    "content_hash": "sha256:c8b2c231638d080aa5bee39125287c9cee8cc27a522f2f58d872196eba52f2df",
+    "reading_time": 6,
+    "author": "Rkyash",
+    "published_date": "2026-01-30",
+    "og_title": null,
+    "signal_score": 0.6547,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Advanced Git internals, commands, and workflows for senior developers covering detached HEAD, rebasing, cherry-pick, stash, and merge conflict resolution for production systems.",
+    "entities": {
+      "primary": "Advanced Git commands and workflows",
+      "aliases": [
+        "Git internals for developers",
+        "production Git workflows",
+        "advanced version control"
+      ]
+    },
+    "core_question": "What advanced Git techniques do senior developers use for coordinating large teams and shipping reliably?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Git commands",
+      "rebase",
+      "cherry-pick",
+      "merge conflicts",
+      "detached HEAD",
+      "performance optimization"
+    ]
+  },
+  "structure": {
+    "section_count": 20,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Advanced Git Commands & Workflows for Senior Developers",
+        "section_type": "title",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers"
+        ],
+        "char_start": 0,
+        "char_end": 7188
+      },
+      {
+        "level": 2,
+        "title": "Introduction: Git in the Real World",
+        "section_type": "intro",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "Introduction: Git in the Real World"
+        ],
+        "char_start": 116,
+        "char_end": 700
+      },
+      {
+        "level": 2,
+        "title": "1. Advanced Git Concepts",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "1. Advanced Git Concepts"
+        ],
+        "char_start": 700,
+        "char_end": 2264
+      },
+      {
+        "level": 3,
+        "title": "Git Internals: HEAD, Index, Objects",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "1. Advanced Git Concepts",
+          "Git Internals: HEAD, Index, Objects"
+        ],
+        "char_start": 729,
+        "char_end": 1140
+      },
+      {
+        "level": 3,
+        "title": "Detached HEAD",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "1. Advanced Git Concepts",
+          "Detached HEAD"
+        ],
+        "char_start": 1140,
+        "char_end": 1523
+      },
+      {
+        "level": 3,
+        "title": "Fast-Forward vs Recursive Merge",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "1. Advanced Git Concepts",
+          "Fast-Forward vs Recursive Merge"
+        ],
+        "char_start": 1523,
+        "char_end": 1801
+      },
+      {
+        "level": 3,
+        "title": "Rebase vs Merge",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "1. Advanced Git Concepts",
+          "Rebase vs Merge"
+        ],
+        "char_start": 1801,
+        "char_end": 2078
+      },
+      {
+        "level": 3,
+        "title": "Interactive Rebase (history cleanup)",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "1. Advanced Git Concepts",
+          "Interactive Rebase (history cleanup)"
+        ],
+        "char_start": 2078,
+        "char_end": 2264
+      },
+      {
+        "level": 2,
+        "title": "2. Advanced Git Commands (Deep Dive)",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "2. Advanced Git Commands (Deep Dive)"
+        ],
+        "char_start": 2264,
+        "char_end": 4700
+      },
+      {
+        "level": 2,
+        "title": "3. Git Workflow Models",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "3. Git Workflow Models"
+        ],
+        "char_start": 4700,
+        "char_end": 5346
+      },
+      {
+        "level": 3,
+        "title": "Git Flow",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "3. Git Workflow Models",
+          "Git Flow"
+        ],
+        "char_start": 4727,
+        "char_end": 4839
+      },
+      {
+        "level": 3,
+        "title": "GitHub Flow",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "3. Git Workflow Models",
+          "GitHub Flow"
+        ],
+        "char_start": 4839,
+        "char_end": 4945
+      },
+      {
+        "level": 3,
+        "title": "Trunk-Based Development",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "3. Git Workflow Models",
+          "Trunk-Based Development"
+        ],
+        "char_start": 4945,
+        "char_end": 5066
+      },
+      {
+        "level": 3,
+        "title": "Typical Feature Workflow (practical)",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "3. Git Workflow Models",
+          "Typical Feature Workflow (practical)"
+        ],
+        "char_start": 5066,
+        "char_end": 5346
+      },
+      {
+        "level": 2,
+        "title": "4. Handling Merge Conflicts",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "4. Handling Merge Conflicts"
+        ],
+        "char_start": 5346,
+        "char_end": 5661
+      },
+      {
+        "level": 2,
+        "title": "5. Performance for Large Repositories",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "5. Performance for Large Repositories"
+        ],
+        "char_start": 5661,
+        "char_end": 5934
+      },
+      {
+        "level": 2,
+        "title": "6. Best Practices from Senior Developers",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "6. Best Practices from Senior Developers"
+        ],
+        "char_start": 5934,
+        "char_end": 6234
+      },
+      {
+        "level": 2,
+        "title": "7. Interview-Level Git Q&A",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "7. Interview-Level Git Q&A"
+        ],
+        "char_start": 6234,
+        "char_end": 6618
+      },
+      {
+        "level": 2,
+        "title": "8. Quick Recovery Guide (when things go wrong)",
+        "section_type": "step",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "8. Quick Recovery Guide (when things go wrong)"
+        ],
+        "char_start": 6618,
+        "char_end": 6849
+      },
+      {
+        "level": 2,
+        "title": "Conclusion",
+        "section_type": "summary",
+        "header_path": [
+          "Advanced Git Commands & Workflows for Senior Developers",
+          "Conclusion"
+        ],
+        "char_start": 6849,
+        "char_end": 7188
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

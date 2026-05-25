@@ -1,0 +1,439 @@
+{
+  "markdown": "# Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform\n\n## Quick Verdict\n\n### Decision Matrix (Feb 2026)\n\n**Choose Claude Code if:**You need deep agentic capabilities, 80.8% SWE-bench accuracy, agent teams for parallel sub-tasks, and deterministic multi-file refactoring**Choose GitHub Copilot if:**You want inline autocomplete, multi-model selection, specialized agents, background delegation, and GitHub ecosystem integration at $10/month**Use both if:**You want Copilot's inline speed for daily coding and Claude Code's depth for complex autonomous tasks\n\nGitHub Copilot CLI went GA on February 25, 2026. This is not the same Copilot from 2024. The CLI now includes specialized agents that auto-delegate to the right tool (Explore, Task, Code Review, Plan), background delegation to cloud coding agents, autopilot mode for autonomous execution, and multi-model support including Claude Opus 4.6 itself.\n\nClaude Code remains the deeper agentic tool. It reads your entire repository, understands the architecture, plans multi-step changes across files, and delivers diffs you can review before accepting. Its agent teams feature lets you coordinate parallel sub-agents with shared task lists and dependency tracking.\n\nThe pricing tells you who each tool targets. Copilot Pro at $10/month with 2,000 completions and premium requests is built for every developer. Claude Code at $20-200/month is built for developers who need autonomous, complex code generation and are willing to pay for it.\n\n## Feature Comparison\n\n| Feature | Claude Code | GitHub Copilot CLI |\n|---|---|---|\n| Primary Interface | Terminal only | Terminal + IDE + Web |\n| Inline Autocomplete | No | Yes (all editors) |\n| Agent Teams | Yes (parallel sub-agents) | Specialized agents (Explore, Task, Review, Plan) |\n| Background Agents | No | Yes (& prefix for cloud delegation) |\n| Model Options | Claude models only | Claude, GPT, Gemini, xAI models |\n| Autopilot Mode | No (human-in-the-loop default) | Yes (autonomous execution) |\n| Custom Agents | Via CLAUDE.md | Via .agent.md files + interactive wizard |\n| Code Review | Manual via agent | Built-in specialized review agent |\n| Memory | CLAUDE.md project files | Repository memory + cross-session memory |\n| GitHub Integration | Git commands only | Native (PRs, issues, actions, coding agent) |\n| MCP Support | Yes | Yes (custom agents can specify MCP servers) |\n| Hooks/Lifecycle | Via configuration | preToolUse and postToolUse hooks |\n| Free Tier | None | 2,000 completions + 50 premium requests/month |\n| SWE-bench (best model) | 80.8% (Opus 4.6) | Depends on model selected |\n\n## Pricing Breakdown\n\n### GitHub Copilot: Tiers for Every Budget\n\n**Free ($0):**2,000 code completions + 50 premium requests/month. Limited model access. Good enough for light personal use.**Pro ($10/month):**Unlimited completions. Copilot coding agent access. Monthly premium request allowance. All models available.**Pro+ ($39/month):**Larger premium request allowance. Full access to all models. For AI power users.**Business ($19/user/month):**Organization management, SSO, Copilot policy controls.**Enterprise ($39/user/month):**Business features + enterprise-grade capabilities.\n\nOverage costs $0.04 per premium request after your monthly allocation. This applies to Chat, CLI, agent mode, code review, and Spark features.\n\n### Claude Code: Subscription Required\n\n**Pro ($20/month):**~45 messages every 5 hours. Sonnet 4.5/4.6 access. Active users hit limits quickly.**Max 5x ($100/month):**5x Pro usage. Opus 4.6, agent teams, adaptive thinking.**Max 20x ($200/month):**20x Pro usage. The realistic tier for daily professional use.\n\n#### Pricing Comparison: Solo Developer\n\nFor a developer using AI tools 4-6 hours/day:\n\n**Copilot Pro:**$10/month for inline completions, agent mode, and CLI. Excellent value.**Claude Code Pro:**$20/month but rate-limited. You will wait during peak usage.**Claude Code Max 5x:**$100/month for realistic daily use of Claude's agentic features.**Both (Copilot Pro + Claude Code Max 5x):**$110/month. Inline speed + deep autonomy.\n\n| Plan | Monthly Cost | Best For |\n|---|---|---|\n| Copilot Free | $0 | Students, light personal use |\n| Copilot Pro | $10 | Solo developers who want inline completions + agents |\n| Copilot Pro+ | $39 | Power users who exhaust Pro's premium requests |\n| Claude Code Pro | $20 | Developers who need agentic capability occasionally |\n| Claude Code Max 5x | $100 | Daily agentic use with Opus 4.6 and agent teams |\n| Claude Code Max 20x | $200 | Professional developers using Claude Code as primary tool |\n\n## Agent Capabilities\n\n### Claude Code: Deep Codebase Agent\n\nClaude Code reads your entire repository, understands the architecture, and plans multi-step changes across multiple files. It delivers pull-request-ready diffs with a human-in-the-loop review step.\n\n**Agent Teams** (research preview) let you spin up multiple sub-agents that work in parallel. Each agent gets a dedicated context window. They share a task list with dependency tracking and coordinate autonomously. This is the most advanced multi-agent coding workflow available in any terminal tool.\n\nThe tradeoff is control. Claude Code defaults to human-in-the-loop: every file change requires approval. This makes it slower but safer for production codebases. You can adjust approval granularity, but there is no true \"autopilot\" mode.\n\n### GitHub Copilot CLI: Agent Orchestration Platform\n\nCopilot CLI's GA release transforms it from a terminal helper into a full agent platform:\n\n**Specialized Agents:**Copilot auto-delegates to Explore (codebase analysis), Task (builds/tests), Code Review (change review), and Plan (implementation planning). Multiple agents run in parallel.**Autopilot Mode:**For trusted tasks, Copilot works autonomously: executing tools, running commands, and iterating without stopping for approval.**Background Delegation:**Prefix any prompt with`&`\n\nto delegate to a cloud-based coding agent. Your terminal is free for other work. Use`/resume`\n\nto switch between sessions.**Custom Agents:**Create specialized agents through an interactive wizard or`.agent.md`\n\nfiles. Agents can specify their own tools, MCP servers, and instructions.**Repository Memory:**Copilot remembers conventions, patterns, and preferences across sessions. Ask about past work, files, and PRs across sessions.\n\n### Claude Code: Agent Teams\n\nParallel sub-agents with dedicated context windows, shared task lists, and dependency tracking. Most advanced multi-agent coding workflow available.\n\n### Copilot CLI: Specialized Agent Delegation\n\nAuto-delegates to purpose-built agents (Explore, Task, Review, Plan). Background cloud agents via & prefix. Custom agents via .agent.md files.\n\n## Context Windows\n\nBoth tools offer large context windows, but manage them differently.\n\nClaude Code with Opus 4.6 supports a 1M token context window. It tracks usage internally and manages context pruning to maintain quality on long sessions. The full repository understanding comes from reading your codebase directly into context.\n\nCopilot CLI compresses conversation history automatically when you approach 95% of the context window. Sessions can run indefinitely. The model-agnostic approach means context size depends on which model you select (Claude Opus 4.6 gives you 1M, GPT models vary).\n\n| Context Feature | Claude Code | Copilot CLI |\n|---|---|---|\n| Max Context (Opus 4.6) | 1M tokens | 1M tokens (when using Claude) |\n| Context Management | Internal tracking + pruning | Auto-compression at 95% |\n| Repository Understanding | Full codebase read | Specialized Explore agent |\n| Cross-Session Memory | CLAUDE.md files | Repository memory + session history |\n| Model Switching | Claude models only | Any supported model mid-session |\n\n## When Claude Code Wins\n\n### Complex Multi-File Refactoring\n\n80.8% SWE-bench with Opus 4.6. Reads the full repository, plans changes across files, and delivers pull-request-ready diffs. The deepest codebase understanding of any terminal agent.\n\n### Agent Teams\n\nParallel sub-agents with dedicated context windows and shared task lists. Dependency tracking across agents. No equivalent in Copilot CLI's specialized agents.\n\n### Deterministic Outputs\n\nSame prompt, same codebase, same result. Claude Code's consistency matters for production workflows. Copilot's multi-model approach introduces variability.\n\n### Deep Architecture Reasoning\n\nClaude Code understands your project's architecture holistically. It respects existing patterns, naming conventions, and dependency structures when generating changes.\n\n## When Copilot Wins\n\n### Value for Money\n\n$10/month for Pro with unlimited completions and premium requests. Free tier with 2,000 completions. Claude Code's comparable tier is $100/month.\n\n### Multi-Model Flexibility\n\nSwitch between Claude Opus 4.6, GPT-5.3-Codex, Gemini 3 Pro, and Claude Haiku 4.5 mid-session. Use the best model for each task. Claude Code locks you into Claude models.\n\n### GitHub Ecosystem\n\nNative integration with PRs, issues, actions, and the cloud coding agent. Background delegation to cloud agents. Copilot understands your GitHub workflow natively.\n\n### Inline Completions\n\nCopilot's inline autocomplete works across all editors. Multi-line suggestions as you type. Claude Code has no inline completion capability at all.\n\n## Decision Framework\n\n| Priority | Best Choice | Why |\n|---|---|---|\n| Lowest cost | Copilot | $0 free tier, $10/mo Pro. Claude Code starts at $20/mo. |\n| Highest benchmark accuracy | Claude Code | 80.8% SWE-bench with Opus 4.6 |\n| Inline completions | Copilot | Claude Code has none |\n| Multi-agent orchestration | Claude Code | Agent teams with dependency tracking |\n| Model flexibility | Copilot | Claude, GPT, Gemini models in one tool |\n| GitHub integration | Copilot | Native PRs, issues, actions, cloud agents |\n| Deterministic outputs | Claude Code | Same prompt = same result |\n| Background cloud agents | Copilot | & prefix delegates to cloud, /resume switches sessions |\n\nThe answer for most professional developers: use both. Copilot Pro at $10/month covers inline completions, quick agent tasks, and GitHub integration. Claude Code Max at $100/month handles the 20% of tasks that are complex enough to justify an autonomous agent with deep codebase understanding.\n\nFor the code transformations themselves, Morph Compact Attention improves long-context accuracy for any model, and WarpGrep provides fast semantic codebase search that complements both tools.\n\n## Frequently Asked Questions\n\n### Is Claude Code or GitHub Copilot better for coding in 2026?\n\nThey serve different roles. Claude Code is an agentic terminal tool (80.8% SWE-bench, agent teams, deep codebase understanding). Copilot is a multi-modal platform (inline completions, specialized agents, background delegation, $10/month). Most pros use both.\n\n### How much does Copilot cost vs Claude Code?\n\nCopilot Free: $0 (2,000 completions + 50 premium requests). Copilot Pro: $10/month. Claude Code Pro: $20/month (limited). Claude Code Max 5x: $100/month. For the solo developer on a budget, Copilot Pro at $10/month delivers more value. Claude Code justifies its cost for complex autonomous tasks.\n\n### Does Copilot CLI support Claude models?\n\nYes. Claude Opus 4.6, Sonnet 4.6, and Haiku 4.5 are available in Copilot CLI as of February 2026. Switch with `--model`\n\nat launch or `/model`\n\nmid-session. All models use 1x premium request multiplier.\n\n### What are Copilot CLI specialized agents?\n\nCopilot auto-delegates to: Explore (fast codebase analysis), Task (builds and tests), Code Review (high-signal change review), and Plan (implementation planning). You can also create custom agents via `.agent.md`\n\nfiles with specified tools, MCP servers, and instructions.\n\n### Can I use both together?\n\nYes. Copilot in your editor for inline autocomplete and chat. Claude Code in the terminal for autonomous multi-file tasks. Both run simultaneously without conflicts. This is the most common setup among professional developers who need both speed and depth.\n\n### Does Copilot CLI have background agents?\n\nYes. Prefix any prompt with `&`\n\nto delegate to Copilot's cloud coding agent. Your terminal is freed for other work. Use `/resume`\n\nto switch between local and remote sessions. Autopilot mode lets the agent execute autonomously without approval prompts.\n\n### Related Comparisons\n\n### Better Code Edits for Any Agent\n\nMorph Fast Apply processes 10,500+ tokens/sec with 98% structural accuracy. Works with Claude Code, Copilot, or any AI coding tool through the API.\n",
+  "metadata": {
+    "source_url": "https://www.morphllm.com/comparisons/claude-code-vs-copilot",
+    "source_domain": "morphllm.com",
+    "topic": "claude-code-workflow",
+    "fetched_at": "2026-05-25T06:46:25.359996+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+    "description": "Claude Code scores 80.8% SWE-bench with agent teams. GitHub Copilot CLI (GA Feb 2026) adds specialized agents and background delegation. Pricing, features, and benchmarks compared.",
+    "language": "en",
+    "word_count": 1856,
+    "content_hash": "sha256:c77d835050a1d39ac2e33b8042f287e46960f1e8afd2e58d358cec929a26aff0",
+    "reading_time": 10,
+    "author": "Morph Team; Morph AI",
+    "published_date": "2026-02-27",
+    "og_title": null,
+    "signal_score": 0.2775,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 34,
+    "max_depth": 4,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+        "section_type": "title",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform"
+        ],
+        "char_start": 0,
+        "char_end": 12598
+      },
+      {
+        "level": 2,
+        "title": "Quick Verdict",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Quick Verdict"
+        ],
+        "char_start": 80,
+        "char_end": 1517
+      },
+      {
+        "level": 3,
+        "title": "Decision Matrix (Feb 2026)",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Quick Verdict",
+          "Decision Matrix (Feb 2026)"
+        ],
+        "char_start": 98,
+        "char_end": 1517
+      },
+      {
+        "level": 2,
+        "title": "Feature Comparison",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Feature Comparison"
+        ],
+        "char_start": 1517,
+        "char_end": 2629
+      },
+      {
+        "level": 2,
+        "title": "Pricing Breakdown",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Pricing Breakdown"
+        ],
+        "char_start": 2629,
+        "char_end": 4601
+      },
+      {
+        "level": 3,
+        "title": "GitHub Copilot: Tiers for Every Budget",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Pricing Breakdown",
+          "GitHub Copilot: Tiers for Every Budget"
+        ],
+        "char_start": 2651,
+        "char_end": 3359
+      },
+      {
+        "level": 3,
+        "title": "Claude Code: Subscription Required",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Pricing Breakdown",
+          "Claude Code: Subscription Required"
+        ],
+        "char_start": 3359,
+        "char_end": 4601
+      },
+      {
+        "level": 4,
+        "title": "Pricing Comparison: Solo Developer",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Pricing Breakdown",
+          "Claude Code: Subscription Required",
+          "Pricing Comparison: Solo Developer"
+        ],
+        "char_start": 3669,
+        "char_end": 4601
+      },
+      {
+        "level": 2,
+        "title": "Agent Capabilities",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Agent Capabilities"
+        ],
+        "char_start": 4601,
+        "char_end": 6747
+      },
+      {
+        "level": 3,
+        "title": "Claude Code: Deep Codebase Agent",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Agent Capabilities",
+          "Claude Code: Deep Codebase Agent"
+        ],
+        "char_start": 4624,
+        "char_end": 5403
+      },
+      {
+        "level": 3,
+        "title": "GitHub Copilot CLI: Agent Orchestration Platform",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Agent Capabilities",
+          "GitHub Copilot CLI: Agent Orchestration Platform"
+        ],
+        "char_start": 5403,
+        "char_end": 6376
+      },
+      {
+        "level": 3,
+        "title": "Claude Code: Agent Teams",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Agent Capabilities",
+          "Claude Code: Agent Teams"
+        ],
+        "char_start": 6376,
+        "char_end": 6556
+      },
+      {
+        "level": 3,
+        "title": "Copilot CLI: Specialized Agent Delegation",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Agent Capabilities",
+          "Copilot CLI: Specialized Agent Delegation"
+        ],
+        "char_start": 6556,
+        "char_end": 6747
+      },
+      {
+        "level": 2,
+        "title": "Context Windows",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Context Windows"
+        ],
+        "char_start": 6747,
+        "char_end": 7795
+      },
+      {
+        "level": 2,
+        "title": "When Claude Code Wins",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Claude Code Wins"
+        ],
+        "char_start": 7795,
+        "char_end": 8605
+      },
+      {
+        "level": 3,
+        "title": "Complex Multi-File Refactoring",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Claude Code Wins",
+          "Complex Multi-File Refactoring"
+        ],
+        "char_start": 7821,
+        "char_end": 8041
+      },
+      {
+        "level": 3,
+        "title": "Agent Teams",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Claude Code Wins",
+          "Agent Teams"
+        ],
+        "char_start": 8041,
+        "char_end": 8219
+      },
+      {
+        "level": 3,
+        "title": "Deterministic Outputs",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Claude Code Wins",
+          "Deterministic Outputs"
+        ],
+        "char_start": 8219,
+        "char_end": 8403
+      },
+      {
+        "level": 3,
+        "title": "Deep Architecture Reasoning",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Claude Code Wins",
+          "Deep Architecture Reasoning"
+        ],
+        "char_start": 8403,
+        "char_end": 8605
+      },
+      {
+        "level": 2,
+        "title": "When Copilot Wins",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Copilot Wins"
+        ],
+        "char_start": 8605,
+        "char_end": 9356
+      },
+      {
+        "level": 3,
+        "title": "Value for Money",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Copilot Wins",
+          "Value for Money"
+        ],
+        "char_start": 8627,
+        "char_end": 8795
+      },
+      {
+        "level": 3,
+        "title": "Multi-Model Flexibility",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Copilot Wins",
+          "Multi-Model Flexibility"
+        ],
+        "char_start": 8795,
+        "char_end": 8996
+      },
+      {
+        "level": 3,
+        "title": "GitHub Ecosystem",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Copilot Wins",
+          "GitHub Ecosystem"
+        ],
+        "char_start": 8996,
+        "char_end": 9183
+      },
+      {
+        "level": 3,
+        "title": "Inline Completions",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "When Copilot Wins",
+          "Inline Completions"
+        ],
+        "char_start": 9183,
+        "char_end": 9356
+      },
+      {
+        "level": 2,
+        "title": "Decision Framework",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Decision Framework"
+        ],
+        "char_start": 9356,
+        "char_end": 10528
+      },
+      {
+        "level": 2,
+        "title": "Frequently Asked Questions",
+        "section_type": "faq",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions"
+        ],
+        "char_start": 10528,
+        "char_end": 12598
+      },
+      {
+        "level": 3,
+        "title": "Is Claude Code or GitHub Copilot better for coding in 2026?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "Is Claude Code or GitHub Copilot better for coding in 2026?"
+        ],
+        "char_start": 10559,
+        "char_end": 10884
+      },
+      {
+        "level": 3,
+        "title": "How much does Copilot cost vs Claude Code?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "How much does Copilot cost vs Claude Code?"
+        ],
+        "char_start": 10884,
+        "char_end": 11230
+      },
+      {
+        "level": 3,
+        "title": "Does Copilot CLI support Claude models?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "Does Copilot CLI support Claude models?"
+        ],
+        "char_start": 11230,
+        "char_end": 11479
+      },
+      {
+        "level": 3,
+        "title": "What are Copilot CLI specialized agents?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "What are Copilot CLI specialized agents?"
+        ],
+        "char_start": 11479,
+        "char_end": 11799
+      },
+      {
+        "level": 3,
+        "title": "Can I use both together?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "Can I use both together?"
+        ],
+        "char_start": 11799,
+        "char_end": 12087
+      },
+      {
+        "level": 3,
+        "title": "Does Copilot CLI have background agents?",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "Does Copilot CLI have background agents?"
+        ],
+        "char_start": 12087,
+        "char_end": 12388
+      },
+      {
+        "level": 3,
+        "title": "Related Comparisons",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "Related Comparisons"
+        ],
+        "char_start": 12388,
+        "char_end": 12413
+      },
+      {
+        "level": 3,
+        "title": "Better Code Edits for Any Agent",
+        "section_type": "content",
+        "header_path": [
+          "Claude Code vs GitHub Copilot (2026): Terminal Agent vs Multi-Model Platform",
+          "Frequently Asked Questions",
+          "Better Code Edits for Any Agent"
+        ],
+        "char_start": 12413,
+        "char_end": 12598
+      }
+    ]
+  },
+  "links": [
+    "https://www.morphllm.com/products/compact",
+    "https://www.morphllm.com/products/warpgrep"
+  ],
+  "status": "quarantined",
+  "drop_reason": "low-signal",
+  "enrichment_status": "skipped-quarantined"
+}

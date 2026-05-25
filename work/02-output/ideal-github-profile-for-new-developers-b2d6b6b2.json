@@ -1,0 +1,146 @@
+{
+  "markdown": "# Ideal Github Profile for a Junior Developer\n\nDiscover essential tips to create an impressive Github profile that increases your chances of landing a junior developer job\n\nI've checked out a lot of Github profiles of new developers. I've seen that many of them make small mistakes. These mistakes could make it hard to get a job.\n\nCompanies are cautious when it comes to hiring junior developers. It's not so much about the lack of experience, but more about the time spent in going through all the applications. This can be expensive.\n\nSo, making your Github profile as appealing as possible is crucial. Remember, those reviewing your profile may not spend too much time on it, so it has to catch their eye quickly. Github might not be the only significant part of your resume, but if they're viewing your Github profile, you've already crossed a significant hurdle - the HR screening.\n\n## 🚀 No Real Side Projects\n\nIf you don't have any public projects on your Github, you might not get the job. Make sure you have **some** projects using the technology you like. A good profile should have at least 1 big project and a few smaller ones. Your own website or blog may not be the best project to show. The same goes for todo apps, projects from YouTube tutorials, and shared bootcamp projects. Unique projects are better. They show you can create something by yourself, without following the tutorial step by step.\n\nIf you're uncertain about what kind of project would make a good addition to your portfolio, feel free to connect with me on LinkedIn. I'll be posting some ideas and guidance on this topic soon!\n\n## 📝 No or Bad README\n\nIn the era of ChatGPT, there's no excuse for not writing a good README for your project. If you don't have one, it's never too late to start. A good README should have:\n\n- A brief description about the project and links to a live preview\n- Features of the project\n- Some DEMO images (put them in a 2x2 markdown table, not one under another - it makes the README hard to read)\n- A list of technologies used and why you chose them\n\n## 📌 No Pinned Repositories\n\nWhen someone visits your profile, they see six \"Popular repositories\". But these may not be the ones you want to show. Make sure the right repositories are easy to find. Recruiters don't have a lot of time and won't check every repo.\n\n## 🎈 No Description for Repositories\n\nA README is important, but before a recruiter sees it, they need to find your repo. Besides pinning it to your profile, add a short description about the project and its tech stack. Keep it short and use emojis if you want. The repository name can also describe the tech stack, like `nextjs-banking-app`\n\nor `laravel-crypto-api`\n\n## 📅 New Account\n\nSome people might ignore this, but you should also look at your contributions graph. If your account is very new, they might think you don't know how to use git. It's not a big problem because you can change the date of your first Github commit (I don't recommend doing this). It's also not good if 90% of your contributions graph is empty. It might look like you don't use git or don't understand why it's important.\n\n## 🖊️ Bad Recent Commit Messages\n\nNobody will look at all your commits. But… if your commit messages say things like\n\n`changed something`\n\n`changed Button.tsx`\n\n`update`\n\n`i hate this`\n\nyou probably won't make a good impression!\n\n## 👤 No Profile Picture and Description\n\nThis isn't a big problem, but it might show that you're new to Github and don't know how to change your profile info. Some developers like to create a README.md profile description. This is a good idea, but don't copy your entire resume there. Instead, put information you didn't include in your resume, like recent blog posts or your favorite technologies, socials, etc.\n\nIn closing, becoming a junior developer might seem challenging, but having a well-organized Github profile gives you a head start. It's crucial to present your work clearly, stay consistent, and showcase your unique qualities.\n\nIf you need more guidance or have questions, don't hesitate to reach out. You can connect with me on LinkedIn or send me a direct message. It's always a pleasure for me to assist new developers as they begin their tech careers. Good luck on your journey and always remember, continuous learning and improvement are key 🖖🫡\n",
+  "metadata": {
+    "source_url": "https://www.bstefanski.com/blog/ideal-github-profile-for-new-developers",
+    "source_domain": "bstefanski.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:43:31.907504+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Ideal Github Profile for a Junior Developer",
+    "description": "Discover essential tips to create an impressive Github profile that increases your chances of landing a junior developer job",
+    "language": "en",
+    "word_count": 758,
+    "content_hash": "sha256:a7c12805ae2bc554f3a425e92f6e37b6883e138d263e5246fd384422af4fd88c",
+    "reading_time": 4,
+    "author": "Bart Stefanski · remote · pl",
+    "published_date": "2023-06-01",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Essential tips for junior developers to optimize GitHub profiles, including projects, READMEs, pinning, and commit messages.",
+    "entities": {
+      "primary": "GitHub profile",
+      "aliases": [
+        "GitHub for junior developers",
+        "developer portfolio"
+      ]
+    },
+    "core_question": "What makes an impressive GitHub profile for junior developers applying for jobs?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "GitHub projects",
+      "README documentation",
+      "pinned repositories",
+      "commit messages",
+      "portfolio"
+    ]
+  },
+  "structure": {
+    "section_count": 8,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Ideal Github Profile for a Junior Developer",
+        "section_type": "title",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer"
+        ],
+        "char_start": 0,
+        "char_end": 4328
+      },
+      {
+        "level": 2,
+        "title": "🚀 No Real Side Projects",
+        "section_type": "content",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer",
+          "🚀 No Real Side Projects"
+        ],
+        "char_start": 889,
+        "char_end": 1612
+      },
+      {
+        "level": 2,
+        "title": "📝 No or Bad README",
+        "section_type": "content",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer",
+          "📝 No or Bad README"
+        ],
+        "char_start": 1612,
+        "char_end": 2065
+      },
+      {
+        "level": 2,
+        "title": "📌 No Pinned Repositories",
+        "section_type": "content",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer",
+          "📌 No Pinned Repositories"
+        ],
+        "char_start": 2065,
+        "char_end": 2329
+      },
+      {
+        "level": 2,
+        "title": "🎈 No Description for Repositories",
+        "section_type": "content",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer",
+          "🎈 No Description for Repositories"
+        ],
+        "char_start": 2329,
+        "char_end": 2697
+      },
+      {
+        "level": 2,
+        "title": "📅 New Account",
+        "section_type": "content",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer",
+          "📅 New Account"
+        ],
+        "char_start": 2697,
+        "char_end": 3134
+      },
+      {
+        "level": 2,
+        "title": "🖊️ Bad Recent Commit Messages",
+        "section_type": "content",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer",
+          "🖊️ Bad Recent Commit Messages"
+        ],
+        "char_start": 3134,
+        "char_end": 3364
+      },
+      {
+        "level": 2,
+        "title": "👤 No Profile Picture and Description",
+        "section_type": "content",
+        "header_path": [
+          "Ideal Github Profile for a Junior Developer",
+          "👤 No Profile Picture and Description"
+        ],
+        "char_start": 3364,
+        "char_end": 4328
+      }
+    ]
+  },
+  "links": [
+    "https://www.bstefanski.com/blog",
+    "https://www.bstefanski.com#-no-real-side-projects",
+    "https://www.bstefanski.com#-no-or-bad-readme",
+    "https://www.bstefanski.com#-no-pinned-repositories",
+    "https://www.bstefanski.com#-no-description-for-repositories",
+    "https://www.bstefanski.com#-new-account",
+    "https://www.bstefanski.com#️-bad-recent-commit-messages",
+    "https://www.bstefanski.com#-no-profile-picture-and-description"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

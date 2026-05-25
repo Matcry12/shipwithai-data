@@ -1,0 +1,59 @@
+{
+  "markdown": "# Hashim\n\n👋 Hello, I'm Hashim, a passionate software engineer with expertise in Salesforce B2C JavaScript, Node.js, React.\n\n## Want to connect with Hashim?\n\nCreate an account to connect with Hashim. You can also sign in below to proceed if you already have an account.\n\nAlready have an account?\nSign in\n",
+  "metadata": {
+    "source_url": "https://dev.to/hashimhafeez",
+    "source_domain": "dev.to",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:38:01.752306+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Hashim",
+    "description": "👋 Hello, I'm Hashim, a passionate software engineer with expertise in Salesforce B2C JavaScript, Node.js, React.",
+    "language": "en",
+    "word_count": 51,
+    "content_hash": "sha256:998a222dfa77c230231cf31b7eecb913caff5e128406a6e297748183c0ad7c2c",
+    "reading_time": 1,
+    "author": "Hashim",
+    "published_date": "2023-12-08",
+    "og_title": null,
+    "signal_score": 0.5425,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Hashim",
+        "section_type": "title",
+        "header_path": [
+          "Hashim"
+        ],
+        "char_start": 0,
+        "char_end": 303
+      },
+      {
+        "level": 2,
+        "title": "Want to connect with Hashim?",
+        "section_type": "content",
+        "header_path": [
+          "Hashim",
+          "Want to connect with Hashim?"
+        ],
+        "char_start": 124,
+        "char_end": 303
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

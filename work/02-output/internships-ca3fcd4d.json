@@ -1,0 +1,64 @@
+{
+  "markdown": "# Build software better, together\n\nCollection of Summer 2026 tech internships!\n\nMay 25, 2026 - Python\n\nCollection of Summer 2026 tech internships!\n\nWorld's largest Contributor driven code dataset | Used in Quark Search Engine, @OpenGenus IQ, OpenGenus Visual Project\n\n2026 SWE internship & new graduate job list updated daily\n\nGuide for getting a gig as a tech student.\n\nCollection of Summer 2026 tech internships!\n\n2026 AI/ML internship & new graduate job list updated daily\n\nList of AI Residency Programs\n\nCompilation of resources for aspiring data scientists\n\nA list of Summer 2024 internships for software engineering, updated automatically everyday\n\nCurated list of internships/externships/fellowships exclusive for CS freshman and sophomore (updated for 2026!)\n\nA collection of internship applications in a fancy excel-like website\n\nA regularly updated collection of European tech internships, new graduate roles, and research opportunities. It also contains the code for EarlyCareersEU, an open-source web platform containing a larger and more detailed database of opportunities, and an advanced search.\n\nSoftware Internship Guide for Egyptian Undergraduates\n\nthe rules, tips, and tricks I've learned on how to approach tech internships\n\n🇰🇿 A collection of IT internships taking place in Kazakshtan\n\nSoftware Engineering opportunities & resources\n\nList of companies offering Machine learning and Data Science internships\n\nCollection of technical interview questions from companies anywhere from startups to FAANG!\n\nCovers all things student career, internships, and industry context\n\nAdd a description, image, and links to the internships topic page so that developers can more easily learn about it.\n\nTo associate your repository with the internships topic, visit your repo's landing page and select \"manage topics.\"\n",
+  "metadata": {
+    "source_url": "https://github.com/topics/internships",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:35.912053+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Build software better, together",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "language": "en",
+    "word_count": 261,
+    "content_hash": "sha256:26b3bb7b6de18b522632c1672a46f7f56aa3bb189ebda2db66d95ab5251ea359",
+    "reading_time": 2,
+    "author": null,
+    "published_date": "2026-05-25",
+    "og_title": null,
+    "signal_score": 0.6371,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Curated collection of summer 2026 tech internship job boards, resources, and guides for software engineering, AI/ML, and data science.",
+    "entities": {
+      "primary": "tech internship resources",
+      "aliases": [
+        "internship job boards",
+        "summer internships",
+        "coding internships"
+      ]
+    },
+    "core_question": "Where can you find tech internship opportunities and resources?",
+    "doc_type": "listicle",
+    "key_topics": [
+      "internship boards",
+      "SWE internships",
+      "AI/ML internships",
+      "data science",
+      "career resources"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Build software better, together",
+        "section_type": "title",
+        "header_path": [
+          "Build software better, together"
+        ],
+        "char_start": 0,
+        "char_end": 1825
+      }
+    ]
+  },
+  "links": [
+    "https://github.com/SimplifyJobs/Summer2026-Internships",
+    "https://github.com/OpenGenus"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,363 @@
+{
+  "markdown": "# Git\n\n**gittutorial**manual\n\n## Setup and Config\n\n### Getting and Creating Projects\n\n### Basic Snapshotting\n\n### Branching and Merging\n\n### Sharing and Updating Projects\n\n### Inspection and Comparison\n\n### Patching\n\n### Debugging\n\n### External Systems\n\n### Server Admin\n\n### Guides\n\n- gitattributes\n- Command-line interface conventions\n- Everyday Git\n- Frequently Asked Questions (FAQ)\n- Glossary\n- Hooks\n- gitignore\n- gitmodules\n- Revisions\n- Submodules\n- Tutorial\n- Workflows\n- All guides...\n\n### Administration\n\n### Plumbing Commands\n\n## DESCRIPTION\n\nThis tutorial explains how to import a new project into Git, make changes to it, and share changes with other developers.\n\nIf you are instead primarily interested in using Git to fetch a project, for example, to test the latest version, you may prefer to start with the first two chapters of The Git User's Manual.\n\nFirst, note that you can get documentation for a command such as\n`git`\n\n`log`\n\n`--graph`\n\nwith:\n\n$ man git-log\n\nor:\n\n$ git help log\n\nWith the latter, you can use the manual viewer of your choice; see git-help[1] for more information.\n\nIt is a good idea to introduce yourself to Git with your name and public email address before doing any operation. The easiest way to do so is:\n\n$ git config --global user.name \"Your Name Comes Here\" $ git config --global user.email you@yourdomain.example.com\n\n## Importing a new project\n\nAssume you have a tarball `project.tar.gz`\n\nwith your initial work. You\ncan place it under Git revision control as follows.\n\n$ tar xzf project.tar.gz $ cd project $ git init\n\nGit will reply\n\nInitialized empty Git repository in .git/\n\nYou've now initialized the working directory—you may notice a new\ndirectory created, named `.git`\n\nNext, tell Git to take a snapshot of the contents of all files under the\ncurrent directory (note the `.`\n\n), with `git`\n\n`add`\n\n:\n\n$ git add .\n\nThis snapshot is now stored in a temporary staging area which Git calls\nthe \"index\". You can permanently store the contents of the index in the\nrepository with `git`\n\n`commit`\n\n:\n\n$ git commit\n\nThis will prompt you for a commit message. You've now stored the first version of your project in Git.\n\n## Making changes\n\nModify some files, then add their updated contents to the index:\n\n$ git add file1 file2 file3\n\nYou are now ready to commit. You can see what is about to be committed\nusing `git`\n\n`diff`\n\nwith the `--cached`\n\noption:\n\n$ git diff --cached\n\n(Without `--cached`\n\n, `git`\n\n`diff`\n\nwill show you any changes that\nyou've made but not yet added to the index.) You can also get a brief\nsummary of the situation with `git`\n\n`status`\n\n:\n\n$ git status On branch master Changes to be committed: (use \"git restore --staged <file>...\" to unstage) modified: file1 modified: file2 modified: file3\n\nIf you need to make any further adjustments, do so now, and then add any newly modified content to the index. Finally, commit your changes with:\n\n$ git commit\n\nThis will again prompt you for a message describing the change, and then record a new version of the project.\n\nAlternatively, instead of running `git`\n\n`add`\n\nbeforehand, you can use\n\n$ git commit -a\n\nwhich will automatically notice any modified (but not new) files, add them to the index, and commit, all in one step.\n\nA note on commit messages: Though not required, it's a good idea to begin the commit message with a single short (no more than 50 characters) line summarizing the change, followed by a blank line and then a more thorough description. The text up to the first blank line in a commit message is treated as the commit title, and that title is used throughout Git. For example, git-format-patch[1] turns a commit into email, and it uses the title on the Subject line and the rest of the commit in the body.\n\n## Git tracks content not files\n\nMany revision control systems provide an `add`\n\ncommand that tells the\nsystem to start tracking changes to a new file. Git's `add`\n\ncommand\ndoes something simpler and more powerful: `git`\n\n`add`\n\nis used both for new\nand newly modified files, and in both cases it takes a snapshot of the\ngiven files and stages that content in the index, ready for inclusion in\nthe next commit.\n\n## Viewing project history\n\nAt any point you can view the history of your changes using\n\n$ git log\n\nIf you also want to see complete diffs at each step, use\n\n$ git log -p\n\nOften the overview of the change is useful to get a feel of each step\n\n$ git log --stat --summary\n\n## Managing branches\n\nA single Git repository can maintain multiple branches of\ndevelopment. To create a new branch named `experimental`\n\n, use\n\n$ git branch experimental\n\nIf you now run\n\n$ git branch\n\nyou'll get a list of all existing branches:\n\nexperimental * master\n\nThe `experimental`\n\nbranch is the one you just created, and the\n`master`\n\nbranch is a default branch that was created for you\nautomatically. The asterisk marks the branch you are currently on;\ntype\n\n$ git switch experimental\n\nto switch to the `experimental`\n\nbranch. Now edit a file, commit the\nchange, and switch back to the `master`\n\nbranch:\n\n(edit file) $ git commit -a $ git switch master\n\nCheck that the change you made is no longer visible, since it was\nmade on the `experimental`\n\nbranch and you're back on the `master`\n\nbranch.\n\nYou can make a different change on the `master`\n\nbranch:\n\n(edit file) $ git commit -a\n\nat this point the two branches have diverged, with different changes\nmade in each. To merge the changes made in `experimental`\n\ninto `master`\n\n, run\n\n$ git merge experimental\n\nIf the changes don't conflict, you're done. If there are conflicts, markers will be left in the problematic files showing the conflict;\n\n$ git diff\n\nwill show this. Once you've edited the files to resolve the conflicts,\n\n$ git commit -a\n\nwill commit the result of the merge. Finally,\n\n$ gitk\n\nwill show a nice graphical representation of the resulting history.\n\nAt this point you could delete the `experimental`\n\nbranch with\n\n$ git branch -d experimental\n\nThis command ensures that the changes in the `experimental`\n\nbranch are\nalready in the current branch.\n\nIf you develop on a branch `crazy-idea`\n\n, then regret it, you can always\ndelete the branch with\n\n$ git branch -D crazy-idea\n\nBranches are cheap and easy, so this is a good way to try something out.\n\n## Using Git for collaboration\n\nSuppose that Alice has started a new project with a Git repository in\n`/home/alice/project`\n\n, and that Bob, who has a home directory on the\nsame machine, wants to contribute.\n\nBob begins with:\n\nbob$ git clone /home/alice/project myrepo\n\nThis creates a new directory `myrepo`\n\ncontaining a clone of Alice's\nrepository. The clone is on an equal footing with the original\nproject, possessing its own copy of the original project's history.\n\nBob then makes some changes and commits them:\n\n(edit files) bob$ git commit -a (repeat as necessary)\n\nWhen he's ready, he tells Alice to pull changes from the repository\nat `/home/bob/myrepo`\n\n. She does this with:\n\nalice$ cd /home/alice/project alice$ git pull /home/bob/myrepo master\n\nThis merges the changes from Bob's `master`\n\nbranch into Alice's\ncurrent branch. If Alice has made her own changes in the meantime,\nthen she may need to manually fix any conflicts.\n\nThe `pull`\n\ncommand thus performs two operations: it fetches changes\nfrom a remote branch, then merges them into the current branch.\n\nNote that in general, Alice would want her local changes committed before\ninitiating this `pull`\n\n. If Bob's work conflicts with what Alice did since\ntheir histories forked, Alice will use her working tree and the index to\nresolve conflicts, and existing local changes will interfere with the\nconflict resolution process (Git will still perform the fetch but will\nrefuse to merge — Alice will have to get rid of her local changes in\nsome way and pull again when this happens).\n\nAlice can peek at what Bob did without merging first, using the `fetch`\n\ncommand; this allows Alice to inspect what Bob did, using a special\nsymbol `FETCH_HEAD`\n\n, in order to determine if he has anything worth\npulling, like this:\n\nalice$ git fetch /home/bob/myrepo master alice$ git log -p HEAD..FETCH_HEAD\n\nThis operation is safe even if Alice has uncommitted local changes.\nThe range notation `HEAD..FETCH_HEAD`\n\nmeans \"show everything that is reachable\nfrom the `FETCH_HEAD`\n\nbut exclude anything that is reachable from `HEAD`\n\n\".\nAlice already knows everything that leads to her current state (`HEAD`\n\n),\nand reviews what Bob has in his state (`FETCH_HEAD`\n\n) that she has not\nseen with this command.\n\nIf Alice wants to visualize what Bob did since their histories forked she can issue the following command:\n\n$ gitk HEAD..FETCH_HEAD\n\nThis uses the same two-dot range notation we saw earlier with `git`\n\n`log`\n\nAlice may want to view what both of them did since they forked. She can use three-dot form instead of the two-dot form:\n\n$ gitk HEAD...FETCH_HEAD\n\nThis means \"show everything that is reachable from either one, but exclude anything that is reachable from both of them\".\n\nPlease note that these range notations can be used with both `gitk`\n\nand `git`\n\n`log`\n\nAfter inspecting what Bob did, if there is nothing urgent, Alice may\ndecide to continue working without pulling from Bob. If Bob's history\ndoes have something Alice would immediately need, Alice may choose to\nstash her work-in-progress first, do a `pull`\n\n, and then finally unstash\nher work-in-progress on top of the resulting history.\n\nWhen you are working in a small closely knit group, it is not\nunusual to interact with the same repository over and over\nagain. By defining *remote* repository shorthand, you can make\nit easier:\n\nalice$ git remote add bob /home/bob/myrepo\n\nWith this, Alice can perform the first part of the `pull`\n\noperation\nalone using the `git`\n\n`fetch`\n\ncommand without merging them with her own\nbranch, using:\n\nalice$ git fetch bob\n\nUnlike the longhand form, when Alice fetches from Bob using a\nremote repository shorthand set up with `git`\n\n`remote`\n\n, what was\nfetched is stored in a remote-tracking branch, in this case\n`bob/master`\n\n. So after this:\n\nalice$ git log -p master..bob/master\n\nshows a list of all the changes that Bob made since he branched from\nAlice's `master`\n\nbranch.\n\nAfter examining those changes, Alice\ncould merge the changes into her `master`\n\nbranch:\n\nalice$ git merge bob/master\n\nThis `merge`\n\ncan also be done by *pulling from her own remote-tracking\nbranch*, like this:\n\nalice$ git pull . remotes/bob/master\n\nNote that git pull always merges into the current branch, regardless of what else is given on the command line.\n\nLater, Bob can update his repo with Alice's latest changes using\n\nbob$ git pull\n\nNote that he doesn't need to give the path to Alice's repository; when Bob cloned Alice's repository, Git stored the location of her repository in the repository configuration, and that location is used for pulls:\n\nbob$ git config --get remote.origin.url /home/alice/project\n\n(The complete configuration created by `git`\n\n`clone`\n\nis visible using\n`git`\n\n`config`\n\n`list`\n\n, and the git-config[1] man page\nexplains the meaning of each option.)\n\nGit also keeps a pristine copy of Alice's `master`\n\nbranch under the\nname `origin/master`\n\n:\n\nbob$ git branch -r origin/master\n\nIf Bob later decides to work from a different host, he can still perform clones and pulls using the ssh protocol:\n\nbob$ git clone alice.org:/home/alice/project myrepo\n\nAlternatively, Git has a native protocol, or can use http; see git-pull[1] for details.\n\nGit can also be used in a CVS-like mode, with a central repository that various users push changes to; see git-push[1] and gitcvs-migration[7].\n\n## Exploring history\n\nGit history is represented as a series of interrelated commits. We\nhave already seen that the `git`\n\n`log`\n\ncommand can list those commits.\nNote that first line of each `git`\n\n`log`\n\nentry also gives a name for the\ncommit:\n\n$ git log commit c82a22c39cbc32576f64f5c6b3f24b99ea8149c7 Author: Junio C Hamano <junkio@cox.net> Date: Tue May 16 17:18:22 2006 -0700 merge-base: Clarify the comments on post processing.\n\nWe can give this name to `git`\n\n`show`\n\nto see the details about this\ncommit.\n\n$ git show c82a22c39cbc32576f64f5c6b3f24b99ea8149c7\n\nBut there are other ways to refer to commits. You can use any initial part of the name that is long enough to uniquely identify the commit:\n\n$ git show c82a22c39c # the first few characters of the name are # usually enough $ git show HEAD # the tip of the current branch $ git show experimental # the tip of the \"experimental\" branch\n\nEvery commit usually has one \"parent\" commit which points to the previous state of the project:\n\n$ git show HEAD^ # to see the parent of HEAD $ git show HEAD^^ # to see the grandparent of HEAD $ git show HEAD~4 # to see the great-great grandparent of HEAD\n\nNote that merge commits may have more than one parent:\n\n$ git show HEAD^1 # show the first parent of HEAD (same as HEAD^) $ git show HEAD^2 # show the second parent of HEAD\n\nYou can also give commits names of your own; after running\n\n$ git tag v2.5 1b2e1d63ff\n\nyou can refer to `1b2e1d63ff`\n\nby the name `v2.5`\n\n. If you intend to\nshare this name with other people (for example, to identify a release\nversion), you should create a \"tag\" object, and perhaps sign it; see\ngit-tag[1] for details.\n\nAny Git command that needs to know a commit can take any of these names. For example:\n\n$ git diff v2.5 HEAD # compare the current HEAD to v2.5 $ git branch stable v2.5 # start a new branch named \"stable\" based # at v2.5 $ git reset --hard HEAD^ # reset your current branch and working # directory to its state at HEAD^\n\nBe careful with that last command: in addition to losing any changes\nin the working directory, it will also remove all later commits from\nthis branch. If this branch is the only branch containing those\ncommits, they will be lost. Also, don't use `git`\n\n`reset`\n\non a\npublicly-visible branch that other developers pull from, as it will\nforce needless merges on other developers to clean up the history.\nIf you need to undo changes that you have pushed, use `git`\n\n`revert`\n\ninstead.\n\nThe `git`\n\n`grep`\n\ncommand can search for strings in any version of your\nproject, so\n\n$ git grep \"hello\" v2.5\n\nsearches for all occurrences of \"hello\" in `v2.5`\n\nIf you leave out the commit name, `git`\n\n`grep`\n\nwill search any of the\nfiles it manages in your current directory. So\n\n$ git grep \"hello\"\n\nis a quick way to search just the files that are tracked by Git.\n\nMany Git commands also take sets of commits, which can be specified\nin a number of ways. Here are some examples with `git`\n\n`log`\n\n:\n\n$ git log v2.5..v2.6 # commits between v2.5 and v2.6 $ git log v2.5.. # commits since v2.5 $ git log --since=\"2 weeks ago\" # commits from the last 2 weeks $ git log v2.5.. Makefile # commits since v2.5 which modify # Makefile\n\nYou can also give `git`\n\n`log`\n\na \"range\" of commits where the first is not\nnecessarily an ancestor of the second; for example, if the tips of\nthe branches `stable`\n\nand `master`\n\ndiverged from a common\ncommit some time ago, then\n\n$ git log stable..master\n\nwill list commits made in the `master`\n\nbranch but not in the\nstable branch, while\n\n$ git log master..stable\n\nwill show the list of commits made on the stable branch but not\nthe `master`\n\nbranch.\n\nThe `git`\n\n`log`\n\ncommand has a weakness: it must present commits in a\nlist. When the history has lines of development that diverged and\nthen merged back together, the order in which `git`\n\n`log`\n\npresents\nthose commits is meaningless.\n\nMost projects with multiple contributors (such as the Linux kernel,\nor Git itself) have frequent merges, and `gitk`\n\ndoes a better job of\nvisualizing their history. For example,\n\n$ gitk --since=\"2 weeks ago\" drivers/\n\nallows you to browse any commits from the last 2 weeks of commits\nthat modified files under the `drivers`\n\ndirectory. (Note: you can\nadjust gitk's fonts by holding down the control key while pressing\n\"-\" or \"+\".)\n\nFinally, most commands that take filenames will optionally allow you to precede any filename by a commit, to specify a particular version of the file:\n\n$ git diff v2.5:Makefile HEAD:Makefile.in\n\nYou can also use `git`\n\n`show`\n\nto see any such file:\n\n$ git show v2.5:Makefile\n\n## Next Steps\n\nThis tutorial should be enough to perform basic distributed revision control for your projects. However, to fully understand the depth and power of Git you need to understand two simple ideas on which it is based:\n\nThe object database is the rather elegant system used to store the history of your project—files, directories, and commits.\n\nThe index file is a cache of the state of a directory tree, used to create commits, check out working directories, and hold the various trees involved in a merge.\n\nPart two of this tutorial explains the object database, the index file, and a few other odds and ends that you'll need to make the most of Git. You can find it at gittutorial-2[7].\n\nIf you don't want to continue with that right away, a few other digressions that may be interesting at this point are:\n\ngit-format-patch[1], git-am[1]: These convert series of git commits into emailed patches, and vice versa, useful for projects such as the Linux kernel which rely heavily on emailed patches.\n\ngit-bisect[1]: When there is a regression in your project, one way to track down the bug is by searching through the history to find the exact commit that's to blame.\n\n`git`\n\n`bisect`\n\ncan help you perform a binary search for that commit. It is smart enough to perform a close-to-optimal search even in the case of complex non-linear history with lots of merged branches. -\ngitworkflows[7]: Gives an overview of recommended workflows.\n\ngiteveryday[7]: Everyday Git with 20 Commands Or So.\n\ngitcvs-migration[7]: Git for CVS users.\n\n## GIT\n\nPart of the git[1] suite\n",
+  "metadata": {
+    "source_url": "https://git-scm.com/docs/gittutorial",
+    "source_domain": "git-scm.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:38:55.929569+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Git",
+    "description": null,
+    "language": "en",
+    "word_count": 3015,
+    "content_hash": "sha256:d8177d2ee82675dc163e2a34b3a48011c6fa789ddb10e6cf964730f450ff706d",
+    "reading_time": 16,
+    "author": null,
+    "published_date": "2026-04-20",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Official Git tutorial covering basic operations: importing projects, making changes, committing, branching, merging, and viewing project history.",
+    "entities": {
+      "primary": "Git tutorial",
+      "aliases": [
+        "Git basics",
+        "version control fundamentals"
+      ]
+    },
+    "core_question": "What are the fundamental Git operations for managing code versions and collaboration?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Git basics",
+      "commits",
+      "branching",
+      "merging",
+      "version control",
+      "configuration"
+    ]
+  },
+  "structure": {
+    "section_count": 24,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Git",
+        "section_type": "title",
+        "header_path": [
+          "Git"
+        ],
+        "char_start": 0,
+        "char_end": 17786
+      },
+      {
+        "level": 2,
+        "title": "Setup and Config",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config"
+        ],
+        "char_start": 30,
+        "char_end": 539
+      },
+      {
+        "level": 3,
+        "title": "Getting and Creating Projects",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Getting and Creating Projects"
+        ],
+        "char_start": 51,
+        "char_end": 86
+      },
+      {
+        "level": 3,
+        "title": "Basic Snapshotting",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Basic Snapshotting"
+        ],
+        "char_start": 86,
+        "char_end": 110
+      },
+      {
+        "level": 3,
+        "title": "Branching and Merging",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Branching and Merging"
+        ],
+        "char_start": 110,
+        "char_end": 137
+      },
+      {
+        "level": 3,
+        "title": "Sharing and Updating Projects",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Sharing and Updating Projects"
+        ],
+        "char_start": 137,
+        "char_end": 172
+      },
+      {
+        "level": 3,
+        "title": "Inspection and Comparison",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Inspection and Comparison"
+        ],
+        "char_start": 172,
+        "char_end": 203
+      },
+      {
+        "level": 3,
+        "title": "Patching",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Patching"
+        ],
+        "char_start": 203,
+        "char_end": 217
+      },
+      {
+        "level": 3,
+        "title": "Debugging",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Debugging"
+        ],
+        "char_start": 217,
+        "char_end": 232
+      },
+      {
+        "level": 3,
+        "title": "External Systems",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "External Systems"
+        ],
+        "char_start": 232,
+        "char_end": 254
+      },
+      {
+        "level": 3,
+        "title": "Server Admin",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Server Admin"
+        ],
+        "char_start": 254,
+        "char_end": 272
+      },
+      {
+        "level": 3,
+        "title": "Guides",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Guides"
+        ],
+        "char_start": 272,
+        "char_end": 496
+      },
+      {
+        "level": 3,
+        "title": "Administration",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Administration"
+        ],
+        "char_start": 496,
+        "char_end": 516
+      },
+      {
+        "level": 3,
+        "title": "Plumbing Commands",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Setup and Config",
+          "Plumbing Commands"
+        ],
+        "char_start": 516,
+        "char_end": 539
+      },
+      {
+        "level": 2,
+        "title": "DESCRIPTION",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "DESCRIPTION"
+        ],
+        "char_start": 539,
+        "char_end": 1367
+      },
+      {
+        "level": 2,
+        "title": "Importing a new project",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Importing a new project"
+        ],
+        "char_start": 1367,
+        "char_end": 2170
+      },
+      {
+        "level": 2,
+        "title": "Making changes",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Making changes"
+        ],
+        "char_start": 2170,
+        "char_end": 3754
+      },
+      {
+        "level": 2,
+        "title": "Git tracks content not files",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Git tracks content not files"
+        ],
+        "char_start": 3754,
+        "char_end": 4166
+      },
+      {
+        "level": 2,
+        "title": "Viewing project history",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Viewing project history"
+        ],
+        "char_start": 4166,
+        "char_end": 4437
+      },
+      {
+        "level": 2,
+        "title": "Managing branches",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Managing branches"
+        ],
+        "char_start": 4437,
+        "char_end": 6267
+      },
+      {
+        "level": 2,
+        "title": "Using Git for collaboration",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Using Git for collaboration"
+        ],
+        "char_start": 6267,
+        "char_end": 11625
+      },
+      {
+        "level": 2,
+        "title": "Exploring history",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Exploring history"
+        ],
+        "char_start": 11625,
+        "char_end": 16210
+      },
+      {
+        "level": 2,
+        "title": "Next Steps",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "Next Steps"
+        ],
+        "char_start": 16210,
+        "char_end": 17753
+      },
+      {
+        "level": 2,
+        "title": "GIT",
+        "section_type": "content",
+        "header_path": [
+          "Git",
+          "GIT"
+        ],
+        "char_start": 17753,
+        "char_end": 17786
+      }
+    ]
+  },
+  "links": [
+    "https://git-scm.com",
+    "https://git-scm.com/docs/gitattributes",
+    "https://git-scm.com/docs/gitcli",
+    "https://git-scm.com/docs/giteveryday",
+    "https://git-scm.com/docs/gitfaq",
+    "https://git-scm.com/docs/gitglossary",
+    "https://git-scm.com/docs/githooks",
+    "https://git-scm.com/docs/gitignore",
+    "https://git-scm.com/docs/gitmodules",
+    "https://git-scm.com/docs/gitrevisions",
+    "https://git-scm.com/docs/gitsubmodules",
+    "https://git-scm.com/docs/gittutorial",
+    "https://git-scm.com/docs/gitworkflows",
+    "https://git-scm.com/docs/git#_guides",
+    "https://git-scm.com#_description",
+    "https://git-scm.com/docs/user-manual",
+    "https://git-scm.com/docs/git-help",
+    "https://git-scm.com#_importing_a_new_project",
+    "https://git-scm.com#_making_changes",
+    "https://git-scm.com/docs/git-format-patch",
+    "https://git-scm.com#_git_tracks_content_not_files",
+    "https://git-scm.com#_viewing_project_history",
+    "https://git-scm.com#_managing_branches",
+    "https://git-scm.com#_using_git_for_collaboration",
+    "https://git-scm.com/docs/git-config",
+    "https://git-scm.com/docs/git-pull",
+    "https://git-scm.com/docs/git-push",
+    "https://git-scm.com/docs/gitcvs-migration",
+    "https://git-scm.com#_exploring_history",
+    "https://git-scm.com/docs/git-tag",
+    "https://git-scm.com#_next_steps",
+    "https://git-scm.com/docs/gittutorial-2",
+    "https://git-scm.com/docs/git-am",
+    "https://git-scm.com/docs/git-bisect",
+    "https://git-scm.com#_git",
+    "https://git-scm.com/docs/git"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

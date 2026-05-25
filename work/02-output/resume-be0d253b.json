@@ -1,0 +1,76 @@
+{
+  "markdown": "# GitHub - joshbeard/resume: 💼 My résumé as code. Maintained in YAML and generated in several formats\n\n- Email: josh@joshbeard.com\n- Web: joshbeard.com\n- GitHub: github.com/joshbeard\n- Location: Colorado Springs, CO\n- Other Formats\n\nEngineering manager and hands-on platform engineer with 15+ years building the systems that let development teams ship faster and safer. I own platform strategy while staying close to the work - designing CI/CD architecture, building internal tools in Go, and establishing governance that scales without becoming bureaucracy. Known for turning fragmented toolchains into coherent platforms and for growing engineers who can own their own infrastructure.\n\n*Previously: Staff DevOps Engineer (February 2025 - February 2026), Senior DevOps Engineer (September 2022 - February 2025)*\n\nSeptember 2022 - Present\n\n- Lead platform strategy and roadmap for a DevOps team supporting multiple engineering groups, aligning infrastructure decisions with business and compliance requirements.\n- Drive cross-team standardization of tooling and delivery practices, reducing per-team pipeline variance and improving time-to-production across the engineering org.\n- Architect CI/CD and platform infrastructure that scales across teams while maintaining auditability and governance controls for a regulated banking environment.\n- Built a release orchestration tool in Go that reduced manual release steps and improved rollback safety across production deployments.\n- Developed and open-sourced a Terraform provider and Go API client for a third-party integration, enabling self-service infrastructure for downstream teams.\n- Established observability practices for CI/CD pipelines, giving engineering leadership visibility into delivery performance for the first time.\n\n*Key technology and skills:AWS, CI/CD, DataDog, Devcontainers, Docker, GitLab, GitOps, Go, Golang, Kubernetes, GitHub Actions, Platform Engineering, Python, Shell, Terraform, Traefik*\n\nJune 2022 - April 2023\n\n- Contracted to USGS Water Resources Mission Area to modernize critical national water data services used by researchers and the public.\n- Built AWS infrastructure and CI/CD pipelines for serverless Python applications and static websites, reducing deployment time and operational overhead.\n- Integrated automated security scanning and compliance checks into CI/CD pipelines, reducing manual review burden on development teams.\n\n*Key technology and skills:AWS, CloudFormation, GitLab, Python*\n\n*Previously: Senior DevOps Engineer (September 2015 - December 2019)*\n\nSeptember 2015 - May 2022\n\n- Owned platform architecture and infrastructure for dozens of USGS scientific data products serving millions of public users.\n- Led migration of 200+ projects from legacy CI/CD systems to GitLab, standardizing delivery practices across a large multi-team organization.\n- Deployed configuration management at scale using Puppet and Ansible across hundreds of Linux systems, eliminating configuration drift and reducing incident response time.\n- Migrated dozens of applications from on-premise to AWS using Docker, cutting infrastructure costs and enabling teams to scale workloads independently.\n- Mentored engineers and scientists in DevOps practices, enabling teams to own and operate their own infrastructure without platform team dependency.\n\n*Key technology and skills:AWS, CI/CD, GitLab, Docker, Terraform, Ansible, Platform Engineering, GitOps, Puppet, Python, Nginx, Traefik*\n\nSeptember 2013 - April 2015\n\n- Delivered consulting and hands-on training on Puppet and DevOps practices to enterprise clients across multiple industries.\n- Developed reusable Puppet modules and automation tooling adopted by client teams after engagements closed.\n- Consistently earned strong client feedback for practical, no-nonsense technical guidance.\n\n*Key technology and skills:Puppet, Linux, Ruby, Git, Shell*\n\nJanuary 2010 - September 2013\n\n- Managed Linux/Unix infrastructure and server operations for a K-12 district environment.\n- Introduced system automation and monitoring, reducing manual maintenance toil and improving uptime.\n- Provided technical support and maintained core network services.\n\n*Key technology and skills:Linux, Unix, Puppet, Nginx, MySQL, KVM, PHP*\n\n- Platform Engineering & Developer Experience\n- Engineering Leadership & Team Enablement\n- Release Management & Automation\n- CI/CD Architecture & Pipeline Design\n- Infrastructure as Code & Configuration Management\n- DevSecOps & Compliance Automation\n\n- GitLab CI/CD, GitHub Actions\n- Terraform, CloudFormation, CDK\n- Puppet, Ansible\n- Nginx, HAProxy, Traefik\n- PostgreSQL, MySQL, MongoDB, Redis\n\n- DataDog, Prometheus\n- Elasticsearch, Graylog\n- PagerDuty\n- Sensu\n\n- AWS Cloud Services\n- Docker, Kubernetes\n- Linux/Unix (RHEL, Ubuntu, Debian, Alpine, FreeBSD)\n- Virtualization (Proxmox, LXC, Vagrant, KVM, vSphere)\n- Security Scanning & Vulnerability Management\n\n- Go\n- Python\n- Shell/Bash\n- Ruby\n- YAML, JSON, HCL\n- PHP\n\n- Code Analysis & Security Scanning\n- Compliance Automation\n- Security Policy as Code\n\n- Web/HTML: https://joshbeard.com/resume\n- PDF: https://joshbeard.com/resume/Josh-Beard-Resume.pdf\n- Word: https://joshbeard.com/resume/Josh-Beard-Resume.docx\n- Text: https://joshbeard.com/resume/resume.txt\n- Narrow Text: https://joshbeard.com/resume/resume-narrow.txt\n- JSON: https://joshbeard.com/resume/resume.json\n`gemini://jbeard.co/resume.gmi`\n\n`gopher://jbeard.co:70/0/resume.txt`\n\n`finger resume@jbeard.co`\n\n- man page:\n- Linux/GNU:\n`man <(curl -sl https://joshbeard.com/resume/joshbeard-resume.7)`\n\n- macOS/BSD:\n`curl -sL https://joshbeard.com/resume/joshbeard-resume.7 > /tmp/joshbeard.7 && man /tmp/joshbeard.7`\n\n- Linux/GNU:\n\n*This README was generated from the resume.yaml file and using gomplate and the resume.md.tmpl template.*\n",
+  "metadata": {
+    "source_url": "https://github.com/joshbeard/resume",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:14.228985+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "GitHub - joshbeard/resume: 💼 My résumé as code. Maintained in YAML and generated in several formats",
+    "description": "💼 My résumé as code. Maintained in YAML and generated in several formats - joshbeard/resume",
+    "language": "en",
+    "word_count": 752,
+    "content_hash": "sha256:a0beeb654e6e7d91949922bf0ec592b888238607e16d633969de8223aa030b85",
+    "reading_time": 4,
+    "author": "Joshbeard",
+    "published_date": "2021-10-15",
+    "og_title": null,
+    "signal_score": 0.746,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Platform engineer and manager with 15+ years building CI/CD infrastructure, DevOps tooling, and platform strategy enabling teams to ship faster.",
+    "entities": {
+      "primary": "platform engineering resume",
+      "aliases": [
+        "DevOps engineer",
+        "infrastructure engineering",
+        "platform strategy"
+      ]
+    },
+    "core_question": "What qualifies someone as a platform engineer and infrastructure leader?",
+    "doc_type": "reference",
+    "key_topics": [
+      "CI/CD",
+      "Terraform",
+      "Kubernetes",
+      "GitLab",
+      "platform engineering",
+      "DevOps"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "GitHub - joshbeard/resume: 💼 My résumé as code. Maintained in YAML and generated in several formats",
+        "section_type": "title",
+        "header_path": [
+          "GitHub - joshbeard/resume: 💼 My résumé as code. Maintained in YAML and generated in several formats"
+        ],
+        "char_start": 0,
+        "char_end": 5805
+      }
+    ]
+  },
+  "links": [
+    "https://joshbeard.com",
+    "https://github.com/joshbeard",
+    "https://maps.app.goo.gl/v5jKrjZ8whT3nwgv7",
+    "https://github.com#other-formats",
+    "https://joshbeard.com/resume",
+    "https://joshbeard.com/resume/Josh-Beard-Resume.pdf",
+    "https://joshbeard.com/resume/Josh-Beard-Resume.docx",
+    "https://joshbeard.com/resume/resume.txt",
+    "https://joshbeard.com/resume/resume-narrow.txt",
+    "https://joshbeard.com/resume/resume.json",
+    "https://github.com/joshbeard/resume/blob/master/resume.yaml",
+    "https://gomplate.ca/",
+    "https://github.com/joshbeard/resume/blob/master/templates/resume.md.tmpl"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,59 @@
+{
+  "markdown": "# Senior Software Engineer Resume\n\n## About this template\n\nI am a Senior Software Engineer with over 8 years of experience architecting scalable web applications and leading high-performance engineering teams. Specialized in full-stack development, cloud infrastructure, microservices architecture, and DevOps automation. I have successfully designed and delivered mission-critical systems serving 10M+ users, achieving significant cost reductions and reliability improvements. Passionate about clean code, system design, and engineering excellence, I am committed to driving team growth and technical innovation.\n",
+  "metadata": {
+    "source_url": "https://www.notion.com/templates/senior-software-engineer-resume",
+    "source_domain": "notion.com",
+    "topic": "senior-level-resume",
+    "fetched_at": "2026-05-25T06:46:33.863461+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Senior Software Engineer Resume Template by space bear",
+    "description": "Senior Software Engineer with 8+ years of full-stack and cloud architecture experience. Expert in microservices, DevOps automation, and high-performance system design. Proven leader delivering mission-critical, large-scale applications with a focus on technical excellence. | Discover new ways to use Notion across work and life.",
+    "language": "en",
+    "word_count": 78,
+    "content_hash": "sha256:4443bd6ebda0ba5c45bcc58e90e595eda05e693c2d4841d583d9da0f736dc025",
+    "reading_time": 1,
+    "author": "Notion",
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.4496,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Senior Software Engineer Resume",
+        "section_type": "title",
+        "header_path": [
+          "Senior Software Engineer Resume"
+        ],
+        "char_start": 0,
+        "char_end": 614
+      },
+      {
+        "level": 2,
+        "title": "About this template",
+        "section_type": "example",
+        "header_path": [
+          "Senior Software Engineer Resume",
+          "About this template"
+        ],
+        "char_start": 35,
+        "char_end": 614
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

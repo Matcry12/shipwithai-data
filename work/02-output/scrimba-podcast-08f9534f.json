@@ -1,0 +1,452 @@
+{
+  "markdown": "# The Scrimba Podcast\n\n## Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!\n\nThe Scrimba Podcast ,\n\n### How Not to Be Afraid of Git, with O'Reilly Author Anna Skoulikari\n\nThe Scrimba Podcast ,\n\n### The (Not so) Hidden Benefits of Talking about Code, with Scrimba Bootcamp Lead Micha\n\nThe Scrimba Podcast ,\n\n### Neurodiversity in Tech and Why We Should Care About It, with Parul Singh\n\nThe Scrimba Podcast ,\n\n### The Only Thing Worth Investing in Is Yourself, with Scrimba Student Özge\n\nThe Scrimba Podcast ,\n\n### How to Figure Out What You Want to Do, with Scrimba Student Amy\n\nThe Scrimba Podcast ,\n\n### Slow Down to Speed Up: Teacher-Turned-Developer Chris on Successful Adult Learning and Landing his Dream Role\n\nThe Scrimba Podcast ,\n\n### The State of React (and Should You Still Learn It in 2024), with Dev Agrawal\n\nThe Scrimba Podcast ,\n\n### Everybody's Doing Their Best... Even Tech Recruiters (and This Is How to Get Their Attention), with Parul Singh\n\nThe Scrimba Podcast ,\n\n### The Making of an Industry: The Rise of AI Engineering, with Swyx\n\nThe Scrimba Podcast ,\n\n### Passions, Skills, Environment, and Compensation: Career Coach Adam Broda's Framework for Navigating Today's Job Market\n\nThe Scrimba Podcast ,\n\n### Effective Living for Better Coding: From Retail to Software Engineering with Scrimba Student Cassie\n\nThe Scrimba Podcast ,\n\n### Who's Afraid of AI Agents? The Future of Automation, with Bob Ziroll\n\nThe Scrimba Podcast ,\n\n### What Is Retrieval-Augmented Generation and How to Make AI Work for You, with Guil Hernandez\n\nThe Scrimba Podcast ,\n\n### Demystifying AI: What Are Foundation Models (and How to Use Them), with Tom Chant\n\nThe Scrimba Podcast ,\n\n### The Rise of the AI Engineer (and How to Become One), with Scrimba CEO Per Borgen\n\nThe Scrimba Podcast ,\n\n### What Is Productivity Anxiety and How to Beat It, with Matt and Eric from Self-Taught Devs Podcast\n\nThe Scrimba Podcast ,\n\n### How to Find Your People and the Work You Find Exciting, with Scrimba Student Anna\n\nThe Scrimba Podcast ,\n\n### Mastering Corporate Culture for New Developers\n\nThe Scrimba Podcast ,\n\n### How Johnny Learned Angular and Typescript in Three Days\n\nThe Scrimba Podcast ,\n\n### Changing Careers? This Is How to Fight the Sunk Cost Fallacy, with Doctor-turned-developer Shona\n\nThe Scrimba Podcast ,\n\n### Learning to Code with ADHD: How Zuza Landed Her First Tech Job after Only Four Months\n\nThe Scrimba Podcast ,\n\n### It's All about Your Additude: Building a Software Apprenticeship Program with Luke Hovee\n\nThe Scrimba Podcast ,\n\n### Listen to This If You're Working on Your LinkedIn Profile\n\nThe Scrimba Podcast ,\n\n### Treat Learning to Code Like an RPG (and You Might Get a Job in Three Business Days), with Scrimba student Tomáš\n\nThe Scrimba Podcast ,\n\n### Empowering Junior React Developers: Inside a React Job Simulator with Johannes Kettmann\n\nThe Scrimba Podcast ,\n\n### How Mohamed Landed a Dev Job Through Instagram\n\nThe Scrimba Podcast ,\n\n### Are You a New Developer? Follow This One Tip! (With Scrimba Student Danny)\n\nThe Scrimba Podcast ,\n\n### From Lab Coat to Code: Vanessa's Path from Lab Scientist to Developing Lab Software\n\nThe Scrimba Podcast ,\n\n### How to Create a Personal Brand (and Why You Need One)\n\nThe Scrimba Podcast ,\n",
+  "metadata": {
+    "source_url": "https://dev.to/scrimba-podcast",
+    "source_domain": "dev.to",
+    "topic": "executive-resume",
+    "fetched_at": "2026-05-25T06:38:13.349229+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "The Scrimba Podcast",
+    "description": "Hear from inspiring developers about how they found meaningful and fulfilling work that that also pays them well. On The Scrimba Podcast, you'll hear motivational advice and job-hunting strategies from developers who've been exactly where you are now. We talk to developers about their challenges, learnings, and switching industries in the hopes of inspiring YOU. This is the podcast that provides the inspiration, tools, and roadmaps to move from where you are to work that matters to you and uniquely fits your strengths and talents",
+    "language": "en",
+    "word_count": 555,
+    "content_hash": "sha256:61ac1b08bae6c097bb78c685ac3a27ec9579de12d45fb702ac9a59d8bc427641",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2024-04-10",
+    "og_title": null,
+    "signal_score": 0.9625,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Index of Scrimba Podcast episodes covering tech careers, learning paths, neurodiversity, AI engineering, career transitions, and professional development topics.",
+    "entities": {
+      "primary": "Scrimba Podcast episode listings",
+      "aliases": [
+        "tech career podcast",
+        "developer interview series",
+        "learning to code podcast"
+      ]
+    },
+    "core_question": "What career and technical topics does the Scrimba Podcast cover?",
+    "doc_type": "reference",
+    "key_topics": [
+      "podcast episodes",
+      "career guidance",
+      "tech skills",
+      "career transitions",
+      "AI engineering",
+      "developer stories"
+    ]
+  },
+  "structure": {
+    "section_count": 31,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "The Scrimba Podcast",
+        "section_type": "title",
+        "header_path": [
+          "The Scrimba Podcast"
+        ],
+        "char_start": 0,
+        "char_end": 3268
+      },
+      {
+        "level": 2,
+        "title": "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!"
+        ],
+        "char_start": 23,
+        "char_end": 3268
+      },
+      {
+        "level": 3,
+        "title": "How Not to Be Afraid of Git, with O'Reilly Author Anna Skoulikari",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "How Not to Be Afraid of Git, with O'Reilly Author Anna Skoulikari"
+        ],
+        "char_start": 116,
+        "char_end": 210
+      },
+      {
+        "level": 3,
+        "title": "The (Not so) Hidden Benefits of Talking about Code, with Scrimba Bootcamp Lead Micha",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "The (Not so) Hidden Benefits of Talking about Code, with Scrimba Bootcamp Lead Micha"
+        ],
+        "char_start": 210,
+        "char_end": 323
+      },
+      {
+        "level": 3,
+        "title": "Neurodiversity in Tech and Why We Should Care About It, with Parul Singh",
+        "section_type": "intro",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Neurodiversity in Tech and Why We Should Care About It, with Parul Singh"
+        ],
+        "char_start": 323,
+        "char_end": 424
+      },
+      {
+        "level": 3,
+        "title": "The Only Thing Worth Investing in Is Yourself, with Scrimba Student Özge",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "The Only Thing Worth Investing in Is Yourself, with Scrimba Student Özge"
+        ],
+        "char_start": 424,
+        "char_end": 525
+      },
+      {
+        "level": 3,
+        "title": "How to Figure Out What You Want to Do, with Scrimba Student Amy",
+        "section_type": "step",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "How to Figure Out What You Want to Do, with Scrimba Student Amy"
+        ],
+        "char_start": 525,
+        "char_end": 617
+      },
+      {
+        "level": 3,
+        "title": "Slow Down to Speed Up: Teacher-Turned-Developer Chris on Successful Adult Learning and Landing his Dream Role",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Slow Down to Speed Up: Teacher-Turned-Developer Chris on Successful Adult Learning and Landing his Dream Role"
+        ],
+        "char_start": 617,
+        "char_end": 755
+      },
+      {
+        "level": 3,
+        "title": "The State of React (and Should You Still Learn It in 2024), with Dev Agrawal",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "The State of React (and Should You Still Learn It in 2024), with Dev Agrawal"
+        ],
+        "char_start": 755,
+        "char_end": 860
+      },
+      {
+        "level": 3,
+        "title": "Everybody's Doing Their Best... Even Tech Recruiters (and This Is How to Get Their Attention), with Parul Singh",
+        "section_type": "step",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Everybody's Doing Their Best... Even Tech Recruiters (and This Is How to Get Their Attention), with Parul Singh"
+        ],
+        "char_start": 860,
+        "char_end": 1000
+      },
+      {
+        "level": 3,
+        "title": "The Making of an Industry: The Rise of AI Engineering, with Swyx",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "The Making of an Industry: The Rise of AI Engineering, with Swyx"
+        ],
+        "char_start": 1000,
+        "char_end": 1093
+      },
+      {
+        "level": 3,
+        "title": "Passions, Skills, Environment, and Compensation: Career Coach Adam Broda's Framework for Navigating Today's Job Market",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Passions, Skills, Environment, and Compensation: Career Coach Adam Broda's Framework for Navigating Today's Job Market"
+        ],
+        "char_start": 1093,
+        "char_end": 1240
+      },
+      {
+        "level": 3,
+        "title": "Effective Living for Better Coding: From Retail to Software Engineering with Scrimba Student Cassie",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Effective Living for Better Coding: From Retail to Software Engineering with Scrimba Student Cassie"
+        ],
+        "char_start": 1240,
+        "char_end": 1368
+      },
+      {
+        "level": 3,
+        "title": "Who's Afraid of AI Agents? The Future of Automation, with Bob Ziroll",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Who's Afraid of AI Agents? The Future of Automation, with Bob Ziroll"
+        ],
+        "char_start": 1368,
+        "char_end": 1465
+      },
+      {
+        "level": 3,
+        "title": "What Is Retrieval-Augmented Generation and How to Make AI Work for You, with Guil Hernandez",
+        "section_type": "intro",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "What Is Retrieval-Augmented Generation and How to Make AI Work for You, with Guil Hernandez"
+        ],
+        "char_start": 1465,
+        "char_end": 1585
+      },
+      {
+        "level": 3,
+        "title": "Demystifying AI: What Are Foundation Models (and How to Use Them), with Tom Chant",
+        "section_type": "step",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Demystifying AI: What Are Foundation Models (and How to Use Them), with Tom Chant"
+        ],
+        "char_start": 1585,
+        "char_end": 1695
+      },
+      {
+        "level": 3,
+        "title": "The Rise of the AI Engineer (and How to Become One), with Scrimba CEO Per Borgen",
+        "section_type": "step",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "The Rise of the AI Engineer (and How to Become One), with Scrimba CEO Per Borgen"
+        ],
+        "char_start": 1695,
+        "char_end": 1804
+      },
+      {
+        "level": 3,
+        "title": "What Is Productivity Anxiety and How to Beat It, with Matt and Eric from Self-Taught Devs Podcast",
+        "section_type": "intro",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "What Is Productivity Anxiety and How to Beat It, with Matt and Eric from Self-Taught Devs Podcast"
+        ],
+        "char_start": 1804,
+        "char_end": 1930
+      },
+      {
+        "level": 3,
+        "title": "How to Find Your People and the Work You Find Exciting, with Scrimba Student Anna",
+        "section_type": "step",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "How to Find Your People and the Work You Find Exciting, with Scrimba Student Anna"
+        ],
+        "char_start": 1930,
+        "char_end": 2040
+      },
+      {
+        "level": 3,
+        "title": "Mastering Corporate Culture for New Developers",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Mastering Corporate Culture for New Developers"
+        ],
+        "char_start": 2040,
+        "char_end": 2115
+      },
+      {
+        "level": 3,
+        "title": "How Johnny Learned Angular and Typescript in Three Days",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "How Johnny Learned Angular and Typescript in Three Days"
+        ],
+        "char_start": 2115,
+        "char_end": 2199
+      },
+      {
+        "level": 3,
+        "title": "Changing Careers? This Is How to Fight the Sunk Cost Fallacy, with Doctor-turned-developer Shona",
+        "section_type": "step",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Changing Careers? This Is How to Fight the Sunk Cost Fallacy, with Doctor-turned-developer Shona"
+        ],
+        "char_start": 2199,
+        "char_end": 2324
+      },
+      {
+        "level": 3,
+        "title": "Learning to Code with ADHD: How Zuza Landed Her First Tech Job after Only Four Months",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Learning to Code with ADHD: How Zuza Landed Her First Tech Job after Only Four Months"
+        ],
+        "char_start": 2324,
+        "char_end": 2438
+      },
+      {
+        "level": 3,
+        "title": "It's All about Your Additude: Building a Software Apprenticeship Program with Luke Hovee",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "It's All about Your Additude: Building a Software Apprenticeship Program with Luke Hovee"
+        ],
+        "char_start": 2438,
+        "char_end": 2555
+      },
+      {
+        "level": 3,
+        "title": "Listen to This If You're Working on Your LinkedIn Profile",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Listen to This If You're Working on Your LinkedIn Profile"
+        ],
+        "char_start": 2555,
+        "char_end": 2641
+      },
+      {
+        "level": 3,
+        "title": "Treat Learning to Code Like an RPG (and You Might Get a Job in Three Business Days), with Scrimba student Tomáš",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Treat Learning to Code Like an RPG (and You Might Get a Job in Three Business Days), with Scrimba student Tomáš"
+        ],
+        "char_start": 2641,
+        "char_end": 2781
+      },
+      {
+        "level": 3,
+        "title": "Empowering Junior React Developers: Inside a React Job Simulator with Johannes Kettmann",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Empowering Junior React Developers: Inside a React Job Simulator with Johannes Kettmann"
+        ],
+        "char_start": 2781,
+        "char_end": 2897
+      },
+      {
+        "level": 3,
+        "title": "How Mohamed Landed a Dev Job Through Instagram",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "How Mohamed Landed a Dev Job Through Instagram"
+        ],
+        "char_start": 2897,
+        "char_end": 2972
+      },
+      {
+        "level": 3,
+        "title": "Are You a New Developer? Follow This One Tip! (With Scrimba Student Danny)",
+        "section_type": "tips",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "Are You a New Developer? Follow This One Tip! (With Scrimba Student Danny)"
+        ],
+        "char_start": 2972,
+        "char_end": 3075
+      },
+      {
+        "level": 3,
+        "title": "From Lab Coat to Code: Vanessa's Path from Lab Scientist to Developing Lab Software",
+        "section_type": "content",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "From Lab Coat to Code: Vanessa's Path from Lab Scientist to Developing Lab Software"
+        ],
+        "char_start": 3075,
+        "char_end": 3187
+      },
+      {
+        "level": 3,
+        "title": "How to Create a Personal Brand (and Why You Need One)",
+        "section_type": "intro",
+        "header_path": [
+          "The Scrimba Podcast",
+          "Early WhatsApp Engineer Jean Lee: Keep Trying New Things in Tech!",
+          "How to Create a Personal Brand (and Why You Need One)"
+        ],
+        "char_start": 3187,
+        "char_end": 3268
+      }
+    ]
+  },
+  "links": [
+    "https://dev.to/scrimba-podcast/early-whatsapp-engineer-jean-lee-keep-trying-new-things-in-tech",
+    "https://dev.to/scrimba-podcast/how-not-to-be-afraid-of-git-with-oreilly-author-anna-skoulikari",
+    "https://dev.to/scrimba-podcast/the-not-so-hidden-benefits-of-talking-about-code-with-scrimba-bootcamp-lead-micha",
+    "https://dev.to/scrimba-podcast/neurodiversity-in-tech-and-why-we-should-care-about-it-with-parul-singh",
+    "https://dev.to/scrimba-podcast/the-only-thing-worth-investing-in-is-yourself-with-scrimba-student-ozge",
+    "https://dev.to/scrimba-podcast/how-to-figure-out-what-you-want-to-do-with-scrimba-student-amy",
+    "https://dev.to/scrimba-podcast/slow-down-to-speed-up-teacher-turned-developer-chris-on-successful-adult-learning-and-landing-his-dream-role",
+    "https://dev.to/scrimba-podcast/the-state-of-react-and-should-you-still-learn-it-in-2024-with-dev-agrawal",
+    "https://dev.to/scrimba-podcast/everybodys-doing-their-best-even-tech-recruiters-and-this-is-how-to-get-their-attention-with-parul-singh",
+    "https://dev.to/scrimba-podcast/the-making-of-an-industry-the-rise-of-ai-engineering-with-swyx",
+    "https://dev.to/scrimba-podcast/passions-skills-environment-and-compensation-career-coach-adam-brodas-framework-for-navigating-todays-job-market",
+    "https://dev.to/scrimba-podcast/effective-living-for-better-coding-from-retail-to-software-engineering-with-scrimba-student-cassie",
+    "https://dev.to/scrimba-podcast/whos-afraid-of-ai-agents-the-future-of-automation-with-bob-ziroll",
+    "https://dev.to/scrimba-podcast/what-is-retrieval-augmented-generation-and-how-to-make-ai-work-for-you-with-guil-hernandez",
+    "https://dev.to/scrimba-podcast/demystifying-ai-what-are-foundation-models-and-how-to-use-them-with-tom-chant",
+    "https://dev.to/scrimba-podcast/the-rise-of-the-ai-engineer-and-how-to-become-one-with-scrimba-ceo-per-borgen",
+    "https://dev.to/scrimba-podcast/what-is-productivity-anxiety-and-how-to-beat-it-with-matt-and-eric-from-self-taught-devs-podcast",
+    "https://dev.to/scrimba-podcast/how-to-find-your-people-and-the-work-you-find-exciting-with-scrimba-student-anna",
+    "https://dev.to/scrimba-podcast/mastering-corporate-culture-for-new-developers",
+    "https://dev.to/scrimba-podcast/how-johnny-learned-angular-and-typescript-in-three-days",
+    "https://dev.to/scrimba-podcast/changing-careers-this-is-how-to-fight-the-sunk-cost-fallacy-with-doctor-turned-developer-shona",
+    "https://dev.to/scrimba-podcast/learning-to-code-with-adhd-how-zuza-landed-her-first-tech-job-after-only-four-months",
+    "https://dev.to/scrimba-podcast/its-all-about-your-additude-building-a-software-apprenticeship-program-with-luke-hovee",
+    "https://dev.to/scrimba-podcast/listen-to-this-if-youre-working-on-your-linkedin-profile",
+    "https://dev.to/scrimba-podcast/treat-learning-to-code-like-an-rpg-and-you-might-get-a-job-in-three-business-days-with-scrimba-student-tomas",
+    "https://dev.to/scrimba-podcast/empowering-junior-react-developers-inside-a-react-job-simulator-with-johannes-kettmann",
+    "https://dev.to/scrimba-podcast/how-mohamed-landed-a-dev-job-through-instagram",
+    "https://dev.to/scrimba-podcast/are-you-a-new-developer-follow-this-one-tip-with-scrimba-student-danny",
+    "https://dev.to/scrimba-podcast/from-lab-coat-to-code-vanessas-path-from-lab-scientist-to-developing-lab-software",
+    "https://dev.to/scrimba-podcast/how-to-create-a-personal-brand-and-why-you-need-one"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

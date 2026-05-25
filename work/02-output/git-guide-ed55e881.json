@@ -1,0 +1,412 @@
+{
+  "markdown": "# Git for Beginners: The Definitive Practical Guide\n\n## 1. Overview\n\nIn this tutorial, we'll discuss the commands that we most frequently use when working with Git.\n\nWe'll start with installation and configuration and then create our first local repository. Next, we'll learn how to commit changes and synchronize them with a remote repository.\n\nAdditionally, we'll discuss branching and also learn some advanced techniques like amending commits and manipulating the commit history.\n\n## 2. What Is Git?\n\n**Git i****s a version control system (VCS) that allows saving and tracking changes to files over time** without overwriting previous snapshots. It helps developers collaborate on projects together.\n\nUnlike its main competitor – *SVN*, Git also implements a distributed workflow system. It means that every developer working with Git has a local copy of the entire repository. Git also allows working asynchronously without a constant connection to the central repository.\n\n**3. Git Installation**\n\nWe can install Git on the most common operating systems like Windows, Mac, and Linux. In fact, on most Mac and Linux machines, Git comes installed by default.\n\nTo see if we already have Git installed, let's open up a terminal and execute:\n\n```\n$ git version\ngit version 2.24.3 (Apple Git-128)\n```\n\nMoreover, Git comes with built-in GUI tools for committing (*git-gui*) and browsing (*gitk*). There are also plenty of third-party tools or IDE plugins that enhance the experience.\n\n**4. git help – A Handy Manual**\n\nBefore we create our first repository, let's run the *git* *help* command. **It displays useful information about Git itself**:\n\n```\n$ git help\nusage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n[--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n[-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n[--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n<command> [<args>]\n```\n\nWe can also check the manual for a specific command in multiple ways:\n\n```\n$ git --help init\n$ git help init\n$ git init --help\n```\n\nAll the three variants above return identical output.\n\nWith the *-g *option*, *we can also access the list of internal guides to develop our skills:\n\n```\n$ git help -g\nThe common Git guides are:\nattributes Defining attributes per path\ncli Git command-line interface and conventions\ncore-tutorial A Git core tutorial for developers\n$ git help core-tutorial\n```\n\nTo print the tutorial, we need to provide its name as a parameter.\n\n**5. git config – Configuring Git**\n\nOnce we have Git installed, we can easily configure it with the *git**config* command, which** allows managing options**.\n\nGit supports options at different levels like *system*, *global*, *local*, *worktree*, or *file*.\n\nWhile the *system* settings are system-wide and are applied to every user and all of their repositories on the system, the *global* level refers to user-specific settings.\n\nThe *local* configuration is specific to the single repository, and it is the default level that Git uses when we don't pass any option to the *git config* command.\n\nThe *worktree* and *file* levels are more advanced configuration levels, which can be applied to a single branch or file in the repository.\n\nFurther, **Git resolves the effective value of an option by checking the local level first and then goes until the system level if the option isn't set**.\n\nAs an example, let's configure our username used in the commit history:\n\n`$ git config --global user.name \"Baeldung User\"`\n\nWe've just set our name globally.\n\nTo override an option for a single repository, we can use the *–local* flag in its directory.\n\nTo print the list of effective options, we use:\n\n```\n$ git config -l\nuser.name=Baeldung User\n```\n\nWe can execute the *git –help config* command to get details about all the available options.\n\n## 6. Creating a Repository\n\nNext, we need to create a repository. For this, we have two alternatives – **a new repository can be either created locally from scratch, or an existing one can be cloned**.\n\n### 6.1. *git init* – Initialize a New Repository\n\nIf we decide to initialize a new repository, we need to use the *git init* command. **It turns the current directory into a Git repository** and starts tracking its content:\n\n```\n$ mkdir simple-repo; cd simple-repo; git init\nInitialized empty Git repository in /simple-repo/.git/\n```\n\nGit also creates a hidden directory called *.git* in it. This directory stores all the objects and refs that Git creates and uses as part of our project's history. Those files are created during commits and point to specific revisions of our files.\n\nAfter that, in most cases, we want to connect our already created repository with a remote one. We use **the git remote command to manage remote links for the current repository**:\n\n`$ git remote add origin https://github.com/eugenp/tutorials.git`\n\nWe've just added a new remote called *origin* and connected it to the official Baeldung GitHub repository.\n\n### 6.2. *git clone* – Clone an External Repository\n\nSometimes we want to contribute to an existing repository. First, we need to download the existing repository locally.\n\n**The git clone command clones the repository into a new directory**:\n\n```\n$ git clone https://github.com/eugenp/tutorials.git\nCloning into 'repo'...\n```\n\nWhen it finishes, the new directory created contains all the project's files, branches, and history.\n\nAdditionally, the cloned repository is already configured and connected with the external source:\n\n```\n$ cd tutorials\n$ git remote -v\norigin https://github.com/eugenp/tutorials.git (fetch)\norigin https://github.com/eugenp/tutorials.git (push)\n```\n\nGit will use those origin links to manage any further changes.\n\n## 7. Git Workflow\n\nAfter we have configured our local repository, we are ready to apply the first changes. But before we do that, let's check how Git tracks those changes.\n\nOur local repository consists of three different trees maintained by Git.\n\nThe first one is the *Working Directory, *which holds the actual version of files.\n\nAfter making our changes to the files, we can move the files into *Index,* which acts as a staging area. We do this using the *git add *command. **Files in Index begin to be tracked by Git.**\n\nFinally, **we can apply and save our changes into the Local Repository using the git commit command.** Committing the changes updates the repository's HEAD, which always points to the last commit we've made.\n\nThose three steps are used to maintain the local changes. But as we know, the repository may also contain an external source. The last step is to synchronize both repositories and publish our changes.\n\n## 8. Making Changes\n\nNow that we know how Git's tracking system works, we're ready to apply our first changes to our repository.\n\n### 8.1. *git status *– Show Current Changes\n\nLet's create a simple file and add it to our repository. Afterward, we execute the *git status* command and analyze its output:\n\n```\n$ \"Hello World\" >> myfile.txt\n$ git status\nOn branch master\nYour branch is up to date with 'origin/master'.\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\nmyfile.txt\nnothing added to commit but untracked files present (use \"git add\" to track)\n```\n\n**The command prints the current detailed status of our changes**. The first part shows if the local and remote branches are synchronized.\n\nNext, the output shows the status of the *working tree* – the list of currently modified files with their maintenance status. As we see, the *myfile.txt* file is currently in the *Working Directory* area and not tracked by Git.\n\n### 8.2. *git add *– Track the Changes\n\nTo start tracking the changes, **we need to move them to the Index by using the git add** command:\n\n```\n$ git add myfile.txt\n$ git stage *\n```\n\nWe can specify multiple files at once by separating them with a space. We can also specify all files using the asterisk sign.\n\nAlternatively, we can also use the *git stage* command, which is a synonym for the *git add *command*.*\n\nLet's now verify the status:\n\n```\n$ git status\nOn branch master\nYour branch is up to date with 'origin/master'.\nChanges to be committed:\n(use \"git restore --staged <file>...\" to unstage)\nnew file: myfile.txt\n```\n\nAs we can see, Git has started tracking our files.\n\n### 8.3. *git restore **&** gitignore *– Untrack the Changes\n\nGit allows removing files from the *Index*. If we moved our changes into it by mistake and **want to temporarily disable tracking them, we use git restore:**\n\n```\n$ git restore -S myfile.txt\n$ git status\nOn branch master\nYour branch is up to date with 'origin/master'.\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\nmyfile.txt\n```\n\nWe've just moved our file once again to the *Working Area* and excluded it from further commits until we stage it again. The *-S* (*–staged*) flag tells Git to restore only the repository's *Index*.\n\nWe can also permanently exclude files and disable tracking them. To do this, we need to create a *.gitignore* file. This file contains filename patterns and is applied to all the files in the current directory and its child directories. Any further *add* actions will ignore files matching those patterns.\n\n### 8.4. *git commit *– Save the Changes\n\nLet's revert the last changes and move our file once again to the *Staging Area*:\n\n`$ git add myfile.txt`\n\nNow, it's time to save our work, so we need to do a commit.\n\n**The commit is a Git object, which is like a snapshot of our repository at a specific time.**\n\nTo commit changes, let's use the *git commit* command:\n\n```\n$ git commit -m \"My first commit\"\n[master 8451901] My first commit\n1 file changed, 1 insertion(+)\ncreate mode 100644 myfile.txt\n```\n\nWe've just created our first commit locally.\n\nThe *git commit* command contains many additional options to perform more complex operations, which we can inspect with the *git commit –help *command.\n\nThe most useful is the *-m* flag, which specifies a commit message describing changes done in the current snapshot.\n\nFinally, let's check the status:\n\n```\n$ git status\nOn branch master\nYour branch is ahead of 'origin/master' by 1 commit.\n(use \"git push\" to publish your local commits)\nnothing to commit, working tree clean\n```\n\nNow, our working tree doesn't contain any additional changes, but the local repository contains more commits than its external source. Therefore, to publish our changes, we should synchronize local changes with the origin.\n\n### 8.5. *git log* & *git show *– Inspect Commits\n\nOnce we've created the commit, we can check its details. Commits include lots of additional metadata, like the author, timestamp, and more.\n\nTo** print the list of commits of the current branch, we use the git log** command:\n\n```\n$ git log\ncommit 845190154ed7a491a6143669c4ce88058fb93f8a (HEAD -> master)\nAuthor: ...\nDate: ...\nMy first commit\ncommit 9a1e11ec981b41e4b4b9c245a7a96cd6707f4705 (origin/master, origin/HEAD)\n```\n\nThe list shows the commit history of the current branch in reverse chronological order by default.\n\nEach entry contains the general metadata like the commit's id (a unique SHA-1 checksum), author, date, and given message.\n\nWhen we want to go deeper into a single commit, we print its details using the *git show* command followed by the requested commit id:\n\n```\n$ git show 845190154ed7a491a6143669c4ce88058fb93f8a\ncommit 845190154ed7a491a6143669c4ce88058fb93f8a (HEAD -> master)\nAuthor: ...\nDate:...\nMy first commit\ndiff --git a/myfile.txt b/myfile.txt\nnew file mode 100644\nindex 0000000..557db03\n--- /dev/null\n+++ b/myfile.txt\n@@ -0,0 +1 @@\n+Hello World\n```\n\nThis time, the output also** displays the differences done by the commit versus the previous snapshot using the git diff** command.\n\n### 8.6. *git stash** *– Shelve the Changes\n\n**The git stash command temporarily shelves changes we've made**, reverting the\n\n*Working Directory*to match the\n\n*HEAD*commit. This allows us to quickly switch context and start working on something else.\n\nLet's create another file and add it to the *Staging Area*. After that, let's execute the *git stash*:\n\n```\n$ touch myfile-2.txt; git add *\n$ git stash push\nSaved working directory and index state WIP on master: 8451901 My first commit\n```\n\nNow, let's try to list the file:\n\n```\n$ ls myfile-2.txt\nls: myfile-2.txt: No such file or directory\n```\n\nWe can see that now the file isn't present. This is because all pending changes have been removed from the *Working Directory* and saved in the stash.\n\nWe can print all the stashed away modifications using the *list* option:\n\n```\n$ git stash list\nstash@{0}: WIP on master: 8451901 My first commit\n```\n\nSince we didn't provide its description, the stash is by default listed as *WIP on… . *We can change the default value into a more descriptive message using the *-m *flag on the command line.\n\nTo inspect its details, we use the *show* option:\n\n```\n$ git stash show\nmyfile-2.txt | 0\n1 file changed, 0 insertions(+), 0 deletions(-)\n```\n\nThe output prints information about changes stored in the latest stash.\n\nFinally, if we want to restore the changes, we use the *pop* option:\n\n```\n$ git stash pop\n$ ls myfile-2.txt\nmyfile-2.txt\n```\n\nWe've just removed a single stashed state from the stash list and applied it on top of the current state.\n\n## 9. Manipulating the Commit History\n\nNow that we've learned how to save changes in the repository, let's modify previously saved commits. In the following sections, we'll cover the most common use cases.\n\n### 9.1. *git commit –amend *– Add Additional Changes to the Commit\n\nSuppose we forgot to include a file when committing a change. Of course, we can create another commit on top of the last one, but it might make the changes history messy.\n\nIn such cases, **we may want Git to rewrite our last commit and include the file we forgot using the amend option**.\n\nLet's review the last commit:\n\n```\n$ git show --summary\ncommit 845190154ed7a491a6143669c4ce88058fb93f8a (HEAD -> master)\nAuthor: ...\nDate: ...\nMy first commit\ncreate mode 100644 myfile.txt\n```\n\nHaving our *my-file2.txt* popped from the stash, let's commit it using the *amend* option:\n\n```\n$ git commit --amend\n[master 0ed9f03] My first commit\n2 files changed, 1 insertion(+)\ncreate mode 100644 myfile-2.txt\ncreate mode 100644 myfile.txt\n```\n\nWe can notice that Git added the file to our last commit combining the changes.\n\n### 9.2. *git rebase *– Reapply Commits\n\nA more advanced technique for modifying commits is through the git* rebase *command*. ***It reapplies commits from the history on top of another base**, allowing us to change them on the fly.\n\nLet's create another commit in our repository:\n\n```\n$ touch myfile-3.txt\n$ git add *\n$ git commit -m \"My second commit\"\n```\n\nNow, we should have two single commits – *My first commit* and *My second commit*.\n\nLet's start to rebase both commits in an interactive mode:\n\n`git rebase -i HEAD~2`\n\nThis opens an editor, where we can manipulate the history using commands:\n\n```\npick 82d8635 My first commit\npick 6d58108 My second commit\n# Rebase 9a1e11e..82d8635 onto 9a1e11e (2 commands)\n#\n# Commands:\n# p, pick <commit> = use commit\n# r, reword <commit> = use commit, but edit the commit message\n# e, edit <commit> = use commit, but stop for amending\n# s, squash <commit> = use commit, but meld into previous commit\n# d, drop <commit> = remove commit\n```\n\nOn the top, we have the list of rebasing commits followed by the manual. We have plenty of options here. We can change the order by swapping the lines, or *reword* the commit message, or *squash* them into one, *edit, *or even *drop *a single commit. The instruction lines will be applied from top to bottom.\n\n### 9.3. *git reset *– Rollback to the Specific State\n\nSometimes, we might want to drop the current state and revert to a historical snapshot. To do this, we use the *git reset* option*:*\n\n`$ git reset 82d8635`\n\n**It undoes all commits after the specified commit**, preserving changes locally and moving them to the *Staging Area*. But, if we want to drop all working changes, we can use *–hard* flag.\n\n## 10. Synchronizing the Repository\n\nAfter working locally on the repository till now, it's finally time to publish our changes.\n\n**Before uploading them, we should always synchronize our local copy with the remote **to avoid conflicts during publishing**.**\n\n### 10.1. *git fetch* – Update References\n\nWhile we're implementing our changes, others may have published changes to the same branch. So we should check and sync them with our local repository.\n\nThe *git fetch* command helps us to do so:\n\n`$ git fetch`\n\n**This downloads objects and refs from the origin repository**.\n\nWe should note that **this action never modifies the current working tree**. This is because we can only inspect the updated commit history for our repository. If we find any pending changes, we must go further.\n\n### 10.2. *git merge* – Apply Incoming Changes\n\nWe must merge any incoming changes on the same branch before we publish our code. If we don't do this, the publishing process could fail.\n\nLet's update our branch:\n\n`$ git merge origin/master`\n\nThe *git merge* command is a very powerful tool. **It downloads all new changes from the given reference and combines them with the current working tree** choosing the right merge strategy. Many changes will be applied automatically, even if modifications exist on the same files.\n\nBut sometimes, there is no easy way to merge changes. In that case, we have a *merge conflict*, and we have to resolve it manually before moving on. We need to edit the failed file, prepare a final version, and commit the changes.\n\n### 10.3. *git pull *– Update and Apply at Once\n\nThe *git pull* command is nothing more than *git fetch* and *git merge* combined into one:\n\n`$ git pull origin/master`\n\n**It checks a given branch for the latest changes and merges them with the current branch**, in the same way as *git fetch* and *git merge* do. It's the most common way to update the current branch.\n\nFurthermore, pulling changes might also require an additional manual action to resolve *merge conflicts*.\n\n### 10.4. *git push* – Publishing Local Commits\n\nOnce we synchronize our local repository and fix pending *merge conflicts*, we are finally ready to publish our commits. We need to choose the remote target and the local branch.\n\nLet's execute the *git push* command:\n\n`$ git push origin master`\n\n**This updates the master branch of the remote repository with all commits made locally**.\n\nFinally, we check the history:\n\n```\n$ git log\ncommit 6d5810884c3ce63ca08084959e3a21405a1187df (HEAD -> master, origin/master, origin/HEAD)\nAuthor: ...\nDate: ...\nMy second commit\n```\n\nWe're done! We've just sent our changes to the remote repository.\n\n## 11. Git Branching\n\nNow, let's talk about branches. Previously, we intentionally skipped any branch operations. All changes were done on **the master branch, which is the default one for each Git repository**.\n\n**Branches are used to develop features isolated** from each other. We use other branches for development and merge them back to the *master* branch upon completion.\n\n### 11.1. *git branch *– Manage Branches\n\n**The git branch helps us manage branches**. To create a new one, we simply specify its name:\n\n`$ git branch new-branch`\n\nA local branch is not available to others until we push it to the remote repository.\n\nWe can now see the newly created branch by listing all of them:\n\n```\n$ git branch --list --all\n* master\nnew-branch\nremotes/origin/HEAD -> origin/master\nremotes/origin/master\n```\n\nIf we want to delete a local branch, we execute:\n\n`$ git branch -d new-branch`\n\n### 11.2. *git checkout *– Change Current Branch\n\nIf **we want to switch current branch, we use the git checkout or **\n\n*functions:*\n\n**git switch**```\n$ git switch new-branch\nSwitched to branch 'new-branch'\n$ git checkout master\nSwitched to branch 'master'\n```\n\nWe've just changed from the *master* to the* new-branch *and then back to *master* again using both the commands.\n\nAlthough both work similarly, the *git** switch* command simply allows switching branches. In contrast, the *git checkout* is a more complex command enabling us to additionally manage working tree files, resetting branches, or reverting files to specific versions.\n\n## 12. Conclusion\n\nIn this article, we covered all the Git basics and discussed most of the common operations which every developer should know while working with Git. Through practical examples, we learned how to work with this Version Control System.\n\nWe started by installing and configuring Git and then created the first repository. After that, we made some changes and learned how to modify the commit history. Finally, we published the changes by synchronizing both repositories and learned how to work with Git branches.\n",
+  "metadata": {
+    "source_url": "https://www.baeldung.com/ops/git-guide",
+    "source_domain": "baeldung.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:43:25.514146+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Git for Beginners: The Definitive Practical Guide",
+    "description": "A step-by-step guide to Git, this article discusses the most commonly used commands. Learn the basics, the Git workflow, branching and even some advanced techniques like modifying your commit history.",
+    "language": "en",
+    "word_count": 3397,
+    "content_hash": "sha256:e1bb813525a569140d0941c89a293555b970a1362764a354a0c2ab51f23dc482",
+    "reading_time": 17,
+    "author": "Mateusz Szablak",
+    "published_date": "2021-11-29",
+    "og_title": null,
+    "signal_score": 0.9904,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Practical Git guide from Baeldung covering installation, configuration, repository creation, workflow, branching, merging, and common commands for version control.",
+    "entities": {
+      "primary": "Git practical guide",
+      "aliases": [
+        "Git tutorial",
+        "Git basics",
+        "version control guide"
+      ]
+    },
+    "core_question": "What are the most frequently used Git commands and workflows?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Git installation",
+      "configuration",
+      "repository setup",
+      "workflow",
+      "branching",
+      "merging"
+    ]
+  },
+  "structure": {
+    "section_count": 26,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Git for Beginners: The Definitive Practical Guide",
+        "section_type": "title",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide"
+        ],
+        "char_start": 0,
+        "char_end": 20821
+      },
+      {
+        "level": 2,
+        "title": "1. Overview",
+        "section_type": "intro",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "1. Overview"
+        ],
+        "char_start": 53,
+        "char_end": 484
+      },
+      {
+        "level": 2,
+        "title": "2. What Is Git?",
+        "section_type": "intro",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "2. What Is Git?"
+        ],
+        "char_start": 484,
+        "char_end": 3845
+      },
+      {
+        "level": 2,
+        "title": "6. Creating a Repository",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "6. Creating a Repository"
+        ],
+        "char_start": 3845,
+        "char_end": 5734
+      },
+      {
+        "level": 3,
+        "title": "6.1. *git init* – Initialize a New Repository",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "6. Creating a Repository",
+          "6.1. *git init* – Initialize a New Repository"
+        ],
+        "char_start": 4049,
+        "char_end": 4992
+      },
+      {
+        "level": 3,
+        "title": "6.2. *git clone* – Clone an External Repository",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "6. Creating a Repository",
+          "6.2. *git clone* – Clone an External Repository"
+        ],
+        "char_start": 4992,
+        "char_end": 5734
+      },
+      {
+        "level": 2,
+        "title": "7. Git Workflow",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "7. Git Workflow"
+        ],
+        "char_start": 5734,
+        "char_end": 6671
+      },
+      {
+        "level": 2,
+        "title": "8. Making Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "8. Making Changes"
+        ],
+        "char_start": 6671,
+        "char_end": 13307
+      },
+      {
+        "level": 3,
+        "title": "8.1. *git status *– Show Current Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "8. Making Changes",
+          "8.1. *git status *– Show Current Changes"
+        ],
+        "char_start": 6802,
+        "char_end": 7631
+      },
+      {
+        "level": 3,
+        "title": "8.2. *git add *– Track the Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "8. Making Changes",
+          "8.2. *git add *– Track the Changes"
+        ],
+        "char_start": 7631,
+        "char_end": 8312
+      },
+      {
+        "level": 3,
+        "title": "8.3. *git restore **&** gitignore *– Untrack the Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "8. Making Changes",
+          "8.3. *git restore **&** gitignore *– Untrack the Changes"
+        ],
+        "char_start": 8312,
+        "char_end": 9246
+      },
+      {
+        "level": 3,
+        "title": "8.4. *git commit *– Save the Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "8. Making Changes",
+          "8.4. *git commit *– Save the Changes"
+        ],
+        "char_start": 9246,
+        "char_end": 10496
+      },
+      {
+        "level": 3,
+        "title": "8.5. *git log* & *git show *– Inspect Commits",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "8. Making Changes",
+          "8.5. *git log* & *git show *– Inspect Commits"
+        ],
+        "char_start": 10496,
+        "char_end": 11766
+      },
+      {
+        "level": 3,
+        "title": "8.6. *git stash** *– Shelve the Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "8. Making Changes",
+          "8.6. *git stash** *– Shelve the Changes"
+        ],
+        "char_start": 11766,
+        "char_end": 13307
+      },
+      {
+        "level": 2,
+        "title": "9. Manipulating the Commit History",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "9. Manipulating the Commit History"
+        ],
+        "char_start": 13307,
+        "char_end": 16096
+      },
+      {
+        "level": 3,
+        "title": "9.1. *git commit –amend *– Add Additional Changes to the Commit",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "9. Manipulating the Commit History",
+          "9.1. *git commit –amend *– Add Additional Changes to the Commit"
+        ],
+        "char_start": 13514,
+        "char_end": 14397
+      },
+      {
+        "level": 3,
+        "title": "9.2. *git rebase *– Reapply Commits",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "9. Manipulating the Commit History",
+          "9.2. *git rebase *– Reapply Commits"
+        ],
+        "char_start": 14397,
+        "char_end": 15693
+      },
+      {
+        "level": 3,
+        "title": "9.3. *git reset *– Rollback to the Specific State",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "9. Manipulating the Commit History",
+          "9.3. *git reset *– Rollback to the Specific State"
+        ],
+        "char_start": 15693,
+        "char_end": 16096
+      },
+      {
+        "level": 2,
+        "title": "10. Synchronizing the Repository",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "10. Synchronizing the Repository"
+        ],
+        "char_start": 16096,
+        "char_end": 18759
+      },
+      {
+        "level": 3,
+        "title": "10.1. *git fetch* – Update References",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "10. Synchronizing the Repository",
+          "10.1. *git fetch* – Update References"
+        ],
+        "char_start": 16356,
+        "char_end": 16889
+      },
+      {
+        "level": 3,
+        "title": "10.2. *git merge* – Apply Incoming Changes",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "10. Synchronizing the Repository",
+          "10.2. *git merge* – Apply Incoming Changes"
+        ],
+        "char_start": 16889,
+        "char_end": 17645
+      },
+      {
+        "level": 3,
+        "title": "10.3. *git pull *– Update and Apply at Once",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "10. Synchronizing the Repository",
+          "10.3. *git pull *– Update and Apply at Once"
+        ],
+        "char_start": 17645,
+        "char_end": 18121
+      },
+      {
+        "level": 3,
+        "title": "10.4. *git push* – Publishing Local Commits",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "10. Synchronizing the Repository",
+          "10.4. *git push* – Publishing Local Commits"
+        ],
+        "char_start": 18121,
+        "char_end": 18759
+      },
+      {
+        "level": 2,
+        "title": "11. Git Branching",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "11. Git Branching"
+        ],
+        "char_start": 18759,
+        "char_end": 20821
+      },
+      {
+        "level": 3,
+        "title": "11.1. *git branch *– Manage Branches",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "11. Git Branching",
+          "11.1. *git branch *– Manage Branches"
+        ],
+        "char_start": 19139,
+        "char_end": 19648
+      },
+      {
+        "level": 3,
+        "title": "11.2. *git checkout *– Change Current Branch",
+        "section_type": "content",
+        "header_path": [
+          "Git for Beginners: The Definitive Practical Guide",
+          "11. Git Branching",
+          "11.2. *git checkout *– Change Current Branch"
+        ],
+        "char_start": 19648,
+        "char_end": 20821
+      }
+    ]
+  },
+  "links": [
+    "https://www.baeldung.com#overview",
+    "https://www.baeldung.com#what-is-git",
+    "https://www.baeldung.com/cs/git-vs-svn",
+    "https://git-scm.com/downloads",
+    "https://git-scm.com/docs/git-gui",
+    "https://git-scm.com/docs/gitk",
+    "https://git-scm.com/downloads/guis",
+    "https://git-scm.com/docs/git-help",
+    "https://git-scm.com/docs/git-config",
+    "https://www.baeldung.com#creating-a-repository",
+    "https://www.baeldung.com#1-git-init---initialize-a-new-repository",
+    "https://git-scm.com/docs/git-init",
+    "https://git-scm.com/book/en/v2/Git-Internals-Git-References",
+    "https://git-scm.com/docs/git-remote",
+    "https://www.baeldung.com#2-git-clone---clone-an-external-repository",
+    "https://git-scm.com/docs/git-clone",
+    "https://www.baeldung.com#git-workflow",
+    "https://www.baeldung.com/wp-content/uploads/2021/11/git_workflow.png",
+    "https://www.baeldung.com#making-changes",
+    "https://www.baeldung.com#1-git-status---show-current-changes",
+    "https://git-scm.com/docs/git-status",
+    "https://www.baeldung.com#2-git-add---track-the-changes",
+    "https://git-scm.com/docs/git-add",
+    "https://git-scm.com/docs/git-stage",
+    "https://www.baeldung.com#3-git-restore-amp-gitignore--untrack-the-changes",
+    "https://git-scm.com/docs/git-restore",
+    "https://git-scm.com/docs/gitignore",
+    "https://www.baeldung.com#4-git-commit--save-the-changes",
+    "https://git-scm.com/docs/git-commit",
+    "https://www.baeldung.com#5-git-log-amp-git-show---inspect-commits",
+    "https://git-scm.com/docs/git-log",
+    "https://git-scm.com/docs/git-show",
+    "https://git-scm.com/docs/git-diff",
+    "https://www.baeldung.com#6-git-stash--shelve-the-changes",
+    "https://git-scm.com/docs/git-stash",
+    "https://www.baeldung.com#manipulating-the-commit-history",
+    "https://www.baeldung.com#1-git-commit---amend---add-additional-changes-to-the-commit",
+    "https://www.baeldung.com#2-git-rebase---reapply-commits",
+    "https://git-scm.com/docs/git-rebase",
+    "https://www.baeldung.com#3-git-reset---rollback-to-the-specific-state",
+    "https://git-scm.com/docs/git-reset",
+    "https://www.baeldung.com#10-synchronizing-the-repository",
+    "https://www.baeldung.com#101-git-fetch---update-references",
+    "https://git-scm.com/docs/git-fetch",
+    "https://www.baeldung.com#102-git-merge---apply-incoming-changes",
+    "https://git-scm.com/docs/git-merge",
+    "https://www.baeldung.com#103-git-pull--update-and-apply-at-once",
+    "https://git-scm.com/docs/git-pull",
+    "https://www.baeldung.com#104-git-push---publishing-local-commits",
+    "https://git-scm.com/docs/git-push",
+    "https://www.baeldung.com#11-git-branching",
+    "https://www.baeldung.com#111-git-branch--manage-branches",
+    "https://git-scm.com/docs/git-branch",
+    "https://www.baeldung.com#112-git-checkout---change-current-branch",
+    "https://git-scm.com/docs/git-checkout",
+    "https://git-scm.com/docs/git-switch",
+    "https://www.baeldung.com#12-conclusion"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

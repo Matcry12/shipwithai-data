@@ -1,0 +1,63 @@
+{
+  "markdown": "# Rosa E. Vargas\n\nExample #2:\n\nThis visual timeline below is for an executive who wished to demonstrate her ability to step into a business executive position while offering her MD qualifications' strengths. The rest of her executive resume followed a more traditional layout with all two pages in the narrative form.\n\nExample #3:\n\nThis chart below was used to help a CTO tell the story of an executive who builds world-class IT infrastructures and teams to give companies a competitive advantage. The rest of the marketing document was entirely content strategy.\n\nExample #4:\n\nThe following timeline was created for an international executive whose broad and cross-functional experience was initially conveyed in a 4-page CV. Phew!\n\nUnfortunately, the anchors of his executive story were not easily identified within the content of his CV because he has accomplished so much. A quick view of his career diversity and the value it offers was presented visually front and center on his new 3-page CV. The rest of the CV unfolds to add value.\n\n**The bottom** **line:** Yes, you can create a more graphical resume as an executive. However, I would not recommend a full-blown infographic. Not only would it not be a mature 'look and feel' for your executive brand, but it would also not tell your entire story.\n\nWhile I truly enjoy the creative side of things, truth be told, there are times when you don't need to tell your story with graphics. There are times when your traditional resume is the better choice. It happens. As it is with everything in life, it depends!\n\nQuestions you must answer before creating a graphical resume: What are you trying to say? Why do you want to say it this way? Will it deliver the results you seek? What is your risk tolerance? :-)\n\nHave fun!\n\nRosa Elizabeth Vargas\n\nCertified Career Management Coach\n\nCertified Master Resume Writer\n\nwww.careersteering.com\n\nJoin our mailing list to receive the latest news and updates from our team.\n\nYou must be logged in to post a comment.\n",
+  "metadata": {
+    "source_url": "https://careersteering.com/infographic-resumes-right-executives/",
+    "source_domain": "careersteering.com",
+    "topic": "executive-resume",
+    "fetched_at": "2026-05-25T06:37:36.009231+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Rosa E. Vargas",
+    "description": null,
+    "language": "en",
+    "word_count": 338,
+    "content_hash": "sha256:1f376e1b989ce24e7ea857c6b261abe373c74e1d4f1cef7f9d7393a7d30531ce",
+    "reading_time": 2,
+    "author": "Rosa E Vargas",
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.7817,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Executive resume examples using visual timelines and infographics to showcase career progression and cross-functional experience.",
+    "entities": {
+      "primary": "executive resume design",
+      "aliases": [
+        "graphical resume",
+        "visual resume",
+        "executive CV"
+      ]
+    },
+    "core_question": "Should executives use infographics and visual timelines in their resumes?",
+    "doc_type": "opinion",
+    "key_topics": [
+      "executive resume",
+      "visual design",
+      "career timeline",
+      "CTO resume",
+      "resume format"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Rosa E. Vargas",
+        "section_type": "title",
+        "header_path": [
+          "Rosa E. Vargas"
+        ],
+        "char_start": 0,
+        "char_end": 2009
+      }
+    ]
+  },
+  "links": [
+    "https://www.careersteering.com"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

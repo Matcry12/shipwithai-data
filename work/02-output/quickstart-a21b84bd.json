@@ -1,0 +1,214 @@
+{
+  "markdown": "# Quickstart\n\n## Before you begin\n\nMake sure you have:- A terminal or command prompt open\n- If you've never used the terminal before, check out the terminal guide\n\n- A code project to work with\n- A Claude subscription (Pro, Max, Team, or Enterprise), Claude Console account, or access through a supported cloud provider\n\nThis guide covers the terminal CLI. Claude Code is also available on the web, as a desktop app, in VS Code and JetBrains IDEs, in Slack, and in CI/CD with GitHub Actions and GitLab. See all interfaces.\n\n## Step 1: Install Claude Code\n\nTo install Claude Code, use one of the following methods:- Native Install (Recommended)\n- Homebrew\n- WinGet\n\n**macOS, Linux, WSL:**\n\n**Windows PowerShell:**\n\n**Windows CMD:**\n\nIf you see\n\n`The token '&&' is not a valid statement separator`\n\n, you're in PowerShell, not CMD. If you see `'irm' is not recognized as an internal or external command`\n\n, you're in CMD, not PowerShell. Your prompt shows `PS C:\\`\n\nwhen you're in PowerShell and `C:\\`\n\nwithout the `PS`\n\nwhen you're in CMD.Git for Windows is recommended on native Windows so Claude Code can use the Bash tool. If Git for Windows is not installed, Claude Code uses PowerShell as the shell tool instead. WSL setups do not need Git for Windows.Native installations automatically update in the background to keep you on the latest version.\n\n## Step 2: Log in to your account\n\nClaude Code requires an account to use. Start an interactive session with the`claude`\n\ncommand and you'll be prompted to log in on first use:\nFor Claude subscription or Console accounts, follow the prompts to complete authentication in your browser. To switch accounts later or re-authenticate, type\n\n`/login`\n\ninside the running session:\nYou can log in using any of these account types:\n\n- Claude Pro, Max, Team, or Enterprise (recommended)\n- Claude Console (API access with pre-paid credits). On first login, a \"Claude Code\" workspace is automatically created in the Console for centralized cost tracking.\n- Amazon Bedrock, Google Vertex AI, or Microsoft Foundry (enterprise cloud providers)\n\n## Step 3: Start your first session\n\nOpen your terminal in any project directory and start Claude Code:\nYou'll see the Claude Code welcome screen with your session information, recent conversations, and latest updates. Type\n\n`/help`\n\nfor available commands or `/resume`\n\nto continue a previous conversation.\n## Step 4: Ask your first question\n\nLet's start with understanding your codebase. Try one of these commands:\nClaude will analyze your files and provide a summary. You can also ask more specific questions:\n\nYou can also ask Claude about its own capabilities:\n\nClaude Code reads your project files as needed. You don't have to manually add context.\n\n## Step 5: Make your first code change\n\nNow let's make Claude Code do some actual coding. Try a simple task:\nClaude Code will:\n\n- Find the appropriate file\n- Show you the proposed changes\n- Ask for your approval\n- Make the edit\n\nClaude Code always asks for permission before modifying files. You can approve individual changes or enable \"Accept all\" mode for a session.\n\n## Step 6: Use Git with Claude Code\n\nClaude Code makes Git operations conversational:\nYou can also prompt for more complex Git operations:\n\n## Step 7: Fix a bug or add a feature\n\nClaude is proficient at debugging and feature implementation. Describe what you want in natural language:\nOr fix existing issues:\n\nClaude Code will:\n\n- Locate the relevant code\n- Understand the context\n- Implement a solution\n- Run tests if available\n\n## Step 8: Test out other common workflows\n\nThere are a number of ways to work with Claude:**Refactor code**\n\n**Write tests**\n\n**Update documentation**\n\n**Code review**\n\n## Essential commands\n\nHere are the most important commands for daily use:| Command | What it does | Example |\n|---|---|---|\n`claude` | Start interactive mode | `claude` |\n`claude \"task\"` | Run a one-time task | `claude \"fix the build error\"` |\n`claude -p \"query\"` | Run one-off query, then exit | `claude -p \"explain this function\"` |\n`claude -c` | Continue most recent conversation in current directory | `claude -c` |\n`claude -r` | Resume a previous conversation | `claude -r` |\n`/clear` | Clear conversation history | `/clear` |\n`/help` | Show available commands | `/help` |\n`exit` or Ctrl+D | Exit Claude Code | `exit` |\n\n## Pro tips for beginners\n\nFor more, see best practices and common workflows.Be specific with your requests\n\nBe specific with your requests\n\nInstead of: \"fix the bug\"Try: \"fix the login bug where users see a blank screen after entering wrong credentials\"\n\nUse step-by-step instructions\n\nUse step-by-step instructions\n\nBreak complex tasks into steps:\n\nLet Claude explore first\n\nLet Claude explore first\n\nBefore making changes, let Claude understand your code:\n\nSave time with shortcuts\n\nSave time with shortcuts\n\n- Type\n`/`\n\nto see all commands and skills - Use Tab for command completion\n- Press ↑ for command history\n- Press\n`Shift+Tab`\n\nto cycle permission modes\n\n## What's next?\n\nNow that you've learned the basics, explore more advanced features:## Getting help\n\n**In Claude Code**: Type`/help`\n\nor ask \"how do I…\"**Documentation**: You're here! Browse other guides**Community**: Join our Discord for tips and support\n",
+  "metadata": {
+    "source_url": "https://code.claude.com/docs/en/quickstart",
+    "source_domain": "code.claude.com",
+    "topic": "claude-code-workflow",
+    "fetched_at": "2026-05-25T06:37:41.124669+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Quickstart",
+    "description": "Welcome to Claude Code!",
+    "language": "en",
+    "word_count": 861,
+    "content_hash": "sha256:39ed910aeb93e7ad672024d6519ea90059dc4ca39cf0e2821e2e11e40ed10d41",
+    "reading_time": 5,
+    "author": null,
+    "published_date": "2026-05-24",
+    "og_title": null,
+    "signal_score": 0.6661,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Quickstart guide to Claude Code covering installation, login, first session, basic tasks, git operations, and essential commands for beginners.",
+    "entities": {
+      "primary": "Claude Code quickstart",
+      "aliases": [
+        "Claude Code tutorial",
+        "Claude Code setup",
+        "Claude Code commands"
+      ]
+    },
+    "core_question": "How do you get started with Claude Code?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Claude Code",
+      "installation",
+      "authentication",
+      "git operations",
+      "code changes",
+      "essential commands"
+    ]
+  },
+  "structure": {
+    "section_count": 13,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Quickstart",
+        "section_type": "title",
+        "header_path": [
+          "Quickstart"
+        ],
+        "char_start": 0,
+        "char_end": 5258
+      },
+      {
+        "level": 2,
+        "title": "Before you begin",
+        "section_type": "content",
+        "header_path": [
+          "Quickstart",
+          "Before you begin"
+        ],
+        "char_start": 14,
+        "char_end": 524
+      },
+      {
+        "level": 2,
+        "title": "Step 1: Install Claude Code",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 1: Install Claude Code"
+        ],
+        "char_start": 524,
+        "char_end": 1352
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Log in to your account",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 2: Log in to your account"
+        ],
+        "char_start": 1352,
+        "char_end": 2082
+      },
+      {
+        "level": 2,
+        "title": "Step 3: Start your first session",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 3: Start your first session"
+        ],
+        "char_start": 2082,
+        "char_end": 2390
+      },
+      {
+        "level": 2,
+        "title": "Step 4: Ask your first question",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 4: Ask your first question"
+        ],
+        "char_start": 2390,
+        "char_end": 2738
+      },
+      {
+        "level": 2,
+        "title": "Step 5: Make your first code change",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 5: Make your first code change"
+        ],
+        "char_start": 2738,
+        "char_end": 3109
+      },
+      {
+        "level": 2,
+        "title": "Step 6: Use Git with Claude Code",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 6: Use Git with Claude Code"
+        ],
+        "char_start": 3109,
+        "char_end": 3249
+      },
+      {
+        "level": 2,
+        "title": "Step 7: Fix a bug or add a feature",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 7: Fix a bug or add a feature"
+        ],
+        "char_start": 3249,
+        "char_end": 3539
+      },
+      {
+        "level": 2,
+        "title": "Step 8: Test out other common workflows",
+        "section_type": "step",
+        "header_path": [
+          "Quickstart",
+          "Step 8: Test out other common workflows"
+        ],
+        "char_start": 3539,
+        "char_end": 3709
+      },
+      {
+        "level": 2,
+        "title": "Essential commands",
+        "section_type": "content",
+        "header_path": [
+          "Quickstart",
+          "Essential commands"
+        ],
+        "char_start": 3709,
+        "char_end": 4336
+      },
+      {
+        "level": 2,
+        "title": "Pro tips for beginners",
+        "section_type": "content",
+        "header_path": [
+          "Quickstart",
+          "Pro tips for beginners"
+        ],
+        "char_start": 4336,
+        "char_end": 5002
+      },
+      {
+        "level": 2,
+        "title": "What's next?",
+        "section_type": "content",
+        "header_path": [
+          "Quickstart",
+          "What's next?"
+        ],
+        "char_start": 5002,
+        "char_end": 5258
+      }
+    ]
+  },
+  "links": [
+    "https://code.claude.com/docs/en/terminal-guide",
+    "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=quickstart_prereq",
+    "https://console.anthropic.com/",
+    "https://code.claude.com/docs/en/third-party-integrations",
+    "https://claude.ai/code",
+    "https://code.claude.com/docs/en/desktop",
+    "https://code.claude.com/docs/en/vs-code",
+    "https://code.claude.com/docs/en/jetbrains",
+    "https://code.claude.com/docs/en/slack",
+    "https://code.claude.com/docs/en/github-actions",
+    "https://code.claude.com/docs/en/gitlab-ci-cd",
+    "https://code.claude.com/docs/en/overview#use-claude-code-everywhere",
+    "https://git-scm.com/downloads/win",
+    "https://code.claude.com/docs/en/setup#install-with-linux-package-managers",
+    "https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=quickstart_login",
+    "https://code.claude.com/docs/en/cli-reference",
+    "https://code.claude.com/docs/en/best-practices",
+    "https://code.claude.com/docs/en/common-workflows",
+    "https://www.anthropic.com/discord"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

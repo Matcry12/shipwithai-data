@@ -1,0 +1,48 @@
+{
+  "markdown": "# Registration\n\nAlready have an account?\nLog In\nGet started with your account.\nI have read and agree to Kickresume's\nTerms of use\n,\nPrivacy Policy\nand\nCookie Policy\nSign up with LinkedIn\nor\nSign up with email\nSign up with Google\nSign up with Facebook\nLet's get started.\nContinue as Guest\nor\nCreate Account\n",
+  "metadata": {
+    "source_url": "https://www.kickresume.com/dashboard/create-ai-cover-from-job/",
+    "source_domain": "kickresume.com",
+    "topic": "remote-work-resume",
+    "fetched_at": "2026-05-25T06:45:43.351320+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Registration",
+    "description": "Create your best resume yet and score the job you’ve always wanted. Designed by typographers. Approved by HR experts. Professional templates for any profession.",
+    "language": "en",
+    "word_count": 55,
+    "content_hash": "sha256:bd91bda9036e4561d15426b6aa6673bbeaf1df64b9a2bf86ee470102abea45f6",
+    "reading_time": 1,
+    "author": null,
+    "published_date": "2000-01-01",
+    "og_title": null,
+    "signal_score": 0.5458,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Registration",
+        "section_type": "title",
+        "header_path": [
+          "Registration"
+        ],
+        "char_start": 0,
+        "char_end": 306
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

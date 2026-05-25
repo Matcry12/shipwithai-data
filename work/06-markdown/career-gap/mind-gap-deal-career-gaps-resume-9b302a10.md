@@ -1,0 +1,86 @@
+---
+title: Mind the Gap - How to deal with career gaps on your resume!
+source_url: https://www.lotuspeople.com.au/mind-gap-deal-career-gaps-resume
+source_domain: lotuspeople.com.au
+topic: career-gap
+doc_type: how-to-guide
+author: Michelle Barrett • May 3
+published_date: '2022-04-05'
+fetched_at: '2026-05-25T06:46:13.712352+00:00'
+language: en
+word_count: 799
+reading_time: 4
+signal_score: 1.0
+status: kept
+core_question: How do you effectively address career gaps when applying for jobs?
+tldr: Guide to handling career gaps on resumes with tips on transparency, explanation, interview preparation,
+  and maintaining career relevance during employment breaks.
+key_topics:
+- career gaps
+- employment breaks
+- transparency
+- resume dating
+- interview preparation
+- extracurricular activity
+entities:
+  primary: Career gaps on resume
+  aliases:
+  - employment breaks
+  - resume gaps explanation
+  - career break strategy
+content_hash: sha256:821ac2bc82f12985abb754b420c2958e6639721a68ad49c15bf2a1ccdaaa7616
+---
+
+# Mind the Gap - How to deal with career gaps on your resume!
+
+I recently had the pleasure of delivering a CV writing workshop at the Marrickville public library. As you would expect, I covered off some basics on formatting (consistency is key!) and some Do's and Don'ts (NO SPELLING ERRORS!!!).
+
+Many people in the room had a common concern – how do you present a career gap? I won't sugar coat it – a recent career gap can pose a challenge when job-seeking. It can be tempting for hiring managers, HR professionals and recruiters alike to pass you by, assuming the worst or unwilling to investigate.
+
+In my experience, the most common causes of employment gaps are:
+
+- Maternity leave
+- Personal health issues
+- Caring for a family member with health issues
+- Travel
+- Bereavement
+
+I wanted to share some of the topics we touched on and my tips for navigating your job search with a career gap.
+
+Include Dates:
+
+One of the biggest CV mistakes I see in general is failure to include dates of employment. I strongly recommend including the month and year that you started and commenced each role. It can be tempting to gloss over dates in order to obscure a career gap. The problem is, you're essentially putting a big red flag on your CV that might as well read, "I'M TRYING TO HIDE SOMETHING!"
+
+Clearly outlining your dates of employment (and, by default, any gaps between employment) will make you appear honest and it gives the impression that you are ready and willing to talk through those gaps.
+
+Explain:
+
+For any period in your CV that involves a career gap of more than 1 month, I would also advise including a brief explanation. This doesn't have to be lengthy – "Maternity leave," "Travelled overseas with family" or "caring for my grandmother during illness" will suffice. This will reduce the risk that the key decision maker will fill in the gaps with their own assumptions.
+
+Don't get defensive:
+
+Remember: A recruiter, HR professional or hiring manager is simply doing their job when they ask you about a career gap. They can't afford to just let it slide – hiring the wrong person is a costly mistake for any business and a thorough screening process is a crucial step in avoiding this. Don't get defensive or feel like you're "on the back foot;" instead go into the job seeking process fully prepared to address it.
+
+Be prepared to talk about it:
+
+If you do have visible career gaps on your CV, be prepared to explain them to a recruiter or hiring manager, both over the phone and in person. If your career gap is due to something fairly "standard" such as maternity leave this should be straightforward.
+
+If your career gap is due to something more personal, such as illness or bereavement, you should have a very clear idea of how much detail you are willing to provide. I would recommend preparing a succinct statement that you feel comfortable delivering, particularly if the career gap relates to an event or issue that is emotionally triggering. Practice this statement so you can deliver it with confidence and poise. Avoid over-sharing or overly emotional responses.
+
+Highlight extracurriculars:
+
+So, you were out of work– did you do any volunteering or unpaid work during this time? Did you participate in your children's school committee or coaching for a sports team? Were you active in your church or another community group?
+
+Any evidence of involvement in your community will go a long way to illustrating that you are a self-motivated individual who finds ways to add value.
+
+Control the conversation:
+
+If you are receiving a call or, even better, are at interview, remember: this client or recruitment consultant saw something they like in your CV. The main focus of the conversation should be your work history, the fantastic value you deliver and the wealth of transferrable skills you possess.
+
+If your career gap was prior to your most recent employment all you should need to do is briefly explain it – your most recent career experience and its relevance to the role you are interviewing for should take centre stage.
+
+Keep it current:
+
+If you are in the process of returning to work from a career gap you will want to highlight the myriad ways you have kept yourself current – what's the latest industry news? What have you been speaking about to your friends and former colleagues? What upskilling activities have you undertaken – A course? Playing around with a new computer system? Reading relevant books or articles?
+
+Returning to work following a career gap can be daunting, but persistence, a positive attitude and preparation will see you back in the saddle in no time!

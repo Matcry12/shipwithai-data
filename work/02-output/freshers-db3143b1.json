@@ -1,0 +1,62 @@
+{
+  "markdown": "# Build software better, together\n\nA curated list of awesome job boards. We accept PRs.\n\nFeb 3, 2023\n\nA curated list of awesome job boards. We accept PRs.\n\nIt is a app for providing study materials for college freshers\n\nSoftware Engineer CV Examples and Tips\n\nQuestions with solutions from Hackkerank, Coding Ninjas, and learning resources for CS concepts like OS, CN, etc along with campus placement and interview resources for freshers (based on my campus placement prep 2025)\n\nA modern, full-featured To-Do application built with Node.js, Express, and a beautiful HTML/CSS frontend. This project is perfect for beginners and open source contributors who want to learn about full-stack web development without a database—data is stored in JSON files for simplicity.\n\nChecklist of questions to prepare for your dream job interview.\n\n\"Spot-the-Fake-Quiz\" is a web game where players must identify the counterfeit website among two images of the same brand. Each pair of images represents the real site and a fake one. Players have 15 seconds per pair to make their choice out of 10 questions. After completing all questions, they receive their total score.\n\nA beautiful TinDog website.\n\nA Simon game project.\n\nAn Opencode22 Repository with some tasks only for Freshies at IIITA and others open for all contributors at Opencode'22.\n\n⚡️ The fastest job aggregator for New Grads in the US. Updated hourly. Find Entry Level Software Engineer, Data Analyst, and Product Management roles before they expire. Visa Sponsorship info included.\n\nTeaching freshers Git, GitHub and how to make PRs.\n\nWeb portal for Recruitments'19.\n\nJoin our Ship-Every-Friday Squad! We're looking for MERN + Python developers who treat AI tools as first-class teammates. Apply by submitting a PR - our bot analyzes your GitHub profile and scores based on GenAI usage (50%) and open source contributions (30%). Ship to millions every week!\n\nI wanted to create a personalized portfolio website that not only showcases my technical expertise but also provides visitors with an enjoyable browsing experience. This project allowed me to combine my knowledge of React, HTML, CSS, and JavaScript to build a responsive and visually appealing portfolio.\n\nA Beginner Project For Freshers To Contribute in\n\nA app in which college students can upload thier photographs of freshers and can view their collection of memories together and can share it all as a wall of memories\n\nOpen source Contributions | C++, Python | Passionate about AI, Machine Learning, and Programming 🚀 #GitHub #AI #MachineLearning #Python #Programming #Code\n\nAdd a description, image, and links to the freshers topic page so that developers can more easily learn about it.\n\nTo associate your repository with the freshers topic, visit your repo's landing page and select \"manage topics.\"\n",
+  "metadata": {
+    "source_url": "https://github.com/topics/freshers",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:32.395186+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Build software better, together",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "language": "en",
+    "word_count": 444,
+    "content_hash": "sha256:3e80708e2c4222f34da6e1ae51621cf548bafde6f7ffbded0445cc829ab8bb0c",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2023-02-03",
+    "og_title": null,
+    "signal_score": 0.8345,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Curated GitHub topic page listing job boards, study materials, coding resources, interview prep, portfolio projects, and open source opportunities for college freshers.",
+    "entities": {
+      "primary": "Fresher developer resources",
+      "aliases": [
+        "New graduate resources",
+        "Beginner developer guide",
+        "Fresher job opportunities"
+      ]
+    },
+    "core_question": "What resources and opportunities are available for fresher developers entering the tech field?",
+    "doc_type": "reference",
+    "key_topics": [
+      "Job boards",
+      "Study materials",
+      "Interview prep",
+      "Open source",
+      "Portfolio projects",
+      "Campus recruitment"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Build software better, together",
+        "section_type": "title",
+        "header_path": [
+          "Build software better, together"
+        ],
+        "char_start": 0,
+        "char_end": 2819
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

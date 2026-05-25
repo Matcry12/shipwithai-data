@@ -1,0 +1,197 @@
+{
+  "markdown": "# Using your GitHub profile to enhance your resume\n\n## How can my GitHub profile help with my job search?\n\nWhen you include a link to your GitHub profile in your resume, you showcase your skills and experience to potential employers. In this article, you'll find practical tips for preparing your GitHub profile for a job search.\n\nAfter you complete these steps, you can be confident that hiring managers will have a good sense of your technical skills when they are reviewing your GitHub profile.\n\n## Step 1: Create a professional bio\n\nYour bio is a sentence or two that appears under your profile picture. Use your bio to give potential employers a high-level overview of who you are and what kind of work you're looking for.\n\nNavigate to your profile settings to update your bio. Keep this description short and concise. Consider something like, \"Hello! My name is Mona and I'm looking for work as a front end developer.\"\n\nNote\n\nWhile you're here, you can update the rest of your profile settings. Consider including a profile picture, a link to your personal website or portfolio, and links to your social profiles.\n\n## Step 2: Create a profile README\n\nCompared to your bio, your profile README is more flexible, allowing for more creativity. You can write more in your profile README to showcase your skills and interests.\n\nThings you may want to add to your profile README include:\n\n**An introduction**: Write a brief introduction of yourself and your professional background.**Skills**: List your technical skills, including any programming languages, frameworks, and tools you are proficient in.**Professional experience**: Describe where you've worked before and what sort of professional skills you've built. These can even be non-technical skills, such as communication and empathy.**Some of your best projects**: Describe some projects you're proud of. You'll also pin these repositories later, but your README gives you a chance to provide more commentary.**Achievements or awards**: Show off any of your achievements, including certifications or awards you've received for your work.\n\nTo create your profile README, see Managing your profile README.\n\nTip\n\nLook for ways to show off your coding skills within your profile README. For example, @new2code demonstrates knowledge of GitHub Actions and Python scripts by automating daily updates to the Countdown to GitHub Universe section.\n\n## Step 3: Showcase your best projects\n\nPick 3-5 projects to highlight by \"pinning\" them on your profile. Repositories you pin will be prominently displayed, allowing you to direct hiring managers' attention to the projects you're most proud of.\n\nFor the best chances at an interview, pick projects that show your diverse skills and are relevant to your specific job search. If possible, pin some projects you created and some that you contributed to:\n\n- Projects you own are fully under your control, so you can improve them using of the steps below.\n- Open source projects highlight your ability to collaborate with others.\n\nTo pin the repositories, click **Customize your pins** in the \"Popular repositories\" section of your profile.\n\n## Step 4: Improve your showcased projects\n\nHiring managers usually consider many applicants for each role. Expect that they will only look at your projects for a couple minutes. To give the best impression during this brief time, you should make your projects easy to understand and explore.\n\n### Write a helpful README\n\nThe README for your project's repository is a perfect space to give a concise project overview. Use Copilot Chat to help write your README, with a prompt like this:\n\nWrite a README for my lottery-number-generator repository.\n\nThen, copy the response into a `README.md`\n\nfile in the root of the repository, editing as needed. Helpful READMEs include:\n\n- A list of key features of the project\n- Details on how to set up and run the project\n- An example or demo of the project\n- Instructions on testing your code\n\nFor example, Copilot wrote the README for @new2code's hiking pace calculator.\n\n### Update the repository details\n\nOn the main page of the repository, to the right of \"About,\" click . Here, you can provide information that helps hiring managers quickly understand the project:\n\n- A brief description of your project\n- A website where you can see the project in action\n- Topic tags that categorize your project\n\n### Make the code easy to understand\n\nTo give the best impression, you'll want to make sure that hiring managers can understand your project quickly. Follow these best practices:\n\n- Maintain a\n**consistent coding style**throughout the project - Use\n**descriptive**file and directory names - Use helpful\n**comments and documentation**for any complex or important snippets - Refine your code according to popular\n**style guides** **Simplify**complex functions, break down large classes, and remove redundant code- Provide\n**tests**to validate that your code is working as expected\n\nThe easiest way to follow these practices is to use Copilot with VS Code. See Set up Visual Studio Code with Copilot in the VS Code documentation.\n\nFor example, Copilot wrote the comments in `update_readme.py`\n\n, when @new2code used the following prompt:\n\nHelp me write some helpful comments on this file so that it's easy to understand.\n\n### Update your project's dependencies\n\nIf your project has any dependencies, you can showcase your understanding of security best practices by ensuring you're using the **latest versions**.\n\nYou can automate this process with Dependabot, which generates pull requests that update your project to new versions as they become available. See Dependabot quickstart guide.\n\n## Step 5: Share your results\n\nYour profile is now ready to be included on your resume! The changes you made today will have a big impact on your job search and will make your GitHub profile stand out to hiring managers.\n\nShare your updated profile and get inspiration from others in our Community discussion.\n",
+  "metadata": {
+    "source_url": "https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume",
+    "source_domain": "docs.github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:38:24.027081+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Using your GitHub profile to enhance your resume",
+    "description": "Demonstrate your skills to hiring managers with your GitHub profile.",
+    "language": "en",
+    "word_count": 959,
+    "content_hash": "sha256:f76111f666cbc853903980056564d942e9007052a047100301533f2b013895e2",
+    "reading_time": 5,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Official GitHub guide to preparing and showcasing GitHub profiles for job searches through bios, READMEs, pinned projects, and code quality.",
+    "entities": {
+      "primary": "GitHub profile for job search",
+      "aliases": [
+        "GitHub resume link",
+        "developer portfolio",
+        "GitHub profile branding"
+      ]
+    },
+    "core_question": "What steps should developers take to make their GitHub profiles effective tools for job searching?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "GitHub bio",
+      "profile README",
+      "pinned repositories",
+      "project documentation",
+      "code quality",
+      "portfolio presentation"
+    ]
+  },
+  "structure": {
+    "section_count": 11,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Using your GitHub profile to enhance your resume",
+        "section_type": "title",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume"
+        ],
+        "char_start": 0,
+        "char_end": 5980
+      },
+      {
+        "level": 2,
+        "title": "How can my GitHub profile help with my job search?",
+        "section_type": "content",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "How can my GitHub profile help with my job search?"
+        ],
+        "char_start": 52,
+        "char_end": 499
+      },
+      {
+        "level": 2,
+        "title": "Step 1: Create a professional bio",
+        "section_type": "step",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 1: Create a professional bio"
+        ],
+        "char_start": 499,
+        "char_end": 1121
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Create a profile README",
+        "section_type": "step",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 2: Create a profile README"
+        ],
+        "char_start": 1121,
+        "char_end": 2400
+      },
+      {
+        "level": 2,
+        "title": "Step 3: Showcase your best projects",
+        "section_type": "step",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 3: Showcase your best projects"
+        ],
+        "char_start": 2400,
+        "char_end": 3138
+      },
+      {
+        "level": 2,
+        "title": "Step 4: Improve your showcased projects",
+        "section_type": "step",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 4: Improve your showcased projects"
+        ],
+        "char_start": 3138,
+        "char_end": 5670
+      },
+      {
+        "level": 3,
+        "title": "Write a helpful README",
+        "section_type": "content",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 4: Improve your showcased projects",
+          "Write a helpful README"
+        ],
+        "char_start": 3432,
+        "char_end": 4050
+      },
+      {
+        "level": 3,
+        "title": "Update the repository details",
+        "section_type": "content",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 4: Improve your showcased projects",
+          "Update the repository details"
+        ],
+        "char_start": 4050,
+        "char_end": 4381
+      },
+      {
+        "level": 3,
+        "title": "Make the code easy to understand",
+        "section_type": "content",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 4: Improve your showcased projects",
+          "Make the code easy to understand"
+        ],
+        "char_start": 4381,
+        "char_end": 5300
+      },
+      {
+        "level": 3,
+        "title": "Update your project's dependencies",
+        "section_type": "content",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 4: Improve your showcased projects",
+          "Update your project's dependencies"
+        ],
+        "char_start": 5300,
+        "char_end": 5670
+      },
+      {
+        "level": 2,
+        "title": "Step 5: Share your results",
+        "section_type": "step",
+        "header_path": [
+          "Using your GitHub profile to enhance your resume",
+          "Step 5: Share your results"
+        ],
+        "char_start": 5670,
+        "char_end": 5980
+      }
+    ]
+  },
+  "links": [
+    "https://docs.github.com#how-can-my-github-profile-help-with-my-job-search",
+    "https://docs.github.com#step-1-create-a-professional-bio",
+    "https://github.com/settings/profile",
+    "https://docs.github.com#step-2-create-a-profile-readme",
+    "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme#adding-a-profile-readme",
+    "https://github.com/new2code",
+    "https://github.com/new2code#countdown-to-github-universe",
+    "https://docs.github.com#step-3-showcase-your-best-projects",
+    "https://docs.github.com#step-4-improve-your-showcased-projects",
+    "https://docs.github.com#write-a-helpful-readme",
+    "https://github.com/copilot",
+    "https://github.com/new2code/hiking-pace-calculator?tab=readme-ov-file#hiking-pace-calculator",
+    "https://docs.github.com#update-the-repository-details",
+    "https://docs.github.com#make-the-code-easy-to-understand",
+    "https://code.visualstudio.com/docs/copilot/setup-simplified",
+    "https://github.com/new2code/new2code/blob/main/update_readme.py",
+    "https://docs.github.com#update-your-projects-dependencies",
+    "https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide",
+    "https://docs.github.com#step-5-share-your-results",
+    "https://github.com/orgs/community/discussions/150827"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

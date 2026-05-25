@@ -1,0 +1,59 @@
+{
+  "markdown": "# Negotiating a Job Offer? Here’s How to Get What You Want.\n\n## Summary.\n\nWhen negotiating a job offer, you want to walk away with more than you had.- Whether explicitly mentioned or not, compensation packages always come with other benefits woven in. Salary is not the only negotiable.\n- First\n\nI was in the backyard when my cell phone rang with my first-ever, full-time job offer. It was summer 2007, a few months before the U.S. would enter the Great Recession. On the other end of the line was my hiring manager, sharing the happy news: I'd been selected to join the communications team at a university I admired.\n",
+  "metadata": {
+    "source_url": "https://hbr.org/2020/12/negotiating-a-job-offer-heres-how-to-get-what-you-want",
+    "source_domain": "hbr.org",
+    "topic": "salary-negotiation",
+    "fetched_at": "2026-05-25T06:39:49.108452+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Negotiating a Job Offer? Here’s How to Get What You Want.",
+    "description": "When negotiating a job offer, you want to walk away with more than you had. Whether explicitly mentioned or not, compensation packages always come with other benefits woven in. Salary is not the only negotiable. First reach out to your network. Try to get advice from a diverse range of peers in different industries. This will help you set expectations, and get in some practice. Knowing what you are and aren’t willing to compromise prior to entering a negotiation can help you make clearer asks, and sometimes, figure out if a role is right for you in the first place. During the negotiation itself, start from a place of agreement and think about what barriers you can remove to make it easier for the hiring manager to give you what you want.",
+    "language": "en",
+    "word_count": 110,
+    "content_hash": "sha256:788cbe84e91dac06e724497a7e7838a839e32b8238dac0d682cda8ff64eabc4b",
+    "reading_time": 1,
+    "author": "Kristi DePaul",
+    "published_date": "2020-12-23",
+    "og_title": null,
+    "signal_score": 0.5917,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 2,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Negotiating a Job Offer? Here’s How to Get What You Want.",
+        "section_type": "title",
+        "header_path": [
+          "Negotiating a Job Offer? Here’s How to Get What You Want."
+        ],
+        "char_start": 0,
+        "char_end": 618
+      },
+      {
+        "level": 2,
+        "title": "Summary.",
+        "section_type": "summary",
+        "header_path": [
+          "Negotiating a Job Offer? Here’s How to Get What You Want.",
+          "Summary."
+        ],
+        "char_start": 61,
+        "char_end": 618
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

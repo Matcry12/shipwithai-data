@@ -1,0 +1,67 @@
+{
+  "markdown": "# GitHub - tylerwillingham/resume: Resume of Tyler Willingham\n\nI'm a pragmatic, technical leader with a passion for building products that delight users. My career has been a mix of time spent at start-ups helping iterate quickly, but sustainably in order to regularly ship features to users, test them and continue iterating. I have also learned to tune my craft at scale, constantly thinking about instrumentation, performance, and shipping iterations with zero downtime.\n\n- Pragmatism\n- Product-oriented mindset\n- Leading technical teams through challenging projects\n- Technical design and documentation\n- Testing (TDD proponent)\n\nReview my specific technical skills\n\n**Technologies:**\n\nRuby, Rails, React, TypeScript, REST, GraphQL Sidekiq, AWS, Datadog, Buildkite\n\n*April 2024 - Present*\n\n- Participate in high-level convention-setting conversations with other senior engineering leaders\n- Regularly review, provide feedback, and author technical designs\n- Contributed to broad-scale technical discovery and planning related to rethinking core data models\n- Championed full-stack effort to bring standards and conventions to our internal HTTP API\n- Introduced GraphQL + authorization best practices from ground zero\n- Built a highly observable foundation to keep performance concerns at bay\n- Introduced and educated engineers on the dataloader pattern\n\n- Led effort to migrate and consolidate session-monitoring tooling from Glassbox to Datadog\n- Contributed to application logging refinement and standardization\n- Transitioned from Lograge ➡️ SemanticLogger\n\n*May 2023 - April 2024*\n\n- Identified gaps in existing observability process, advocated for and led migration of APM tooling to Datadog from New Relic\n- Routinely identified opportunities for simplifying our Rails monolith by religiously advocating for Rails conventions\n- Refined existing modularity approach with team + stakeholders to increase developer experience + productivity working in large Rails monolith (Packwerk)\n- Contributed to broad-scale rearchitecting of core catalog interfaces and implementing a declarative API with less burdon from the underlying, complex, data model\n\n**Technologies:**\n\nRuby, Rails, React, TypeScript, GraphQL, Sidekiq, Kafka, DataDog, BuildKite, AWS\n\n*January 2023 - May 2023*\n\nAs a technical leader for the Claims team I worked with engineers to design and implement maintainable and iterative improvements to the existing serverless Claims service after a period significant period without ownership. In a few short months we:\n\n- Refactored legacy, highly procedural business logic into smaller, single-responsibility classes with more thorough test coverage\n- Refined instrumentation to provide key product health insight for technical and non-technical stakeholders\n- Shipped incremental improvements to our core Claims data model, including zero-downtime strangler-fig migration of data\n- Took over maintenance and development of distributed API client\n- Improved performance to the most business critical endpoints by > 5x\n- Required introducing new AWS infrastructure\n\n- Iteratively migrated from deprecated ORM to modern alternative\n- Identified and implemented database-level performance improvements\n- Leveraged new instrumentation to target long-running queries deserving of new indexes\n- Targeted index additions to suppor data-integrity concerns\n- Removed foreign key constraints to support online schema migration tooling\n\n- Began work to enable self-serve Claims for additional merchants\n\nIn addition to these domain-specific wins I also contributed to more broad impact initiatives such as:\n\n- Prototyped high-throughput Kafka-based eventing system leveraging Shopify's production-grade Kafka clusters\n- GraphQL API\n\n- Contributed to an organization-wide effort to test and replace a deprecated NodeJS ORM with a modern alternative\n- Spiked on two frameworks (Prisma, TypeORM)\n- Presented to technical leadership committee\n- Developed key tooling and playbook for other teams to follow for seamless transitions\n\n- Led initiative to replace default serverless build tooling with alternative\n- Reduced deploy sizes by ~6x\n- Reduced time-to-deploy by ~50%\n- Reduced lambda cold-boot by ~60%\n\n- Collaborated with product engineering to assist with organization-wide efforts to define repeatable, blue-green database migration process for reducing downtime caused by database schema changes\n\nUnfortunately my time with Shopify and Shopify Logistics was cut short due to broad, performance-agnostic cuts.\n\n*March 2022 - January 2023*\n\nFull-stack technical leader within Shopify Logistics. Worked in both the Onboarding and Pricing/Billing/Claims spheres. In the former, contributing to a Rails monolith at-scale and in the latter, highly distributed Node/TypeScript microservices on serverless architectures.\n\n**Technologies:**\n\nRuby, Rails, React, ElasticSearch, PostgreSQL, Sidekiq, Aptible, New Relic, Travis CI, Git\n\n*February 2021 - March 2022*\n\nAs a senior staff engineer and tech lead for the Healthify product at WellSky it is my responsibility to look after the technical direction of the user-facing application across the full-stack but primarily the Ruby and Rails ecosystem and the React front-end while also helping to mentor and grow engineers on the team through providing new opportunities and as a consultant on difficult ones.\n\nAdditionally, as en engineering manager over a small number of individual contributors, I work to develop individually-catered monthly, quarterly goals for reports. I conduct weekly 1-on-1 check-ins, help align and organize the time around strategic goals while also providing autonomy and space for team members to drive product changes.\n\n*October 2017 - February 2021*\n\nCollaboratively design and implement time-sensitive (but scalable), mission-driven solutions to aid in addressing individuals' social determinants of health with the ultimate goal of building a world where no one's health is hindered by their need.\n\nContributes as a full-stack engineer in a Rails monolith with a hybrid front-end composed of legacy Rails-rendered pages while migrating towards a modern, interactive, React-powered front-end.\n\n**Technologies:**\n\nRuby, Rails, Node.js, React, PostgreSQL, Sidekiq, Heroku, Skylight, Gemnasium, New Relic, CircleCI, RayGun, Rubocop, Git\n\n*July 2016 - October 2017*\n\nSupport and lead agile engineering team. Implement and maintain features in a Rails application with over half of a million users. Introduced tooling to improve application performance and security. Assisted in the implementation and revision of agile processes to improve team efficiency. Mentored growing engineers on the importance of writing clean, maintainable code. Oversaw integration of React for more maintainable interactive components. Lead effort for major Rails version upgrade.\n\nCompany Website | Main product website\n\n**Technologies:**\n\nRuby, Rails, Node.js, React, PostgreSQL, Sidekiq, Elasticsearch, AWS, New Relic, CodeClimate, CircleCI, Memcached, Rubocop, Git\n\n*April 2015 - July 2016*\n\nMaintain and improve cloud-based management suite for self-storage companies in an agile environment with a focus on code quality and maintainability.\n\n**Technologies:**\n\nLinux, Nginx, Apache, MySQL, PostgreSQL, PHP, Symfony 2, Yii, ExpressionEngine, Craft CMS, Ruby, Ruby on Rails, HTML5, CSS3, Javascript, RequireJS, Grunt, Gulp, Vagrant, Puppet, Chef, Git, Subversion\n\n*June 2012 - April 2015*\n\nEstimate, architect, lead, and engineer websites and web applications across a diverse spread of markets while utilizing agile practices to respect project objectives, budgets and deadlines.\n\n**Technologies:**\n\nLinux, Nginx, Apache, MySQL, PHP, ExpressionEngine, Wordpress HTML, CSS, Javascript, Git\n\n*March 2011 - June 2012*\n\nDeveloped and maintained websites for both internal and external use as well as a service-oriented work for third-parties.\n\n**Graduating Year:** 2010\n\nReceived my high school diploma in the Spring of 2010. Elective courses consisted of Programming, Web Design, and Photography.\n",
+  "metadata": {
+    "source_url": "https://github.com/tylerwillingham/resume",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:37.804881+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "GitHub - tylerwillingham/resume: Resume of Tyler Willingham",
+    "description": "Resume of Tyler Willingham. Contribute to tylerwillingham/resume development by creating an account on GitHub.",
+    "language": "en",
+    "word_count": 1123,
+    "content_hash": "sha256:aada4b5bfb81b148d6f3dd9cba9a9b216a5bb1ba7a2d58f754a52cbfb4b07f58",
+    "reading_time": 6,
+    "author": "Tylerwillingham",
+    "published_date": "2015-03-09",
+    "og_title": null,
+    "signal_score": 0.8945,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Technical leader with experience at Shopify building Rails monoliths, GraphQL APIs, serverless architecture, and mentoring engineers across multiple products.",
+    "entities": {
+      "primary": "technical leader resume",
+      "aliases": [
+        "software engineering resume",
+        "full-stack engineering experience",
+        "Shopify engineering"
+      ]
+    },
+    "core_question": "What technical achievements and leadership skills demonstrate expertise at scale?",
+    "doc_type": "reference",
+    "key_topics": [
+      "Ruby on Rails",
+      "GraphQL",
+      "technical leadership",
+      "serverless",
+      "Shopify",
+      "engineering mentorship"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "GitHub - tylerwillingham/resume: Resume of Tyler Willingham",
+        "section_type": "title",
+        "header_path": [
+          "GitHub - tylerwillingham/resume: Resume of Tyler Willingham"
+        ],
+        "char_start": 0,
+        "char_end": 8059
+      }
+    ]
+  },
+  "links": [
+    "https://github.com/tylerwillingham/resume/blob/main/TECH_SKILLS.md",
+    "https://news.shopify.com/important-team-and-business-changes",
+    "https://rednovalabs.com",
+    "https://stordedge.com"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

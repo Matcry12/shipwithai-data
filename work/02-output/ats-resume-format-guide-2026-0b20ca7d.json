@@ -1,0 +1,738 @@
+{
+  "markdown": "# ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes\n\nShare this post\n\nSend this to a friend who's also job searching.\n\n**Formatting is the floor of an ATS-friendly resume.** 98% of Fortune 500 companies use an ATS (Jobscan, 2025), and 92% of them rank rather than auto-reject (Enhancv 2025 study, 25 recruiters across 10+ ATS platforms). The catch: the ranking depends entirely on what the parser can extract from your file. The median first-submission resume scores **48/100** (ResumeAdapter Q1 2026 pipeline analysis), and a large slice of that gap is formatting the parser cannot read. This guide is the 5 formatting rules that fix the parser-readability half. Each rule is a five-minute fix. Run a free ATS scan to see which ones your resume is breaking.\n\n## What is a good resume format for ATS?\n\nA good ATS resume format is a **reverse-chronological, single-column layout** in a system font (Arial, Calibri, or Helvetica) at 10 to 12 point, saved as a text-selectable PDF. Specifically, every modern ATS (Workday, Greenhouse, Lever, iCIMS, Taleo) parses cleanly when your resume has:\n\n**Standard section headers**(Work Experience, Education, Skills) instead of creative variants like \"My Journey.\"**No tables, text boxes, graphics, or icons.**Photos, skill bars, and layout tables scramble the parsing order or are dropped entirely.**A single-column layout.**Two-column resumes read out of order on most parsers.**System fonts at standard sizes.**Custom downloaded fonts force fallback rendering, which can break the layout the parser sees.**A text-selectable PDF.**Save from Word or Google Docs directly (not Canva, not exported-as-image). Verify by opening the PDF and trying to highlight a sentence with your cursor. If text selects cleanly, the parser can read it.\n\nThe fastest way to know if your current resume passes: run a free ATS scan and see the parsed output the recruiter's system actually receives.\n\n## Is PDF or DOC better for ATS?\n\n**PDF is better for ATS in 2026 for most submissions.** Workday, Greenhouse, and Lever extract text from text-selectable PDFs as cleanly as from DOCX, and PDFs preserve your layout across devices. iCIMS historically preferred DOCX because its PDF engine was less reliable, though its 2024+ versions parse PDFs well for simple layouts. Use DOCX when:\n\n- The job posting\n**explicitly requests**a Word document. - You're applying through an older internal HRIS that lists \"DOC/DOCX only.\"\n- A recruiter or staffing agency asks for an editable file.\n\nNever submit a PDF that was exported as an image (scan-to-PDF, or Canva with embedded graphics), because the parser receives zero text and you score 0 on keywords. A quick test: open your PDF, try to highlight a line with your cursor. If the text highlights, the parser can read it. If it doesn't, the file is unreadable.\n\n## TL;DR: The 5 ATS Format Rules That Decide Whether You Get Parsed\n\n| # | Rule | What breaks if you ignore it |\n|---|---|---|\n| 1 | Reverse-chronological layout | Functional resumes hide gaps and confuse parsers. Recruiters distrust them too. |\n| 2 | Standard section headers | \"My Story\" reads as biography. The parser ignores keywords inside non-standard headers. |\n| 3 | System fonts at standard sizes | Custom downloaded fonts force fallback rendering, which breaks your layout in the parser's view. |\n| 4 | No graphics, tables, or text boxes | Photos, skill bars, icons read as garbage characters. Layout tables scramble reading order. |\n| 5 | Text-selectable PDF (or DOCX when requested) | Image-only PDFs return zero text to the parser. Choose PDF 90% of the time. |\n\n**Bottom line:** these 5 rules fix the formatting half of ATS failures. The other half is keywords and content. After you apply this guide, scan your resume against your target job description to see which keywords you are still missing.\n\n**Check Your Resume's ATS Compatibility**\n\n## How ATS Resume Formatting Works\n\nAn ATS resume format is a resume layout designed to be correctly read and parsed by Applicant Tracking Systems. These systems are software programs that employers use to manage job applications.\n\nWhen you submit a resume online, the ATS:\n\n**Extracts**the text from your document**Categorizes**your information into fields (name, job title, dates, skills)**Scores**your resume against the job description**Ranks**you against other candidates\n\nWhen the ATS cannot extract your text correctly because of bad formatting, your resume ranks far below candidates whose files parsed cleanly. Recruiters then never see your application in the filtered shortlist, regardless of how qualified you actually are.\n\n**The goal of an ATS resume format is simple:** Make sure the robot reads your resume the same way a human would.\n\n💡\n\nAlready have a resume?Skip the theory and scan your resume for free to see exactly what the ATS sees.\n\n## The 5 Rules of ATS Resume Format (2026)\n\n## Rule 1: Use a Reverse-Chronological Layout\n\nThe reverse-chronological format is the only format that works universally with every ATS.\n\n**Why it works:**\n\n- ATS expects your most recent job first\n- Recruiters prefer it (they scan your latest role first)\n- Parsers are trained to read this format\n\n**How to structure it:**\n\n- Contact Information (top)\n- Professional Summary (2-3 sentences)\n- Work Experience (most recent first)\n- Education\n- Skills\n\n⚠️\n\nAvoid functional resumes.Functional resumes group skills together without tying them to specific jobs. Most ATS cannot parse this format correctly, and many recruiters dislike it because it hides career gaps.If you are changing careers, read our career change resume guide for ATS-friendly alternatives.\n\n## Rule 2: Stick to Standard Section Headers\n\nThe ATS relies on section headers to understand where one section ends and another begins. If you use creative headers, the parser gets lost.\n\n| Section | ✅ ATS-Safe Headers | ❌ Avoid These |\n|---|---|---|\nContact | Contact Information, Contact | \"Reach Me At\", Icons only |\nSummary | Professional Summary, Summary, Profile | \"About Me\", \"My Story\", \"Bio\" |\nExperience | Work Experience, Professional Experience, Experience | \"Career Journey\", \"Where I Have Worked\" |\nEducation | Education, Academic Background | \"Learning\", \"Alma Mater\" |\nSkills | Skills, Core Competencies, Technical Skills | \"Toolbox\", \"What I Know\", \"Stack\" |\nCertifications | Certifications, Licenses | \"Badges\", \"Credentials\" |\n\n**The rule is simple:** Use the same words that 100 other resumes would use. The ATS is trained on common headers.\n\nFor a deep dive into how parsers handle formatting, read our ATS formatting rules guide.\n\n## Rule 3: Choose the Right Font, Size, and Spacing\n\n### Fonts\n\nUse standard, widely available fonts. If the ATS does not have your custom font installed, it falls back to a default, which can break your layout.\n\n**Safe fonts:**\n\n- Arial\n- Calibri\n- Helvetica\n- Roboto\n- Georgia\n- Times New Roman\n- Verdana\n\n**Avoid:** Script fonts, handwritten fonts, custom downloaded fonts, or any font that requires installation.\n\n### Size\n\n**Body text:**10pt to 12pt**Section headers:**14pt to 16pt**Name:**18pt to 24pt\n\n### Spacing\n\n**Line spacing:**1.0 to 1.15**Margins:**0.5 inch to 1.0 inch on all sides**Between sections:**Add one blank line\n\n## Rule 4: No Graphics, No Tables, No Text Boxes\n\nThis is the rule that kills the most resumes.\n\n### What to Avoid\n\n| Element | Why It Fails |\n|---|---|\nHeadshots / Photos | ATS cannot read images. The photo takes up space but adds zero parsed content. |\nSkill bars / Star ratings | The ATS sees nothing. It cannot interpret a visual bar as \"Expert in Python.\" |\nText boxes | Content inside text boxes is often skipped entirely or read out of order. |\nTables for layout | Invisible tables used to create columns can scramble your text during parsing. |\nIcons | Phone icons, email icons, and LinkedIn icons are read as garbage characters. |\nHeaders and footers | Many ATS ignore header/footer content entirely. Keep your name and contact info in the body. |\nCharts and infographics | None of these are parseable. |\n\n### What to Use Instead\n\n**Bullet points:**Standard round bullets (•) or hyphens (-)**Bold text:**For emphasis on keywords and job titles**Simple horizontal lines:**To separate sections visually**Tab stops:**For aligning dates to the right side\n\n👉\n\nNot sure if your formatting is safe?Our free ATS scanner simulates a strict ATS parser and shows you exactly what it can and cannot read.\n\n## Rule 5: Save as PDF (Usually)\n\n| File Type | When to Use |\n|---|---|\nPDF | Default choice. Preserves formatting perfectly. Most modern ATS (Greenhouse, Lever, Workday) parse PDFs accurately. |\nDOCX | Use only if the job posting explicitly asks for a Word document, or if the application portal is very old. |\nDOC | Avoid. This is the legacy Word format and can cause compatibility issues. |\nGoogle Docs link | Never submit a link unless specifically asked. |\n\n**Critical warning:** Never submit an image-based PDF (a scanned document). The ATS is text-based. If you cannot highlight the text with your cursor, the ATS cannot read it.\n\n## ATS Resume Format Template\n\nHere is the exact structure your resume should follow:\n\n```\nFIRST NAME LAST NAME\nCity, State | (555) 555-5555 | email@email.com | linkedin.com/in/yourname\nPROFESSIONAL SUMMARY\n2-3 sentence overview highlighting your years of experience,\ncore skills, and target role. Include 3-5 keywords from the job\ndescription.\nWORK EXPERIENCE\nJob Title | Company Name | MM/YYYY - Present\n• Achievement with keyword and measurable result\n• Achievement with keyword and measurable result\n• Achievement with keyword and measurable result\nJob Title | Company Name | MM/YYYY - MM/YYYY\n• Achievement with keyword and measurable result\n• Achievement with keyword and measurable result\nEDUCATION\nDegree, Major | University Name | MM/YYYY\nSKILLS\nSkill 1, Skill 2, Skill 3, Skill 4, Skill 5\n```\n\n**Key formatting notes:**\n\n- Contact info is in the body, not in a header/footer\n- Dates use the MM/YYYY format consistently\n- Each bullet starts with an action verb\n- Skills are listed as comma-separated text, not graphics\n\n## Common ATS Resume Format Mistakes\n\n## Mistake 1: Using a Two-Column Layout\n\nTwo-column resumes look great on paper, but most ATS read left-to-right across the entire page. This means the parser reads the first line of Column A, then the first line of Column B, then the second line of Column A, and so on.\n\n**Result:** Your job titles get mixed with your skills, your dates get attached to wrong companies, and your resume becomes unreadable.\n\n**Fix:** Use a single-column layout. If you want visual variety, use bold headers and spacing instead.\n\n## Mistake 2: Putting Contact Info in the Header\n\nMicrosoft Word headers and footers are often invisible to ATS parsers. If your name, email, and phone number are in the header, the ATS may not capture them.\n\n**Fix:** Put all contact information in the first few lines of the body text.\n\n## Mistake 3: Using \"Creative\" Date Formats\n\nDates are one of the most commonly misparsed elements.\n\n| ❌ Avoid | ✅ Use Instead |\n|---|---|\n| 2022 - 2024 (year only) | 03/2022 - 06/2024 |\n| Summer 2023 | 06/2023 - 08/2023 |\n| '23 - Present | 01/2023 - Present |\n| Q1 2024 | 01/2024 - 03/2024 |\n\nFor the complete date formatting rulebook, read our ATS date format guide.\n\n## Mistake 4: Keyword Stuffing in White Text\n\nSome candidates hide keywords in white text (invisible to the eye but readable by ATS). **Do not do this.** Modern ATS systems detect this trick and flag your resume for fraud. Recruiters who print your resume will also see these keywords.\n\n## Mistake 5: Submitting a Designed Resume from Canva\n\nCanva resumes look beautiful, but they are almost always image-based or use complex layouts that ATS cannot parse. The \"ATS-friendly\" templates on Canva are rarely tested against real ATS systems.\n\n**Fix:** Build your resume in Microsoft Word, Google Docs, or use a verified ATS-compatible template. Then test it with our free scanner before submitting.\n\n## How to Test Your ATS Resume Format\n\nBefore you submit your resume to any job, you should test it. Here is how:\n\n### Step 1: Upload Your Resume\n\nUse ResumeAdapter's free ATS scanner. Upload your resume and a job description to see your match score.\n\n### Step 2: Check the Parsed Output\n\nOur tool shows you exactly what the ATS sees. If your name, dates, or job titles are missing or scrambled, you have a formatting problem.\n\n### Step 3: Review Missing Keywords\n\nBeyond formatting, the scanner identifies specific keywords from the job description that your resume is missing. Add these keywords to your relevant experience bullets.\n\n### Step 4: Rewrite and Rescan\n\nAfter making changes, upload again to verify your score improved. Aim for a match score above 80%.\n\n## ATS Resume Format by Career Level\n\n## Entry-Level / Recent Graduate\n\n- Keep it to 1 page\n- Lead with Education if you lack experience\n- Include internships, volunteer work, and projects\n- Use keywords from the job description in your Skills section\n- Read our entry-level resume guide for more tips\n\n## Mid-Career Professional (3-10 years)\n\n- 1-2 pages maximum\n- Lead with a Professional Summary\n- Focus on achievements, not responsibilities\n- Include certifications and continuing education\n- Match keywords from each employer to the job description\n\n## Senior / Executive (10+ years)\n\n- 2 pages maximum (unless academic CV)\n- Strong Professional Summary with leadership keywords\n- Quantify revenue, team size, and business impact\n- Include board memberships, patents, or publications if relevant\n\n## Keyword Integration for ATS Resume Format\n\nGetting the format right is only half the battle. You also need the right resume keywords to score high.\n\n### Where to Place Keywords\n\n| Section | How to Use Keywords |\n|---|---|\nProfessional Summary | Include 3-5 primary keywords naturally |\nWork Experience | Weave keywords into achievement bullets with metrics |\nSkills | List keywords as comma-separated items |\nEducation | Include relevant coursework keywords |\n\n### Example: Before and After\n\n**Before (no keywords):**\n\n\"Responsible for managing social media for the company.\"\n\n**After (keyword optimized):**\n\n\"Managed B2B social media strategy across LinkedIn, Twitter, and Instagram, increasing engagement by 45% and generating 200+ qualified leads through content marketing.\"\n\nFor role-specific keyword guides, explore our resume keywords hub with 100+ industry guides.\n\n## ATS Resume Format Checklist\n\nUse this checklist before submitting any application:\n\n**Layout:**Single-column, reverse-chronological -\n**Font:**Standard (Arial, Calibri, Roboto) -\n**Size:**Body 10-12pt, headers 14-16pt -\n**Margins:**0.5 to 1 inch -\n**Headers:**Standard names (Experience, Education, Skills) -\n**Dates:**MM/YYYY format, consistent throughout -\n**No graphics:**No photos, skill bars, icons, or charts -\n**No text boxes:**All content in the document body -\n**Contact info:**In the body, not in header/footer -\n**File type:**PDF (unless Word is requested) -\n**Keywords:**Matched to the target job description -\n**Tested:**Scanned with ResumeAdapter\n\n## ATS Resume Format Tips for Australian Job Seekers\n\nIf you're applying for jobs in Australia, the core ATS formatting rules are identical — but keep these AU-specific details in mind:\n\n**Use \"CV\" instead of \"Resume\"**— Australian employers and job boards (Seek, Indeed AU) use the term \"CV\" more commonly than \"resume\"**A4 paper size**— Australian standard is A4 (210 × 297 mm), not US Letter**Australian spelling**— Use \"organisation\" (not \"organization\"), \"analyse\" (not \"analyze\"), \"programme\" (not \"program\")**City/State only**— Australian convention is to list suburb and state (e.g., \"Sydney, NSW\") without a full street address**Phone format**— Use +61 format for international applications, or 04XX XXX XXX for domestic**Popular ATS in Australia**— PageUp, ELMO, Taleo (APAC), and Workday are widely used by Australian employers like BHP, Telstra, Woolworths, and Commonwealth Bank\n\nRead our full ATS Resume Australia guidefor detailed tips on the Australian job market. Ordownload a free ATS CV template for Australia.\n\n## Related Articles\n\n**College Professor Resume Example**- See a full before/after ATS-optimized resume\n\n### ATS Optimization Guides\n\n**ATS Optimization Hub**- Complete ATS resource center**ATS Formatting Rules: Dates, Tables, and Parsing**- Deep dive into parsing logic**Why ATS Rejects Qualified Resumes**- Common rejection reasons**How to Optimize Resume Keywords for ATS**- Keyword placement strategy**10 Ways to Beat ATS**- Quick tips and tactics**Free ATS Resume Scanner**- How our scanning tool works\n\n### Resume Keywords\n\n**Resume Keywords List (Hub)**- Browse 100+ role-specific keyword guides**ATS Keywords List**- Universal ATS keywords for any role**100 Action Verbs for ATS Resumes**- Power verbs that ATS loves\n\n### Resume Templates\n\n**Free ATS Resume Template**- Download our pre-formatted template**Free ATS CV Template for Australia**- AU-specific template with A4 formatting\n\n### Australian Job Seekers\n\n**ATS Resume Australia: Complete Guide**- How Australian employers use ATS**Free CV Checker**- Check your CV's ATS score for free\n\n### External Resources\n\n**Check Your Resume for ATS**- Verify your keywords match before applying**Indeed Resume Tips**- Additional resume formatting advice**SHRM HR Technology Report**- Industry data on ATS usage\n\n## Is Your Resume ATS-Ready?\n\n**You have the format. You have the rules. Now test it.**\n\nUpload your resume and get instant feedback on formatting, keywords, and ATS compatibility. Fix issues before they cost you the interview.\n\nOr **rewrite your resume in 8 seconds** with our AI-powered resume engine.\n\n## Take the Next Step\n\nReady to apply what you just read? Pick an ATS-safe resume template to start fresh, or Open the ATS Resume Builder to build a clean resume from scratch.\n\n## Frequently Asked Questions\n\nCommon questions readers ask about this topic.\n\n### What is a good resume format for ATS?\n\nA good ATS resume format is reverse-chronological, single-column, in a system font (Arial, Calibri, Helvetica) at 10 to 12 point, saved as a text-selectable PDF. Use standard section headers (Work Experience, Education, Skills) and avoid tables, text boxes, graphics, and multi-column layouts that parsers cannot read.\n\n### Is PDF or DOC better for ATS?\n\nPDF is better for most modern ATS in 2026. Workday, Greenhouse, and Lever parse text-selectable PDFs as cleanly as DOCX. iCIMS historically preferred DOCX for complex layouts. Use DOCX when the job posting explicitly requests a Word document. Never submit an image-only PDF or a PDF exported from Canva with embedded graphics, since the parser sees zero text.\n\n### What is the best resume format for ATS?\n\nA reverse-chronological format with a single-column layout, standard section headers, and clean formatting is the safest ATS resume format. Use standard fonts like Arial or Calibri, and save as PDF or DOCX.\n\n### Does ATS reject creative resume formats?\n\nYes. Most ATS cannot read text boxes, graphics, tables used for layout, multi-column designs, or embedded images. Stick to a clean, text-based format.\n\n### What file type should I use for ATS?\n\nPDF is the best choice for most modern ATS. Use DOCX only if the job posting specifically requests a Word document.\n\n### How do I know if my resume is ATS compatible?\n\nUpload your resume to a free ATS scanner like ResumeAdapter. It simulates how an ATS reads your resume and highlights formatting errors, missing keywords, and parsing issues.\n\n### Can I use color in an ATS resume?\n\nYes, but sparingly. Use dark text on a white background for body content. You can use a single accent color for headings, but avoid colored backgrounds or light text on dark backgrounds.\n\n### Is the format different for Australian CVs?\n\nThe ATS format rules are the same worldwide. In Australia, use 'CV' instead of 'resume,' A4 paper size instead of US Letter, and Australian spelling (organisation, analyse). The section order (Summary → Experience → Education → Skills) is identical.\n",
+  "metadata": {
+    "source_url": "https://www.resumeadapter.com/blog/ats-resume-format-guide-2026",
+    "source_domain": "resumeadapter.com",
+    "topic": "ats-optimization",
+    "fetched_at": "2026-05-25T06:47:56.145260+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+    "description": "The 2026 ATS resume format that actually passes: free Word and Google Docs template, the rules that matter, and a free scanner to verify before you apply.",
+    "language": "en",
+    "word_count": 3199,
+    "content_hash": "sha256:511f02c848d45d85958df756af7199292996bda65b3d3c8f2cf5d1b13185f045",
+    "reading_time": 16,
+    "author": null,
+    "published_date": "2026-03-04",
+    "og_title": null,
+    "signal_score": 0.6182,
+    "text_to_link_ratio": 1.0,
+    "tldr": "2026 ATS resume formatting guide providing five essential rules: reverse-chronological layout, standard headers, system fonts, no graphics, text-selectable PDFs.",
+    "entities": {
+      "primary": "ATS resume format 2026",
+      "aliases": [
+        "resume formatting rules",
+        "parser compatibility",
+        "2026 standards"
+      ]
+    },
+    "core_question": "What are the five essential formatting rules for ATS resumes in 2026?",
+    "doc_type": "reference",
+    "key_topics": [
+      "formatting rules",
+      "reverse-chronological",
+      "PDF format",
+      "parser compatibility",
+      "section headers",
+      "visual elements"
+    ]
+  },
+  "structure": {
+    "section_count": 54,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+        "section_type": "title",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes"
+        ],
+        "char_start": 0,
+        "char_end": 20126
+      },
+      {
+        "level": 2,
+        "title": "What is a good resume format for ATS?",
+        "section_type": "intro",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "What is a good resume format for ATS?"
+        ],
+        "char_start": 781,
+        "char_end": 1941
+      },
+      {
+        "level": 2,
+        "title": "Is PDF or DOC better for ATS?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Is PDF or DOC better for ATS?"
+        ],
+        "char_start": 1941,
+        "char_end": 2845
+      },
+      {
+        "level": 2,
+        "title": "TL;DR: The 5 ATS Format Rules That Decide Whether You Get Parsed",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "TL;DR: The 5 ATS Format Rules That Decide Whether You Get Parsed"
+        ],
+        "char_start": 2845,
+        "char_end": 3903
+      },
+      {
+        "level": 2,
+        "title": "How ATS Resume Formatting Works",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "How ATS Resume Formatting Works"
+        ],
+        "char_start": 3903,
+        "char_end": 4861
+      },
+      {
+        "level": 2,
+        "title": "The 5 Rules of ATS Resume Format (2026)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "The 5 Rules of ATS Resume Format (2026)"
+        ],
+        "char_start": 4861,
+        "char_end": 4905
+      },
+      {
+        "level": 2,
+        "title": "Rule 1: Use a Reverse-Chronological Layout",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 1: Use a Reverse-Chronological Layout"
+        ],
+        "char_start": 4905,
+        "char_end": 5667
+      },
+      {
+        "level": 2,
+        "title": "Rule 2: Stick to Standard Section Headers",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 2: Stick to Standard Section Headers"
+        ],
+        "char_start": 5667,
+        "char_end": 6621
+      },
+      {
+        "level": 2,
+        "title": "Rule 3: Choose the Right Font, Size, and Spacing",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 3: Choose the Right Font, Size, and Spacing"
+        ],
+        "char_start": 6621,
+        "char_end": 7257
+      },
+      {
+        "level": 3,
+        "title": "Fonts",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 3: Choose the Right Font, Size, and Spacing",
+          "Fonts"
+        ],
+        "char_start": 6674,
+        "char_end": 7039
+      },
+      {
+        "level": 3,
+        "title": "Size",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 3: Choose the Right Font, Size, and Spacing",
+          "Size"
+        ],
+        "char_start": 7039,
+        "char_end": 7130
+      },
+      {
+        "level": 3,
+        "title": "Spacing",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 3: Choose the Right Font, Size, and Spacing",
+          "Spacing"
+        ],
+        "char_start": 7130,
+        "char_end": 7257
+      },
+      {
+        "level": 2,
+        "title": "Rule 4: No Graphics, No Tables, No Text Boxes",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 4: No Graphics, No Tables, No Text Boxes"
+        ],
+        "char_start": 7257,
+        "char_end": 8460
+      },
+      {
+        "level": 3,
+        "title": "What to Avoid",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 4: No Graphics, No Tables, No Text Boxes",
+          "What to Avoid"
+        ],
+        "char_start": 7354,
+        "char_end": 8072
+      },
+      {
+        "level": 3,
+        "title": "What to Use Instead",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 4: No Graphics, No Tables, No Text Boxes",
+          "What to Use Instead"
+        ],
+        "char_start": 8072,
+        "char_end": 8460
+      },
+      {
+        "level": 2,
+        "title": "Rule 5: Save as PDF (Usually)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Rule 5: Save as PDF (Usually)"
+        ],
+        "char_start": 8460,
+        "char_end": 9098
+      },
+      {
+        "level": 2,
+        "title": "ATS Resume Format Template",
+        "section_type": "example",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "ATS Resume Format Template"
+        ],
+        "char_start": 9098,
+        "char_end": 10127
+      },
+      {
+        "level": 2,
+        "title": "Common ATS Resume Format Mistakes",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Common ATS Resume Format Mistakes"
+        ],
+        "char_start": 10127,
+        "char_end": 10165
+      },
+      {
+        "level": 2,
+        "title": "Mistake 1: Using a Two-Column Layout",
+        "section_type": "tips",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Mistake 1: Using a Two-Column Layout"
+        ],
+        "char_start": 10165,
+        "char_end": 10678
+      },
+      {
+        "level": 2,
+        "title": "Mistake 2: Putting Contact Info in the Header",
+        "section_type": "tips",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Mistake 2: Putting Contact Info in the Header"
+        ],
+        "char_start": 10678,
+        "char_end": 10966
+      },
+      {
+        "level": 2,
+        "title": "Mistake 3: Using \"Creative\" Date Formats",
+        "section_type": "tips",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Mistake 3: Using \"Creative\" Date Formats"
+        ],
+        "char_start": 10966,
+        "char_end": 11336
+      },
+      {
+        "level": 2,
+        "title": "Mistake 4: Keyword Stuffing in White Text",
+        "section_type": "tips",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Mistake 4: Keyword Stuffing in White Text"
+        ],
+        "char_start": 11336,
+        "char_end": 11623
+      },
+      {
+        "level": 2,
+        "title": "Mistake 5: Submitting a Designed Resume from Canva",
+        "section_type": "tips",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Mistake 5: Submitting a Designed Resume from Canva"
+        ],
+        "char_start": 11623,
+        "char_end": 12033
+      },
+      {
+        "level": 2,
+        "title": "How to Test Your ATS Resume Format",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "How to Test Your ATS Resume Format"
+        ],
+        "char_start": 12033,
+        "char_end": 12801
+      },
+      {
+        "level": 3,
+        "title": "Step 1: Upload Your Resume",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "How to Test Your ATS Resume Format",
+          "Step 1: Upload Your Resume"
+        ],
+        "char_start": 12148,
+        "char_end": 12285
+      },
+      {
+        "level": 3,
+        "title": "Step 2: Check the Parsed Output",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "How to Test Your ATS Resume Format",
+          "Step 2: Check the Parsed Output"
+        ],
+        "char_start": 12285,
+        "char_end": 12461
+      },
+      {
+        "level": 3,
+        "title": "Step 3: Review Missing Keywords",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "How to Test Your ATS Resume Format",
+          "Step 3: Review Missing Keywords"
+        ],
+        "char_start": 12461,
+        "char_end": 12669
+      },
+      {
+        "level": 3,
+        "title": "Step 4: Rewrite and Rescan",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "How to Test Your ATS Resume Format",
+          "Step 4: Rewrite and Rescan"
+        ],
+        "char_start": 12669,
+        "char_end": 12801
+      },
+      {
+        "level": 2,
+        "title": "ATS Resume Format by Career Level",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "ATS Resume Format by Career Level"
+        ],
+        "char_start": 12801,
+        "char_end": 12839
+      },
+      {
+        "level": 2,
+        "title": "Entry-Level / Recent Graduate",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Entry-Level / Recent Graduate"
+        ],
+        "char_start": 12839,
+        "char_end": 13104
+      },
+      {
+        "level": 2,
+        "title": "Mid-Career Professional (3-10 years)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Mid-Career Professional (3-10 years)"
+        ],
+        "char_start": 13104,
+        "char_end": 13356
+      },
+      {
+        "level": 2,
+        "title": "Senior / Executive (10+ years)",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Senior / Executive (10+ years)"
+        ],
+        "char_start": 13356,
+        "char_end": 13603
+      },
+      {
+        "level": 2,
+        "title": "Keyword Integration for ATS Resume Format",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Keyword Integration for ATS Resume Format"
+        ],
+        "char_start": 13603,
+        "char_end": 14479
+      },
+      {
+        "level": 3,
+        "title": "Where to Place Keywords",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Keyword Integration for ATS Resume Format",
+          "Where to Place Keywords"
+        ],
+        "char_start": 13755,
+        "char_end": 14067
+      },
+      {
+        "level": 3,
+        "title": "Example: Before and After",
+        "section_type": "example",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Keyword Integration for ATS Resume Format",
+          "Example: Before and After"
+        ],
+        "char_start": 14067,
+        "char_end": 14479
+      },
+      {
+        "level": 2,
+        "title": "ATS Resume Format Checklist",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "ATS Resume Format Checklist"
+        ],
+        "char_start": 14479,
+        "char_end": 15144
+      },
+      {
+        "level": 2,
+        "title": "ATS Resume Format Tips for Australian Job Seekers",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "ATS Resume Format Tips for Australian Job Seekers"
+        ],
+        "char_start": 15144,
+        "char_end": 16175
+      },
+      {
+        "level": 2,
+        "title": "Related Articles",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Related Articles"
+        ],
+        "char_start": 16175,
+        "char_end": 17443
+      },
+      {
+        "level": 3,
+        "title": "ATS Optimization Guides",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Related Articles",
+          "ATS Optimization Guides"
+        ],
+        "char_start": 16280,
+        "char_end": 16684
+      },
+      {
+        "level": 3,
+        "title": "Resume Keywords",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Related Articles",
+          "Resume Keywords"
+        ],
+        "char_start": 16684,
+        "char_end": 16901
+      },
+      {
+        "level": 3,
+        "title": "Resume Templates",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Related Articles",
+          "Resume Templates"
+        ],
+        "char_start": 16901,
+        "char_end": 17069
+      },
+      {
+        "level": 3,
+        "title": "Australian Job Seekers",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Related Articles",
+          "Australian Job Seekers"
+        ],
+        "char_start": 17069,
+        "char_end": 17228
+      },
+      {
+        "level": 3,
+        "title": "External Resources",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Related Articles",
+          "External Resources"
+        ],
+        "char_start": 17228,
+        "char_end": 17443
+      },
+      {
+        "level": 2,
+        "title": "Is Your Resume ATS-Ready?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Is Your Resume ATS-Ready?"
+        ],
+        "char_start": 17443,
+        "char_end": 17748
+      },
+      {
+        "level": 2,
+        "title": "Take the Next Step",
+        "section_type": "step",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Take the Next Step"
+        ],
+        "char_start": 17748,
+        "char_end": 17925
+      },
+      {
+        "level": 2,
+        "title": "Frequently Asked Questions",
+        "section_type": "faq",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions"
+        ],
+        "char_start": 17925,
+        "char_end": 20126
+      },
+      {
+        "level": 3,
+        "title": "What is a good resume format for ATS?",
+        "section_type": "intro",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "What is a good resume format for ATS?"
+        ],
+        "char_start": 18004,
+        "char_end": 18367
+      },
+      {
+        "level": 3,
+        "title": "Is PDF or DOC better for ATS?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "Is PDF or DOC better for ATS?"
+        ],
+        "char_start": 18367,
+        "char_end": 18763
+      },
+      {
+        "level": 3,
+        "title": "What is the best resume format for ATS?",
+        "section_type": "intro",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "What is the best resume format for ATS?"
+        ],
+        "char_start": 18763,
+        "char_end": 19016
+      },
+      {
+        "level": 3,
+        "title": "Does ATS reject creative resume formats?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "Does ATS reject creative resume formats?"
+        ],
+        "char_start": 19016,
+        "char_end": 19214
+      },
+      {
+        "level": 3,
+        "title": "What file type should I use for ATS?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "What file type should I use for ATS?"
+        ],
+        "char_start": 19214,
+        "char_end": 19373
+      },
+      {
+        "level": 3,
+        "title": "How do I know if my resume is ATS compatible?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "How do I know if my resume is ATS compatible?"
+        ],
+        "char_start": 19373,
+        "char_end": 19600
+      },
+      {
+        "level": 3,
+        "title": "Can I use color in an ATS resume?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "Can I use color in an ATS resume?"
+        ],
+        "char_start": 19600,
+        "char_end": 19827
+      },
+      {
+        "level": 3,
+        "title": "Is the format different for Australian CVs?",
+        "section_type": "content",
+        "header_path": [
+          "ATS Resume Format 2026: Free Template (Word + Google Docs) That Passes",
+          "Frequently Asked Questions",
+          "Is the format different for Australian CVs?"
+        ],
+        "char_start": 19827,
+        "char_end": 20126
+      }
+    ]
+  },
+  "links": [
+    "https://www.jobscan.co/blog/fortune-500-use-applicant-tracking-systems/",
+    "https://enhancv.com/blog/does-ats-reject-resumes/",
+    "https://www.resumeadapter.com/ats-statistics",
+    "https://www.resumeadapter.com/ats-resume-checker",
+    "https://www.resumeadapter.com#what-is-a-good-resume-format-for-ats",
+    "https://www.resumeadapter.com/analyze",
+    "https://www.resumeadapter.com#is-pdf-or-doc-better-for-ats",
+    "https://www.resumeadapter.com#tldr-the-5-ats-format-rules-that-decide-whether-you-get-parsed",
+    "https://www.resumeadapter.com#how-ats-resume-formatting-works",
+    "https://www.resumeadapter.com#the-5-rules-of-ats-resume-format-2026",
+    "https://www.resumeadapter.com#rule-1-use-a-reverse-chronological-layout",
+    "https://www.resumeadapter.com#rule-2-stick-to-standard-section-headers",
+    "https://www.resumeadapter.com/blog/ats-resume-formatting-rules-2026",
+    "https://www.resumeadapter.com#rule-3-choose-the-right-font-size-and-spacing",
+    "https://www.resumeadapter.com#fonts",
+    "https://www.resumeadapter.com#size",
+    "https://www.resumeadapter.com#spacing",
+    "https://www.resumeadapter.com#rule-4-no-graphics-no-tables-no-text-boxes",
+    "https://www.resumeadapter.com#what-to-avoid",
+    "https://www.resumeadapter.com#what-to-use-instead",
+    "https://www.resumeadapter.com#rule-5-save-as-pdf-usually",
+    "https://www.resumeadapter.com#ats-resume-format-template",
+    "https://www.resumeadapter.com#common-ats-resume-format-mistakes",
+    "https://www.resumeadapter.com#mistake-1-using-a-two-column-layout",
+    "https://www.resumeadapter.com#mistake-2-putting-contact-info-in-the-header",
+    "https://www.resumeadapter.com#mistake-3-using-creative-date-formats",
+    "https://www.resumeadapter.com#mistake-4-keyword-stuffing-in-white-text",
+    "https://www.resumeadapter.com#mistake-5-submitting-a-designed-resume-from-canva",
+    "https://www.resumeadapter.com#how-to-test-your-ats-resume-format",
+    "https://www.resumeadapter.com#step-1-upload-your-resume",
+    "https://www.resumeadapter.com#step-2-check-the-parsed-output",
+    "https://www.resumeadapter.com#step-3-review-missing-keywords",
+    "https://www.resumeadapter.com#step-4-rewrite-and-rescan",
+    "https://www.resumeadapter.com#ats-resume-format-by-career-level",
+    "https://www.resumeadapter.com#entry-level--recent-graduate",
+    "https://www.resumeadapter.com/blog/no-experience-entry-level-hub",
+    "https://www.resumeadapter.com#mid-career-professional-3-10-years",
+    "https://www.resumeadapter.com#senior--executive-10-years",
+    "https://www.resumeadapter.com#keyword-integration-for-ats-resume-format",
+    "https://www.resumeadapter.com/blog/resume-keywords-list",
+    "https://www.resumeadapter.com#where-to-place-keywords",
+    "https://www.resumeadapter.com#example-before-and-after",
+    "https://www.resumeadapter.com#ats-resume-format-checklist",
+    "https://www.resumeadapter.com#ats-resume-format-tips-for-australian-job-seekers",
+    "https://www.resumeadapter.com#related-articles",
+    "https://www.resumeadapter.com/resume-examples/college-professor",
+    "https://www.resumeadapter.com#ats-optimization-guides",
+    "https://www.resumeadapter.com/blog/ats-optimization-hub",
+    "https://www.resumeadapter.com/blog/why-your-resume-gets-rejected-by-ats-and-how-to-fix-it",
+    "https://www.resumeadapter.com/blog/how-to-optimize-resume-keywords-for-ats-2025",
+    "https://www.resumeadapter.com/blog/10-ways-to-beat-ats",
+    "https://www.resumeadapter.com/blog/free-ats-scanner",
+    "https://www.resumeadapter.com#resume-keywords",
+    "https://www.resumeadapter.com/blog/ats-keywords-list",
+    "https://www.resumeadapter.com/blog/100-powerful-action-verbs-resume-ats-2025",
+    "https://www.resumeadapter.com#resume-templates",
+    "https://www.resumeadapter.com/blog/ats-resume-template-free",
+    "https://www.resumeadapter.com/blog/ats-cv-template-australia",
+    "https://www.resumeadapter.com#australian-job-seekers",
+    "https://www.resumeadapter.com/blog/ats-resume-australia",
+    "https://www.resumeadapter.com/blog/cv-checker-free",
+    "https://www.resumeadapter.com#external-resources",
+    "https://www.indeed.com/career-advice/resumes-cover-letters",
+    "https://www.shrm.org/",
+    "https://www.resumeadapter.com#is-your-resume-ats-ready",
+    "https://www.resumeadapter.com#take-the-next-step",
+    "https://www.resumeadapter.com/templates",
+    "https://www.resumeadapter.com/ats-resume-builder"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

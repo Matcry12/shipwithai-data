@@ -1,0 +1,105 @@
+---
+title: Staff Engineer Resume
+source_url: https://www.hireitpeople.com/resume-database/64-java-developers-architects-resumes/290186-staff-engineer-resume-17
+source_domain: hireitpeople.com
+topic: senior-level-resume
+doc_type: reference
+author: Hire IT People; Inc
+published_date: '2026-01-01'
+fetched_at: '2026-05-25T06:44:55.472871+00:00'
+language: en
+word_count: 680
+reading_time: 4
+signal_score: 0.799
+status: kept
+core_question: What qualifications and experiences qualify someone for a staff engineer position?
+tldr: Resume example for staff engineer with 10+ years full-stack experience across C++, Java, C# .NET,
+  mobile, and cloud platforms with architecture and infrastructure skills.
+key_topics:
+- staff engineer
+- full stack
+- multi-platform
+- cloud platforms
+- system architecture
+entities:
+  primary: Staff Engineer resume
+  aliases:
+  - staff level example
+  - senior engineer CV
+  - technical leader
+content_hash: sha256:6baf2ac32fe7cd9edf5a11a6a69ebe23ca8d12e9ca6259c07e6769fb7ebdd013
+---
+
+# Staff Engineer Resume
+
+## Staff Engineer Resume
+
+**3.00**/5 (Submit Your Rating)
+
+**SUMMARY**
+
+- More than 10 years of experience working as a Full Stack Engineer.
+- More than 10 years experience developing Windows Application utilizing C++/MFC.
+- More than 5 years experience developing Server Application utilizing Java JDK.
+- More than 5 years experience developing Windows Application utilizing C# NET Framework.
+- 3 years of experience developing embedded/mobile application.
+- Experienced working with large scale system.
+- Experienced with Agile environment.
+
+**TECHNICAL SKILLS**
+
+**System/Platform: ** Windows, Linux, Android, iOS, VMware VSphere EXSI, AWS
+
+**Development/Tools: ** MS Visual C++, TOAD, Eclipse, Net Beans, SVN, CVS, Source Safe, Spring Framework, Xcode, QT, Android SDK, Objective - C, MFC, and .NET Framework, JQuery, backbone.js, require.js, Java, JUnit, PHP, QML, JavaScript, Angular.js, ATL, Win Forms, ASP.NET, XML, JSON, Pepper SDK, Web ServicesDatabase MS Access, MS SQL Server, Oracle, MySQL, PostgreSQL, Relational Database Design, SQL, Stored Procedure, Triggers, ODBC, JDBC, ADO, Database Replication
+
+**Network/Protocol/Tools: ** RS422, TCP/IP, SNMP, XMPP, SMTP, Wireshark.
+
+**Application Server: ** Apache Web Server, IIS, Tomcat Server, Jetty
+
+**PROFESSIONAL EXPERIENCE**
+
+**Confidential **
+
+**Staff Engineer**
+
+**Responsibilities:**
+
+- Translating feature requirements, design, development, and writing test cases.
+- The tools, system and technologies that I involved with are Java/JSP/Web Socket/JavaScript/angular.js, Tomcat, Linux, MySQL, Posgres SQL, and VMware.
+- Setup test environment in Amazon EC2 for engineers.
+- I involved with creating and managing IPedge AMI images in EC2, setting up security templates, instances, and making sure the cloud environment is available for development test and for customer problems duplication, for fixing bugs.
+
+**Confidential **
+
+**Staff Engineer**
+
+**Responsibilities:**
+
+- Interface with product management team to gather/discuss requirements, develop prototype to validate technologies and requirements, writing technical specifications, design specifications, and interfacing with an offshore company for development. I involved with the following technologies: Cordova Framework, iOS SDK, Android SDK, jQuery, backbone.js, HTML5, require.js, boostrap.js, hammer.js, angular.js, strophe.js, strophe xmpp.js, etc.
+- Developed core native libraries such as VoIP call control modules utilizing iOS SDK, Android SDK, and Google NACl Pepper SDK.. These core modules are used by offshore team for their development of UCedge for iOS, Android, and Chrome platform.
+- Design and develop APNS/GCM service utilizing Java SDK, Java XMPP Smack libraries, Java-APNS, Java GCM libraries. The APNS/GCM service runs in IPedge server. It talks to Ejabberd service to deliver chat messages notifications to users devices running UCedge application.
+- Setup test environment with Amazon EC2 for offshore team for development test.
+- Review source code, build releases for stakeholders demos, QA, and release final products in Apple Store, Google Play, and Chrome Web Store.
+
+**Confidential**
+
+**Senior Software Engineer**
+
+**Responsibilities:**
+
+- Developed Broadcast Automation System. I involved with system design, software architecture, and relational database design. In system design, I involved with analysis of broadcast facility, equipment, and control systems to come up with the physical design specifications. In logical design, I involved with designing relational database tables and specifying logical components.
+- Developed/maintained distributive components for controlling video router, video servers, and video tape devices. These distributive components serve as the backbone for the Broadcast Automation System. (Utilized: MFC/ATL/C++,DCOM,TCP/IP,RS422,QNX, Microsoft SQL Server)
+- Developed Media Management Tool utilizing C++/C# NET Framework. Responsibilities include gathering requirements, identity use cases, designed database, developed data migration tool to imported existing data from existing system, and developed UI and business logic.
+- Maintained and enhanced Live Ads Injection tool developed in C++. Duties include fix bugs and add new features requested by Broadcast operators.
+- Developed program schedules gateway, a SOAP Web Service for importing program schedules from Program Acquisition System into Broadcast Automation System. (Experience: Oracle, PSQL, NET, SOAP Web Service)
+- Developed REST Service for importing Ads sale from Ads Sale System into Program Acquisition System. (Experience: REST service, Java SAX/XML Parser library).
+
+**Confidential **
+
+**Software Engineer**
+
+**Responsibilities:**
+
+- Worked in a team of five engineers to develop NQL language interpreter utilizing C++/Java.
+- NQL language was invented with the goal for solving web content gathering and interpretation.
+- The language utilized pattern recognition and neural network to simplify web bots and spiders development.

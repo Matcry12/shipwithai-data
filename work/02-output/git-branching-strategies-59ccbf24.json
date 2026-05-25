@@ -1,0 +1,124 @@
+{
+  "markdown": "# Git Branching Strategies\n\nWhat are common Git branching strategies? Describe GitFlow or trunk-based development.\n\nWhat are common Git branching strategies? Describe GitFlow or trunk-based development.\n\nCommon strategies include GitFlow (feature branches, develop, release, and main branches with structured releases), GitHub Flow (simple feature branches merged to main with continuous deployment), and trunk-based development (short-lived branches or direct commits to main with feature flags). Trunk-based development is preferred for CI/CD as it reduces merge conflicts and enables faster delivery.\n\nBranching strategies directly impact deployment frequency and team collaboration. DevOps engineers help teams choose and implement strategies that support their CI/CD goals. Understanding trade-offs helps optimize the development workflow.\n\nCommon branch operations\n\n- Long-lived feature branches causing merge conflicts\n- Not keeping branches up-to-date with main\n- Using complex branching when simple approaches would work\n\n- What are the pros and cons of GitFlow vs trunk-based development?\n- How do feature flags enable trunk-based development?\n- When would you use a release branch?\n\n## More Git interview questions\n\n## Also worth your time on this topic\n\n### Git Rebase vs Merge\n\nWhat is the difference between git rebase and git merge? When would you use each?\n\njunior\n\n### How to Abort a Merge Conflict in Git\n\nRan into merge conflicts and want to cancel the merge? Learn how to safely abort a merge and return your repository to its pre-merge state.\n\n### CI/CD Pipeline Setup Checklist\n\nStep-by-step checklist for a production-ready CI/CD pipeline: source control, builds, tests, security scans, deploy gates, secrets, and rollback paths.\n\n1-2 hours\n",
+  "metadata": {
+    "source_url": "https://devops-daily.com/interview-questions/junior/git-branching-strategies",
+    "source_domain": "devops-daily.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:38:19.605192+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Git Branching Strategies",
+    "description": "What are common Git branching strategies? Describe GitFlow or trunk-based development. - Git interview question for junior DevOps engineers",
+    "language": "en",
+    "word_count": 256,
+    "content_hash": "sha256:7769934e3488f3cde1f6c6dc038739adc0c47b0aef8b1f641b1d852282eb6e2b",
+    "reading_time": 2,
+    "author": "DevOps Daily Team",
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.6626,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Reference guide comparing common Git branching strategies including GitFlow, GitHub Flow, and trunk-based development, with discussion of merge conflicts and feature flags.",
+    "entities": {
+      "primary": "Git branching strategies",
+      "aliases": [
+        "branch management",
+        "Git workflow",
+        "branching models"
+      ]
+    },
+    "core_question": "What are the common Git branching strategies and when should you use each?",
+    "doc_type": "reference",
+    "key_topics": [
+      "GitFlow",
+      "GitHub Flow",
+      "trunk-based development",
+      "feature branches",
+      "CI/CD",
+      "merge conflicts"
+    ]
+  },
+  "structure": {
+    "section_count": 6,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Git Branching Strategies",
+        "section_type": "title",
+        "header_path": [
+          "Git Branching Strategies"
+        ],
+        "char_start": 0,
+        "char_end": 1764
+      },
+      {
+        "level": 2,
+        "title": "More Git interview questions",
+        "section_type": "faq",
+        "header_path": [
+          "Git Branching Strategies",
+          "More Git interview questions"
+        ],
+        "char_start": 1194,
+        "char_end": 1227
+      },
+      {
+        "level": 2,
+        "title": "Also worth your time on this topic",
+        "section_type": "content",
+        "header_path": [
+          "Git Branching Strategies",
+          "Also worth your time on this topic"
+        ],
+        "char_start": 1227,
+        "char_end": 1764
+      },
+      {
+        "level": 3,
+        "title": "Git Rebase vs Merge",
+        "section_type": "content",
+        "header_path": [
+          "Git Branching Strategies",
+          "Also worth your time on this topic",
+          "Git Rebase vs Merge"
+        ],
+        "char_start": 1266,
+        "char_end": 1382
+      },
+      {
+        "level": 3,
+        "title": "How to Abort a Merge Conflict in Git",
+        "section_type": "step",
+        "header_path": [
+          "Git Branching Strategies",
+          "Also worth your time on this topic",
+          "How to Abort a Merge Conflict in Git"
+        ],
+        "char_start": 1382,
+        "char_end": 1565
+      },
+      {
+        "level": 3,
+        "title": "CI/CD Pipeline Setup Checklist",
+        "section_type": "content",
+        "header_path": [
+          "Git Branching Strategies",
+          "Also worth your time on this topic",
+          "CI/CD Pipeline Setup Checklist"
+        ],
+        "char_start": 1565,
+        "char_end": 1764
+      }
+    ]
+  },
+  "links": [
+    "https://devops-daily.com/interview-questions/junior/git-rebase-vs-merge",
+    "https://devops-daily.com/posts/abort-merge-conflict-git",
+    "https://devops-daily.com/checklists/cicd-pipeline-setup"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

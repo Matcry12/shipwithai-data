@@ -1,0 +1,48 @@
+{
+  "markdown": "# One Page Visual Executive Summary Resume\n\nThe document outlines Edward Choi's extensive career in cloud technology and partner programs, highlighting his achievements in driving strategic growth initiatives and transforming go-to-market strategies. He has a proven track record, including launching a new partner strategy that earned an award for the best cloud partner channel ecosystem and exceeding substantial sales and delivery targets. Choi's expertise encompasses cloud solutions, cybersecurity, and leadership in various verticals including healthcare and telecommunications.\n",
+  "metadata": {
+    "source_url": "https://www.slideshare.net/slideshow/one-page-visual-executive-summary-resume/76932490",
+    "source_domain": "slideshare.net",
+    "topic": "executive-resume",
+    "fetched_at": "2026-05-25T06:48:25.576824+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "One Page Visual Executive Summary Resume",
+    "description": "The document outlines Edward Choi's extensive career in cloud technology and partner programs, highlighting his achievements in driving strategic growth initiatives and transforming go-to-market strategies. He has a proven track record, including launching a new partner strategy that earned an award for the best cloud partner channel ecosystem and exceeding substantial sales and delivery targets. Choi's expertise encompasses cloud solutions, cybersecurity, and leadership in various verticals including healthcare and telecommunications. - Download as a PPTX, PDF or view online for free",
+    "language": "en",
+    "word_count": 77,
+    "content_hash": "sha256:eedc404126ba20cdbc5c3708b8cc386b294cde1a5da129979a9f58ebf5d17a8d",
+    "reading_time": 1,
+    "author": "Tim O'Connor",
+    "published_date": "2017-06-14",
+    "og_title": null,
+    "signal_score": 0.4754,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "One Page Visual Executive Summary Resume",
+        "section_type": "title",
+        "header_path": [
+          "One Page Visual Executive Summary Resume"
+        ],
+        "char_start": 0,
+        "char_end": 586
+      }
+    ]
+  },
+  "links": [],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

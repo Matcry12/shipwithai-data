@@ -1,0 +1,60 @@
+{
+  "markdown": "# GitHub - zapplyjobs/resume-samples-2026: ATS-friendly resume templates | Tech, healthcare, finance & more | Free to use\n\nThis repo includes samples and best practices to help you create an ATS-compliant resume that will also impress recruiters and interviewers. It also includes other resources, such as cover letter and LinkedIn profile samples.\n\nNote\n\nThese resources were created in collaboration with an industry-leading resume writer with 7+ years of experience.\n\nThis repo is maintained in collaboration with\n\nAutofill Extension\n\nExplore Zapply's website and check out:\n\nOur chrome extension that autofills your job applications in seconds.\n\nA dedicated job board with the latest jobs for various types of roles.\n\nUser account providing multiple profiles for different resume roles.\n\nJob application tracking with streaks to unlock commitment awards.\n\nExperience an advanced career journey with us! 🚀\n\nExplore Around\n\nConnect and seek advice from a growing network of fellow students and new grads.\n\nResume Samples\n\nTech\n\nMarketing\n\nFinance\n\nHR\n\nProduct\n\nSales\n\nProject Management\n\nOperations\n\nHealthcare\n\nSupply Chain\n\nFederal\n\nResume Templates\n\n1-Page\n\n2-Page\n\nFederal\n\nCover Letter Samples\n\nTech\n\nMarketing\n\nFinance\n\nHR\n\nProduct\n\nSales\n\nProject Management\n\nOperations\n\nHealthcare\n\nSupply Chain\n\nCover Letter Template\n\nLinkedIn Samples\n\nTech\n\nMarketing\n\nFinance\n\nHR\n\nProduct\n\nSales\n\nProject Management\n\nOperations\n\nHealthcare\n\nSupply Chain\n\nLinkedIn Template\n\nMore Resources\n\nCheck out our other repos for jobs and free resources:\n",
+  "metadata": {
+    "source_url": "https://github.com/zapplyjobs/resume-samples-2026",
+    "source_domain": "github.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:39:43.276957+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "GitHub - zapplyjobs/resume-samples-2026: ATS-friendly resume templates | Tech, healthcare, finance & more | Free to use",
+    "description": "ATS-friendly resume templates | Tech, healthcare, finance & more | Free to use - zapplyjobs/resume-samples-2026",
+    "language": "en",
+    "word_count": 214,
+    "content_hash": "sha256:70a4796842d64f611f67077444a3f7f10247eecccd45d64312b2c6622d11500f",
+    "reading_time": 2,
+    "author": "Zapplyjobs",
+    "published_date": "2025-12-31",
+    "og_title": null,
+    "signal_score": 0.5028,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Repository of ATS-compliant resume samples and templates across 12 industries (tech, marketing, finance, HR, sales, etc.) with corresponding cover letters and LinkedIn profiles.",
+    "entities": {
+      "primary": "ATS resume samples by industry",
+      "aliases": [
+        "resume templates 2026",
+        "industry-specific resume samples"
+      ]
+    },
+    "core_question": "What do professional ATS-optimized resumes look like across different industries?",
+    "doc_type": "reference",
+    "key_topics": [
+      "resume samples",
+      "ATS-friendly",
+      "industry templates",
+      "cover letters",
+      "LinkedIn profiles"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "GitHub - zapplyjobs/resume-samples-2026: ATS-friendly resume templates | Tech, healthcare, finance & more | Free to use",
+        "section_type": "title",
+        "header_path": [
+          "GitHub - zapplyjobs/resume-samples-2026: ATS-friendly resume templates | Tech, healthcare, finance & more | Free to use"
+        ],
+        "char_start": 0,
+        "char_end": 1541
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

@@ -1,0 +1,254 @@
+{
+  "markdown": "# How I switched careers to become a software engineer in 11 months (and how you can too)\n\nBy Amanda Bullington\n\nBefore I decided to move into software engineering, I was a marketer in the tech world. I tried quite a few types of marketing - events, public relations, search engine optimization, content creation, digital advertising, email marketing - but never found a perfect fit.\n\nMy last company was a personal finance startup with solid brand recognition. Their motto was **content is king**. Unlike most tech companies, there were a ton of editors and journalists and only a handful of software engineers.\n\nA year after I started, the company decided to shake up its strategy. Content was no longer enough. A plethora of new personal finance startups launched mobile apps that year, promising to help consumers track their finances, learn to budget, eliminate student loan debt, and consolidate credit card payments. Not wanting to be left behind, my company began thinning the editorial side of the business while rapidly hiring product folks, engineers, and designers.\n\nAn inner feeling made me realize then that it was time to switch gears. ⚙️\n\nIn this article, I'll go through how I switched careers to become a software engineer from start to finish. So let's get started.\n\n**Step 1: Research immersive programs**\n\nI began to research immersive classes in software engineering. I liked that App Academy and Hack Reactor both offered free in-person intro classes to help prospective students prepare for their entrance exams. I also heard positive things about Hackbright and have since met a number of talented women who attended their program.\n\nUltimately, Hack Reactor won me over because it offered a rigorous one-month Structured Study Program (SSP) course. The program was designed to transform participants from beginners to Hack Reactor Immersive ready.\n\nThe curriculum seemed practical. It helped that I knew three acquaintances who had successfully landed software engineering roles after completing the program.\n\n## Step 2: Coding immersion\n\nOnce I narrowed my focus to Hack Reactor, I needed to prepare for SSP and the entrance exam. To do so, I completed the Udacity Intro to JavaScript course along with a few other online courses in JavaScript.\n\nBetween SSP and Hack Reactor's immersive program, I spent **four** months coding up to **6 days a week**, **12+ hours a day**. I sharpened my problem solving skills, improved my understanding of JavaScript, learned front-end and back-end frameworks, and practiced working alongside other engineers.\n\n### Step 3: Study for the job search with online courses\n\nAs intense as my experience was at Hack Reactor, it was only the beginning. I had a growing list of concepts that I struggled with during the program. At the top of that list was algorithms and data structures.\n\nSoftware immersive programs are great for teaching you the skills you'll need on the job as an engineer. Training for job interviews is a bit of a different beast, and mastery of algorithms and data structures is often the key to being offered an on-site. I tried applying to companies that forgo traditional white-boarding, but they're few and far between.\n\nCracking the Coding Interview is seen as the penultimate resource for learning algorithms. However, it wasn't the resource I found most useful, personally. Instead, these are the resources I used to prepare for technical interviews and onsites:\n\n- CodePath - an 8-week course covering all the most frequently asked interview questions from data structures to system design\n- InterviewCake - a guide that explains the most common patterns found in algorithmic thinking\n- LeetCode - endless practice problems\n- Grokking the System Design Interview - explanations of the tradeoffs involved in common system design questions, such as how to design Instagram\n\n*Never stop learning*\n\n#### Step 4: Take advice from experienced engineers\n\nI asked a ton of senior engineers within my network for advice on the job search. Everyone was gracious with their time and excited to see new types of talent entering the industry. Here were some of the most helpful pieces of advice:\n\n**Get a foot in the door:**Every engineer has to start somewhere. Many engineers landed at brand name companies after working at tiny no-names. Don't worry if you don't find a perfect fit right away.**Rewrite your Résumé:**If you're a new engineer, your résumé is likely written in a way that makes you look really junior. Focus on the tradeoffs and technical decisions you made, not what you implemented.**Look for mentorship opportunities:**Aim for a team with 30+ engineers, because this will teach you best coding practices and provide mentorship opportunities. Otherwise, know who your manager will be and make sure they're able to help you make technical decisions (young engineering managers are often thrown into the role with limited people or leadership experience).**Work on personal projects:**This will demonstrate your enthusiasm for engineering during the job search and give you something unique to talk about in interviews.\n\n#### Step 5: Ignore unhelpful advice from recruiters and others\n\nMy job search took place in summer 2018. I learned to tune out a lot of well-intentioned but unhelpful suggestions. These came from recruiters, fellow engineers, and concerned friends. Here are **some** of them:\n\n- The job market has\n**slowed down**for entry-level engineers over the past few years. Mid-sized companies are only hiring for senior positions and have put a hiring freeze on junior candidates. - Not only is the market oversaturated, but the quality of bootcamp graduates has gone down in past years.\n**It will be tough to find a job.** - You're a strong candidate but our company doesn't have the resources to mentor you. Please stay in touch we'd love to interview you again when you have more experience.\n- Good luck getting hired during the summer.You're competing with all computer science students who have summer internships. Try again in the fall when more positions open up.\n- Good luck getting hired during the fall. Hiring will slow down as companies approach Q4. If you don't find a job this summer, you're going to have to wait until next year.\n- Try becoming a product manager or finding an internship. Maybe you can pivot into software engineering when you're ready.\n\nI'm certain many aspiring engineers hear similar types of feedback. The key is learning to tune it out and stay focused, otherwise it's easy to burn out.\n\n#### Step 6: Create a study plan\n\nAfter Hack Reactor, I spent a lot of time reviewing technical concepts in preparation for tech screens and interviews. Here's my rough study plan:\n\n- Study algorithms & data structures.\n- Study system design.\n- Do a hackathon (it won't teach you engineering best practices, but it's a fun group experience).\n- Build a personal portfolio (or another project you can talk about).\n- Write down every interview question from every phone screen & onsite. Review the answers you don't know.\n- Practice with others. Algorithms are more fun when you're working on them in a small group. (Pramp and CodePath were two ways I found practice partners).\n\n#### Step 7: Build an online presence\n\nMake it easy for recruiters to find you. Build robust profiles with screenshots of projects and links to GitHub on the following sites. Feel free to click the links to check out my examples (or connect with me):\n\nIt's important to show prospective employers the quality of your work. Photos, videos, links to live projects, well documented READMEs, and clean coding practices make it easier for recruiters to take a chance on you.\n\n#### Step 8: Remember, it's a numbers game\n\nI heard the refrain, \"It's just a numbers game,\" frequently from engineers, career coaches, and mentors. Ultimately, here were my numbers:\n\nMy applications were mostly front-door, with some referrals, some recruiters who contacted me, and some outreach from Hired or AngelList.\n\nKnowing the numbers helps you take an analytical approach. For example:\n\n- 26% of my total applications (cold, warm, referrals) converted to initial phone screens.\n- 51% of my phone screens converted to a tech screen or assignment\n- 28% of my tech screens and assignments converted to an onsite\n\nFrom this, I learned that I was fairly consistent at getting my résumé to pique a recruiter's interest, successful (with room for improvement) at initial phone conversations, and somewhat weak in demonstrating my technical skills.\n\nAnalyzing the numbers allowed me to step back from churning out more applications. Instead, I spent extra time brushing up on technical weaknesses, with a goal of improving my conversion rate from tech screen to onsite.\n\n#### Step 9: Master the onsite\n\nOnce you're lucky enough to land an onsite or two, there's still a lot to master. Personally, I found most onsites extremely draining. They lasted anywhere from 2 - 6 hours and ranged widely in topics covered. Some companies forgot to give me any breaks.\n\nBecause I was being tested on technical knowledge, there was very little small-talk and I was often grilled with questions for hours at a time.\n\nOne company told me they weren't moving forward with me because I had struggled on the very last question after hours of successful algorithms. I'm still not sure what they learned from that very last question that they couldn't have gleaned from the tech screen or the previous few hours, but that feedback stung.\n\nTopics covered during my onsites included:\n\n- Algorithms\n- System design\n- Build an app using the company's API\n- Depth of knowledge questions about my coding language (JavaScript)\n- Depth of knowledge questions about HTML/CSS\n- Depth of knowledge questions about front-end frameworks\n- Depth of knowledge questions about various databases (SQL/noSQL)\n- Brainteasers (think SAT prep from high school)\n- Clone and explain X GitHub project that you created, what tradeoffs you made, and what you would do differently in the future\n- Give us a 1-hour presentation on any topic of your choice (consider this a\n**red flag**, unless your job specifically requires interfacing with customers or pitching your ideas)\n\nThe variety made it tricky to know what to study.\n\nAfter each tech screen and onsite, I jotted down a robust list of all the questions I was asked in each interview. This became my study guide for future onsites.\n\nWhen I missed questions, I tried to view it as a learning opportunity.\n\n#### Step 10: Bring snacks\n\nMaybe it's just me, but answering technical questions amidst a revolving circle of new people makes me famished.\n\nIn my first onsites, I got progressively worse at answering questions as my blood sugar dropped. No surprise - these didn't result in an offer.\n\nIn my third, they scheduled me from 10 - 2pm with no lunch break, so I specifically asked for one. This worked - sort of - until the hiring manager followed me to a lunch spot while grilling me rapid-fire on 50+ JavaScript questions. He ignored my (repeated) requests for a quick mental break. Another no-go.\n\nFinally, I found a viable solution - bringing a large green smoothie to each interview. This was a lot better than trying to sneak peanut M&Ms into my mouth in the restroom (besides, I was usually escorted to-and-from the bathroom so that wasn't really an option).\n\n*No, really. Tired but blood-sugared after onsite 5.*\n\n#### Step 11: Refine answers to behavioral questions and avoid burn out\n\n**Where do you see yourself in 5 years?**\n\nOne of the questions that stumped me in interviews was, \"Where do you see yourself in 5 years?\" To be honest, I still don't know.\n\nThere's a manager track and an individual contributor track.\n\nThere are plenty of engineering career paths that I still don't fully understand - web, mobile, site reliability, and DevOps, to name a few.\n\nThen there's back-end, front-end, and full-stack. Sometimes the lines between these roles are clear, sometimes they're blurred. What I learned during the course of my search is that while I don't know which path I'll take, there are certain tasks I like more and less than others.\n\nI don't love playing with pixels on a website, but it's fun to design for mobile. Designing architecture and setting up a database is a bit tedious, but I enjoy taking large amounts of data and manipulating it or spinning it into an interesting visualization.\n\nSo who knows where I'll end up. For now, I'm going to try to do what's fun and exciting.\n\n### Some general thoughts\n\n**Coding challenges are a learning opportunity**\n\nThere were plenty of coding challenges that I attempted and was ultimately too embarrassed to turn in. Then, there were some that I didn't finish but turned in anyway, along with an explanation of what debugging steps I had taken along the way.\n\nAt first I saw incomplete coding challenges as a sign of my own inability - some days I wondered if I wasn't cut out to be an engineer. But they became fun when I shifted my mindset and started to think about what I learned from each one.\n\nFor example, one of them gave me a deeper understanding of asynchronous API calls, while another helped me realize the importance of addressing edge cases and error messages. One taught me how to debug Ruby on Rails.\n\n#### Take rejections in stride\n\nThe same was true of each tech screen and onsite. At first, the rejections stung and fueled my insecurities. Then, rejections became normal. I learned a lot more when I was able to brush aside my self-doubt and be curious about what I could learn from each engineer taking time to speak with me.\n\n*This was not how I felt most of the time, but I tried*\n\nEveryone has a different way of approaching problems, and I was fortunate to learn from a few dozen engineers in the industry through the interview process.\n\n#### Find a mentor\n\nI was lucky enough to have an all-star mentor throughout the interview process. For three months, my mentor called and emailed every week to ask how the job search was progressing and what blockers I was facing.\n\nI've heard a lot of fellow engineers say a mentor sounds nice, but they weren't sure what questions to ask. Sometimes we spoke about tactics, such as how many applications to send, how to write an effective Git commit, or how to go above and beyond in a coding challenge. Other times, she simply reminded me that despite the (many) rejections, I was becoming a stronger engineer and therefore closer to finding my dream company every day.\n\nA mentor can keep you accountable to your goals, help you through feelings of burn out, and connect you to the right resources for deeper learning. I'm grateful to have had an advocate throughout the job search process, and I'm looking forward to being able to pay it forward as a new engineer!\n\n#### Conclusion\n\nSome days, switching careers felt much harder than I expected. My mentor can certainly attest that there plenty of days when I wasn't sure I could do it.\n\nBecoming an engineer took a lot of hustling. It meant reaching out and expanding my professional network, becoming comfortable with the fact that there's a huge learning curve ahead of me, and ignoring all the naysayers. It meant finding the right online resources that worked with my learning style. It meant quieting the part of my brain that told me I wasn't capable and instead focusing on gleaning new knowledge. Every day I worked on a new project, studied a new algorithm, or answered questions in an interview, I became a better engineer.\n\nWas the struggle worth it? Absolutely.\n\nI'm thrilled to say that I found a role that's perfect for me, where I can continue learning and growing. My professional network is stronger than ever, and most of all, I gained confidence in knowing that I can put in the work to make my dreams a reality.\n",
+  "metadata": {
+    "source_url": "https://www.freecodecamp.org/news/how-i-switched-careers-to-become-a-software-engineer-in-11-months-and-how-you-can-too-9849afabc126/",
+    "source_domain": "freecodecamp.org",
+    "topic": "career-change",
+    "fetched_at": "2026-05-25T06:44:35.613747+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How I switched careers to become a software engineer in 11 months (and how you can too)",
+    "description": "By Amanda Bullington Before I decided to move into software engineering, I was a marketer in the tech world. I tried quite a few types of marketing - events, public relations, search engine optimization, content creation, digital advertising, email m...",
+    "language": "en",
+    "word_count": 2652,
+    "content_hash": "sha256:f8cffbeb388ad8613fc3854e1e83e07352850024d9cf7d8c7029d0483a1b3017",
+    "reading_time": 14,
+    "author": "Freecodecamp",
+    "published_date": "2018-10-09",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Complete career-switch guide covering bootcamp selection, coding immersion, algorithm study, networking, and job search strategies for fast transition to engineering.",
+    "entities": {
+      "primary": "software engineer career switch",
+      "aliases": [
+        "career change to engineering",
+        "bootcamp to engineer"
+      ]
+    },
+    "core_question": "How can I switch careers to become a software engineer in under a year?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "career switching",
+      "bootcamp",
+      "algorithms",
+      "technical interviews",
+      "networking",
+      "job search"
+    ]
+  },
+  "structure": {
+    "section_count": 15,
+    "max_depth": 4,
+    "outline": [
+      {
+        "level": 1,
+        "title": "How I switched careers to become a software engineer in 11 months (and how you can too)",
+        "section_type": "title",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)"
+        ],
+        "char_start": 0,
+        "char_end": 15804
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Coding immersion",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion"
+        ],
+        "char_start": 2035,
+        "char_end": 15804
+      },
+      {
+        "level": 3,
+        "title": "Step 3: Study for the job search with online courses",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses"
+        ],
+        "char_start": 2572,
+        "char_end": 12493
+      },
+      {
+        "level": 4,
+        "title": "Step 4: Take advice from experienced engineers",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 4: Take advice from experienced engineers"
+        ],
+        "char_start": 3879,
+        "char_end": 5110
+      },
+      {
+        "level": 4,
+        "title": "Step 5: Ignore unhelpful advice from recruiters and others",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 5: Ignore unhelpful advice from recruiters and others"
+        ],
+        "char_start": 5110,
+        "char_end": 6527
+      },
+      {
+        "level": 4,
+        "title": "Step 6: Create a study plan",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 6: Create a study plan"
+        ],
+        "char_start": 6527,
+        "char_end": 7203
+      },
+      {
+        "level": 4,
+        "title": "Step 7: Build an online presence",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 7: Build an online presence"
+        ],
+        "char_start": 7203,
+        "char_end": 7674
+      },
+      {
+        "level": 4,
+        "title": "Step 8: Remember, it's a numbers game",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 8: Remember, it's a numbers game"
+        ],
+        "char_start": 7674,
+        "char_end": 8746
+      },
+      {
+        "level": 4,
+        "title": "Step 9: Master the onsite",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 9: Master the onsite"
+        ],
+        "char_start": 8746,
+        "char_end": 10491
+      },
+      {
+        "level": 4,
+        "title": "Step 10: Bring snacks",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 10: Bring snacks"
+        ],
+        "char_start": 10491,
+        "char_end": 11409
+      },
+      {
+        "level": 4,
+        "title": "Step 11: Refine answers to behavioral questions and avoid burn out",
+        "section_type": "step",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Step 3: Study for the job search with online courses",
+          "Step 11: Refine answers to behavioral questions and avoid burn out"
+        ],
+        "char_start": 11409,
+        "char_end": 12493
+      },
+      {
+        "level": 3,
+        "title": "Some general thoughts",
+        "section_type": "content",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Some general thoughts"
+        ],
+        "char_start": 12493,
+        "char_end": 15804
+      },
+      {
+        "level": 4,
+        "title": "Take rejections in stride",
+        "section_type": "content",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Some general thoughts",
+          "Take rejections in stride"
+        ],
+        "char_start": 13274,
+        "char_end": 13818
+      },
+      {
+        "level": 4,
+        "title": "Find a mentor",
+        "section_type": "content",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Some general thoughts",
+          "Find a mentor"
+        ],
+        "char_start": 13818,
+        "char_end": 14787
+      },
+      {
+        "level": 4,
+        "title": "Conclusion",
+        "section_type": "summary",
+        "header_path": [
+          "How I switched careers to become a software engineer in 11 months (and how you can too)",
+          "Step 2: Coding immersion",
+          "Some general thoughts",
+          "Conclusion"
+        ],
+        "char_start": 14787,
+        "char_end": 15804
+      }
+    ]
+  },
+  "links": [
+    "https://www.appacademy.io/",
+    "https://www.hackreactor.com/",
+    "https://hackbrightacademy.com/",
+    "https://getcoding.hackreactor.com/ssp-overview/",
+    "https://www.udacity.com/course/intro-to-javascript--ud803",
+    "https://github.com/poteto/hiring-without-whiteboards",
+    "http://www.crackingthecodinginterview.com/",
+    "http://codepath.com/",
+    "https://www.interviewcake.com/",
+    "https://leetcode.com/",
+    "https://www.educative.io/collection/5668639101419520/5649050225344512",
+    "https://www.pramp.com/dashboard",
+    "https://github.com/matiassingers/awesome-readme",
+    "https://medium.com/@aploftus/the-art-of-the-very-small-commit-28f9d134f23"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

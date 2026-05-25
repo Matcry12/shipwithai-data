@@ -1,0 +1,62 @@
+{
+  "markdown": "# Resume Writing: Using Keywords to Beat ATS (Applicant Tracking Systems)\n\nApplying online and getting silence? You're not alone. Most resumes never reach a real person because they don't pass the Applicant Tracking System (ATS). In this course, you'll learn how to pick the right keywords, avoid formatting mistakes, and make your resume stand out without rewriting it from scratch.\n\nThis quick, focused course helps you make small but powerful edits to your resume so it can pass ATS scans and reach real recruiters. You'll learn to read job descriptions strategically, insert relevant keywords naturally, and avoid formatting issues that block your chances. Whether you're applying for internships, jobs, or a career switch, these tips will help your resume get read.\n\nLearn what the system does so you can work with it, not against it.\n\nMatch your resume to the job with purpose, not guesswork.\n\nFormatting and structure matter too. Learn how to avoid common errors.\n\nTest and refine before you hit submit.\n\nUpon completion, you will receive a certificate from Eduta, showing you understand how to keyword-optimize your resume for ATS systems.\n\n**We'd love to hear from you!**\n\nYour journey through this course is unique—and your feedback can truly make a difference. Whether you found something especially helpful, struggled with a particular section, or simply enjoyed learning something new, your voice matters.\n\nWhen you share your experience, you're not just helping us improve—you're helping future students who are standing exactly where you once stood, unsure whether this course is right for them. Your honest words can guide, inspire, and reassure someone who's eager to learn, just like you were.\n\nSo please, take a moment to leave a review. It only takes a minute, but its impact lasts far longer.\n\nThank you for being a part of this learning community.\n",
+  "metadata": {
+    "source_url": "https://www.eduta.org/courses/resume-writing-for-applicant-tracking-systems/",
+    "source_domain": "eduta.org",
+    "topic": "ats-optimization",
+    "fetched_at": "2026-05-25T06:44:21.001447+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Resume Writing: Using Keywords to Beat ATS (Applicant Tracking Systems)",
+    "description": "Applying online and getting silence? You’re not alone. Most resumes never reach a real person because they don’t pass the Applicant Tracking System (ATS).",
+    "language": "en",
+    "word_count": 300,
+    "content_hash": "sha256:d99ea326f0177708b020eedbf836712c16057bd95496d67dcf3adb3eb6f86a44",
+    "reading_time": 2,
+    "author": "Login; Sign Up",
+    "published_date": "2025-05-28",
+    "og_title": null,
+    "signal_score": 0.75,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Course overview teaching resume optimization strategies to pass ATS systems through keyword insertion, formatting fixes, and testing before submission.",
+    "entities": {
+      "primary": "ATS resume optimization course",
+      "aliases": [
+        "applicant tracking system guide",
+        "ATS keyword insertion",
+        "resume formatting for ATS"
+      ]
+    },
+    "core_question": "What are the key techniques to optimize a resume for ATS screening?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "ATS systems",
+      "keywords",
+      "formatting",
+      "resume optimization",
+      "job descriptions",
+      "ATS testing"
+    ]
+  },
+  "structure": {
+    "section_count": 1,
+    "max_depth": 1,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Resume Writing: Using Keywords to Beat ATS (Applicant Tracking Systems)",
+        "section_type": "title",
+        "header_path": [
+          "Resume Writing: Using Keywords to Beat ATS (Applicant Tracking Systems)"
+        ],
+        "char_start": 0,
+        "char_end": 1870
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

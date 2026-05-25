@@ -1,0 +1,101 @@
+{
+  "markdown": "# # How I Got My First Developer Job Without a CS Degree\n\nHad such a fun time speaking to the students of Langara College. I talked about my experience of finding my first developer job after graduating from a programming boot camp without a Computer Science degree. Thank you so much Jacob Tran for inviting me. Can't wait to do it again!\n\n**Here is my advice:**\n\n- ✅ Attend Networking Events\n- ✅ Practice your Algorithms\n- ✅ Be Kind to your Classmates!\n\n## # Advice #1 — Attend Networking Events 🤝\n\nThe best way to land an interview is to put your face on your resume. I don't mean literally lol. I mean you need to be more than just a name to the recruiters. If they know \"who\" you are, they're more likely to give you that interview. How? Go to networking events and actually meet them and talk to them. That way when they do see your resume, they'll have some familiarity. And you don't have to be meeting just the recruiters. Anyone working at the company can be your gateway into the organization. So be nice to everyone!\n\nC'mon does networking actually work? Yes it does! I got two job offers after I graduated without even applying. And I did it through networking. It may seem like I'm tooting my own horn. Fine, I am 😜 But that's because I want you to understand the importance of networking. I want YOU to succeed! That way you can also be the biggest SOB and brag about getting how you got your job without even applying 😉\n\n**Where to find networking events?**\n\nhttps://bcic.ca/events/ (British Columbia, Canada)\n\n## # Advice #2 — Practice your Algorithms 💻\n\nNetworking will help you get that interview. But acing your algorithm is what will land you your job. Honestly, this is the part I struggle with the most. So make sure you practice! There are some wonderful free algorithm resources that you can check out. My favorites are @freecodecamp, @leetcode, @hackerrank. Again, these are free.\n\n**Free Algorithm Challenges**\n\n## # Advice #3 — Be Kind to your Classmates ❤️\n\nSure, you and your classmates are probably eying for the same job right now. But that doesn't make them your enemy. On the contrary, they are your biggest asset. Let me explain! They are a long-term investment. They might not be able to help you get your first job. But they sure will help you get your next job. They're going to get a job eventually too. If you've been nice to them, you can easily ask them for a referral. Heck, that's what I did! When I was looking for a new job. My classmate advocated for me and I immediately got an interview. I'm pretty sure she wouldn't go out of her way to help me if back in the day, I was not a nice person. So don't be a jerk!\n\nI wish you all the best! Good luck, you got this! 💪\n",
+  "metadata": {
+    "source_url": "https://www.samanthaming.com/blog/how-i-got-my-first-developer-job-without-a-cs-degree/",
+    "source_domain": "samanthaming.com",
+    "topic": "career-change",
+    "fetched_at": "2026-05-25T06:47:42.259330+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How I Got My First Developer Job Without a CS Degree",
+    "description": "So you're ready to get you first developer job. Here are some insights into the job interview process and help you better prepare for it...",
+    "language": "en",
+    "word_count": 503,
+    "content_hash": "sha256:062c85eb7d5f944187a91b8f6a6b53ac23bd5701c62b5188ba56420858f72375",
+    "reading_time": 3,
+    "author": "Samantha Ming",
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 0.9192,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Three key pieces of advice for landing first developer job without CS degree: attend networking events, practice algorithms, and build relationships with classmates.",
+    "entities": {
+      "primary": "developer job without CS degree",
+      "aliases": [
+        "non-CS developer hiring",
+        "bootcamp job search"
+      ]
+    },
+    "core_question": "How can I land my first developer job without a Computer Science degree?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "job search",
+      "networking",
+      "algorithms",
+      "bootcamp",
+      "first job",
+      "career change"
+    ]
+  },
+  "structure": {
+    "section_count": 4,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "# How I Got My First Developer Job Without a CS Degree",
+        "section_type": "title",
+        "header_path": [
+          "# How I Got My First Developer Job Without a CS Degree"
+        ],
+        "char_start": 0,
+        "char_end": 2713
+      },
+      {
+        "level": 2,
+        "title": "# Advice #1 — Attend Networking Events 🤝",
+        "section_type": "content",
+        "header_path": [
+          "# How I Got My First Developer Job Without a CS Degree",
+          "# Advice #1 — Attend Networking Events 🤝"
+        ],
+        "char_start": 456,
+        "char_end": 1527
+      },
+      {
+        "level": 2,
+        "title": "# Advice #2 — Practice your Algorithms 💻",
+        "section_type": "content",
+        "header_path": [
+          "# How I Got My First Developer Job Without a CS Degree",
+          "# Advice #2 — Practice your Algorithms 💻"
+        ],
+        "char_start": 1527,
+        "char_end": 1939
+      },
+      {
+        "level": 2,
+        "title": "# Advice #3 — Be Kind to your Classmates ❤️",
+        "section_type": "content",
+        "header_path": [
+          "# How I Got My First Developer Job Without a CS Degree",
+          "# Advice #3 — Be Kind to your Classmates ❤️"
+        ],
+        "char_start": 1939,
+        "char_end": 2713
+      }
+    ]
+  },
+  "links": [
+    "https://www.samanthaming.com#how-i-got-my-first-developer-job-without-a-cs-degree",
+    "https://twitter.com/jaycubtran",
+    "https://www.samanthaming.com#advice-1-attend-networking-events-🤝",
+    "https://bcic.ca/events/",
+    "https://www.samanthaming.com#advice-2-practice-your-algorithms-💻",
+    "https://www.samanthaming.com#advice-3-be-kind-to-your-classmates-❤️"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

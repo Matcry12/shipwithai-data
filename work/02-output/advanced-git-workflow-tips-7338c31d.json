@@ -1,0 +1,143 @@
+{
+  "markdown": "# Advanced Git Workflow Tips\n\nFor better or worse, mostly better, Git has outclassed its way over version control systems (VCS) like Subversion, Perforce, and ClearCase to become the source control management system of the modern developer. If you didn't get any of those VCS references, well, consider yourself lucky to live in an age of cheap local branching, convenient staging areas, multiple workflow support, and a wealth of distributed Git-hosting platforms.\n\nHowever, while Git is easy to learn, its constant evolution and wide range of capabilities make it challenging to master. As a result, beginners and experienced coding veterans have likely cursed a few choice words searching *\"how do I do this with Git?!\"*\n\nHave no fear! This post will explore a few commands and workflows for some more advanced scenarios when working with a Git repository. You'll see how to perform the actions with terminal commands or from within Rider's UI. Let's get started.\n\n## Cloning and remote URLs\n\nGit has support for Secure Shell (SSH) credentials, a unique cryptographic identifier for clients, with most keys produced using the RSA algorithm. SSH keys act as both the username and password to a remote instance of a code repository. From your perspective, it means having to type your VCS username and password much fewer times in your development workflow.\n\nWhen working with remote VCS providers, you may inadvertently clone using the HTTPS URL instead of the SSH URL. While it will still successfully retrieve code, all future pushed commits will require you to type in a username/password. So annoying!\n\nTo change the remote HTTP URL to an SSH URL, you can manage remotes repositories using the Git CLI.\n\n➜ git remote -v origin https://github.com/khalidabuhakmeh/HelloGit.git (fetch) origin https://github.com/khalidabuhakmeh/HelloGit.git (push)\n\nTo change the URL for the `origin`\n\nremote, you can use the `set-url`\n\ncommand. The SSH URL should be available from your VCS provider. In the case of GitHub repositories, it usually follows the `git@github.com:<username>/<repository name>.git`\n\npattern.\n\n➜ git remote set-url origin git@github.com:khalidabuhakmeh/HelloGit.git\n\nYou can run the `git remote -v`\n\ncommand again to see that the URL has been updated.\n\n➜ git remote -v origin git@github.com:khalidabuhakmeh/HelloGit.git (fetch) origin git@github.com:khalidabuhakmeh/HelloGit.git (push)\n\nFinally, when working within Rider's UI, you can use the **Git** menu to **Manage Remotes.** Here you'll see the URL of existing remotes, add new remote repositories, or remove obsolete remotes.\n\n## Clean repository of all non-tracked artifacts\n\nProject repositories can quickly consume disk space with build artifacts, third-party dependencies, and non-tracked files. Folder bloat can especially be true for long-running projects that have seen many iterations on your machine. A trick you can use to get back to a *\"clean\"* state in your repository folder is to use the `git clean`\n\ncommand.\n\n**Warning: Be sure all files you want to retain are committed; this is a destructive command with no recovery.**\n\nYou can run the following command in Rider's terminal window, which should be at the root of your solution.\n\n➜ git clean -xdf\n\nLet's look at what each of the flags means:\n\n: Normally, the clean command will ignore files and folders found in the`x`\n\n`.gitignore`\n\nfile of the repository. This flag tells the command to target*all*untracked files, even if they happen to be ignored.: Inform the command to recurse through all directories, whether they are tracked or untracked.`d`\n\n: force the clean command to delete files and directories.`f`\n\nIf you feel weary of running the `clean`\n\ncommand without knowledge of what it will do to your repository, then add the\n\nflag along with the others to perform a dry-run.**n**\n\n➜ git clean -xdfn Would remove .idea/.idea.HelloGit/.idea/projectSettingsUpdater.xml Would remove .idea/.idea.HelloGit/.idea/workspace.xml Would remove bin/ Would remove obj/\n\nYou'll find this command helpful when exploring a new repository and want to get back to a clean state. As mentioned before, long-running projects will also benefit from this command as it may remove years of unused dependencies and outdated files. But, again, be cautious when using this as there's no undoing this operation.\n\n## Fix spelling errors in commit messages\n\nI'm sure you've worked countless hours to fix a bug, only to make a spelling error in the commit message; those \"*bgus*\" don't fix themselves. But, have no fear; you can fix the last commit message by utilizing the `--amend`\n\nflag.\n\nAfter committing the incorrect message, you can use the following command to modify it. Note, this command does rewrite Git history, so you'll have to force-push your changes if you've already pushed the error to a remote repository.\n\n// Will open the default Git editor ➜ git commit --amend // Will set the new message immediately ➜ git commit --amend -m \"update csproj with dependency\"\n\nWhen using Rider, you can click the **Amend** checkbox in the **Commit** tool window to toggle the amend functionality.\n\nWhen using Rider's Git window, you can choose **Edit Commit Message** by right-clicking any commit in the currently checked out branch and choosing the option from the menu.\n\nAfter choosing to edit a commit message, you can change the text from a newly visible dialog box that will contain your previous message.\n\nRemember, any amended commit message alters the Git history. If changes have been pushed already, then you will need to perform a force-push.\n\n## Adding files to the previous commit\n\nLike fixing spelling errors in a commit message, you sometimes forget to add a file to a particular commit. Instead of adding a commit to your Git history, you can choose to amend the previous commit with no edits to the message. First, you'll need to add any files that you wanted to add during the last commit.\n\n➜ git add . ➜ git commit --amend --no-edit\n\nWhen using Rider, you can click the **Amend** checkbox and select any files from the **Changes **collection in the Commit window.\n\nRemember, just like in our last amend tip, this changes the Git history and may require a force-push if changes have already been pushed remotely.\n\n## Undo changes to previously committed files\n\nYou may start making changes to a committed file only to realize you no longer want the changes. Luckily, rolling back to a known good state is as simple as checking out the file.\n\n// previously committed file ➜ git co Program.cs Updated 1 path from the index\n\nIf you want to roll back changes in Rider, right-click a target file in the **Commit** window, and choose **Rollback **from the command menu.\n\n## Undo last local Git commit\n\nYou've been working on a significant feature only to realize you just committed all your work to the `main`\n\nbranch when you meant to commit to a new feature branch.\n\nTo undo your commit locally, run the following command.\n\n➜ git reset --soft HEAD~1\n\nThe Git command will compare the current **HEAD** commit (your last commit) to the commit before it (before you committed) and stage the files. At this point, you have an opportunity to create a new branch and save your changes correctly.\n\nWhen working with Rider's Git tooling, you can choose the commit in the **Git **window and select **Reset Current Branch To Here.** Generally, you want to choose \"**Soft**\" as it will not destroy your work.\n\nRider has some helpful documentation around what each option means and how it can help you reset our current development environment.\n\nLike some of the previous tips, the **reset **command will rewrite Git history. But unlike the other tips, you'll use **reset **on protected branches like **main** that you may have inadvertently altered locally but have no intention of pushing changes to a remote repository.\n\n## Conclusion\n\nAs you work with Git, you'll become familiar with the core mechanics of source control, and as the official site says, it's easy to learn the basics: clone, branch, add, commit and push. We wanted to show you some of the more advanced Git use cases that you'll likely use in your daily workflow in this post. We hope these tips will help you fix minor annoyances to significant issues in your source control workflow.\n\nIf you have any particular **tips you'd like to share**, either from the command line or Rider's Git tooling, please feel free to share them in the **comments below**.\n\nIf you'd like to try JetBrains Rider's Git tooling first hand, **download and install the latest Rider version**.\n",
+  "metadata": {
+    "source_url": "https://blog.jetbrains.com/dotnet/2021/09/13/advanced-git-workflow-tips/",
+    "source_domain": "blog.jetbrains.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:37:15.551566+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Advanced Git Workflow Tips",
+    "description": "For better or worse, mostly better, Git has outclassed its way over version control systems (VCS) like Subversion, Perforce, and ClearCase to become the source control management system of the modern",
+    "language": "en",
+    "word_count": 1382,
+    "content_hash": "sha256:4113515afe299696e30ac6815a76f4cbbe4b460b887b7c80b23a8d53a6774532",
+    "reading_time": 7,
+    "author": "Sasha Ivanova",
+    "published_date": "2021-09-13",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Advanced Git workflow tips covering remote URL management, SSH setup, repository cleanup with git clean, commit message amendments, and adding files to previous commits.",
+    "entities": {
+      "primary": "Advanced Git workflow techniques",
+      "aliases": [
+        "Git SSH configuration",
+        "Git repository management",
+        "commit amendment tips"
+      ]
+    },
+    "core_question": "What practical Git techniques help developers work more efficiently with remote repositories and maintain clean commit history?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Git remotes",
+      "SSH keys",
+      "git clean",
+      "commit amendments",
+      "workflow optimization"
+    ]
+  },
+  "structure": {
+    "section_count": 8,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Advanced Git Workflow Tips",
+        "section_type": "title",
+        "header_path": [
+          "Advanced Git Workflow Tips"
+        ],
+        "char_start": 0,
+        "char_end": 8564
+      },
+      {
+        "level": 2,
+        "title": "Cloning and remote URLs",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Workflow Tips",
+          "Cloning and remote URLs"
+        ],
+        "char_start": 968,
+        "char_end": 2597
+      },
+      {
+        "level": 2,
+        "title": "Clean repository of all non-tracked artifacts",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Workflow Tips",
+          "Clean repository of all non-tracked artifacts"
+        ],
+        "char_start": 2597,
+        "char_end": 4333
+      },
+      {
+        "level": 2,
+        "title": "Fix spelling errors in commit messages",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Workflow Tips",
+          "Fix spelling errors in commit messages"
+        ],
+        "char_start": 4333,
+        "char_end": 5576
+      },
+      {
+        "level": 2,
+        "title": "Adding files to the previous commit",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Workflow Tips",
+          "Adding files to the previous commit"
+        ],
+        "char_start": 5576,
+        "char_end": 6253
+      },
+      {
+        "level": 2,
+        "title": "Undo changes to previously committed files",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Workflow Tips",
+          "Undo changes to previously committed files"
+        ],
+        "char_start": 6253,
+        "char_end": 6704
+      },
+      {
+        "level": 2,
+        "title": "Undo last local Git commit",
+        "section_type": "content",
+        "header_path": [
+          "Advanced Git Workflow Tips",
+          "Undo last local Git commit"
+        ],
+        "char_start": 6704,
+        "char_end": 7847
+      },
+      {
+        "level": 2,
+        "title": "Conclusion",
+        "section_type": "summary",
+        "header_path": [
+          "Advanced Git Workflow Tips",
+          "Conclusion"
+        ],
+        "char_start": 7847,
+        "char_end": 8564
+      }
+    ]
+  },
+  "links": [
+    "https://blog.jetbrains.com/dotnet/category/net-tools/",
+    "https://blog.jetbrains.com/dotnet/category/how-tos/",
+    "https://jetbrains.com/rider",
+    "https://blog.jetbrains.com"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

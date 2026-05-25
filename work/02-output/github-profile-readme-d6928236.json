@@ -1,0 +1,84 @@
+{
+  "markdown": "Video Player is loading.\n\nContinue Course\n\nNice Work!\n\nYou have completed Getting a Software Engineering Job, v3\n\n# Getting a Software Engineering Job, v3\n\nStand out from the crowd by following this career guide from Jerome, who's helped 300+ developers get jobs! Learn resume optimization techniques to highlight your most significant technical experience and achievements. Build an impressive GitHub profile, use LinkedIn effectively, and network to learn of new opportunities. Land your dream software engineering job!\n\n## Course Progress\n\nLessons Completed\n\n0\n\nLessons Remaining\n\n22\n\nTime Remaining\n\n2 hr 58 min\n\n0% completed\n\n100% remaining\n\n## Course Detail\n\nPublished: July 16, 2024\n\n## Jerome Hardaway\n\nJerome Hardaway is a Google Developer Expert (Web), Twilio Champion, Developer Advocate for Quicken Loans, Javascript Engineer and Geek At Arms (Founder and Executive Director) of Vets Who Code, a 501(c)3 veteran-led charitable non-profit dedicated to filling the nation's technical skills gap with early-stage transitioning veterans and military spouses through remote software development training.\n",
+  "metadata": {
+    "source_url": "https://frontendmasters.com/courses/getting-a-job-v3/github-profile-readme/",
+    "source_domain": "frontendmasters.com",
+    "topic": "github-portfolio",
+    "fetched_at": "2026-05-25T06:38:51.576023+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Learn GitHub Profile README – Getting a Software Engineering Job, v3",
+    "description": "Jerome explains how to create a GitHub Profile README. You start by creating a repository that matches your GitHub username. Add a README.md file to that repository and it will be displayed on your …",
+    "language": "en",
+    "word_count": 159,
+    "content_hash": "sha256:ca3683b28588120d830a08a681dd674e789817d5bd21f3fe7c2225aea428d282",
+    "reading_time": 1,
+    "author": null,
+    "published_date": "2024-07-16",
+    "og_title": null,
+    "signal_score": 0.4679,
+    "text_to_link_ratio": 1.0,
+    "tldr": null,
+    "entities": null,
+    "core_question": null,
+    "doc_type": null,
+    "key_topics": null
+  },
+  "structure": {
+    "section_count": 4,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Getting a Software Engineering Job, v3",
+        "section_type": "title",
+        "header_path": [
+          "Getting a Software Engineering Job, v3"
+        ],
+        "char_start": 114,
+        "char_end": 1112
+      },
+      {
+        "level": 2,
+        "title": "Course Progress",
+        "section_type": "content",
+        "header_path": [
+          "Getting a Software Engineering Job, v3",
+          "Course Progress"
+        ],
+        "char_start": 523,
+        "char_end": 647
+      },
+      {
+        "level": 2,
+        "title": "Course Detail",
+        "section_type": "content",
+        "header_path": [
+          "Getting a Software Engineering Job, v3",
+          "Course Detail"
+        ],
+        "char_start": 647,
+        "char_end": 691
+      },
+      {
+        "level": 2,
+        "title": "Jerome Hardaway",
+        "section_type": "content",
+        "header_path": [
+          "Getting a Software Engineering Job, v3",
+          "Jerome Hardaway"
+        ],
+        "char_start": 691,
+        "char_end": 1112
+      }
+    ]
+  },
+  "links": [
+    "https://frontendmasters.com",
+    "https://frontendmasters.com/teachers/jerome-hardaway/"
+  ],
+  "status": "quarantined",
+  "drop_reason": "too-short",
+  "enrichment_status": "skipped-quarantined"
+}

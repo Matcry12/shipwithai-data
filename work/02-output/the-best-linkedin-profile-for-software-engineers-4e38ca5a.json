@@ -1,0 +1,176 @@
+{
+  "markdown": "# How to craft the best LinkedIn profile for software engineers\n\nHere's how to leverage your LinkedIn profile to stand out during your job hunt.\n\nWhile a LinkedIn profile isn't a *requirement* for applying for a job, in today's job market, it's very likely a recruiter will check out your LinkedIn or an interviewer will browse it __before an interview__. That means having a polished and up-to-date LinkedIn is important for networking and referrals.\n\nHere's how you can create a LinkedIn profile that reflects your __strengths as a software engineer__.\n\nFormation Studio Workshops — free, live, interactive interview practice sessions for senior software engineers, designed around how interviews actually run at top tech companies. These aren't passive webinars. They're mentor-led working sessions where engineers think out loud, make decisions, and debate tradeoffs in real time.\n\n## LinkedIn profile vs a resume\n\nA LinkedIn profile and a __software engineer resume__ showcase different strengths and attributes, giving recruiters and hiring managers a more complete picture of who you are as a candidate. If someone comes to your LinkedIn, it's because they want to get to know you better.\n\nKeep the following in mind as you build your LinkedIn profile:\n\n- Show your personality. Keep people engaged and getting to know you by creating a focused showcase of things that matter to you. Sharing more about yourself can mean blog posts, projects, volunteer efforts, affiliations, and your experience.\n- There are no page limit restrictions or highly structured rules. There's no need to begin every sentence with a power verb or keep it all on one page. This means you can be more detailed when introducing yourself, share challenges with more context, and explain your impact in greater detail.\n- Optimize for searchability. Your LinkedIn is working for you even when you aren't actively job-seeking. Build in the right keywords for the most desirable skills in your field of expertise.\n\n## How to get the most out of your LinkedIn profile\n\nHere's how you can make the biggest impact with your LinkedIn profile.\n\n### 1. Use a professional profile photo\n\nChoose a high-resolution photo that looks friendly and approachable, with your face clear and centered in the image.\n\n### 2. Don't leave the cover photo blank\n\nYour cover photo is an opportunity to show your personality, so use it to share something compelling about yourself. You can also use the default LinkedIn cover photos—just don't leave it blank.\n\nA good cover photo can be:\n\n- From\n__Unsplash__(search: nature, cityscape [location where you live]) - A photo you've taken of your travels, your pet, your professional hobby\n- A graphic you design yourself. Make it 1,584 x 396 pixels to fit perfectly.\n\n### 3. Write an engaging summary\n\nThe best summaries are crafted like stories. Write an introduction that helps readers see you as a human. Explain what motivates you and elaborate on the reasons you continue to dedicate yourself to the craft of software engineering.\n\nHere are some blog posts with helpful examples:\n\n__5 Templates That'll Make Writing the Perfect LinkedIn Summary a Total Breeze____20 Superb LinkedIn Summary Examples (+Writing Guide)__\n\nAnd some strong engineering examples:\n\nAt the bottom of your summary, include your technical skills so your profile shows up in keyword searches.\n\nExample:\n\nLanguages: Python, SQL, HTML, CSS, Bash\n\nFrameworks & Libraries: Flask, Django, Falcon, SQLAlchemy, Git\n\nDatabases: PostgreSQL, MySQL, AWS S3\n\nCloud Technologies: AWS, Github, Google Cloud\n\n### 4. Add a headline\n\nA headline is a quick way to get attention. The simplest headline is the role you want to have. Please avoid a headline that is a statement of needing employment, such as \"Looking for work\".\n\nSome common headlines could be:\n\n- Software Engineer\n- Frontend Software Engineer\n- Fullstack web developer\n- Java developer\n\nIf you're currently employed, include the company name in your Headline, like \"Software engineer at XYZ Company\"\n\n### 5. Customize your LinkedIn URL\n\nBy default, LinkedIn will provide a numerical code combined with your name as your URL. To make it easier to find you and for others to provide easy referrals to your profile, it's best to customize your LinkedIn URL. In the top-right corner of your profile, you'll see a link to \"Edit public profile & URL,\" where you'll find the ability to personalize the URL for your profile. Select a professional alias, ideally one that you also use for other platforms like Twitter and Github.\n\n### 6. Set your LinkedIn profile to public\n\nYou want recruiters and hiring managers to be able to find you in a search. Go to \"Edit My Public Profile Setting\" and set it to public. Make sure to do this before you submit your resume or LinkedIn for review.\n\n## Get holistic interview prep with Formation\n\nThe Formation Fellowship gives mid-level and senior engineering job seekers everything they need to land their dream roles—including personalized skill brush-ups, unlimited mock interviews with experienced software engineers and hiring managers from top-tier tech companies, career and negotiation support, and more.\n\nIf you're having trouble navigating your job search on your own, __apply here__ and get unconditional support from a team of engineering mentors, technical recruiters, career coaches, and more.\n",
+  "metadata": {
+    "source_url": "https://formation.dev/blog/the-best-linkedin-profile-for-software-engineers/",
+    "source_domain": "formation.dev",
+    "topic": "linkedin-profile",
+    "fetched_at": "2026-05-25T06:38:44.354433+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "How to Build a SWE LinkedIn Profile Recruiters Notice",
+    "description": "Here's how to leverage your LinkedIn profile to stand out during your job hunt.",
+    "language": "en",
+    "word_count": 860,
+    "content_hash": "sha256:5e1d844453f72564a8912d733a21dbd35b7721ff96bb226c20b382ca8c5420d5",
+    "reading_time": 5,
+    "author": "Formation",
+    "published_date": "2024-04-11",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide to building a standout LinkedIn profile for software engineers through professional photos, engaging summaries, keywords, custom URLs, and featured work.",
+    "entities": {
+      "primary": "software engineer LinkedIn profile",
+      "aliases": [
+        "LinkedIn optimization",
+        "professional profile",
+        "tech networking"
+      ]
+    },
+    "core_question": "How do you build a LinkedIn profile that recruiters notice?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "LinkedIn",
+      "software engineers",
+      "profile optimization",
+      "networking",
+      "recruiters"
+    ]
+  },
+  "structure": {
+    "section_count": 10,
+    "max_depth": 3,
+    "outline": [
+      {
+        "level": 1,
+        "title": "How to craft the best LinkedIn profile for software engineers",
+        "section_type": "title",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers"
+        ],
+        "char_start": 0,
+        "char_end": 5363
+      },
+      {
+        "level": 2,
+        "title": "LinkedIn profile vs a resume",
+        "section_type": "content",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "LinkedIn profile vs a resume"
+        ],
+        "char_start": 886,
+        "char_end": 1992
+      },
+      {
+        "level": 2,
+        "title": "How to get the most out of your LinkedIn profile",
+        "section_type": "step",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "How to get the most out of your LinkedIn profile"
+        ],
+        "char_start": 1992,
+        "char_end": 4804
+      },
+      {
+        "level": 3,
+        "title": "1. Use a professional profile photo",
+        "section_type": "content",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "How to get the most out of your LinkedIn profile",
+          "1. Use a professional profile photo"
+        ],
+        "char_start": 2117,
+        "char_end": 2276
+      },
+      {
+        "level": 3,
+        "title": "2. Don't leave the cover photo blank",
+        "section_type": "content",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "How to get the most out of your LinkedIn profile",
+          "2. Don't leave the cover photo blank"
+        ],
+        "char_start": 2276,
+        "char_end": 2768
+      },
+      {
+        "level": 3,
+        "title": "3. Write an engaging summary",
+        "section_type": "summary",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "How to get the most out of your LinkedIn profile",
+          "3. Write an engaging summary"
+        ],
+        "char_start": 2768,
+        "char_end": 3571
+      },
+      {
+        "level": 3,
+        "title": "4. Add a headline",
+        "section_type": "content",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "How to get the most out of your LinkedIn profile",
+          "4. Add a headline"
+        ],
+        "char_start": 3571,
+        "char_end": 4026
+      },
+      {
+        "level": 3,
+        "title": "5. Customize your LinkedIn URL",
+        "section_type": "content",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "How to get the most out of your LinkedIn profile",
+          "5. Customize your LinkedIn URL"
+        ],
+        "char_start": 4026,
+        "char_end": 4547
+      },
+      {
+        "level": 3,
+        "title": "6. Set your LinkedIn profile to public",
+        "section_type": "content",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "How to get the most out of your LinkedIn profile",
+          "6. Set your LinkedIn profile to public"
+        ],
+        "char_start": 4547,
+        "char_end": 4804
+      },
+      {
+        "level": 2,
+        "title": "Get holistic interview prep with Formation",
+        "section_type": "content",
+        "header_path": [
+          "How to craft the best LinkedIn profile for software engineers",
+          "Get holistic interview prep with Formation"
+        ],
+        "char_start": 4804,
+        "char_end": 5363
+      }
+    ]
+  },
+  "links": [
+    "https://formation.dev/blog/tag/job-hunt/",
+    "https://formation.dev/blog/understand-the-interview-process-for-software-engineers/",
+    "https://formation.dev/blog/how-to-pass-behavioral-interviews-understanding-valued-engineer-traits/",
+    "https://fm.dev/4m7RRIy?ref=formation.dev",
+    "https://formation.dev/blog/software-engineer-resume-guide-examples/",
+    "https://unsplash.com/?ref=formation.dev",
+    "https://www.themuse.com/advice/5-templates-thatll-make-writing-the-perfect-linkedin-summary-a-breeze?ref=formation.dev",
+    "https://cv-nation.com/blogs/news/20-superb-linkedin-summary-examples-writing-guide?ref=formation.dev",
+    "https://fm.dev/3Qw1IMl?ref=formation.dev"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

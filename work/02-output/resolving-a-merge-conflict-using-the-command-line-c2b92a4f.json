@@ -1,0 +1,92 @@
+{
+  "markdown": "# Resolving a merge conflict using the command line\n\nMerge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file. For more information, see About merge conflicts.\n\nTip\n\nYou can use the conflict editor on GitHub to resolve competing line change merge conflicts between branches that are part of a pull request. For more information, see Resolving a merge conflict on GitHub.\n\n## Competing line change merge conflicts\n\nTo resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.\n\nFor example, if you and another person both edited the file `styleguide.md`\n\non the same lines in different branches of the same Git repository, you'll get a merge conflict error when you try to merge these branches. You must resolve this merge conflict with a new commit before you can merge these branches.\n\nOpen Terminal .\n\nNavigate into the local Git repository that has the merge conflict.\n\n`cd REPOSITORY-NAME`\n\nGenerate a list of the files affected by the merge conflict. In this example, the file\n\n*styleguide.md*has a merge conflict.`$ git status > # On branch branch-b > # You have unmerged paths. > # (fix conflicts and run \"git commit\") > # > # Unmerged paths: > # (use \"git add <file>...\" to mark resolution) > # > # both modified: styleguide.md > # > no changes added to commit (use \"git add\" and/or \"git commit -a\")`\n\nOpen your favorite text editor, such as Visual Studio Code, and navigate to the file that has merge conflicts.\n\nTo see the beginning of the merge conflict in your file, search the file for the conflict marker\n\n`<<<<<<<`\n\n. When you open the file in your text editor, you'll see the changes from the HEAD or base branch after the line`<<<<<<< HEAD`\n\n. Next, you'll see`=======`\n\n, which divides your changes from the changes in the other branch, followed by`>>>>>>> BRANCH-NAME`\n\n. In this example, one person wrote \"open an issue\" in the base or HEAD branch and another person wrote \"ask your question in IRC\" in the compare branch or`branch-a`\n\n.`If you have questions, please <<<<<<< HEAD open an issue ======= ask your question in IRC. >>>>>>> branch-a`\n\nDecide if you want to keep only your branch's changes, keep only the other branch's changes, or make a brand new change, which may incorporate changes from both branches. Delete the conflict markers\n\n`<<<<<<<`\n\n,`=======`\n\n,`>>>>>>>`\n\nand make the changes you want in the final merge. In this example, both changes are incorporated into the final merge:`If you have questions, please open an issue or ask in our IRC channel if it's more urgent.`\n\nAdd or stage your changes.\n\n`git add .`\n\nCommit your changes with a comment.\n\n`git commit -m \"Resolve merge conflict by incorporating both suggestions\"`\n\nYou can now merge the branches on the command line or push your changes to your remote repository on GitHub and merge your changes in a pull request.\n\n## Removed file merge conflicts\n\nTo resolve a merge conflict caused by competing changes to a file, where a person deletes a file in one branch and another person edits the same file, you must choose whether to delete or keep the removed file in a new commit.\n\nFor example, if you edited a file, such as `README.md`\n\n, and another person removed the same file in another branch in the same Git repository, you'll get a merge conflict error when you try to merge these branches. You must resolve this merge conflict with a new commit before you can merge these branches.\n\nOpen Terminal .\n\nNavigate into the local Git repository that has the merge conflict.\n\n`cd REPOSITORY-NAME`\n\nGenerate a list of the files affected by the merge conflict. In this example, the file\n\n`README.md`\n\nhas a merge conflict.`$ git status > # On branch main > # Your branch and 'origin/main' have diverged, > # and have 1 and 2 different commits each, respectively. > # (use \"git pull\" to merge the remote branch into yours) > # You have unmerged paths. > # (fix conflicts and run \"git commit\") > # > # Unmerged paths: > # (use \"git add/rm <file>...\" as appropriate to mark resolution) > # > # deleted by us: README.md > # > # no changes added to commit (use \"git add\" and/or \"git commit -a\")`\n\nOpen your favorite text editor, such as Visual Studio Code, and navigate to the file that has merge conflicts.\n\nDecide if you want to keep the removed file. You may want to view the latest changes made to the removed file in your text editor.\n\nTo add the removed file back to your repository:\n\n`git add README.md`\n\nTo remove this file from your repository:\n\n`$ git rm README.md > README.md: needs merge > rm 'README.md'`\n\nCommit your changes with a comment.\n\n`$ git commit -m \"Resolve merge conflict by keeping README.md file\" > [branch-d 6f89e49] Merge branch 'branch-c' into branch-d`\n\nYou can now merge the branches on the command line or push your changes to your remote repository on GitHub and merge your changes in a pull request.\n",
+  "metadata": {
+    "source_url": "https://docs.github.com/articles/resolving-a-merge-conflict-using-the-command-line",
+    "source_domain": "docs.github.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:38:20.941118+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Resolving a merge conflict using the command line",
+    "description": "You can resolve merge conflicts using the command line and a text editor.",
+    "language": "en",
+    "word_count": 874,
+    "content_hash": "sha256:e90cf559438b5f2dee30ebc9ba1a98c1ee959bd75fc9c21054725d8210f5e30c",
+    "reading_time": 5,
+    "author": null,
+    "published_date": "2026-01-01",
+    "og_title": null,
+    "signal_score": 1.0,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Step-by-step guide for resolving merge conflicts locally via command line using Git, covering competing line changes and deleted file conflicts.",
+    "entities": {
+      "primary": "Git merge conflict resolution",
+      "aliases": [
+        "command line merge conflicts",
+        "local merge resolution",
+        "Git conflict markers"
+      ]
+    },
+    "core_question": "How do you resolve merge conflicts using Git on the command line?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "merge conflicts",
+      "Git command line",
+      "conflict markers",
+      "deleted files",
+      "git add",
+      "git commit"
+    ]
+  },
+  "structure": {
+    "section_count": 3,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Resolving a merge conflict using the command line",
+        "section_type": "title",
+        "header_path": [
+          "Resolving a merge conflict using the command line"
+        ],
+        "char_start": 0,
+        "char_end": 5017
+      },
+      {
+        "level": 2,
+        "title": "Competing line change merge conflicts",
+        "section_type": "content",
+        "header_path": [
+          "Resolving a merge conflict using the command line",
+          "Competing line change merge conflicts"
+        ],
+        "char_start": 470,
+        "char_end": 3008
+      },
+      {
+        "level": 2,
+        "title": "Removed file merge conflicts",
+        "section_type": "content",
+        "header_path": [
+          "Resolving a merge conflict using the command line",
+          "Removed file merge conflicts"
+        ],
+        "char_start": 3008,
+        "char_end": 5017
+      }
+    ]
+  },
+  "links": [
+    "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts",
+    "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github",
+    "https://docs.github.com#competing-line-change-merge-conflicts",
+    "https://code.visualstudio.com/",
+    "https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository",
+    "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request",
+    "https://docs.github.com#removed-file-merge-conflicts"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

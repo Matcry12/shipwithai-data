@@ -1,0 +1,184 @@
+{
+  "markdown": "# Explain a gap in employment\n\nGaps in your CV or employment history are times when you were not employed. Get advice on how to tell employers about these when you're applying for a job.\n\n## Applying for a job\n\nYou may have gaps in your work history that you're not sure how to explain on your CV or application form. You may not have been able to work due to personal circumstances, or because you chose not to work for a while.\n\nHaving a gap in your CV is not a problem, but you might be asked about it.\n\nThe important thing is to be open and honest, and that you're ready to explain what you were doing during any gaps.\n\n## Focus on skills you gained\n\nConcentrate on any transferable skills you gained during your gap in employment and what you have learned from the experience.\n\nIf you took a year out after college or university, concentrate on the experience you got from a gap year.\n\nFor example, you may have done some volunteering, or completed a short or online course. Even if you do not think it's relevant to the job, it shows you're willing to learn.\n\n## Disability or mental health\n\nYou may have been out of work as a result of a disability, health or mental health condition.\n\nYou might find it useful to know how to explain why you've been out of work. Only share what you feel comfortable talking about. You do not need to share everything.\n\nView our job support if you have a disability for more advice.\n\n## Breaks from work\n\nIf you took a career break, state why you took time off from work in your CV, application form or cover letter. The employer can ask for more information in the interview.\n\nFor example, you may have taken time out of work to raise a family.\n\n## Redundancy\n\nOutline the business decision to make your role redundant, rather than you as a person.\n\nExample\n\n'Made redundant between July 2023 and February 2024. The company merged the role of sales and accounts manager to reduce costs'.\n\n## Dismissal\n\nIt's better to talk about a dismissal at the interview, rather than at the application stage.\n\nIf the employer asks you about a dismissal, give a brief explanation of:\n\n- the circumstances at the time\n- what you have learned from the situation\n- how you have improved since\n\n## Conviction\n\nIf you have a gap in your work history because of a conviction, you need to check whether your conviction is spent.\n\nGet advice from organisations like Nacro on telling employers about a criminal record.\n\n## Speak to an adviser\n\nIf you need more advice for your circumstances when applying for a job, speak to an adviser.\n\n## Related content\n\nRedundancy and losing your job\n\nFilling in an application form\n\n## Speak to an adviser\n\nYou can call 0800 100 900 or use webchat to speak to an adviser.\n\nWe're open:\n\n**8am to 8pm**Monday to Friday**10am to 5pm**Saturdays and bank holidays\n\nWe're closed on Sundays, Christmas Day and New Year's Day.\n",
+  "metadata": {
+    "source_url": "https://nationalcareers.service.gov.uk/careers-advice/explain-gaps-in-work-history/",
+    "source_domain": "nationalcareers.service.gov.uk",
+    "topic": "career-gap",
+    "fetched_at": "2026-05-25T06:40:26.960748+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "Explain a gap in employment",
+    "description": null,
+    "language": "en",
+    "word_count": 519,
+    "content_hash": "sha256:cc51bb79cfaf47a51fe53a325d3a189521d478f30541b3b51c0ad6cdfed694e5",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2023-01-01",
+    "og_title": null,
+    "signal_score": 0.9325,
+    "text_to_link_ratio": 1.0,
+    "tldr": "UK employment guidance on explaining gaps in CV with advice on focusing on transferable skills, disability considerations, breaks, redundancy, dismissal, and criminal convictions.",
+    "entities": {
+      "primary": "Work history gap explanation",
+      "aliases": [
+        "CV gap disclosure",
+        "Employment break explanation",
+        "Career interruption narrative"
+      ]
+    },
+    "core_question": "How should employment gaps be explained on a CV or job application?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Skills gained",
+      "Disability accommodations",
+      "Redundancy",
+      "Career breaks",
+      "Dismissal disclosure",
+      "Honest communication"
+    ]
+  },
+  "structure": {
+    "section_count": 11,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "Explain a gap in employment",
+        "section_type": "title",
+        "header_path": [
+          "Explain a gap in employment"
+        ],
+        "char_start": 0,
+        "char_end": 2877
+      },
+      {
+        "level": 2,
+        "title": "Applying for a job",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Applying for a job"
+        ],
+        "char_start": 188,
+        "char_end": 624
+      },
+      {
+        "level": 2,
+        "title": "Focus on skills you gained",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Focus on skills you gained"
+        ],
+        "char_start": 624,
+        "char_end": 1066
+      },
+      {
+        "level": 2,
+        "title": "Disability or mental health",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Disability or mental health"
+        ],
+        "char_start": 1066,
+        "char_end": 1424
+      },
+      {
+        "level": 2,
+        "title": "Breaks from work",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Breaks from work"
+        ],
+        "char_start": 1424,
+        "char_end": 1687
+      },
+      {
+        "level": 2,
+        "title": "Redundancy",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Redundancy"
+        ],
+        "char_start": 1687,
+        "char_end": 1930
+      },
+      {
+        "level": 2,
+        "title": "Dismissal",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Dismissal"
+        ],
+        "char_start": 1930,
+        "char_end": 2219
+      },
+      {
+        "level": 2,
+        "title": "Conviction",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Conviction"
+        ],
+        "char_start": 2219,
+        "char_end": 2439
+      },
+      {
+        "level": 2,
+        "title": "Speak to an adviser",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Speak to an adviser"
+        ],
+        "char_start": 2439,
+        "char_end": 2557
+      },
+      {
+        "level": 2,
+        "title": "Related content",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Related content"
+        ],
+        "char_start": 2557,
+        "char_end": 2641
+      },
+      {
+        "level": 2,
+        "title": "Speak to an adviser",
+        "section_type": "content",
+        "header_path": [
+          "Explain a gap in employment",
+          "Speak to an adviser"
+        ],
+        "char_start": 2641,
+        "char_end": 2877
+      }
+    ]
+  },
+  "links": [
+    "https://nationalcareers.service.gov.uk/careers-advice/cv-sections",
+    "https://nationalcareers.service.gov.uk/careers-advice/application-forms",
+    "https://nationalcareers.service.gov.uk/careers-advice/advice-on-a-gap-year/",
+    "https://nationalcareers.service.gov.uk/careers-advice/career-and-job-support-for-people-with-a-disability/",
+    "https://nationalcareers.service.gov.uk/careers-advice/covering-letter",
+    "https://www.gov.uk/exoffenders-and-employment",
+    "https://www.nacro.org.uk/nacro-services/criminal-record-support/advice-for-individuals/understanding-whats-on-your-criminal-record/criminal-record-checks-and-disclosure/",
+    "https://nationalcareers.service.gov.uk/contact-us",
+    "https://nationalcareers.service.gov.uk/careers-advice/advice-for-if-you-lose-your-job",
+    "https://nationalcareers.service.gov.uk/webchat/chat",
+    "https://www.gov.uk/bank-holidays"
+  ],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}

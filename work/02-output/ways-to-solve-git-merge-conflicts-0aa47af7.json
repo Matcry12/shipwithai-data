@@ -1,0 +1,116 @@
+{
+  "markdown": "# 4 Ways to Solve Git Merge Conflicts\n\nMerge conflicts in Git occur when two commits are made to the same line of a file or when a file is modified in one branch and deleted in another. Resolving these conflicts is a crucial part of a developer's workflow. This guide presents several methods to address the conflicts that arise during a merge operation.\n\n## Manual Conflict Resolution\n\nManual conflict resolution involves examining the conflicting changes and manually choosing which changes to keep. This is the most common approach because it provides the highest level of control.\n\n- Run\n`git status`\n\nto identify the conflicted files. - Open each conflicted file and look for the\n`<<<<<< HEAD`\n\n, conflict dividers. - Decide which changes to keep, and remove the conflict markers.\n- Save the files and run\n`git add .`\n\nto mark the conflicts as resolved. - Commit the merged changes with\n`git commit`\n\n## Using Git Mergetool\n\nGit's built-in `mergetool`\n\ncommand launches a visual tool to help resolve conflicts. Popular mergetool options include KDiff3, Meld, Beyond Compare, and P4Merge.\n\n- Run\n`git mergetool`\n\nto open the visual tool. - For each conflict, use the tool's interface to choose the desired changes.\n- Save the resolution of conflicts and close the tool.\n- Run\n`git add .`\n\nfor the resolved files to mark conflicts as resolved. - Commit the resolved changes with\n`git commit`\n\n## Abort the Merge\n\nIf a merge attempt leads to numerous and complex conflicts, it might be best to abort the merge process, reconsider the strategy, rebase, or simplify the commits before merging.\n\nRun the following command to reset the branch to the state before the merge conflict:\n\n`git merge --abort`\n\n## Use Rebase Instead of Merge\n\nThe rebase operation rewinds commits on the current branch, applies the commits from the merged branch, and finally re-applies the original branch commits. This can solve conflicts by creating a cleaner commit history.\n\n- Run\n`git rebase`\n\nfrom the feature branch you wish to merge. - Resolve conflicts as they appear during the rebase process.\n- Use\n`git add .`\n\nto mark conflicts as resolved. - Complete the rebase process with\n`git rebase --continue`\n\n## Final Words\n\nEach solution to merge conflicts in Git has its pros and cons. Manual conflict resolution gives complete control but can be error-prone and slow for large conflicts. Mergetools simplify the process but require familiarity with the tool. Aborting a merge can be a good temporary measure, but the conflicts will eventually need to be addressed. Rebasing can provide a cleaner history but may not be suitable for branches with a shared history. Developers must understand the merits and drawbacks of each method to effectively manage merge conflicts in their workflows.\n",
+  "metadata": {
+    "source_url": "https://www.slingacademy.com/article/ways-to-solve-git-merge-conflicts/",
+    "source_domain": "slingacademy.com",
+    "topic": "git-first-job",
+    "fetched_at": "2026-05-25T06:47:09.185559+00:00",
+    "http_status": 200,
+    "extractor": "trafilatura-2.0",
+    "extractor_version": "pipeline-2.0.0",
+    "title": "4 Ways to Solve Git Merge Conflicts",
+    "description": "Merge conflicts in Git occur when two commits are made to the same line of a file or when a file is modified in one branch and deleted in another. Resolving these conflicts is a crucial part of a developer’s workflow. This guide...",
+    "language": "en",
+    "word_count": 458,
+    "content_hash": "sha256:d5aceaa4a0113b4988e73eae0d970e7d88bf2c708cd66e401287119e5519dde9",
+    "reading_time": 3,
+    "author": null,
+    "published_date": "2026-05-24",
+    "og_title": null,
+    "signal_score": 0.8817,
+    "text_to_link_ratio": 1.0,
+    "tldr": "Guide explaining four methods to resolve Git merge conflicts: manual resolution, using mergetool, aborting the merge, and rebasing instead of merging, with pros and cons for each approach.",
+    "entities": {
+      "primary": "Git merge conflicts",
+      "aliases": [
+        "Git conflict resolution",
+        "merge conflict handling",
+        "Git rebase"
+      ]
+    },
+    "core_question": "What are the different ways to resolve Git merge conflicts?",
+    "doc_type": "how-to-guide",
+    "key_topics": [
+      "Git",
+      "merge conflicts",
+      "version control",
+      "rebase",
+      "developer workflow"
+    ]
+  },
+  "structure": {
+    "section_count": 6,
+    "max_depth": 2,
+    "outline": [
+      {
+        "level": 1,
+        "title": "4 Ways to Solve Git Merge Conflicts",
+        "section_type": "title",
+        "header_path": [
+          "4 Ways to Solve Git Merge Conflicts"
+        ],
+        "char_start": 0,
+        "char_end": 2773
+      },
+      {
+        "level": 2,
+        "title": "Manual Conflict Resolution",
+        "section_type": "content",
+        "header_path": [
+          "4 Ways to Solve Git Merge Conflicts",
+          "Manual Conflict Resolution"
+        ],
+        "char_start": 356,
+        "char_end": 906
+      },
+      {
+        "level": 2,
+        "title": "Using Git Mergetool",
+        "section_type": "content",
+        "header_path": [
+          "4 Ways to Solve Git Merge Conflicts",
+          "Using Git Mergetool"
+        ],
+        "char_start": 906,
+        "char_end": 1396
+      },
+      {
+        "level": 2,
+        "title": "Abort the Merge",
+        "section_type": "content",
+        "header_path": [
+          "4 Ways to Solve Git Merge Conflicts",
+          "Abort the Merge"
+        ],
+        "char_start": 1396,
+        "char_end": 1703
+      },
+      {
+        "level": 2,
+        "title": "Use Rebase Instead of Merge",
+        "section_type": "content",
+        "header_path": [
+          "4 Ways to Solve Git Merge Conflicts",
+          "Use Rebase Instead of Merge"
+        ],
+        "char_start": 1703,
+        "char_end": 2190
+      },
+      {
+        "level": 2,
+        "title": "Final Words",
+        "section_type": "summary",
+        "header_path": [
+          "4 Ways to Solve Git Merge Conflicts",
+          "Final Words"
+        ],
+        "char_start": 2190,
+        "char_end": 2773
+      }
+    ]
+  },
+  "links": [],
+  "status": "kept",
+  "drop_reason": null,
+  "enrichment_status": "enriched"
+}
