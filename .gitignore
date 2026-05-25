@@ -1,26 +1,18 @@
-# ── regenerable pipeline intermediates (rebuild from seed_urls.jsonl) ──
-work/01-extracted/
-work/02-normalized/
-work/03-hierarchy/
-work/04-structured/
-work/05-enriched/
-work/enrich_inbox/
-work/enrich_out/
-work/enrich_batches/
+# main holds ONLY the task-1.14 deliverable structure (with V2 data):
+#   raw/  cleaned/  index.md  keyword-frequency-analysis.md  micro-course-priority-list.md
+# The V2 pipeline code, specs, and intermediates live on the `pipeline-v2` branch.
 
-# big regenerable previews
-work/STAGE*_PREVIEW.md
+/scripts/
+/work/
+/archive/
+/tests/
+/seed_urls.jsonl
+/PIPELINE_V2.md
+/OUTPUT_CONTRACT.md
+/Task-pipeline-v2.md
+/Research_gemini.md
 
-# logs
-work/*.log
-*.log
-
-# ── archived v1 raw data (large; history only) ──
-archive/v1-data/
-
-# python / tooling
 __pycache__/
-**/__pycache__/
 *.pyc
 .omc/
 .DS_Store
