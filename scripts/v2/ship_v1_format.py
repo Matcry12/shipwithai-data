@@ -126,7 +126,7 @@ def run() -> None:
                 "| File | Title | Career Level | Signal | Words | Source |",
                 "|------|-------|--------------|--------|-------|--------|"]
         for fname, title, levels, sig, wc, src in rows:
-            ttl = title.replace("|", "\\|")[:70]
+            ttl = title[:70].replace("|", "\\|")   # truncate first, then escape (no dangling backslash)
             out.append(f"| `{fname}` | {ttl} | {', '.join(levels)} | {sig:.2f} | {wc} | {src} |")
         out += ["", "---", ""]
     INDEX.write_text("\n".join(out), encoding="utf-8")

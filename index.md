@@ -31,7 +31,7 @@
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
 | `10-tips-to-optimize-your-resume-for-ats-and-ai-screening__wellfound.com.md` | 10 Tips to Optimize Your Resume for ATS and AI Screening | mid | 1.00 | 953 | wellfound.com |
-| `30-executive-resume-templates-for-ceos-cfos-coos-vps-directors-word-pd__visualcv.com.md` | 30+ Executive Resume Templates for CEOs, CFOs, COOs, VPs, Directors \| | executive | 0.75 | 1431 | visualcv.com |
+| `30-executive-resume-templates-for-ceos-cfos-coos-vps-directors-word-pd__visualcv.com.md` | 30+ Executive Resume Templates for CEOs, CFOs, COOs, VPs, Directors \|  | executive | 0.75 | 1431 | visualcv.com |
 | `7-powerful-executive-resume-summary-examples-for-2026__cvanywhere.com.md` | 7 Powerful Executive Resume Summary Examples for 2026 | executive | 0.90 | 4755 | cvanywhere.com |
 | `ats-friendly-software-engineer-resume-format__scribd.com.md` | ATS Friendly Software Engineer Resume Format | mid | 0.81 | 1125 | scribd.com |
 | `ats-keywords-by-industry-what-applicant-tracking-systems-actually-scan__autotailor.app.md` | ATS Keywords by Industry: What Applicant Tracking Systems Actually Sca | mid | 0.71 | 1915 | autotailor.app |
@@ -128,7 +128,7 @@
 | `making-the-switch-a-practical-guide-to-transitioning-into-a-tech-caree__hiire.me.md` | Making the Switch: A Practical Guide to Transitioning into a Tech Care | mid | 1.00 | 1836 | hiire.me |
 | `resume-writing-for-career-changes-a-seamless-transition__canadacareercounselling.com.md` | Resume Writing for Career Changes: A Seamless Transition | mid | 1.00 | 862 | canadacareercounselling.com |
 | `self-taught-developer-resume-how-to-prove-skills-without-a-cs-degree__quickcv.io.md` | Self-Taught Developer Resume: How to Prove Skills Without a CS Degree | mid | 1.00 | 1428 | quickcv.io |
-| `software-engineer-cv-for-career-change-in-united-kingdom-free-ats-temp__shipresume.com.md` | Software Engineer CV for Career Change in United Kingdom \| Free ATS T | mid | 0.70 | 429 | shipresume.com |
+| `software-engineer-cv-for-career-change-in-united-kingdom-free-ats-temp__shipresume.com.md` | Software Engineer CV for Career Change in United Kingdom \| Free ATS Te | mid | 0.70 | 429 | shipresume.com |
 | `software-engineer-resume-example-expert-tips-2026__cvmaker.com.md` | Software Engineer Resume Example & Expert Tips 2026 | mid | 1.00 | 3051 | cvmaker.com |
 | `software-engineer-resume-examples__quickcv.io.md` | Software Engineer Resume Examples | mid | 0.98 | 885 | quickcv.io |
 | `software-engineering-resume-examples-writing-guide-2026__kickresume.com.md` | Software Engineering Resume Examples & Writing Guide 2026 | mid | 1.00 | 6231 | kickresume.com |
@@ -140,7 +140,7 @@
 | `transferable-skills-for-tech-careers__scale.jobs.md` | Transferable Skills for Tech Careers | mid | 0.94 | 6472 | scale.jobs |
 | `transferable-skills-how-to-change-careers-in-2026-without-starting-ove__skillcrush.com.md` | Transferable Skills: How To Change Careers in 2026 Without Starting Ov | mid | 1.00 | 1535 | skillcrush.com |
 | `ultimate-guide-to-transferable-skills-for-resumes__upskillist.com.md` | Ultimate Guide to Transferable Skills for Resumes | mid | 0.95 | 3908 | upskillist.com |
-| `your-guide-to-transferrable-skills-for-a-career-change-career-developm__icslearn.co.uk.md` | Your Guide to Transferrable Skills for a Career Change \| Career Devel | mid | 1.00 | 1414 | icslearn.co.uk |
+| `your-guide-to-transferrable-skills-for-a-career-change-career-developm__icslearn.co.uk.md` | Your Guide to Transferrable Skills for a Career Change \| Career Develo | mid | 1.00 | 1414 | icslearn.co.uk |
 
 ---
 
@@ -471,14 +471,14 @@
 | `resume-software-engineering__gist.github.com.md` | Resume - Software Engineering | mid | 0.63 | 444 | gist.github.com |
 | `resume-driven-contributions__dev.to.md` | Resume Driven Contributions | mid | 1.00 | 1025 | dev.to |
 | `tips-to-use-github-as-your-portfolio__dev.to.md` | Tips to use GitHub as your Portfolio | mid | 1.00 | 731 | dev.to |
-| `transform-your-github-profile-into-a-resume-sumit-sahani-posted-on-the__linkedin.com.md` | Transform Your GitHub Profile into a Resume \| Sumit Sahani posted on  | mid | 0.67 | 454 | linkedin.com |
+| `transform-your-github-profile-into-a-resume-sumit-sahani-posted-on-the__linkedin.com.md` | Transform Your GitHub Profile into a Resume \| Sumit Sahani posted on t | mid | 0.67 | 454 | linkedin.com |
 | `using-github-as-a-portfolio-when-applying-for-jobs-community-discussio__github.com.md` | Using GitHub as a Portfolio When Applying for Jobs · community · Discu | mid | 0.81 | 463 | github.com |
 | `using-your-github-profile-to-enhance-your-resume__docs.github.com.md` | Using your GitHub profile to enhance your resume | mid | 1.00 | 959 | docs.github.com |
 | `why-open-source-contributions-matter-in-hiring__recruiter.daily.dev.md` | Why Open Source Contributions Matter In Hiring | mid | 0.94 | 3205 | recruiter.daily.dev |
 | `why-you-should-include-open-source-contributions-on-your-resume__algocademy.com.md` | Why You Should Include Open Source Contributions on Your Resume | mid | 1.00 | 1986 | algocademy.com |
 | `why-your-github-profile-matters-more-than-your-cv-blog__dsbilling.no.md` | Why Your GitHub Profile Matters More Than Your CV - Blog | mid | 1.00 | 658 | dsbilling.no |
 | `your-github-profile-as-a-portfolio-a-guide-for-aspiring-coders-tech-st__cirkledin.com.md` | Your GitHub Profile as a Portfolio: A Guide for Aspiring Coders & Tech | mid | 1.00 | 769 | cirkledin.com |
-| `project-ideas-and-tips-for-a-beginner-in-the-world-of-programming-comm__github.com.md` | 💻 \| Project ideas and tips for a beginner in the world of programming | entry | 0.86 | 1148 | github.com |
+| `project-ideas-and-tips-for-a-beginner-in-the-world-of-programming-comm__github.com.md` | 💻 \| Project ideas and tips for a beginner in the world of programming  | entry | 0.86 | 1148 | github.com |
 
 ---
 
@@ -539,7 +539,7 @@
 | `best-senior-software-engineer-resume-examples-and-templates-for-2026__resume.org.md` | Best Senior Software Engineer Resume Examples and Templates for 2026 | senior | 0.70 | 2043 | resume.org |
 | `coached-by-resume-worded-your-no-bs-weekly-career-coach__resumeworded.com.md` | Coached by Resume Worded - your no-BS, weekly career coach | mid | 0.71 | 250 | resumeworded.com |
 | `collaboration-on-resume-how-to-list-cross-functional-collaboration__visualcv.com.md` | Collaboration On Resume: How To List Cross-functional Collaboration... | mid | 1.00 | 1888 | visualcv.com |
-| `crafting-your-remote-resume-tips-to-stand-out-in-online-applications__oxfordhomestudy.com.md` | Crafting Your Remote Resume \| Tips to Stand Out in Online Application | mid | 1.00 | 3289 | oxfordhomestudy.com |
+| `crafting-your-remote-resume-tips-to-stand-out-in-online-applications__oxfordhomestudy.com.md` | Crafting Your Remote Resume \| Tips to Stand Out in Online Applications | mid | 1.00 | 3289 | oxfordhomestudy.com |
 | `cv-for-remote-jobs-how-to-write-with-examples__employmenthero.com.md` | CV for Remote Jobs: How to Write (With Examples) | mid | 1.00 | 1152 | employmenthero.com |
 | `engineering-manager-resume-examples-meta-amazon-x-etc__igotanoffer.com.md` | Engineering Manager Resume Examples (Meta, Amazon, X, etc.) | mid | 1.00 | 4943 | igotanoffer.com |
 | `engineering-manager-resume-examples-template-2026__em-tools.io.md` | Engineering Manager Resume: Examples & Template (2026) | mid | 0.99 | 3837 | em-tools.io |
@@ -674,7 +674,7 @@
 | `50-engineering-resume-examples-for-2026__resumeworded.com.md` | 50+ Engineering Resume Examples for 2026 | senior | 1.00 | 5812 | resumeworded.com |
 | `6-senior-software-engineer-resume-examples-samples__valegas.sedes.ma.gov.br.md` | 6+ Senior Software Engineer Resume Examples & Samples | senior | 0.99 | 3505 | valegas.sedes.ma.gov.br |
 | `bytebytego-11-steps-to-go-from-junior-to-senior-developer__bytebytego.com.md` | ByteByteGo \| 11 Steps to Go From Junior to Senior Developer | entry, senior | 0.54 | 210 | bytebytego.com |
-| `canadian-resume-format-how-to-guide-for-2026-templates-examples-and-ex__enhancv.com.md` | Canadian Resume Format & How-to Guide for 2026 \| Templates, Examples, | senior | 1.00 | 4487 | enhancv.com |
+| `canadian-resume-format-how-to-guide-for-2026-templates-examples-and-ex__enhancv.com.md` | Canadian Resume Format & How-to Guide for 2026 \| Templates, Examples,  | senior | 1.00 | 4487 | enhancv.com |
 | `don-t-be-a-junior-developer-the-roadmap-from-junior-to-senior__zerotomastery.io.md` | Don’t be a Junior Developer: The Roadmap From Junior to Senior | entry, senior | 1.00 | 2793 | zerotomastery.io |
 | `engineering-manager-resume-examples-and-tips-2026__wiz.io.md` | Engineering Manager Resume: Examples and Tips 2026 | senior | 0.96 | 1661 | wiz.io |
 | `forget-job-duties-add-accomplishments-to-your-resume-to-land-the-job__themuse.com.md` | Forget Job Duties—Add Accomplishments to Your Resume to Land the Job | senior | 1.00 | 2170 | themuse.com |
