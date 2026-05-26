@@ -1,7 +1,7 @@
 # Top Micro-course Priorities
 
-**Generated:** 2026-05-25  
-**Source:** V2 corpus (602 structured+enriched articles)
+**Generated:** 2026-05-26  
+**Source:** V2 corpus (589 structured+enriched articles)
 
 Ranked by data coverage (article count) and average signal quality.
 
@@ -9,56 +9,56 @@ Ranked by data coverage (article count) and average signal quality.
 
 ## #1 — senior-level-resume
 
-- **Search demand signal:** high (71 articles crawled)
-- **Data coverage:** 71 cleaned articles in `cleaned/senior-level-resume/` (207,353 words total)
-- **Avg signal score:** 0.91
+- **Search demand signal:** high (70 articles crawled)
+- **Data coverage:** 70 cleaned articles in `cleaned/senior-level-resume/` (206,007 words total)
+- **Avg signal score:** 0.92
 - **Target audience:** senior engineers advancing their careers
 - **Top keywords:** technical skills, career progression, leadership, mentorship, resume writing
-- **Why prioritize:** strong coverage (71 articles) at 0.91 avg signal makes this a well-supported micro-course candidate.
+- **Why prioritize:** strong coverage (70 articles) at 0.92 avg signal makes this a well-supported micro-course candidate.
 
 ---
 
-## #2 — github-portfolio
+## #2 — remote-work-resume
 
-- **Search demand signal:** high (69 articles crawled)
-- **Data coverage:** 69 cleaned articles in `cleaned/github-portfolio/` (74,692 words total)
-- **Avg signal score:** 0.85
-- **Target audience:** junior devs building a portfolio for job hunting
-- **Top keywords:** open source, portfolio, github profile, github portfolio, project documentation
-- **Why prioritize:** strong coverage (69 articles) at 0.85 avg signal makes this a well-supported micro-course candidate.
-
----
-
-## #3 — remote-work-resume
-
-- **Search demand signal:** high (64 articles crawled)
-- **Data coverage:** 64 cleaned articles in `cleaned/remote-work-resume/` (115,987 words total)
-- **Avg signal score:** 0.92
+- **Search demand signal:** high (62 articles crawled)
+- **Data coverage:** 62 cleaned articles in `cleaned/remote-work-resume/` (115,453 words total)
+- **Avg signal score:** 0.93
 - **Target audience:** candidates targeting remote roles
 - **Top keywords:** remote work, remote tools, distributed teams, ats optimization, soft skills
-- **Why prioritize:** strong coverage (64 articles) at 0.92 avg signal makes this a well-supported micro-course candidate.
+- **Why prioritize:** strong coverage (62 articles) at 0.93 avg signal makes this a well-supported micro-course candidate.
+
+---
+
+## #3 — github-portfolio
+
+- **Search demand signal:** high (62 articles crawled)
+- **Data coverage:** 62 cleaned articles in `cleaned/github-portfolio/` (72,198 words total)
+- **Avg signal score:** 0.86
+- **Target audience:** junior devs building a portfolio for job hunting
+- **Top keywords:** open source, portfolio, github profile, github portfolio, project documentation
+- **Why prioritize:** strong coverage (62 articles) at 0.86 avg signal makes this a well-supported micro-course candidate.
 
 ---
 
 ## #4 — git-first-job
 
-- **Search demand signal:** high (55 articles crawled)
-- **Data coverage:** 55 cleaned articles in `cleaned/git-first-job/` (97,118 words total)
+- **Search demand signal:** high (54 articles crawled)
+- **Data coverage:** 54 cleaned articles in `cleaned/git-first-job/` (96,862 words total)
 - **Avg signal score:** 0.93
 - **Target audience:** student devs preparing for their first job
 - **Top keywords:** version control, merge conflicts, pull requests, branching, feature branches
-- **Why prioritize:** strong coverage (55 articles) at 0.93 avg signal makes this a well-supported micro-course candidate.
+- **Why prioritize:** strong coverage (54 articles) at 0.93 avg signal makes this a well-supported micro-course candidate.
 
 ---
 
 ## #5 — ats-optimization
 
-- **Search demand signal:** high (55 articles crawled)
-- **Data coverage:** 55 cleaned articles in `cleaned/ats-optimization/` (97,783 words total)
-- **Avg signal score:** 0.84
+- **Search demand signal:** high (54 articles crawled)
+- **Data coverage:** 54 cleaned articles in `cleaned/ats-optimization/` (97,482 words total)
+- **Avg signal score:** 0.85
 - **Target audience:** job seekers optimizing resumes for ATS
 - **Top keywords:** ats optimization, ats keywords, technical skills, resume optimization, keywords
-- **Why prioritize:** strong coverage (55 articles) at 0.84 avg signal makes this a well-supported micro-course candidate.
+- **Why prioritize:** strong coverage (54 articles) at 0.85 avg signal makes this a well-supported micro-course candidate.
 
 ---
 
@@ -75,12 +75,12 @@ Ranked by data coverage (article count) and average signal quality.
 
 ## #7 — career-gap
 
-- **Search demand signal:** medium (50 articles crawled)
-- **Data coverage:** 50 cleaned articles in `cleaned/career-gap/` (74,101 words total)
-- **Avg signal score:** 0.96
+- **Search demand signal:** medium (49 articles crawled)
+- **Data coverage:** 49 cleaned articles in `cleaned/career-gap/` (73,864 words total)
+- **Avg signal score:** 0.97
 - **Target audience:** people returning to work after a break
 - **Top keywords:** career break, career breaks, employment gaps, employment gap, transferable skills
-- **Why prioritize:** strong coverage (50 articles) at 0.96 avg signal makes this a well-supported micro-course candidate.
+- **Why prioritize:** strong coverage (49 articles) at 0.97 avg signal makes this a well-supported micro-course candidate.
 
 ---
 

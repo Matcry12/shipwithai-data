@@ -1,7 +1,7 @@
 # Keyword & Topic Frequency Analysis
 
-**Generated:** 2026-05-25  
-**Source:** V2 enrichment (key_topics + entities) over 602 kept articles
+**Generated:** 2026-05-26  
+**Source:** V2 enrichment (key_topics + entities) over 589 kept articles
 
 Top topic tags and primary entities per topic, aggregated from the LLM
 enrichment layer (not raw text frequency).
@@ -10,7 +10,7 @@ enrichment layer (not raw text frequency).
 
 ## ats-optimization
 
-_55 articles · doc types: how-to-guide 33, reference 18, listicle 2, news 1, opinion 1_
+_54 articles · doc types: how-to-guide 33, reference 17, listicle 2, news 1, opinion 1_
 
 **Top key_topics:**
 
@@ -108,7 +108,7 @@ _47 articles · doc types: how-to-guide 35, reference 7, case-study 5_
 
 ## career-gap
 
-_50 articles · doc types: how-to-guide 36, reference 9, opinion 3, case-study 2_
+_49 articles · doc types: how-to-guide 36, reference 8, opinion 3, case-study 2_
 
 **Top key_topics:**
 
@@ -148,10 +148,10 @@ _50 articles · doc types: how-to-guide 36, reference 9, opinion 3, case-study 2
 - mid-level developer job search (1)
 - post-graduation employment gap (1)
 - resume updates after maternity leave (1)
-- forem billboards (1)
 - software engineer resume mistakes (1)
 - career break cv template (1)
 - career break on resume (1)
+- career break resume samples (1)
 
 ---
 
@@ -304,7 +304,7 @@ _49 articles · doc types: how-to-guide 24, reference 23, listicle 1, opinion 1_
 
 ## git-first-job
 
-_55 articles · doc types: how-to-guide 42, reference 12, other 1_
+_54 articles · doc types: how-to-guide 42, reference 12_
 
 **Top key_topics:**
 
@@ -353,18 +353,17 @@ _55 articles · doc types: how-to-guide 42, reference 12, other 1_
 
 ## github-portfolio
 
-_69 articles · doc types: how-to-guide 30, reference 29, opinion 5, listicle 3, news 1, case-study 1_
+_62 articles · doc types: how-to-guide 30, reference 23, opinion 5, listicle 2, news 1, case-study 1_
 
 **Top key_topics:**
 
 | Keyword | Count |
 |---|---|
-| open source | 14 |
-| portfolio | 10 |
+| open source | 12 |
+| portfolio | 9 |
 | github profile | 8 |
 | github portfolio | 7 |
 | project documentation | 7 |
-| portfolio projects | 6 |
 | github | 6 |
 | code quality | 6 |
 | project showcase | 5 |
@@ -372,22 +371,23 @@ _69 articles · doc types: how-to-guide 30, reference 29, opinion 5, listicle 3,
 | react | 4 |
 | ats optimization | 4 |
 | readme documentation | 3 |
+| portfolio projects | 3 |
 | cover letters | 3 |
 | readme files | 3 |
 | pinned repositories | 3 |
 | profile readme | 3 |
-| github readme | 3 |
-| profile customization | 3 |
-| markdown | 3 |
-| developer branding | 3 |
-| open source contribution | 3 |
 | portfolio strategy | 3 |
 | microservices | 3 |
 | kubernetes | 3 |
+| hiring | 3 |
+| resume building | 3 |
+| career development | 2 |
+| portfolio building | 2 |
+| developer portfolio | 2 |
 
 **Top primary entities:**
 
-- github profile readme (4)
+- github profile readme (2)
 - github profile optimization (2)
 - github profile for job search (2)
 - github profile (2)
@@ -451,7 +451,7 @@ _29 articles · doc types: how-to-guide 22, reference 5, listicle 2_
 
 ## remote-work-resume
 
-_64 articles · doc types: how-to-guide 48, reference 12, other 3, listicle 1_
+_62 articles · doc types: how-to-guide 48, reference 12, other 1, listicle 1_
 
 **Top key_topics:**
 
@@ -470,18 +470,18 @@ _64 articles · doc types: how-to-guide 48, reference 12, other 3, listicle 1_
 | resume template | 4 |
 | work-from-home | 4 |
 | resume writing | 4 |
-| leadership | 3 |
 | quantified results | 3 |
 | remote resume | 3 |
 | communication skills | 3 |
 | teamwork skills | 3 |
 | collaboration | 3 |
-| networking | 2 |
 | resume optimization | 2 |
 | resume format | 2 |
 | documentation | 2 |
 | resume formatting | 2 |
-| career strategy | 2 |
+| digital tools | 2 |
+| time management | 2 |
+| formatting | 2 |
 
 **Top primary entities:**
 
@@ -489,12 +489,12 @@ _64 articles · doc types: how-to-guide 48, reference 12, other 3, listicle 1_
 - remote job resume (2)
 - teamwork skills on resume (2)
 - beginner web developer resume (1)
-- cookie consent page (1)
 - senior backend engineer job (1)
 - remote-ready resume optimization (1)
 - mid-level developer resume (1)
 - android developer resume guide (1)
 - asynchronous video interviews (1)
+- asynchronous work (1)
 
 ---
 
@@ -549,7 +549,7 @@ _52 articles · doc types: how-to-guide 34, reference 9, opinion 7, news 2_
 
 ## senior-level-resume
 
-_71 articles · doc types: how-to-guide 38, reference 25, opinion 3, other 2, case-study 2, listicle 1_
+_70 articles · doc types: how-to-guide 38, reference 25, opinion 3, case-study 2, listicle 1, other 1_
 
 **Top key_topics:**
 

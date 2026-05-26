@@ -1,32 +1,32 @@
 # Cleaned Files Index
 
-**Total files:** 602  
+**Total files:** 589  
 **Topics:** 12  
-**Generated:** 2026-05-25  
+**Generated:** 2026-05-26  
 **Source:** V2 pipeline (structured + enriched)
 
 ---
 
 ## Table of Contents
 
-- [ats-optimization](#ats-optimization) (55 files)
+- [ats-optimization](#ats-optimization) (54 files)
 - [career-change](#career-change) (47 files)
-- [career-gap](#career-gap) (50 files)
+- [career-gap](#career-gap) (49 files)
 - [claude-code-workflow](#claude-code-workflow) (40 files)
 - [cover-letter](#cover-letter) (21 files)
 - [executive-resume](#executive-resume) (49 files)
-- [git-first-job](#git-first-job) (55 files)
-- [github-portfolio](#github-portfolio) (69 files)
+- [git-first-job](#git-first-job) (54 files)
+- [github-portfolio](#github-portfolio) (62 files)
 - [linkedin-profile](#linkedin-profile) (29 files)
-- [remote-work-resume](#remote-work-resume) (64 files)
+- [remote-work-resume](#remote-work-resume) (62 files)
 - [salary-negotiation](#salary-negotiation) (52 files)
-- [senior-level-resume](#senior-level-resume) (71 files)
+- [senior-level-resume](#senior-level-resume) (70 files)
 
 ---
 
 ## ats-optimization
 
-**55 files** — `cleaned/ats-optimization/`
+**54 files** — `cleaned/ats-optimization/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -57,7 +57,6 @@
 | `crafting-the-perfect-software-engineer-resume-from-junior-to-principal__instict.ai.md` | Crafting the Perfect Software Engineer Resume: From Junior to Principa | entry, senior | 1.00 | 1297 | instict.ai |
 | `cto-resume-template-examples-2026-ats-optimized__mentorcruise.com.md` | CTO Resume Template & Examples [2026] - ATS-Optimized | executive | 1.00 | 911 | mentorcruise.com |
 | `designing-a-resume-that-showcases-depth-leadership__resumly.ai.md` | Designing a Resume That Showcases Depth & Leadership | mid | 0.55 | 1373 | resumly.ai |
-| `engineering__rezi.ai.md` | Engineering | mid | 0.53 | 301 | rezi.ai |
 | `executive-resume-builder__stylingcv.com.md` | Executive Resume Builder | executive | 0.89 | 876 | stylingcv.com |
 | `executive-resume-writer-ai-powered-c-suite-vp-resume-builder-2026-cv-b__cv-by-jd.com.md` | Executive Resume Writer — AI-Powered C-Suite & VP Resume Builder (2026 | executive | 0.62 | 399 | cv-by-jd.com |
 | `how-to-find-and-use-resume-keywords-from-tech-job-descriptions-to-beat__dev.to.md` | How to Find and Use Resume Keywords from Tech Job Descriptions to Beat | mid | 0.95 | 551 | dev.to |
@@ -146,7 +145,7 @@
 
 ## career-gap
 
-**50 files** — `cleaned/career-gap/`
+**49 files** — `cleaned/career-gap/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -154,7 +153,6 @@
 | `7-month-gap-between-graduation-and-first-job-considered-a-career-gap__gmatclub.com.md` | 7-month gap between graduation and first job considered a career gap? | entry | 0.77 | 320 | gmatclub.com |
 | `addressing-maternity-leave-and-other-time-gaps-in-a-resume__bklynresumestudio.com.md` | Addressing Maternity Leave and Other Time Gaps in a Resume | mid | 1.00 | 752 | bklynresumestudio.com |
 | `betopten-expert-engineering-mentorship-platform__betopten.com.md` | BeTopTen \| Expert Engineering Mentorship Platform | mid | 1.00 | 1351 | betopten.com |
-| `billboards-faq__dev.to.md` | Billboards FAQ | mid | 0.70 | 237 | dev.to |
 | `career-break-cv-template__reed.co.uk.md` | Career break CV template | mid | 1.00 | 1440 | reed.co.uk |
 | `career-break-resume-samples-for-explaining-employment-gaps__hk.indeed.com.md` | Career Break Resume Samples for Explaining Employment Gaps | mid | 1.00 | 1644 | hk.indeed.com |
 | `career-corner-pro-tips-how-to-describe-a-career-break-on-a-resume__blogs.darden.virginia.edu.md` | Career Corner – Pro Tips: How to Describe a Career Break on a Resume | mid | 0.88 | 458 | blogs.darden.virginia.edu |
@@ -342,14 +340,13 @@
 
 ## git-first-job
 
-**55 files** — `cleaned/git-first-job/`
+**54 files** — `cleaned/git-first-job/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
 | `10-common-git-problems-and-how-to-fix-them__citizen428.net.md` | 10 Common Git Problems and How to Fix Them | entry | 1.00 | 1756 | citizen428.net |
 | `15-common-git-mistakes-and-how-to-fix-them__edureka.co.md` | 15+ Common Git mistakes and how to fix them? | entry | 0.99 | 2229 | edureka.co |
 | `4-ways-to-solve-git-merge-conflicts__slingacademy.com.md` | 4 Ways to Solve Git Merge Conflicts | entry | 0.88 | 458 | slingacademy.com |
-| `404__atlassian.com.md` | 404 | entry | 0.71 | 256 | atlassian.com |
 | `a-successful-git-branching-model__nvie.com.md` | A successful Git branching model | entry | 1.00 | 2745 | nvie.com |
 | `a-useful-prompt-for-commit-messages-generation__cuong.io.md` | A Useful Prompt for Commit Messages Generation | entry | 0.38 | 497 | cuong.io |
 | `advanced-git-commands-workflows-for-senior-developers__rkyash.com.md` | Advanced Git Commands & Workflows for Senior Developers | entry, senior | 0.65 | 1124 | rkyash.com |
@@ -406,7 +403,7 @@
 
 ## github-portfolio
 
-**69 files** — `cleaned/github-portfolio/`
+**62 files** — `cleaned/github-portfolio/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -416,16 +413,9 @@
 | `ai-cover-letter-generator-get-a-perfect-cover-letter-that-stands-out-i__resumeworded.com.md` | AI Cover Letter Generator - Get a perfect cover letter that stands out | mid | 0.72 | 268 | resumeworded.com |
 | `announcing-the-first-dev-education-track-build-apps-with-google-ai-stu__dev.to.md` | Announcing the First DEV Education Track: "Build Apps with Google AI S | mid | 0.86 | 434 | dev.to |
 | `best-practices-for-hiring-skilled-software-developers-for-github-based__github.com.md` | Best Practices for Hiring Skilled Software Developers for GitHub-Based | mid | 0.72 | 320 | github.com |
-| `build-software-better-together__github.com.md` | Build software better, together | mid | 0.79 | 440 | github.com |
-| `build-software-better-together__github.com-81d30b.md` | Build software better, together | mid | 0.69 | 355 | github.com |
-| `build-software-better-together__github.com-db3143.md` | Build software better, together | mid | 0.83 | 444 | github.com |
-| `build-software-better-together__github.com-2fc56a.md` | Build software better, together | mid | 0.78 | 338 | github.com |
-| `build-software-better-together__github.com-ca3fcd.md` | Build software better, together | mid | 0.64 | 261 | github.com |
-| `build-software-better-together__github.com-e5555b.md` | Build software better, together | mid | 0.71 | 251 | github.com |
 | `career-pro-guider-resume-writing-career-coaching-services__careerproguider.com.md` | Career Pro Guider \| Resume Writing & Career Coaching Services | mid | 0.94 | 896 | careerproguider.com |
 | `creating-my-github-profile-readme-md__dev.to.md` | Creating my GitHub profile Readme.md | mid | 1.00 | 634 | dev.to |
 | `dependabot-quickstart-guide__docs.github.com.md` | Dependabot quickstart guide | mid | 1.00 | 1192 | docs.github.com |
-| `entry-level-software-developer__gist.github.com.md` | Entry-level Software developer | entry | 0.33 | 405 | gist.github.com |
 | `essential-tips-for-showcasing-your-github-on-resumes__cvwizard.com.md` | Essential Tips for Showcasing Your GitHub on Resumes | mid | 1.00 | 1456 | cvwizard.com |
 | `evolution-of-resumes__luyangkenneth.github.io.md` | Evolution of Resumes | mid | 1.00 | 1239 | luyangkenneth.github.io |
 | `github-abhisheknaiidu-awesome-github-profile-readme-a-curated-list-of-__github.com.md` | GitHub - abhisheknaiidu/awesome-github-profile-readme: 😎 A curated lis | mid | 0.79 | 1507 | github.com |
@@ -522,7 +512,7 @@
 
 ## remote-work-resume
 
-**64 files** — `cleaned/remote-work-resume/`
+**62 files** — `cleaned/remote-work-resume/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -537,7 +527,6 @@
 | `asynchronous-remote-jobs-the-guide-to-hiring-managing-ai-teams__thirstysprout.com.md` | Asynchronous Remote Jobs: The Guide to Hiring & Managing AI Teams | mid | 0.99 | 1395 | thirstysprout.com |
 | `best-full-stack-developer-resume-examples-and-templates-for-2026__resume.org.md` | Best Full Stack Developer Resume Examples and Templates for 2026 | mid | 0.44 | 3017 | resume.org |
 | `best-senior-software-engineer-resume-examples-and-templates-for-2026__resume.org.md` | Best Senior Software Engineer Resume Examples and Templates for 2026 | senior | 0.70 | 2043 | resume.org |
-| `coached-by-resume-worded-your-no-bs-weekly-career-coach__resumeworded.com.md` | Coached by Resume Worded - your no-BS, weekly career coach | mid | 0.71 | 250 | resumeworded.com |
 | `collaboration-on-resume-how-to-list-cross-functional-collaboration__visualcv.com.md` | Collaboration On Resume: How To List Cross-functional Collaboration... | mid | 1.00 | 1888 | visualcv.com |
 | `crafting-your-remote-resume-tips-to-stand-out-in-online-applications__oxfordhomestudy.com.md` | Crafting Your Remote Resume \| Tips to Stand Out in Online Applications | mid | 1.00 | 3289 | oxfordhomestudy.com |
 | `cv-for-remote-jobs-how-to-write-with-examples__employmenthero.com.md` | CV for Remote Jobs: How to Write (With Examples) | mid | 1.00 | 1152 | employmenthero.com |
@@ -569,7 +558,6 @@
 | `middle-scala-developer-resume-samples-for-2026__jobswithscala.com.md` | Middle Scala Developer Resume Samples for 2026 | mid | 0.98 | 1639 | jobswithscala.com |
 | `no-experience-software-developer-resume-guide-with-tips__au.indeed.com.md` | No Experience Software Developer Resume Guide (With Tips) | entry | 1.00 | 1752 | au.indeed.com |
 | `oliwia-wolkowicz-career-expert-writer__zety.com.md` | Oliwia Wolkowicz - Career Expert & Writer | mid | 1.00 | 614 | zety.com |
-| `privacy-preference-center__crossover.com.md` | Privacy Preference Center | mid | 0.74 | 284 | crossover.com |
 | `remote-job-resume-keywords-how-to-get-noticed-in-2026__wowthiscv.com.md` | Remote Job Resume Keywords: How to Get Noticed in 2026 | mid | 1.00 | 1083 | wowthiscv.com |
 | `remote-work-resume-prove-async-impact-before-day-one__zapzap.ie.md` | Remote Work Resume: Prove Async Impact Before Day One | mid | 1.00 | 1940 | zapzap.ie |
 | `remote-work-resume-skills-sections-examples-to-land-a-work-from-home-j__tealhq.com.md` | Remote Work Resume: Skills, Sections & Examples To Land A Work From Ho | mid | 0.95 | 3230 | tealhq.com |
@@ -656,7 +644,7 @@
 
 ## senior-level-resume
 
-**71 files** — `cleaned/senior-level-resume/`
+**70 files** — `cleaned/senior-level-resume/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -726,7 +714,6 @@
 | `technical-lead-resume-sample__mintresume.com.md` | Technical Lead Resume Sample | senior | 0.89 | 3810 | mintresume.com |
 | `technical-lead-resume-template-free-download__mypivot.work.md` | Technical Lead Resume Template - Free Download | senior | 0.51 | 413 | mypivot.work |
 | `technology-delivery-lead-resume-sample__mintresume.com.md` | Technology Delivery Lead Resume Sample | senior | 0.95 | 4053 | mintresume.com |
-| `the-dev-team__dev.to.md` | The DEV Team | senior | 0.74 | 1346 | dev.to |
 | `top-tips-for-a-senior-developer-cv__beon.tech.md` | Top Tips for a Senior Developer CV | senior | 0.98 | 1783 | beon.tech |
 | `what-accomplishments-sound-like-on-software-engineering-resumes-jacob-__jacobian.org.md` | What accomplishments sound like on software engineering resumes - Jaco | senior | 1.00 | 1072 | jacobian.org |
 | `who-are-staff-principal-and-distinguished-engineers__leaddev.com.md` | Who are staff, principal, and distinguished engineers? | senior | 1.00 | 1543 | leaddev.com |
