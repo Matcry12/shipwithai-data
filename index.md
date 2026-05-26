@@ -1,6 +1,6 @@
 # Cleaned Files Index
 
-**Total files:** 589  
+**Total files:** 579  
 **Topics:** 12  
 **Generated:** 2026-05-26  
 **Source:** V2 pipeline (structured + enriched)
@@ -11,15 +11,15 @@
 
 - [ats-optimization](#ats-optimization) (54 files)
 - [career-change](#career-change) (47 files)
-- [career-gap](#career-gap) (49 files)
+- [career-gap](#career-gap) (48 files)
 - [claude-code-workflow](#claude-code-workflow) (40 files)
 - [cover-letter](#cover-letter) (21 files)
 - [executive-resume](#executive-resume) (49 files)
 - [git-first-job](#git-first-job) (54 files)
-- [github-portfolio](#github-portfolio) (62 files)
-- [linkedin-profile](#linkedin-profile) (29 files)
-- [remote-work-resume](#remote-work-resume) (62 files)
-- [salary-negotiation](#salary-negotiation) (52 files)
+- [github-portfolio](#github-portfolio) (61 files)
+- [linkedin-profile](#linkedin-profile) (28 files)
+- [remote-work-resume](#remote-work-resume) (61 files)
+- [salary-negotiation](#salary-negotiation) (46 files)
 - [senior-level-resume](#senior-level-resume) (70 files)
 
 ---
@@ -145,7 +145,7 @@
 
 ## career-gap
 
-**49 files** — `cleaned/career-gap/`
+**48 files** — `cleaned/career-gap/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -164,7 +164,6 @@
 | `cv-example-returning-to-work__myworldofwork.co.uk.md` | CV example: Returning to work | mid | 0.68 | 336 | myworldofwork.co.uk |
 | `dealing-with-gaps-in-graduate-cvs-and-applications__targetjobs.co.uk.md` | Dealing with gaps in graduate CVs and applications | entry | 1.00 | 1283 | targetjobs.co.uk |
 | `don-t-hide-your-career-gap-a-guide-for-your-cover-letter__coprep.ai.md` | Don't Hide Your Career Gap: A Guide for Your Cover Letter | mid | 1.00 | 1334 | coprep.ai |
-| `don-t-panic-if-an-employer-asks-about-a-gap-on-your-resume-career-expe__cnbc.com.md` | Don't panic if an employer asks about a gap on your resume, career exp | mid | 1.00 | 1437 | cnbc.com |
 | `employment-gap-on-a-resume-13-simple-ways-to-explain-it__novoresume.com.md` | Employment Gap on a Resume - 13 Simple Ways to Explain It | mid | 1.00 | 2517 | novoresume.com |
 | `explain-a-gap-in-employment__nationalcareers.service.gov.uk.md` | Explain a gap in employment | mid | 0.93 | 519 | nationalcareers.service.gov.uk |
 | `filling-the-gap-in-your-resume__gapyearassociation.org.md` | Filling the "Gap" in Your Resume | mid | 0.99 | 1205 | gapyearassociation.org |
@@ -403,7 +402,7 @@
 
 ## github-portfolio
 
-**62 files** — `cleaned/github-portfolio/`
+**61 files** — `cleaned/github-portfolio/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -440,7 +439,6 @@
 | `how-do-you-include-github-on-your-resume__resume.io.md` | How do you include GitHub on your resume? | mid | 1.00 | 2138 | resume.io |
 | `how-to-build-a-github-portfolio-that-gets-you-hired__priygop.com.md` | How to Build a GitHub Portfolio That Gets You Hired | mid | 0.79 | 1264 | priygop.com |
 | `how-to-build-the-best-github-profile-for-your-job-search__boot.dev.md` | How to Build the Best GitHub Profile for Your Job Search | mid | 1.00 | 1414 | boot.dev |
-| `how-to-build-the-best-github-profile-for-your-job-search__boot.dev-d52256.md` | How to Build the Best GitHub Profile for Your Job Search | mid | 1.00 | 1414 | boot.dev |
 | `how-to-create-a-project-portfolio-that-will-actually-land-you-a-job__dice.com.md` | How to Create a Project Portfolio that Will Actually Land You a Job | mid | 1.00 | 711 | dice.com |
 | `how-to-create-a-stunning-github-profile__dev.to.md` | How to create a stunning GitHub Profile | mid | 1.00 | 788 | dev.to |
 | `how-to-make-a-professional-github-profile-community-discussion-182675__github.com.md` | How to make a professional github profile ? · community · Discussion # | mid | 0.89 | 680 | github.com |
@@ -474,7 +472,7 @@
 
 ## linkedin-profile
 
-**29 files** — `cleaned/linkedin-profile/`
+**28 files** — `cleaned/linkedin-profile/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -483,7 +481,6 @@
 | `9-linkedin-profile-tips-for-new-developers__codementor.io.md` | 9 LinkedIn Profile Tips for New Developers | mid | 1.00 | 1392 | codementor.io |
 | `a-complete-writing-guide-to-linkedin-summaries-examples-and-writing-ti__cake.me.md` | A Complete Writing Guide to LinkedIn Summaries [+ Examples and Writing | mid | 1.00 | 2276 | cake.me |
 | `computer-vision-engineer-linkedin-headline-examples__opencv.org.md` | Computer Vision Engineer LinkedIn Headline Examples | mid | 0.92 | 1236 | opencv.org |
-| `computer-vision-engineer-linkedin-headline-examples__opencv.org-56f2a2.md` | Computer Vision Engineer LinkedIn Headline Examples | mid | 0.92 | 1236 | opencv.org |
 | `engineering-linkedin-headline-examples-20-examples-and-recruiter-insig__resumeworded.com.md` | Engineering: LinkedIn Headline Examples: 20+ Examples and Recruiter In | mid | 0.32 | 242 | resumeworded.com |
 | `five-best-linkedin-practices-for-software-developers__turing.com.md` | Five Best LinkedIn Practices for Software Developers | mid | 1.00 | 904 | turing.com |
 | `how-to-build-a-swe-linkedin-profile-recruiters-notice__formation.dev.md` | How to Build a SWE LinkedIn Profile Recruiters Notice | mid | 1.00 | 860 | formation.dev |
@@ -512,7 +509,7 @@
 
 ## remote-work-resume
 
-**62 files** — `cleaned/remote-work-resume/`
+**61 files** — `cleaned/remote-work-resume/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -577,13 +574,12 @@
 | `top-remote-work-keywords-to-use-in-your-cv__remote4africa.com.md` | Top Remote Work Keywords to Use in Your CV | mid | 0.76 | 702 | remote4africa.com |
 | `using-ai-to-identify-high-impact-keywords-for-remote-resumes__resumly.ai.md` | Using AI to Identify High‑Impact Keywords for Remote Resumes | mid | 0.84 | 1159 | resumly.ai |
 | `virtual-assistant-resume-keywords-2026-60-skills-for-remote-support-ro__resumeadapter.com.md` | Virtual Assistant Resume Keywords (2026): 60+ Skills for Remote Suppor | mid | 0.63 | 1979 | resumeadapter.com |
-| `web-developer-no-experience-resume-examples-career-advice__forum.freecodecamp.org.md` | Web developer no experience resume examples - Career Advice | entry | 1.00 | 1222 | forum.freecodecamp.org |
 
 ---
 
 ## salary-negotiation
 
-**52 files** — `cleaned/salary-negotiation/`
+**46 files** — `cleaned/salary-negotiation/`
 
 | File | Title | Career Level | Signal | Words | Source |
 |------|-------|--------------|--------|-------|--------|
@@ -593,12 +589,9 @@
 | `amazon-refusing-to-negotiate-intern-return-offer__teamblind.com.md` | Amazon refusing to negotiate intern return offer | entry | 1.00 | 780 | teamblind.com |
 | `beyond-salary-understanding-your-total-compensation__capstoneaccess.com.md` | Beyond Salary: Understanding Your Total Compensation | mid | 1.00 | 2242 | capstoneaccess.com |
 | `counter-offer-email-templates-15-copy-paste-examples__revarta.com.md` | Counter Offer Email Templates: 15 Copy-Paste Examples | mid | 1.00 | 3062 | revarta.com |
-| `during-negotiations-how-much-rsu-micron-should-giv__fishbowlapp.com.md` | During negotiations how much RSU micron should giv... | mid | 0.82 | 388 | fishbowlapp.com |
 | `first-job-salary-negotiation-how-to-negotiate__revarta.com.md` | First Job Salary Negotiation: How to Negotiate | entry | 1.00 | 2106 | revarta.com |
 | `getting-a-job-as-an-engineering-executive__lethain.com.md` | Getting a job as an engineering executive. | executive | 1.00 | 3912 | lethain.com |
 | `getting-an-engineering-executive-job__newsletter.pragmaticengineer.com.md` | Getting an Engineering Executive Job | executive | 0.67 | 200 | newsletter.pragmaticengineer.com |
-| `got-a-return-offer-after-my-internship-for-85k-sal__fishbowlapp.com.md` | Got a return offer after my internship for 85k sal... | entry | 0.83 | 395 | fishbowlapp.com |
-| `hello-guys-any-email-template-to-negotiate-salary__fishbowlapp.com.md` | Hello guys, any email template to negotiate salary... | mid | 0.83 | 400 | fishbowlapp.com |
 | `how-to-effectively-negotiate-a-promotion-salary-increase__indeed.com.md` | How To Effectively Negotiate a Promotion Salary Increase | mid | 1.00 | 3470 | indeed.com |
 | `how-to-negotiate-a-big-tech-offer-as-a-software-engineer-pragmatic-eng__jointaro.com.md` | How to Negotiate a Big Tech Offer as a Software Engineer - Pragmatic E | mid | 0.72 | 269 | jointaro.com |
 | `how-to-negotiate-a-higher-salary-offer-via-email-sample-included__roberthalf.com.md` | How to negotiate a higher salary offer via email (sample included) | mid | 1.00 | 2360 | roberthalf.com |
@@ -606,19 +599,16 @@
 | `how-to-negotiate-an-entry-level-salary__indeed.com.md` | How To Negotiate an Entry-Level Salary | entry | 1.00 | 6038 | indeed.com |
 | `how-to-negotiate-for-a-better-salary-tips-for-developers__dev.to.md` | How to negotiate for a better salary - Tips for Developers | mid | 1.00 | 2391 | dev.to |
 | `how-to-negotiate-salary-for-new-cto-job__amazingcto.com.md` | How to Negotiate Salary for New CTO Job | executive | 1.00 | 916 | amazingcto.com |
-| `how-to-negotiate-salary-on-return-offer-post-internship-hello-i-m-curr__glassdoor.ie.md` | How to negotiate salary on return offer post internship? Hello, I’m cu | entry | 0.76 | 307 | glassdoor.ie |
 | `how-to-negotiate-salary-on-return-offer-post-internship-hello-i-m-curr__glassdoor.co.in.md` | How to negotiate salary on return offer post internship? Hello, I’m cu | entry | 0.76 | 307 | glassdoor.co.in |
 | `how-to-negotiate-when-hiring-developers__offerzen.com.md` | How to Negotiate when Hiring Developers | mid | 1.00 | 2131 | offerzen.com |
 | `how-to-negotiate-your-salary-after-receiving-a-job-offer-in-tech__salaryscript.com.md` | How to Negotiate Your Salary After Receiving a Job Offer in Tech | mid | 1.00 | 1626 | salaryscript.com |
 | `how-to-write-a-letter-for-counteroffer-tips-and-examples__indeed.com.md` | How To Write a Letter for Counteroffer: Tips and Examples | mid | 1.00 | 1294 | indeed.com |
 | `increase-your-offer-guaranteed__topstartups.io.md` | Increase Your Offer - Guaranteed | mid | 0.77 | 322 | topstartups.io |
-| `is-it-normal-for-a-promotion-to-be-given-without-d__fishbowlapp.com.md` | Is it normal for a promotion to be given without d... | mid | 0.83 | 400 | fishbowlapp.com |
 | `job-negotiation-for-programmers-the-basic-principles__codewithoutrules.com.md` | Job negotiation for programmers: the basic principles | mid | 1.00 | 3369 | codewithoutrules.com |
 | `job-offer-negotiation-for-software-engineers-guide__frontendlead.com.md` | Job Offer Negotiation For Software Engineers Guide | mid | 1.00 | 1909 | frontendlead.com |
 | `linkedin-salary-negotiation-advice-based-on-dozens-of-negotiations__teamrora.com.md` | LinkedIn Salary Negotiation Advice Based on Dozens of Negotiations | mid | 1.00 | 2223 | teamrora.com |
 | `negotiating-benefits-as-a-software-developer__4dayweek.io.md` | Negotiating Benefits as a Software Developer | mid | 1.00 | 1563 | 4dayweek.io |
 | `negotiating-job-offers-with-tech-clients__trayecto.io.md` | Negotiating Job Offers with Tech Clients | mid | 1.00 | 1712 | trayecto.io |
-| `negotiating-return-offer-after-internship__levels.fyi.md` | Negotiating return offer after internship | entry | 0.67 | 205 | levels.fyi |
 | `negotiating-salary-and-benefits-essential-tips-for-tech-professionals__refontelearning.com.md` | Negotiating Salary and Benefits: Essential Tips for Tech Professionals | mid | 1.00 | 2147 | refontelearning.com |
 | `negotiating-your-offer__staffeng.com.md` | Negotiating your offer | mid | 1.00 | 609 | staffeng.com |
 | `negotiating-major-swe-offers-readme-md-at-master-courtneythurston-nego__github.com.md` | negotiating-major-swe-offers/README.md at master · CourtneyThurston/ne | mid | 1.00 | 3149 | github.com |

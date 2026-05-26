@@ -3,22 +3,22 @@ title: "How to Build the Best GitHub Profile for Your Job Search"
 topic: "github-portfolio"
 career_level:
   - mid
-source_url: "https://www.boot.dev/blog/jobs/build-github-profile/"
+source_url: "https://boot.dev/blog/jobs/build-github-profile/"
 source_domain: "boot.dev"
 word_count: 1414
 text_to_link_ratio: 1.0
 signal_score: 1.0
 is_curated: false
 tags:
-  - GitHub profile
-  - repository management
-  - README files
-  - contribution heatmap
-  - open source
-ingested_at: "2026-05-25"
+  - GitHub optimization
+  - pinned repositories
+  - profile README
+  - contribution graph
+  - project documentation
+ingested_at: "2026-05-26"
 doc_type: "how-to-guide"
-core_question: "How should developers optimize their GitHub profiles to impress potential employers?"
-tldr: "Checklist for building an impressive GitHub profile for job search including pinning repos, profile setup, READMEs, contribution heatmap, and open source contributions."
+core_question: "How can developers use GitHub to build a compelling portfolio that attracts employers?"
+tldr: "Guide to optimizing GitHub profile for job search through repository pinning, professional setup, project READMEs, contribution tracking, and portfolio curation."
 ---
 
 # How to Build the Best GitHub Profile for Your Job Search

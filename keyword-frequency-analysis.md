@@ -1,7 +1,7 @@
 # Keyword & Topic Frequency Analysis
 
 **Generated:** 2026-05-26  
-**Source:** V2 enrichment (key_topics + entities) over 589 kept articles
+**Source:** V2 enrichment (key_topics + entities) over 579 kept articles
 
 Top topic tags and primary entities per topic, aggregated from the LLM
 enrichment layer (not raw text frequency).
@@ -108,16 +108,16 @@ _47 articles · doc types: how-to-guide 35, reference 7, case-study 5_
 
 ## career-gap
 
-_49 articles · doc types: how-to-guide 36, reference 8, opinion 3, case-study 2_
+_48 articles · doc types: how-to-guide 36, reference 7, opinion 3, case-study 2_
 
 **Top key_topics:**
 
 | Keyword | Count |
 |---|---|
 | career break | 10 |
-| career breaks | 9 |
-| employment gaps | 7 |
+| career breaks | 8 |
 | employment gap | 6 |
+| employment gaps | 6 |
 | transferable skills | 6 |
 | career gaps | 5 |
 | job search | 4 |
@@ -125,13 +125,12 @@ _49 articles · doc types: how-to-guide 36, reference 8, opinion 3, case-study 2
 | skill development | 4 |
 | resume gaps | 4 |
 | resume writing | 4 |
-| interview preparation | 4 |
 | maternity leave | 4 |
 | cover letter | 3 |
 | caregiving | 3 |
 | parental leave | 3 |
 | confidence building | 3 |
-| gap explanation | 3 |
+| interview preparation | 3 |
 | functional resume | 2 |
 | professional development | 2 |
 | cv format | 2 |
@@ -139,6 +138,7 @@ _49 articles · doc types: how-to-guide 36, reference 8, opinion 3, case-study 2
 | honesty | 2 |
 | resume examples | 2 |
 | sabbatical | 2 |
+| cover letter strategy | 2 |
 
 **Top primary entities:**
 
@@ -353,16 +353,16 @@ _54 articles · doc types: how-to-guide 42, reference 12_
 
 ## github-portfolio
 
-_62 articles · doc types: how-to-guide 30, reference 23, opinion 5, listicle 2, news 1, case-study 1_
+_61 articles · doc types: how-to-guide 29, reference 23, opinion 5, listicle 2, news 1, case-study 1_
 
 **Top key_topics:**
 
 | Keyword | Count |
 |---|---|
-| open source | 12 |
+| open source | 11 |
 | portfolio | 9 |
-| github profile | 8 |
 | github portfolio | 7 |
+| github profile | 7 |
 | project documentation | 7 |
 | github | 6 |
 | code quality | 6 |
@@ -373,7 +373,6 @@ _62 articles · doc types: how-to-guide 30, reference 23, opinion 5, listicle 2,
 | readme documentation | 3 |
 | portfolio projects | 3 |
 | cover letters | 3 |
-| readme files | 3 |
 | pinned repositories | 3 |
 | profile readme | 3 |
 | portfolio strategy | 3 |
@@ -384,11 +383,11 @@ _62 articles · doc types: how-to-guide 30, reference 23, opinion 5, listicle 2,
 | career development | 2 |
 | portfolio building | 2 |
 | developer portfolio | 2 |
+| github projects | 2 |
 
 **Top primary entities:**
 
 - github profile readme (2)
-- github profile optimization (2)
 - github profile for job search (2)
 - github profile (2)
 - open-source projects for developer portfolio (1)
@@ -397,22 +396,22 @@ _62 articles · doc types: how-to-guide 30, reference 23, opinion 5, listicle 2,
 - professional github profile (1)
 - hiring github developers (1)
 - github resume feature proposal (1)
+- github portfolio projects for freshers (1)
 
 ---
 
 ## linkedin-profile
 
-_29 articles · doc types: how-to-guide 22, reference 5, listicle 2_
+_28 articles · doc types: how-to-guide 21, reference 5, listicle 2_
 
 **Top key_topics:**
 
 | Keyword | Count |
 |---|---|
-| linkedin headline | 7 |
 | keywords | 6 |
+| linkedin headline | 6 |
 | linkedin profile | 4 |
 | profile optimization | 4 |
-| specialization | 3 |
 | technical skills | 3 |
 | about section | 3 |
 | professional narrative | 3 |
@@ -420,10 +419,7 @@ _29 articles · doc types: how-to-guide 22, reference 5, listicle 2_
 | keyword optimization | 3 |
 | linkedin | 3 |
 | specializations | 3 |
-| computer vision | 2 |
-| deep learning | 2 |
-| industry focus | 2 |
-| ai applications | 2 |
+| specialization | 2 |
 | career paths | 2 |
 | recruitment | 2 |
 | career progression | 2 |
@@ -433,16 +429,20 @@ _29 articles · doc types: how-to-guide 22, reference 5, listicle 2_
 | certifications | 2 |
 | content strategy | 2 |
 | networking | 2 |
+| personal branding | 2 |
+| search algorithm | 2 |
+| value proposition | 2 |
+| recruiter search | 2 |
 
 **Top primary entities:**
 
-- linkedin headline for computer vision engineers (2)
 - linkedin summary writing (2)
 - linkedin profile optimization for developers (1)
 - linkedin profile optimization for junior developers (1)
 - resume action verbs (1)
 - ats resume writing (1)
 - linkedin for developers (1)
+- linkedin headline for computer vision engineers (1)
 - design engineer career (1)
 - engineering linkedin headlines (1)
 - engineering manager career (1)
@@ -451,7 +451,7 @@ _29 articles · doc types: how-to-guide 22, reference 5, listicle 2_
 
 ## remote-work-resume
 
-_62 articles · doc types: how-to-guide 48, reference 12, other 1, listicle 1_
+_61 articles · doc types: how-to-guide 48, reference 11, other 1, listicle 1_
 
 **Top key_topics:**
 
@@ -488,26 +488,26 @@ _62 articles · doc types: how-to-guide 48, reference 12, other 1, listicle 1_
 - remote work resume (2)
 - remote job resume (2)
 - teamwork skills on resume (2)
-- beginner web developer resume (1)
 - senior backend engineer job (1)
 - remote-ready resume optimization (1)
 - mid-level developer resume (1)
 - android developer resume guide (1)
 - asynchronous video interviews (1)
 - asynchronous work (1)
+- asynchronous remote hiring (1)
 
 ---
 
 ## salary-negotiation
 
-_52 articles · doc types: how-to-guide 34, reference 9, opinion 7, news 2_
+_46 articles · doc types: how-to-guide 34, reference 7, opinion 5_
 
 **Top key_topics:**
 
 | Keyword | Count |
 |---|---|
-| salary negotiation | 26 |
-| compensation | 12 |
+| salary negotiation | 23 |
+| compensation | 11 |
 | equity | 8 |
 | job offers | 7 |
 | total compensation | 5 |
@@ -515,15 +515,11 @@ _52 articles · doc types: how-to-guide 34, reference 9, opinion 7, news 2_
 | negotiation tactics | 5 |
 | salary research | 4 |
 | benefits negotiation | 4 |
-| return offer | 4 |
-| job offer | 4 |
-| leverage | 4 |
 | benefits | 4 |
 | stock options | 3 |
 | negotiation strategy | 3 |
-| entry-level negotiation | 3 |
+| leverage | 3 |
 | offer negotiation | 3 |
-| negotiation | 3 |
 | market rates | 2 |
 | batna | 2 |
 | negotiation email | 2 |
@@ -531,11 +527,14 @@ _52 articles · doc types: how-to-guide 34, reference 9, opinion 7, news 2_
 | communication | 2 |
 | networking | 2 |
 | equity compensation | 2 |
+| rsus | 2 |
+| compensation packages | 2 |
+| sign-on bonus | 2 |
+| base salary | 2 |
 
 **Top primary entities:**
 
 - entry-level salary negotiation (2)
-- return offer salary negotiation (2)
 - developer salary negotiation (2)
 - salary negotiation (2)
 - salary negotiation for engineers (1)
@@ -544,6 +543,7 @@ _52 articles · doc types: how-to-guide 34, reference 9, opinion 7, news 2_
 - amazon intern return offer negotiation (1)
 - total compensation negotiation (1)
 - counter offer email templates (1)
+- salary negotiation for software developers (1)
 
 ---
 

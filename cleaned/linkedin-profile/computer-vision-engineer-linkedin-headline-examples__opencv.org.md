@@ -3,7 +3,7 @@ title: "Computer Vision Engineer LinkedIn Headline Examples"
 topic: "linkedin-profile"
 career_level:
   - mid
-source_url: "https://opencv.org/computer-vision-engineer-linkedin-headline/"
+source_url: "https://opencv.org/blog/computer-vision-engineer-linkedin-headline/"
 source_domain: "opencv.org"
 word_count: 1236
 text_to_link_ratio: 1.0
@@ -16,7 +16,7 @@ tags:
   - specialization
   - industry focus
   - AI applications
-ingested_at: "2026-05-25"
+ingested_at: "2026-05-26"
 doc_type: "how-to-guide"
 core_question: "What makes an effective LinkedIn headline for computer vision engineers?"
 tldr: "Examples and best practices for crafting effective LinkedIn headlines for computer vision engineers at various experience levels with industry focus."

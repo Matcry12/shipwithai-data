@@ -1,7 +1,7 @@
 # Top Micro-course Priorities
 
 **Generated:** 2026-05-26  
-**Source:** V2 corpus (589 structured+enriched articles)
+**Source:** V2 corpus (579 structured+enriched articles)
 
 Ranked by data coverage (article count) and average signal quality.
 
@@ -20,23 +20,23 @@ Ranked by data coverage (article count) and average signal quality.
 
 ## #2 — remote-work-resume
 
-- **Search demand signal:** high (62 articles crawled)
-- **Data coverage:** 62 cleaned articles in `cleaned/remote-work-resume/` (115,453 words total)
+- **Search demand signal:** high (61 articles crawled)
+- **Data coverage:** 61 cleaned articles in `cleaned/remote-work-resume/` (114,231 words total)
 - **Avg signal score:** 0.93
 - **Target audience:** candidates targeting remote roles
 - **Top keywords:** remote work, remote tools, distributed teams, ats optimization, soft skills
-- **Why prioritize:** strong coverage (62 articles) at 0.93 avg signal makes this a well-supported micro-course candidate.
+- **Why prioritize:** strong coverage (61 articles) at 0.93 avg signal makes this a well-supported micro-course candidate.
 
 ---
 
 ## #3 — github-portfolio
 
-- **Search demand signal:** high (62 articles crawled)
-- **Data coverage:** 62 cleaned articles in `cleaned/github-portfolio/` (72,198 words total)
+- **Search demand signal:** high (61 articles crawled)
+- **Data coverage:** 61 cleaned articles in `cleaned/github-portfolio/` (70,784 words total)
 - **Avg signal score:** 0.86
 - **Target audience:** junior devs building a portfolio for job hunting
-- **Top keywords:** open source, portfolio, github profile, github portfolio, project documentation
-- **Why prioritize:** strong coverage (62 articles) at 0.86 avg signal makes this a well-supported micro-course candidate.
+- **Top keywords:** open source, portfolio, github portfolio, github profile, project documentation
+- **Why prioritize:** strong coverage (61 articles) at 0.86 avg signal makes this a well-supported micro-course candidate.
 
 ---
 
@@ -62,29 +62,7 @@ Ranked by data coverage (article count) and average signal quality.
 
 ---
 
-## #6 — salary-negotiation
-
-- **Search demand signal:** medium (52 articles crawled)
-- **Data coverage:** 52 cleaned articles in `cleaned/salary-negotiation/` (110,247 words total)
-- **Avg signal score:** 0.94
-- **Target audience:** devs negotiating offers and raises
-- **Top keywords:** salary negotiation, compensation, equity, job offers, total compensation
-- **Why prioritize:** strong coverage (52 articles) at 0.94 avg signal makes this a well-supported micro-course candidate.
-
----
-
-## #7 — career-gap
-
-- **Search demand signal:** medium (49 articles crawled)
-- **Data coverage:** 49 cleaned articles in `cleaned/career-gap/` (73,864 words total)
-- **Avg signal score:** 0.97
-- **Target audience:** people returning to work after a break
-- **Top keywords:** career break, career breaks, employment gaps, employment gap, transferable skills
-- **Why prioritize:** strong coverage (49 articles) at 0.97 avg signal makes this a well-supported micro-course candidate.
-
----
-
-## #8 — executive-resume
+## #6 — executive-resume
 
 - **Search demand signal:** medium (49 articles crawled)
 - **Data coverage:** 49 cleaned articles in `cleaned/executive-resume/` (97,398 words total)
@@ -95,7 +73,18 @@ Ranked by data coverage (article count) and average signal quality.
 
 ---
 
-## #9 — career-change
+## #7 — career-gap
+
+- **Search demand signal:** medium (48 articles crawled)
+- **Data coverage:** 48 cleaned articles in `cleaned/career-gap/` (72,427 words total)
+- **Avg signal score:** 0.96
+- **Target audience:** people returning to work after a break
+- **Top keywords:** career break, career breaks, employment gap, employment gaps, transferable skills
+- **Why prioritize:** strong coverage (48 articles) at 0.96 avg signal makes this a well-supported micro-course candidate.
+
+---
+
+## #8 — career-change
 
 - **Search demand signal:** medium (47 articles crawled)
 - **Data coverage:** 47 cleaned articles in `cleaned/career-change/` (102,176 words total)
@@ -103,6 +92,17 @@ Ranked by data coverage (article count) and average signal quality.
 - **Target audience:** professionals switching into tech
 - **Top keywords:** transferable skills, career change, ats optimization, networking, career transition
 - **Why prioritize:** strong coverage (47 articles) at 0.97 avg signal makes this a well-supported micro-course candidate.
+
+---
+
+## #9 — salary-negotiation
+
+- **Search demand signal:** medium (46 articles crawled)
+- **Data coverage:** 46 cleaned articles in `cleaned/salary-negotiation/` (108,152 words total)
+- **Avg signal score:** 0.96
+- **Target audience:** devs negotiating offers and raises
+- **Top keywords:** salary negotiation, compensation, equity, job offers, total compensation
+- **Why prioritize:** strong coverage (46 articles) at 0.96 avg signal makes this a well-supported micro-course candidate.
 
 ---
 
@@ -119,12 +119,12 @@ Ranked by data coverage (article count) and average signal quality.
 
 ## #11 — linkedin-profile
 
-- **Search demand signal:** low (29 articles crawled)
-- **Data coverage:** 29 cleaned articles in `cleaned/linkedin-profile/` (62,871 words total)
+- **Search demand signal:** low (28 articles crawled)
+- **Data coverage:** 28 cleaned articles in `cleaned/linkedin-profile/` (61,635 words total)
 - **Avg signal score:** 0.88
 - **Target audience:** devs optimizing their professional brand
-- **Top keywords:** linkedin headline, keywords, linkedin profile, profile optimization, specialization
-- **Why prioritize:** strong coverage (29 articles) at 0.88 avg signal makes this a well-supported micro-course candidate.
+- **Top keywords:** keywords, linkedin headline, linkedin profile, profile optimization, technical skills
+- **Why prioritize:** strong coverage (28 articles) at 0.88 avg signal makes this a well-supported micro-course candidate.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-source_url: "https://opencv.org/computer-vision-engineer-linkedin-headline/"
+source_url: "https://opencv.org/blog/computer-vision-engineer-linkedin-headline/"
 source_domain: "opencv.org"
 topic: "linkedin-profile"
 extractor: "trafilatura-2.0"
-fetched_at: "2026-05-25T06:40:37.566630+00:00"
+fetched_at: "2026-05-25T06:40:36.918109+00:00"
 word_count: 1229
 stage: "raw-extracted"
 ---

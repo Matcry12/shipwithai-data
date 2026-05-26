@@ -1,9 +1,9 @@
 ---
-source_url: "https://www.boot.dev/blog/jobs/build-github-profile/"
+source_url: "https://boot.dev/blog/jobs/build-github-profile/"
 source_domain: "boot.dev"
 topic: "github-portfolio"
 extractor: "trafilatura-2.0"
-fetched_at: "2026-05-25T06:43:28.677162+00:00"
+fetched_at: "2026-05-25T06:37:17.753925+00:00"
 word_count: 1414
 stage: "raw-extracted"
 ---
