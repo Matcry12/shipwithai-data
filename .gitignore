@@ -16,3 +16,9 @@ __pycache__/
 *.pyc
 .omc/
 .DS_Store
+
+# Build artifacts from V2 ingest pipeline (embeddings, processed JSONL, etc.)
+/_ingest_work/
+
+# Parked outline — deferred pending future crawl coverage
+/courses/github-ai-mindset.md
