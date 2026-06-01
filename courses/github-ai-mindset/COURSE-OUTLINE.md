@@ -158,10 +158,11 @@
 | **Token-aware: Haiku batch + script** | Production plan: draft lessons via Haiku/Sonnet batch + a script over the per-module outline; Opus reserved for editorial review of the drafts (not inline authoring) |
 | Size / "micro" | Relaxed per Triết — count is not a constraint; fit + usefulness are |
 
-## Open structural questions (decide before drafting)
-- Merge M2 + M3 into one "Build & Keep Your Edge" module if 10 feels too long?
-- Split Module 6 (it's now 6 lessons) into failure-modes vs verification?
-- Keep Open Source as a full module instead of a folded optional track?
+## Structural decisions (resolved — design record)
+These were open during planning; the shipped course settled them as follows:
+- **M2 + M3 kept separate.** "Build your moat" (understanding to judge) and "learning without atrophy" carry distinct jobs; merging blurred both. 10 modules stands.
+- **Module 6 kept whole.** Failure-modes and verification are one continuous skill (you verify *because* you know how AI fails); splitting would have severed the cause from the cure. It remains the starred Act 1 capstone.
+- **Open source folded into an optional track** (M9.5), not a standalone module — it's a path some learners take, not a required step to "land the role."
 
 ## Mapping: v1 files → v2 modules
 - v1 M1 (Why GitHub) → v2 M8.2
